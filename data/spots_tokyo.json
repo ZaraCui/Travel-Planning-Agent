@@ -1,0 +1,6 @@
+[
+  {"name": "Tokyo Tower", "lat": 35.6586, "lon": 139.7454, "category": "outdoor"},
+  {"name": "Senso-ji", "lat": 35.7148, "lon": 139.7967, "category": "temple"},
+  {"name": "Ueno Park", "lat": 35.7156, "lon": 139.7730, "category": "outdoor"},
+  {"name": "TeamLab Planets", "lat": 35.6491, "lon": 139.7890, "category": "indoor"}
+]
