@@ -4,54 +4,264 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Planning Agent</title>
-    <script src="https://cdn.tailwindcss.com"></script> <!-- 引入 Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .timeline {
+            position: relative;
+            padding: 20px 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(to bottom, #3b82f6, #8b5cf6);
+        }
+
+        .timeline-item {
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        .timeline-item:nth-child(odd) .timeline-content {
+            margin-left: 0;
+            margin-right: 52%;
+        }
+
+        .timeline-item:nth-child(even) .timeline-content {
+            margin-left: 52%;
+            margin-right: 0;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 16px;
+            height: 16px;
+            background: #3b82f6;
+            border: 4px solid white;
+            border-radius: 50%;
+            top: 30px;
+            z-index: 10;
+        }
+
+        .timeline-content {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+
+        .timeline-content:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+            transform: translateY(-2px);
+        }
+
+        .spot-card {
+            background: white;
+            border-left: 4px solid #3b82f6;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .spot-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transform: translateX(4px);
+        }
+
+        .error-alert {
+            background: #fee2e2;
+            border: 1px solid #fecaca;
+            color: #dc2626;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 16px 0;
+        }
+
+        .success-alert {
+            background: #dcfce7;
+            border: 1px solid #bbf7d0;
+            color: #15803d;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 16px 0;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #e5e7eb;
+            border-top-color: #3b82f6;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 20px;
+            }
+
+            .timeline-dot {
+                left: 20px;
+            }
+
+            .timeline-item:nth-child(odd) .timeline-content,
+            .timeline-item:nth-child(even) .timeline-content {
+                margin-left: 60px;
+                margin-right: 0;
+            }
+        }
+    </style>
 </head>
-<body class="bg-gray-100 font-sans">
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 font-sans">
+    <div class="container mx-auto p-6 max-w-6xl">
+        <!-- Header -->
+        <div class="text-center mb-10">
+            <h1 class="text-5xl font-bold text-gray-800 mb-2">✈️ Travel Planning Agent</h1>
+            <p class="text-gray-600 text-lg">Plan your perfect itinerary with AI assistance</p>
+        </div>
 
-    <div class="container mx-auto p-6">
-        <h1 class="text-4xl font-bold text-center mb-6">Travel Planning Agent</h1>
+        <!-- Form Card -->
+        <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
+            <form id="itinerary-form" class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div>
+                    <label for="city" class="block text-sm font-semibold text-gray-700 mb-2">City</label>
+                    <select id="city" name="city" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <option value="paris">Paris</option>
+                        <option value="tokyo">Tokyo</option>
+                        <option value="newyork">New York</option>
+                        <option value="london">London</option>
+                        <option value="barcelona">Barcelona</option>
+                    </select>
+                </div>
 
-        <!-- Form -->
-        <form id="itinerary-form" class="bg-white p-8 shadow-md rounded-lg">
-            <div class="mb-4">
-                <label for="city" class="block text-lg font-medium">Select City:</label>
-                <select id="city" name="city" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
-                    <option value="paris">Paris</option>
-                    <option value="tokyo">Tokyo</option>
-                    <option value="newyork">New York</option>
-                    <option value="london">London</option>
-                    <option value="barcelona">Barcelona</option>
-                </select>
-            </div>
+                <div>
+                    <label for="preference" class="block text-sm font-semibold text-gray-700 mb-2">Preference</label>
+                    <select id="preference" name="preference" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <option value="walk">🚶 Walking</option>
+                        <option value="transit">🚌 Transit</option>
+                        <option value="taxi">🚕 Taxi</option>
+                    </select>
+                </div>
 
-            <div class="mb-4">
-                <label for="preference" class="block text-lg font-medium">Select Preference:</label>
-                <select id="preference" name="preference" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
-                    <option value="walk">Minimize Walking</option>
-                    <option value="transit">Minimize Transit Time</option>
-                    <option value="taxi">Minimize Taxi Usage</option>
-                </select>
-            </div>
+                <div>
+                    <label for="start_date" class="block text-sm font-semibold text-gray-700 mb-2">Start Date</label>
+                    <input type="date" id="start_date" name="start_date" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
 
-            <div class="mb-4">
-                <label for="start_date" class="block text-lg font-medium">Start Date:</label>
-                <input type="date" id="start_date" name="start_date" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
-            </div>
-
-            <button type="submit" class="bg-blue-500 text-white py-2 px-6 rounded-md hover:bg-blue-600">Plan Itinerary</button>
-        </form>
+                <div class="flex items-end">
+                    <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg transition duration-200 flex items-center justify-center">
+                        <span id="btn-text">Plan Itinerary</span>
+                        <span id="loading-spinner" class="loading ml-2" style="display: none;"></span>
+                    </button>
+                </div>
+            </form>
+        </div>
 
         <!-- Results Section -->
-        <div id="results" class="mt-8">
-            <h2 class="text-2xl font-bold">Results</h2>
-            <div id="score" class="mt-4"></div>
-            <div id="reasons" class="mt-4"></div>
-            <div id="itinerary" class="mt-4"></div>
-            <div id="weather" class="mt-4 text-blue-700"></div>
+        <div id="results-container" style="display: none;">
+            <!-- Status Alert -->
+            <div id="status-alert"></div>
+
+            <!-- Score Card -->
+            <div id="score-card" class="bg-white rounded-lg shadow-lg p-8 mb-8">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg">
+                        <h3 class="text-sm font-semibold text-gray-600 mb-2">Overall Score</h3>
+                        <p id="score-value" class="text-4xl font-bold text-blue-600">-</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg md:col-span-2">
+                        <h3 class="text-sm font-semibold text-gray-600 mb-2">Planning Insights</h3>
+                        <ul id="reasons-list" class="space-y-2"></ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Weather Advisory -->
+            <div id="weather-card" class="bg-white rounded-lg shadow-lg p-6 mb-8" style="display: none;">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">🌤️ Weather Advisory</h2>
+                <p id="weather-text" class="text-gray-700 leading-relaxed"></p>
+            </div>
+
+            <!-- Timeline -->
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
+                <h2 class="text-2xl font-bold text-gray-800 mb-8">📅 Your Itinerary</h2>
+                <div id="timeline-container" class="timeline"></div>
+            </div>
         </div>
     </div>
 
     <script>
+        // Utility functions
+        const formatDate = (dateString) => {
+            const options = { weekday: 'long', month: 'long', day: 'numeric' };
+            return new Date(dateString + 'T00:00:00Z').toLocaleDateString('en-US', options);
+        };
+
+        const createErrorAlert = (message, reason) => {
+            return `
+                <div class="error-alert">
+                    <p class="font-semibold">❌ ${message}</p>
+                    <p class="text-sm mt-1">${reason}</p>
+                </div>
+            `;
+        };
+
+        const createSuccessAlert = (message) => {
+            return `
+                <div class="success-alert">
+                    <p class="font-semibold">✅ ${message}</p>
+                </div>
+            `;
+        };
+
+        const renderSpotCard = (spot) => {
+            return `
+                <div class="spot-card">
+                    <h4 class="font-semibold text-gray-800 mb-2">📍 ${spot.name}</h4>
+                    <div class="text-sm text-gray-600 space-y-1">
+                        <p><strong>Category:</strong> ${spot.category || 'N/A'}</p>
+                        <p><strong>Duration:</strong> ${spot.duration_minutes || 'N/A'} minutes</p>
+                        <p><strong>Rating:</strong> ${'⭐'.repeat(Math.floor(spot.rating || 0))} ${spot.rating || 'N/A'}</p>
+                        ${spot.description ? `<p class="text-gray-700 mt-2">${spot.description}</p>` : ''}
+                    </div>
+                </div>
+            `;
+        };
+
+        const renderDayTimeline = (day, startDate) => {
+            const dayDate = new Date(startDate);
+            dayDate.setDate(dayDate.getDate() + day.day - 1);
+            
+            const spots = day.spots.map(spot => renderSpotCard(spot)).join('');
+            
+            return `
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Day ${day.day}</h3>
+                        <p class="text-sm text-gray-500 mb-4">${formatDate(dayDate.toISOString().split('T')[0])}</p>
+                        <div class="space-y-3">
+                            ${spots}
+                        </div>
+                    </div>
+                </div>
+            `;
+        };
+
+        // Form submission handler
         document.getElementById('itinerary-form').addEventListener('submit', async (event) => {
             event.preventDefault();
 
@@ -59,42 +269,99 @@
             const preference = document.getElementById('preference').value;
             const start_date = document.getElementById('start_date').value;
 
-            // Send data to backend
-            const response = await fetch('/plan_itinerary', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    city: city,
-                    preference: preference,
-                    start_date: start_date,
-                }),
-            });
+            // Show loading state
+            const btnText = document.getElementById('btn-text');
+            const spinner = document.getElementById('loading-spinner');
+            btnText.textContent = 'Planning...';
+            spinner.style.display = 'inline-block';
 
-            // Check if the response is ok
-            if (response.ok) {
-                const data = await response.json();
+            try {
+                const response = await fetch('/plan_itinerary', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        city: city,
+                        preference: preference,
+                        start_date: start_date,
+                    }),
+                });
 
-                // Handle the response data
-                const score = (data.score !== undefined && data.score !== null) ? data.score : 'N/A';
-                const reasons = data.reasons && data.reasons.length > 0 ? data.reasons.join(', ') : 'No reasons available';
-                const itinerary = data.itinerary ? `<pre>${JSON.stringify(data.itinerary, null, 2)}</pre>` : 'No itinerary data available';
-                const weather = data.weather_advice || '';
+                const responseData = await response.json();
 
-                // Display the results
-                document.getElementById('score').innerText = `Score: ${score}`;
-                document.getElementById('reasons').innerText = `Reasons: ${reasons}`;
-                document.getElementById('itinerary').innerHTML = itinerary;
-                document.getElementById('weather').innerText = weather;
+                // Hide results initially
+                document.getElementById('results-container').style.display = 'none';
 
-            } else {
-                // Handle any errors
-                document.getElementById('score').innerText = "Error: Could not generate itinerary.";
-                document.getElementById('reasons').innerText = "Please try again later.";
-                document.getElementById('itinerary').innerText = "No itinerary generated.";
+                if (responseData.status === 'success') {
+                    // Render success alert
+                    const statusAlert = document.getElementById('status-alert');
+                    statusAlert.innerHTML = createSuccessAlert(responseData.message);
+
+                    const data = responseData.data;
+
+                    // Render score
+                    document.getElementById('score-value').textContent = 
+                        (data.score !== undefined && data.score !== null) ? data.score.toFixed(2) : 'N/A';
+
+                    // Render reasons
+                    const reasonsList = document.getElementById('reasons-list');
+                    if (data.reasons && Array.isArray(data.reasons) && data.reasons.length > 0) {
+                        reasonsList.innerHTML = data.reasons
+                            .map(reason => `<li class="text-gray-700">✓ ${reason}</li>`)
+                            .join('');
+                    } else {
+                        reasonsList.innerHTML = '<li class="text-gray-500">No planning reasons available</li>';
+                    }
+
+                    // Render weather
+                    const weatherCard = document.getElementById('weather-card');
+                    if (data.weather_advice) {
+                        document.getElementById('weather-text').textContent = data.weather_advice;
+                        weatherCard.style.display = 'block';
+                    } else {
+                        weatherCard.style.display = 'none';
+                    }
+
+                    // Render timeline
+                    const timelineContainer = document.getElementById('timeline-container');
+                    if (data.itinerary && Array.isArray(data.itinerary) && data.itinerary.length > 0) {
+                        timelineContainer.innerHTML = data.itinerary
+                            .map(day => renderDayTimeline(day, start_date))
+                            .join('');
+                    } else {
+                        timelineContainer.innerHTML = '<p class="text-gray-500">No itinerary data available</p>';
+                    }
+
+                    // Show results
+                    document.getElementById('results-container').style.display = 'block';
+
+                } else if (responseData.status === 'error') {
+                    // Render error alert
+                    const statusAlert = document.getElementById('status-alert');
+                    statusAlert.innerHTML = createErrorAlert(
+                        responseData.message,
+                        responseData.reason
+                    );
+                    document.getElementById('results-container').style.display = 'block';
+                }
+
+            } catch (error) {
+                const statusAlert = document.getElementById('status-alert');
+                statusAlert.innerHTML = createErrorAlert(
+                    'Network Error',
+                    error.message
+                );
+                document.getElementById('results-container').style.display = 'block';
+            } finally {
+                // Reset button state
+                btnText.textContent = 'Plan Itinerary';
+                spinner.style.display = 'none';
             }
         });
+
+        // Set today as default date
+        document.getElementById('start_date').valueAsDate = new Date();
     </script>
 </body>
 </html>
