@@ -1,6 +1,8 @@
+from datetime import timedelta, date
 from agent.types import Itinerary
 from agent.geometry import TransportMode
 from agent.weather import get_weather
+
 
 def explain_recommendation(
     itinerary: Itinerary,
@@ -14,13 +16,11 @@ def explain_recommendation(
         f"I recommend using **{mode.value}** as your primary transport mode."
     )
 
-    # Explain score
     lines.append(
         f"This plan achieves a total optimization score of {score:.2f}, "
         "which balances travel efficiency and daily comfort."
     )
 
-    # Explain constraints
     if reasons:
         lines.append("During planning, the agent identified the following considerations:")
         for r in reasons:
@@ -31,7 +31,6 @@ def explain_recommendation(
             "with no distance or time penalties."
         )
 
-    # Day-level explanation
     for day in itinerary.days:
         lines.append(
             f"Day {day.day} includes {len(day.spots)} locations "
@@ -40,7 +39,8 @@ def explain_recommendation(
 
     return "\n".join(lines)
 
-def weather_advice(itinerary: Itinerary) -> str:
+
+def weather_advice(itinerary: Itinerary, start_date: date) -> str:
     lines = []
     lines.append("🌦 Weather-aware advice:")
 
@@ -48,29 +48,33 @@ def weather_advice(itinerary: Itinerary) -> str:
         if not day.spots:
             continue
 
-        # Use first spot as representative location
+        # Use the first spot as representative location
         lat = day.spots[0].lat
         lon = day.spots[0].lon
 
         precipitation = get_weather(lat, lon)
 
-        # precipitation is a list (one per day)
-        rain_mm = precipitation[min(day.day - 1, len(precipitation) - 1)]
+        idx = day.day - 1
+        if idx >= len(precipitation):
+            continue
+
+        actual_date = start_date + timedelta(days=idx)
+        rain_mm = precipitation[idx]
 
         if rain_mm > 5:
             lines.append(
-                f"- Day {day.day}: Heavy rain expected (~{rain_mm:.1f}mm). "
+                f"- {actual_date} (Day {day.day}): Heavy rain (~{rain_mm:.1f}mm). "
                 "Consider minimizing walking or reordering indoor attractions."
             )
         elif rain_mm > 1:
             lines.append(
-                f"- Day {day.day}: Light rain expected (~{rain_mm:.1f}mm). "
+                f"- {actual_date} (Day {day.day}): Light rain (~{rain_mm:.1f}mm). "
                 "A rain jacket is recommended."
             )
         else:
             lines.append(
-                f"- Day {day.day}: Clear or dry conditions. Ideal for walking routes."
+                f"- {actual_date} (Day {day.day}): Clear or dry conditions. "
+                "Ideal for walking routes."
             )
 
     return "\n".join(lines)
-

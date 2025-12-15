@@ -2,6 +2,8 @@ import json
 import os
 import folium
 
+
+from datetime import date
 from agent.types import Spot
 from agent.planner import plan_itinerary_soft_constraints
 from agent.constraints import ScoreConfig
@@ -82,6 +84,20 @@ def render_map(spots: list[Spot], itinerary, filepath: str) -> None:
 
     m.save(filepath)
 
+def choose_start_date() -> date:
+    print("\nEnter your trip start date (YYYY-MM-DD).")
+    print("Press Enter to use today.")
+
+    user_input = input("Start date: ").strip()
+    if not user_input:
+        return date.today()
+
+    try:
+        return date.fromisoformat(user_input)
+    except ValueError:
+        print("Invalid date format. Using today instead.")
+        return date.today()
+
 
 # -----------------------------
 # Main entry
@@ -94,6 +110,10 @@ def main() -> None:
 
     preference = choose_preference()
     print(f"Selected travel preference: {preference}\n")
+
+    start_date = choose_start_date()
+    print(f"Trip starts on: {start_date}")
+
 
     # --- Load data ---
     def load_spots(city: str) -> list[Spot]:
@@ -191,7 +211,7 @@ def main() -> None:
     )
 
     print("\n=== Weather-based Suggestions ===")
-    print(weather_advice(best_itinerary))
+    print(weather_advice(best_itinerary, start_date))
 
 
 
