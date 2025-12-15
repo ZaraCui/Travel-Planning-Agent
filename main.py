@@ -20,3 +20,12 @@ for i, day in enumerate(itinerary.days):
 
 m.save("output/map.html")
 print("Saved output/map.html")
+
+from agent.constraints import check_daily_distance, repair_itinerary
+
+violations = check_daily_distance(itinerary)
+
+if violations:
+    print("Violations detected:", violations)
+    itinerary = repair_itinerary(itinerary)
+
