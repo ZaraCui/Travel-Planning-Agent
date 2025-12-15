@@ -1,12 +1,16 @@
 import json
 import os
 import folium
-import sys
 
 from agent.types import Spot
 from agent.planner import plan_itinerary_soft_constraints
 from agent.constraints import ScoreConfig
 from agent.geometry import TransportMode
+
+
+# -----------------------------
+# User interaction
+# -----------------------------
 
 def choose_city() -> str:
     available_cities = [
@@ -34,6 +38,29 @@ def choose_city() -> str:
 
         print("Invalid selection, try again.")
 
+
+def choose_preference() -> str:
+    print("\nTravel preference options:")
+    print("  1. Minimize walking")
+    print("  2. Minimize transit time")
+    print("  3. Minimize taxi usage")
+
+    while True:
+        choice = input("Please select a preference by number: ").strip()
+        if choice == "1":
+            return "walk"
+        elif choice == "2":
+            return "transit"
+        elif choice == "3":
+            return "taxi"
+        else:
+            print("Invalid selection, try again.")
+
+
+# -----------------------------
+# Visualization
+# -----------------------------
+
 def render_map(spots: list[Spot], itinerary, filepath: str) -> None:
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
 
@@ -50,15 +77,27 @@ def render_map(spots: list[Spot], itinerary, filepath: str) -> None:
             coords.append([s.lat, s.lon])
 
         if len(coords) >= 2:
-            folium.PolyLine(coords, color=colors[i % len(colors)]).add_to(m)
+            folium.PolyLine(
+                coords,
+                color=colors[i % len(colors)],
+            ).add_to(m)
 
     m.save(filepath)
 
 
-def main() -> None:
-    CITY = choose_city()
-    print(f"\nPlanning itinerary for city: {CITY}\n")
+# -----------------------------
+# Main entry
+# -----------------------------
 
+def main() -> None:
+    # --- Human input ---
+    city = choose_city()
+    print(f"\nPlanning itinerary for city: {city}")
+
+    preference = choose_preference()
+    print(f"Selected travel preference: {preference}\n")
+
+    # --- Load data ---
     def load_spots(city: str) -> list[Spot]:
         path = f"data/spots_{city}.json"
         if not os.path.exists(path):
@@ -68,8 +107,9 @@ def main() -> None:
             for s in json.load(open(path, encoding="utf-8"))
         ]
 
-    spots = load_spots(CITY)
+    spots = load_spots(city)
 
+    # --- Scoring configuration ---
     cfg = ScoreConfig(
         max_daily_minutes={
             TransportMode.WALK: 240,
@@ -81,11 +121,20 @@ def main() -> None:
         min_spots_per_day=2,
     )
 
+    # --- Preference → mode mapping ---
+    preference_to_mode = {
+        "walk": TransportMode.WALK,
+        "transit": TransportMode.TRANSIT,
+        "taxi": TransportMode.TAXI,
+    }
+    preferred_mode = preference_to_mode[preference]
+
+    # --- Run agent for all modes ---
     results = []
 
     for mode in TransportMode:
         itinerary, score, reasons = plan_itinerary_soft_constraints(
-            city=CITY,
+            city=city,
             spots=spots,
             days=3,
             cfg=cfg,
@@ -93,16 +142,18 @@ def main() -> None:
             trials=200,
         )
 
-        out_path = f"output/{CITY}_map_{mode.value}.html"
+        out_path = f"output/{city}_map_{mode.value}.html"
         render_map(spots, itinerary, out_path)
 
         results.append((mode, itinerary, score, reasons, out_path))
 
+    # --- Compare ---
     results.sort(key=lambda x: x[2])
 
     print("=== Mode Comparison (lower score is better) ===")
     for mode, _, score, reasons, out_path in results:
-        print(f"\nMode: {mode.value}")
+        tag = " (preferred)" if mode == preferred_mode else ""
+        print(f"\nMode: {mode.value}{tag}")
         print(f"Score: {score:.2f}")
         print(f"Map:   {out_path}")
         if reasons:
@@ -112,11 +163,24 @@ def main() -> None:
         else:
             print("Self-check: no penalties")
 
-    best_mode, _, best_score, best_reasons, best_path = results[0]
+    # --- Recommendation ---
+    recommended = next(
+        (r for r in results if r[0] == preferred_mode),
+        results[0],
+    )
+
+    best_mode, _, best_score, best_reasons, best_path = recommended
+
     print("\n=== Recommendation ===")
-    print(f"Best mode: {best_mode.value}")
-    print(f"Best score: {best_score:.2f}")
+    print(f"City: {city}")
+    print(f"Recommended mode: {best_mode.value}")
+    print(f"Reason: matches your preference ({preference})")
+    print(f"Score: {best_score:.2f}")
     print(f"Map: {best_path}")
+    if best_reasons:
+        print("Notes:")
+        for r in best_reasons:
+            print(" -", r)
 
 
 if __name__ == "__main__":

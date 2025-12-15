@@ -53,6 +53,7 @@ ai-agent/
 │   ├── types.py          # Spot, DayPlan, Itinerary data models
 │   ├── geometry.py       # Distance & travel-time rules
 │   ├── planner.py        # Planning + local search logic
+│   ├── weather.py        # Weather check
 │   └── constraints.py   # Soft constraint scoring
 │
 ├── data/
