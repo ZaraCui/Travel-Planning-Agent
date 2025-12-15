@@ -34,11 +34,6 @@ def choose_city() -> str:
 
         print("Invalid selection, try again.")
 
-
-CITY = choose_city()
-print(f"\nPlanning itinerary for city: {CITY}\n")
-
-
 def render_map(spots: list[Spot], itinerary, filepath: str) -> None:
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
 
