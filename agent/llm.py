@@ -1,8 +1,9 @@
 import openai
 import os
+from dotenv import load_dotenv
 
 # Use OpenAI API with the correct method
-openai.api_key = os.getenv("OPENAI_KEY")
+openai.api_key = "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"
 
 def generate_recommendation_reasoning(itinerary, preference):
     """
@@ -28,7 +29,7 @@ def generate_recommendation_reasoning(itinerary, preference):
     """
 
     response = openai.ChatCompletion.create(
-        model="gpt-4",
+        model="gpt-3.5-turbo",
         messages=[
             {"role": "system", "content": "You are a helpful travel assistant."},
             {"role": "user", "content": prompt}
