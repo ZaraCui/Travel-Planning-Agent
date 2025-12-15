@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f9757ff6b808db3d8514b6ec24ffbdb7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f9757ff6b808db3d8514b6ec24ffbdb7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f9757ff6b808db3d8514b6ec24ffbdb7 = L.map(
+                "map_f9757ff6b808db3d8514b6ec24ffbdb7",
+                {
+                    center: [35.6586, 139.7454],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9b20e4744ce2b97306d2eb250bac48d7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9b20e4744ce2b97306d2eb250bac48d7.addTo(map_f9757ff6b808db3d8514b6ec24ffbdb7);
+        
+    
+            var marker_4d273a947ad28e5c96ccf1014f75605e = L.marker(
+                [35.6586, 139.7454],
+                {
+}
+            ).addTo(map_f9757ff6b808db3d8514b6ec24ffbdb7);
+        
+    
+        var popup_a53f52b8f6b2d811a1490e8bff6d63b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c815e387aa21c9920af23406a7d55266 = $(`<div id="html_c815e387aa21c9920af23406a7d55266" style="width: 100.0%; height: 100.0%;">Day 1: Tokyo Tower</div>`)[0];
+                popup_a53f52b8f6b2d811a1490e8bff6d63b1.setContent(html_c815e387aa21c9920af23406a7d55266);
+            
+        
+
+        marker_4d273a947ad28e5c96ccf1014f75605e.bindPopup(popup_a53f52b8f6b2d811a1490e8bff6d63b1)
+        ;
+
+        
+    
+    
+            var marker_f57ddc0bab9bc160b38e31a9beccb417 = L.marker(
+                [35.7148, 139.7967],
+                {
+}
+            ).addTo(map_f9757ff6b808db3d8514b6ec24ffbdb7);
+        
+    
+        var popup_2fd413af8e2a374e327c60fc9d0b4963 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_637cb0cc98f58ad28c3b461cb4b3d1a6 = $(`<div id="html_637cb0cc98f58ad28c3b461cb4b3d1a6" style="width: 100.0%; height: 100.0%;">Day 2: Senso-ji</div>`)[0];
+                popup_2fd413af8e2a374e327c60fc9d0b4963.setContent(html_637cb0cc98f58ad28c3b461cb4b3d1a6);
+            
+        
+
+        marker_f57ddc0bab9bc160b38e31a9beccb417.bindPopup(popup_2fd413af8e2a374e327c60fc9d0b4963)
+        ;
+
+        
+    
+    
+            var marker_6ed431c76dba4107721f0f23056ec0ef = L.marker(
+                [35.7156, 139.773],
+                {
+}
+            ).addTo(map_f9757ff6b808db3d8514b6ec24ffbdb7);
+        
+    
+        var popup_1bba9b3b9d13a9514cd331225ec8ee12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0d7c481ca388552c912217c9a649212 = $(`<div id="html_b0d7c481ca388552c912217c9a649212" style="width: 100.0%; height: 100.0%;">Day 2: Ueno Park</div>`)[0];
+                popup_1bba9b3b9d13a9514cd331225ec8ee12.setContent(html_b0d7c481ca388552c912217c9a649212);
+            
+        
+
+        marker_6ed431c76dba4107721f0f23056ec0ef.bindPopup(popup_1bba9b3b9d13a9514cd331225ec8ee12)
+        ;
+
+        
+    
+    
+            var poly_line_5a90aca3b5aa974487805fcd1e023c5b = L.polyline(
+                [[35.7148, 139.7967], [35.7156, 139.773]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f9757ff6b808db3d8514b6ec24ffbdb7);
+        
+    
+            var marker_4c88687921da604dc31adbe2443794b4 = L.marker(
+                [35.6491, 139.789],
+                {
+}
+            ).addTo(map_f9757ff6b808db3d8514b6ec24ffbdb7);
+        
+    
+        var popup_6d7f34085ed959b86a8f1c718910be71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b504d9ecb2027b2460e564d49da32b0 = $(`<div id="html_2b504d9ecb2027b2460e564d49da32b0" style="width: 100.0%; height: 100.0%;">Day 3: TeamLab Planets</div>`)[0];
+                popup_6d7f34085ed959b86a8f1c718910be71.setContent(html_2b504d9ecb2027b2460e564d49da32b0);
+            
+        
+
+        marker_4c88687921da604dc31adbe2443794b4.bindPopup(popup_6d7f34085ed959b86a8f1c718910be71)
+        ;
+
+        
+    
+</script>
+</html>
