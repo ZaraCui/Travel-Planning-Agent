@@ -53,3 +53,41 @@ def nearest_neighbor_path(spots: list[Spot]) -> list[Spot]:
         unvisited.remove(next_spot)
 
     return path
+
+def travel_cost(a: Spot, b: Spot, mode: TransportMode) -> float:
+    """
+    返回“代价”，单位统一为分钟（更通用）
+    """
+    base_km = distance(a, b)
+
+    if mode == TransportMode.WALK:
+        speed_kmh = 4.5
+        return (base_km / speed_kmh) * 60
+
+    if mode == TransportMode.TRANSIT:
+        # 粗略模型：更快但有等待
+        speed_kmh = 20
+        wait_time = 5
+        return (base_km / speed_kmh) * 60 + wait_time
+
+    if mode == TransportMode.TAXI:
+        speed_kmh = 30
+        return (base_km / speed_kmh) * 60
+
+def nearest_neighbor_path(spots: list[Spot], mode: TransportMode):
+    if not spots:
+        return []
+
+    unvisited = spots[:]
+    path = [unvisited.pop(0)]
+
+    while unvisited:
+        last = path[-1]
+        next_spot = min(
+            unvisited,
+            key=lambda s: travel_cost(last, s, mode)
+        )
+        path.append(next_spot)
+        unvisited.remove(next_spot)
+
+    return path

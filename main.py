@@ -29,3 +29,4 @@ if violations:
     print("Violations detected:", violations)
     itinerary = repair_itinerary(itinerary)
 
+transport_mode = TransportMode.WALK  # 用户选择

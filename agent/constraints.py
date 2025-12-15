@@ -2,25 +2,29 @@ from agent.types import Itinerary, Spot
 from agent.planner import distance
 
 MAX_DAILY_DISTANCE_KM = 6.0  # 你可以先设小一点方便观察效果
+MAX_DAILY_TIME = {
+    TransportMode.WALK: 240,     # 分钟
+    TransportMode.TRANSIT: 300,
+    TransportMode.TAXI: 360
+}
 
-def check_daily_distance(itinerary: Itinerary):
+def check_daily_time(itinerary: Itinerary, mode: TransportMode):
     violations = []
 
     for day in itinerary.days:
-        total = 0.0
+        total = 0
         for i in range(len(day.spots) - 1):
-            total += distance(day.spots[i], day.spots[i + 1])
+            total += travel_cost(day.spots[i], day.spots[i+1], mode)
 
-        day.total_distance_km = round(total, 2)
-
-        if total > MAX_DAILY_DISTANCE_KM:
+        if total > MAX_DAILY_TIME[mode]:
             violations.append({
                 "day": day.day,
-                "distance": round(total, 2),
-                "limit": MAX_DAILY_DISTANCE_KM
+                "time": round(total, 1),
+                "limit": MAX_DAILY_TIME[mode]
             })
 
     return violations
+
 
 def repair_itinerary(itinerary: Itinerary):
     violations = check_daily_distance(itinerary)
