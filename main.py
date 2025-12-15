@@ -1,12 +1,14 @@
 import json
 import os
 import folium
+import sys
 
 from agent.types import Spot
 from agent.planner import plan_itinerary_soft_constraints
 from agent.constraints import ScoreConfig
 from agent.geometry import TransportMode
 
+CITY = sys.argv[1] if len(sys.argv) > 1 else "tokyo" # Modify this to change the city
 
 def render_map(spots: list[Spot], itinerary, filepath: str) -> None:
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
@@ -31,10 +33,16 @@ def render_map(spots: list[Spot], itinerary, filepath: str) -> None:
 
 def main() -> None:
     # Load data
-    spots = [
-        Spot(**s)
-        for s in json.load(open("data/spots_newyork.json", encoding="utf-8"))
-    ]
+    def load_spots(city: str) -> list[Spot]:
+        path = f"data/spots_{city}.json"
+        if not os.path.exists(path):
+            raise FileNotFoundError(f"No spot data found for city: {city}")
+        return [
+            Spot(**s)
+            for s in json.load(open(path, encoding="utf-8"))
+        ]
+
+    spots = load_spots(CITY)
 
     # Shared scoring config (policy-conditioned by mode)
     cfg = ScoreConfig(
@@ -60,7 +68,7 @@ def main() -> None:
             trials=200,
         )
 
-        out_path = f"output/map_{mode.value}.html"
+        out_path = f"output/{CITY}_map_{mode.value}.html"
         render_map(spots, itinerary, out_path)
 
         results.append((mode, itinerary, score, reasons, out_path))

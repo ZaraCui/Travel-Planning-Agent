@@ -1,0 +1,11 @@
+[
+    {"name":"Eiffel Tower", "lat":48.8584, "lon":2.2945, "category":"outdoor"},
+    {"name":"Louvre Museum", "lat":48.8606, "lon":2.3376, "category":"indoor"},
+    {"name":"Notre-Dame Cathedral", "lat":48.8530, "lon":2.3499, "category":"temple"},
+    {"name":"Champs-Élysées", "lat":48.8698, "lon":2.3075, "category":"shopping"},
+    {"name":"Montmartre", "lat":48.8867, "lon":2.3431, "category":"outdoor"},
+    {"name":"Musée d'Orsay", "lat":48.8600, "lon":2.3266, "category":"indoor"},
+    {"name":"Luxembourg Gardens", "lat":48.8462, "lon":2.3372, "category":"outdoor"},
+    {"name":"Sainte-Chapelle", "lat":48.8554, "lon":2.3450, "category":"temple"},
+    {"name":"Le Marais", "lat":48.8575, "lon":2.3620, "category":"shopping"}
+]

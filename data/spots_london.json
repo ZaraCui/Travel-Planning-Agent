@@ -1,0 +1,11 @@
+[
+    {"name":"London Eye", "lat":51.5033, "lon":-0.1195, "category":"outdoor"},
+    {"name":"British Museum", "lat":51.5194, "lon":-0.1270, "category":"indoor"},
+    {"name":"Tower of London", "lat":51.5081, "lon":-0.0759, "category":"temple"},
+    {"name":"Oxford Street", "lat":51.5154, "lon":-0.1410, "category":"shopping"},
+    {"name":"Hyde Park", "lat":51.5073, "lon":-0.1657, "category":"outdoor"},
+    {"name":"Tate Modern", "lat":51.5076, "lon":-0.0994, "category":"indoor"},
+    {"name":"Kew Gardens", "lat":51.4780, "lon":-0.2956, "category":"outdoor"},
+    {"name":"Westminster Abbey", "lat":51.4993, "lon":-0.1273, "category":"temple"},
+    {"name":"Covent Garden", "lat":51.5129, "lon":-0.1247, "category":"shopping"}
+]

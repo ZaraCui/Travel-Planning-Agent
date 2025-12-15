@@ -1,0 +1,11 @@
+[
+    {"name":"Sagrada Familia", "lat":41.4036, "lon":2.1744, "category":"temple"},
+    {"name":"Park Güell", "lat":41.4145, "lon":2.1527, "category":"outdoor"},
+    {"name":"Casa Batlló", "lat":41.3917, "lon":2.1649, "category":"indoor"},
+    {"name":"La Rambla", "lat":41.3809, "lon":2.1730, "category":"shopping"},
+    {"name":"Gothic Quarter", "lat":41.3833, "lon":2.1760, "category":"outdoor"},
+    {"name":"Magic Fountain of Montjuïc", "lat":41.3758, "lon":2.1514, "category":"outdoor"},
+    {"name":"Picasso Museum", "lat":41.3850, "lon":2.1800, "category":"indoor"},
+    {"name":"Camp Nou", "lat":41.3809, "lon":2.1228, "category":"outdoor"},
+    {"name":"Barceloneta Beach", "lat":41.3780, "lon":2.1920, "category":"outdoor"}
+]
