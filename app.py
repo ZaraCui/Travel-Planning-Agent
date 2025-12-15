@@ -3,6 +3,8 @@ from agent.planner import plan_itinerary_soft_constraints
 from agent.geometry import TransportMode
 from agent.constraints import ScoreConfig
 from agent.models import Spot
+from agent.explainer import weather_advice
+from datetime import date
 import json
 import os
 
@@ -60,6 +62,7 @@ def plan_itinerary():
         min_spots_per_day=2,
     )
 
+
     # 获取最佳行程
     itinerary, score, reasons = plan_itinerary_soft_constraints(
         city=city,
@@ -69,6 +72,17 @@ def plan_itinerary():
         mode=mode,
         trials=200,
     )
+
+    # 计算天气建议
+    try:
+        # start_date 可能是字符串，需转为 date
+        if isinstance(start_date, str):
+            start_date_obj = date.fromisoformat(start_date)
+        else:
+            start_date_obj = start_date
+        weather_msg = weather_advice(itinerary, start_date_obj)
+    except Exception as e:
+        weather_msg = f"Weather advice unavailable: {e}"
 
     # 将 Spot 对象转换为字典
     itinerary_dict = []
@@ -84,6 +98,7 @@ def plan_itinerary():
         'score': score,
         'reasons': reasons,
         'itinerary': itinerary_dict,
+        'weather_advice': weather_msg,
     })
 
 if __name__ == "__main__":

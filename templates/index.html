@@ -16,20 +16,20 @@
             <div class="mb-4">
                 <label for="city" class="block text-lg font-medium">Select City:</label>
                 <select id="city" name="city" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
-                    <option value="Paris">Paris</option>
-                    <option value="Tokyo">Tokyo</option>
-                    <option value="New York">New York</option>
-                    <option value="London">London</option>
-                    <option value="Barcelona">Barcelona</option>
+                    <option value="paris">Paris</option>
+                    <option value="tokyo">Tokyo</option>
+                    <option value="newyork">New York</option>
+                    <option value="london">London</option>
+                    <option value="barcelona">Barcelona</option>
                 </select>
             </div>
 
             <div class="mb-4">
                 <label for="preference" class="block text-lg font-medium">Select Preference:</label>
                 <select id="preference" name="preference" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
-                    <option value="Minimize Walking">Minimize Walking</option>
-                    <option value="Minimize Transit Time">Minimize Transit Time</option>
-                    <option value="Minimize Taxi Usage">Minimize Taxi Usage</option>
+                    <option value="walk">Minimize Walking</option>
+                    <option value="transit">Minimize Transit Time</option>
+                    <option value="taxi">Minimize Taxi Usage</option>
                 </select>
             </div>
 
@@ -47,6 +47,7 @@
             <div id="score" class="mt-4"></div>
             <div id="reasons" class="mt-4"></div>
             <div id="itinerary" class="mt-4"></div>
+            <div id="weather" class="mt-4 text-blue-700"></div>
         </div>
     </div>
 
@@ -58,6 +59,7 @@
             const preference = document.getElementById('preference').value;
             const start_date = document.getElementById('start_date').value;
 
+            // Send data to backend
             const response = await fetch('/plan_itinerary', {
                 method: 'POST',
                 headers: {
@@ -70,14 +72,28 @@
                 }),
             });
 
-            const data = await response.json();
+            // Check if the response is ok
+            if (response.ok) {
+                const data = await response.json();
 
-            // Display the results
-            document.getElementById('score').innerText = `Score: ${data.score}`;
-            document.getElementById('reasons').innerText = `Reasons: ${data.reasons.join(', ')}`;
-            document.getElementById('itinerary').innerHTML = `
-                <pre>${JSON.stringify(data.itinerary, null, 2)}</pre>
-            `;
+                // Handle the response data
+                const score = (data.score !== undefined && data.score !== null) ? data.score : 'N/A';
+                const reasons = data.reasons && data.reasons.length > 0 ? data.reasons.join(', ') : 'No reasons available';
+                const itinerary = data.itinerary ? `<pre>${JSON.stringify(data.itinerary, null, 2)}</pre>` : 'No itinerary data available';
+                const weather = data.weather_advice || '';
+
+                // Display the results
+                document.getElementById('score').innerText = `Score: ${score}`;
+                document.getElementById('reasons').innerText = `Reasons: ${reasons}`;
+                document.getElementById('itinerary').innerHTML = itinerary;
+                document.getElementById('weather').innerText = weather;
+
+            } else {
+                // Handle any errors
+                document.getElementById('score').innerText = "Error: Could not generate itinerary.";
+                document.getElementById('reasons').innerText = "Please try again later.";
+                document.getElementById('itinerary').innerText = "No itinerary generated.";
+            }
         });
     </script>
 </body>
