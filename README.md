@@ -64,6 +64,7 @@ ai-agent/
 │
 ├── main.py               # Entry point
 └── README.md
+
 ```
 
 ## 🚀 How It Works
@@ -110,7 +111,7 @@ folium
 ```
 Install dependencies:
 ```python
-pip install folium
+pip install folium openai
 ```
 Run
 ```python
@@ -141,6 +142,7 @@ cfg = ScoreConfig(
     exceed_minute_penalty=1.5,
     one_spot_day_penalty=15.0,
 )
+
 ```
 
 ## 🧠 Design Philosophy
