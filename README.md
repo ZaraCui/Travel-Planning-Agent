@@ -276,3 +276,38 @@ Notes:
 - Certificates are stored in the `certs` volume mounted at `/etc/letsencrypt` in the nginx service.
 - Renew certificates periodically (e.g., via a cron job on the host that runs the same `docker-compose run certbot ...` command).
 - For automated renewals, you can extend the compose setup to run certbot renew and reload nginx on success.
+
+### Option B — Split deploy: Frontend on Vercel, Backend on Render/Railway/Cloud Run
+
+This repository supports a hybrid deployment where the UI (static single-page) is hosted on Vercel (fast, free HTTPS + CDN) and the Flask API is deployed separately to a container-friendly host (Render, Railway, or Cloud Run).
+
+What I added to support this:
+- `static/` — a static build of the SPA (`static/index.html`) that reads runtime API base from `/config.js`.
+- `static/config.example.js` — copy to `static/config.js` and set `API_BASE` to your backend URL (e.g. `https://api.your-domain.com`).
+- `vercel.json` — simple configuration to serve `static/` as the site root.
+
+Frontend (Vercel) steps:
+1. Copy `static/config.example.js` to `static/config.js` and update `API_BASE` to your backend endpoint (no trailing slash).
+2. Commit `static/config.js` (or set up a build script on Vercel to generate it from env vars).
+3. Push the repo to GitHub and import the project into Vercel, or connect the repo in Vercel and deploy.
+
+Backend (Render / Railway / Cloud Run) options:
+- Render: create a new "Web Service" and either point it to this repo and select the Dockerfile, or select a Python environment and set start command `gunicorn -b 0.0.0.0:8000 app:app`.
+- Railway: create a new service, connect the repo, set `PORT` env (default 8000) and start command similar to above.
+- Cloud Run: build and push the Docker image (use provided `Dockerfile`), then deploy the image to Cloud Run and set the container port to `8000`.
+
+Example Render quick steps (using Dockerfile):
+1. Push repo to GitHub.
+2. In Render dashboard, create -> Web Service -> Connect GitHub -> select repo.
+3. Choose "Docker" (auto-detect) or supply build command. Set the port to `8000`.
+4. Add any env vars (OPENAI_API_KEY etc.) in Render settings.
+
+After backend is deployed, set `API_BASE` in `static/config.js` to point to your backend (e.g. `https://api.myapp.example`) and redeploy the Vercel frontend.
+
+Notes:
+- CORS: if you deploy frontend and backend to different hosts, ensure the backend allows CORS for your frontend origin. Add a simple Flask CORS header or use `flask-cors`.
+- Secrets: keep secret keys only in backend provider (Render/Cloud Run) environment settings; do NOT commit them into `static/config.js`.
+
+If you want,下一步我可以：
+- 为 `app.py` 添加一个小段 CORS 支持示例（`flask-cors`），并在 README 中给出 `requirements.txt` 更新建议；或
+- 直接准备一个 Render 的 `render.yaml` 示例以便一键部署。
