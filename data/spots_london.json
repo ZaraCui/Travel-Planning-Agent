@@ -6,7 +6,7 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+        "description": "London Eye — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: London Eye. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
     },
     {
         "name": "British Museum",
@@ -15,7 +15,7 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "Well-curated indoor spot; expect exhibits or sheltered activities. Typical visit ~90 minutes. Rating based on typical visitor feedback."
+        "description": "British Museum — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: British Museum. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
     },
     {
         "name": "Tower of London",
@@ -24,7 +24,7 @@
         "category": "temple",
         "duration_minutes": 45,
         "rating": 4.1,
-        "description": "Historic or religious site, usually quiet and culturally significant. Typical visit ~45 minutes. Rating based on typical visitor feedback."
+        "description": "Tower of London — Historic or religious site, usually quiet and culturally significant. Highlights: Tower of. Typical visit ~45 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
     },
     {
         "name": "Oxford Street",
@@ -33,7 +33,7 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 3.9,
-        "description": "Shopping area with stores and local vendors; good for browsing. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+        "description": "Oxford Street — Shopping area with stores and local vendors; good for browsing. Highlights: Oxford Street. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
     },
     {
         "name": "Hyde Park",
@@ -42,7 +42,7 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+        "description": "Hyde Park — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Hyde Park. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
     },
     {
         "name": "Tate Modern",
@@ -51,7 +51,7 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "Well-curated indoor spot; expect exhibits or sheltered activities. Typical visit ~90 minutes. Rating based on typical visitor feedback."
+        "description": "Tate Modern — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Tate Modern. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
     },
     {
         "name": "Kew Gardens",
@@ -60,7 +60,7 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+        "description": "Kew Gardens — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Kew Gardens. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
     },
     {
         "name": "Westminster Abbey",
@@ -69,7 +69,7 @@
         "category": "temple",
         "duration_minutes": 45,
         "rating": 4.1,
-        "description": "Historic or religious site, usually quiet and culturally significant. Typical visit ~45 minutes. Rating based on typical visitor feedback."
+        "description": "Westminster Abbey — Historic or religious site, usually quiet and culturally significant. Highlights: Westminster Abbey. Typical visit ~45 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
     },
     {
         "name": "Covent Garden",
@@ -78,6 +78,6 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 3.9,
-        "description": "Shopping area with stores and local vendors; good for browsing. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+        "description": "Covent Garden — Shopping area with stores and local vendors; good for browsing. Highlights: Covent Garden. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
     }
 ]

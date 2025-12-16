@@ -6,7 +6,7 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+        "description": "Statue of Liberty — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Statue of. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
     },
     {
         "name": "Central Park",
@@ -15,7 +15,7 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+        "description": "Central Park — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Central Park. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
     },
     {
         "name": "Metropolitan Museum of Art",
@@ -24,7 +24,7 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "Well-curated indoor spot; expect exhibits or sheltered activities. Typical visit ~90 minutes. Rating based on typical visitor feedback."
+        "description": "Metropolitan Museum of Art — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Metropolitan Museum. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
     },
     {
         "name": "Times Square",
@@ -33,7 +33,7 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+        "description": "Times Square — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Times Square. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
     },
     {
         "name": "Brooklyn Bridge",
@@ -42,7 +42,7 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+        "description": "Brooklyn Bridge — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Brooklyn Bridge. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
     },
     {
         "name": "9/11 Memorial & Museum",
@@ -51,7 +51,7 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "Well-curated indoor spot; expect exhibits or sheltered activities. Typical visit ~90 minutes. Rating based on typical visitor feedback."
+        "description": "9/11 Memorial & Museum — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: 9/11 Memorial. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
     },
     {
         "name": "Broadway Theater District",
@@ -60,7 +60,7 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "Well-curated indoor spot; expect exhibits or sheltered activities. Typical visit ~90 minutes. Rating based on typical visitor feedback."
+        "description": "Broadway Theater District — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Broadway Theater. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
     },
     {
         "name": "Fifth Avenue Shopping",
@@ -69,6 +69,6 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 3.9,
-        "description": "Shopping area with stores and local vendors; good for browsing. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+        "description": "Fifth Avenue Shopping — Shopping area with stores and local vendors; good for browsing. Highlights: Fifth Avenue. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
     }
 ]

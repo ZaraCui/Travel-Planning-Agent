@@ -32,7 +32,7 @@ def error_response(reason, status_code=400, message="Error"):
         "reason": reason
     }), status_code
 
-def compare_transport_modes(city: str, spots: List[Spot], cfg: ScoreConfig) -> Dict:
+def compare_transport_modes(city: str, spots: List[Spot], cfg: ScoreConfig, days: int = 3) -> Dict:
     """
     Calculate itineraries for all transport modes and return comparison data.
     Returns structured data with all modes and recommendation.
@@ -49,7 +49,7 @@ def compare_transport_modes(city: str, spots: List[Spot], cfg: ScoreConfig) -> D
             itinerary, score, reasons = plan_itinerary_soft_constraints(
                 city=city,
                 spots=spots,
-                days=3,
+                days=days,
                 cfg=cfg,
                 mode=mode,
                 trials=200,
@@ -112,10 +112,120 @@ def compare_transport_modes(city: str, spots: List[Spot], cfg: ScoreConfig) -> D
                 "error": f"Failed to calculate: {str(e)}"
             }
 
+    # Compute multi-dimensional utility (0-100) based on time, distance, comfort
+    metrics = {}
+    costs = []
+    times = []
+    dists = []
+    ratings = []
+
+    for m_key, m_data in results.items():
+        if m_data.get('error'):
+            metrics[m_key] = {
+                'cost': None,
+                'minutes': None,
+                'km': None,
+                'avg_rating': None,
+            }
+            continue
+
+        cost = float(m_data.get('score', 0.0))
+        total_minutes = 0.0
+        total_km = 0.0
+        rating_vals = []
+        for d in m_data.get('itinerary', []):
+            total_minutes += float(d.get('travel_minutes', 0) or 0)
+            total_km += float(d.get('total_distance_km', 0) or 0)
+            for s in d.get('spots', []):
+                try:
+                    if s.get('rating') is not None:
+                        rating_vals.append(float(s.get('rating')))
+                except Exception:
+                    pass
+
+        avg_rating = float(sum(rating_vals) / len(rating_vals)) if rating_vals else 0.0
+
+        metrics[m_key] = {
+            'cost': cost,
+            'minutes': total_minutes,
+            'km': total_km,
+            'avg_rating': avg_rating,
+        }
+
+        costs.append(cost)
+        times.append(total_minutes)
+        dists.append(total_km)
+        ratings.append(avg_rating)
+
+    def normalize_list(vals, invert=False):
+        if not vals:
+            return {}
+        mn = min(vals)
+        mx = max(vals)
+        res = {}
+        for v in vals:
+            if mx == mn:
+                norm = 1.0
+            else:
+                norm = (v - mn) / (mx - mn)
+            if invert:
+                norm = 1.0 - norm
+            res[v] = norm
+        return res
+
+    cost_norm = normalize_list(costs, invert=True)
+    time_norm = normalize_list(times, invert=True)
+    dist_norm = normalize_list(dists, invert=True)
+    rating_norm = normalize_list(ratings, invert=False)
+
+    # weights
+    w_time = 0.5
+    w_dist = 0.2
+    w_comf = 0.3
+
+    # attach utility_score to each mode
+    for m_key, m_data in results.items():
+        mm = metrics.get(m_key)
+        if not mm or mm.get('cost') is None:
+            m_data['utility_score'] = None
+            m_data['utility_explanation'] = 'No data'
+            continue
+
+        c = mm['cost']
+        t = mm['minutes']
+        k = mm['km']
+        r = mm['avg_rating']
+
+        nt = time_norm.get(t, 1.0) if times else 1.0
+        nd = dist_norm.get(k, 1.0) if dists else 1.0
+        nr = rating_norm.get(r, 1.0) if ratings else 1.0
+
+        utility = (nt * w_time + nd * w_dist + nr * w_comf) * 100.0
+
+        m_data['utility_score'] = round(utility, 1)
+        m_data['utility_explanation'] = (
+            f"Combines time({w_time*100:.0f}%):{nt:.2f}, distance({w_dist*100:.0f}%):{nd:.2f}, "
+            f"comfort({w_comf*100:.0f}%):{nr:.2f}. Higher is better. Original cost: {c:.2f}."
+        )
+
+    # pick recommended by highest utility (fallback to lowest cost)
+    best_mode_util = None
+    best_util = -1.0
+    for m_key, m_data in results.items():
+        util = m_data.get('utility_score')
+        if util is None:
+            continue
+        if util > best_util:
+            best_util = util
+            best_mode_util = m_key
+
+    recommended_mode = best_mode_util if best_mode_util else (best_mode.value if best_mode else None)
+    recommended_data = results.get(recommended_mode) if recommended_mode else best_data
+
     return {
         "modes": results,
-        "recommended_mode": best_mode.value if best_mode else None,
-        "recommended_data": best_data
+        "recommended_mode": recommended_mode,
+        "recommended_data": recommended_data,
     }
 
 @app.route('/')
@@ -212,9 +322,17 @@ def plan_itinerary():
             min_spots_per_day=2,
         )
 
-        # 计算所有模式的比较数据
+        # 计算所有模式的比较数据；支持用户选择天数
+        days_param = data.get('days', 3)
         try:
-            comparison_data = compare_transport_modes(city, spots, cfg)
+            days_int = int(days_param)
+            if days_int < 1 or days_int > 14:
+                raise ValueError('days must be between 1 and 14')
+        except Exception as e:
+            return error_response(str(e), 400, 'Invalid days value')
+
+        try:
+            comparison_data = compare_transport_modes(city, spots, cfg, days=days_int)
         except Exception as e:
             return error_response(
                 f"Failed to compare transport modes: {str(e)}",
