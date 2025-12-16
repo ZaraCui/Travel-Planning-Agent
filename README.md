@@ -1,4 +1,3 @@
-# Travel Planning Agent
 # 🧠 Travel Planning Agent
 
 A planning-based AI agent that automatically generates and optimizes multi-day travel itineraries under soft constraints such as travel time, daily workload, and transportation mode.
