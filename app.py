@@ -32,7 +32,7 @@ def error_response(reason, status_code=400, message="Error"):
         "reason": reason
     }), status_code
 
-def compare_transport_modes(city: str, spots: List[Spot], cfg: ScoreConfig, days: int = 3) -> Dict:
+def compare_transport_modes(city: str, spots: List[Spot], cfg: ScoreConfig, days: int = 3, weights: dict = None) -> Dict:
     """
     Calculate itineraries for all transport modes and return comparison data.
     Returns structured data with all modes and recommendation.
@@ -178,10 +178,24 @@ def compare_transport_modes(city: str, spots: List[Spot], cfg: ScoreConfig, days
     dist_norm = normalize_list(dists, invert=True)
     rating_norm = normalize_list(ratings, invert=False)
 
-    # weights
-    w_time = 0.5
-    w_dist = 0.2
-    w_comf = 0.3
+    # weights: if provided, normalize; otherwise use defaults
+    if not weights:
+        w_time = 0.5
+        w_dist = 0.2
+        w_comf = 0.3
+    else:
+        try:
+            w_time = float(weights.get('time', 0.5))
+            w_dist = float(weights.get('distance', 0.2))
+            w_comf = float(weights.get('comfort', 0.3))
+        except Exception:
+            w_time, w_dist, w_comf = 0.5, 0.2, 0.3
+
+    # normalize to sum to 1
+    total_w = (w_time + w_dist + w_comf) or 1.0
+    w_time /= total_w
+    w_dist /= total_w
+    w_comf /= total_w
 
     # attach utility_score to each mode
     for m_key, m_data in results.items():
@@ -331,8 +345,10 @@ def plan_itinerary():
         except Exception as e:
             return error_response(str(e), 400, 'Invalid days value')
 
+        # read optional utility weights
+        weights = data.get('weights', None)
         try:
-            comparison_data = compare_transport_modes(city, spots, cfg, days=days_int)
+            comparison_data = compare_transport_modes(city, spots, cfg, days=days_int, weights=weights)
         except Exception as e:
             return error_response(
                 f"Failed to compare transport modes: {str(e)}",
