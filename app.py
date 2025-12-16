@@ -255,7 +255,9 @@ def compare_transport_modes(city: str, spots: List[Spot], cfg: ScoreConfig, days
 @app.route('/')
 def index():
     # 返回首页，前端页面
-    return render_template('index.html')
+    # Inject Google Maps API key from environment into the rendered template
+    google_maps_key = os.environ.get('GOOGLE_MAPS_API_KEY', '')
+    return render_template('index.html', google_maps_api_key=google_maps_key)
 
 @app.route('/plan_itinerary', methods=['POST'])
 def plan_itinerary():
@@ -438,6 +440,117 @@ def method_not_allowed(e):
 def internal_error(e):
     app.logger.error(f"Internal server error: {traceback.format_exc()}")
     return error_response("Internal server error occurred", 500, "Internal server error")
+
+
+# ===== Directions proxy (server-side) =====
+def _decode_polyline(polyline_str):
+    # Decodes a Google encoded polyline into list of (lat, lng)
+    index, lat, lng = 0, 0, 0
+    coordinates = []
+    length = len(polyline_str)
+
+    while index < length:
+        result, shift = 0, 0
+        while True:
+            b = ord(polyline_str[index]) - 63
+            index += 1
+            result |= (b & 0x1f) << shift
+            shift += 5
+            if b < 0x20:
+                break
+        dlat = ~(result >> 1) if (result & 1) else (result >> 1)
+        lat += dlat
+
+        result, shift = 0, 0
+        while True:
+            b = ord(polyline_str[index]) - 63
+            index += 1
+            result |= (b & 0x1f) << shift
+            shift += 5
+            if b < 0x20:
+                break
+        dlng = ~(result >> 1) if (result & 1) else (result >> 1)
+        lng += dlng
+
+        coordinates.append([lat / 1e5, lng / 1e5])
+
+    return coordinates
+
+
+@app.route('/api/directions', methods=['POST'])
+def directions_proxy():
+    try:
+        data = request.json
+        if not data:
+            return error_response('Request body must be JSON', 400, 'Invalid request')
+
+        google_key = os.environ.get('GOOGLE_MAPS_API_KEY')
+        if not google_key:
+            return error_response('Server missing GOOGLE_MAPS_API_KEY', 500, 'Configuration error')
+
+        itinerary = data.get('itinerary', [])
+        mode = data.get('mode', 'driving')
+        allowed = {'driving', 'walking', 'bicycling', 'transit'}
+        if mode not in allowed:
+            mode = 'driving'
+
+        results = []
+        for day in itinerary:
+            day_idx = day.get('day')
+            spots = day.get('spots', [])
+            # normalize spot lat/lng keys
+            coords = []
+            for s in spots:
+                lat = s.get('lat') if isinstance(s, dict) else getattr(s, 'lat', None)
+                lon = s.get('lon') if isinstance(s, dict) else getattr(s, 'lon', None)
+                if lat is None:
+                    lat = s.get('latitude') if isinstance(s, dict) else None
+                if lon is None:
+                    lon = s.get('lng') if isinstance(s, dict) else None
+                if lat is not None and lon is not None:
+                    coords.append((float(lat), float(lon)))
+
+            if len(coords) < 2:
+                results.append({'day': day_idx, 'coords': []})
+                continue
+
+            origin = f"{coords[0][0]},{coords[0][1]}"
+            destination = f"{coords[-1][0]},{coords[-1][1]}"
+            waypoints = []
+            if len(coords) > 2:
+                # build intermediate waypoints (avoid too many waypoints)
+                mid = coords[1:-1]
+                waypoints = [f"{p[0]},{p[1]}" for p in mid[:23]]
+
+            params = {
+                'origin': origin,
+                'destination': destination,
+                'key': google_key,
+                'mode': mode,
+                'units': 'metric',
+            }
+            if waypoints:
+                params['waypoints'] = '|'.join(waypoints)
+
+            resp = requests.get('https://maps.googleapis.com/maps/api/directions/json', params=params, timeout=10)
+            payload = resp.json()
+            if payload.get('status') != 'OK' or not payload.get('routes'):
+                results.append({'day': day_idx, 'coords': []})
+                continue
+
+            over = payload['routes'][0].get('overview_polyline', {}).get('points')
+            if not over:
+                results.append({'day': day_idx, 'coords': []})
+                continue
+
+            decoded = _decode_polyline(over)
+            results.append({'day': day_idx, 'coords': decoded})
+
+        return success_response({'routes': results}, 'Directions fetched')
+
+    except Exception as e:
+        app.logger.error(f"Directions proxy failed: {traceback.format_exc()}")
+        return error_response(f"Directions proxy failed: {str(e)}", 500, 'Directions error')
 
 
 if __name__ == "__main__":

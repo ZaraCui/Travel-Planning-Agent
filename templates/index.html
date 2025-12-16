@@ -202,6 +202,9 @@
                 <p id="weather-text" class="text-gray-700 leading-relaxed"></p>
             </div>
 
+            <!-- Map (Google Maps) -->
+            <div id="map" class="bg-white rounded-lg shadow-lg p-0 mb-8" style="height: 480px; display: none;"></div>
+
             <!-- Recommended Itinerary -->
             <div id="recommended-section" class="bg-white rounded-lg shadow-lg p-8 mb-8" style="display: none;">
                 <h2 class="text-2xl font-bold text-gray-800 mb-8">⭐ Recommended Itinerary (<span id="recommended-mode-name"></span>)</h2>
@@ -210,7 +213,10 @@
         </div>
     </div>
 
+    <script src="/static/config.js"></script>
     <script>
+        // Injected by server: GOOGLE_MAPS_API_KEY (empty string if not set)
+        const GOOGLE_MAPS_API_KEY = "{{ google_maps_api_key | e }}";
         // Utility functions
         const formatDate = (dateString) => {
             const options = { weekday: 'long', month: 'long', day: 'numeric' };
@@ -322,6 +328,98 @@
             `;
         };
 
+        // --- Google Maps integration ---
+        let gmap = null;
+        let gmapMarkers = [];
+        let gmapPolylines = [];
+        let gmapInitialized = false;
+        let pendingItineraryForMap = null;
+
+        function clearMap() {
+            if (gmapMarkers.length) {
+                gmapMarkers.forEach(m => m.setMap(null));
+                gmapMarkers = [];
+            }
+            if (gmapPolylines.length) {
+                gmapPolylines.forEach(p => p.setMap(null));
+                gmapPolylines = [];
+            }
+        }
+
+        window.initMap = function() {
+            gmapInitialized = true;
+            gmap = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: 0, lng: 0 },
+                zoom: 2,
+            });
+
+            if (pendingItineraryForMap) {
+                renderItineraryOnMap(pendingItineraryForMap);
+                pendingItineraryForMap = null;
+            }
+        };
+
+        function loadGoogleMapsScript() {
+            if (!GOOGLE_MAPS_API_KEY || GOOGLE_MAPS_API_KEY === 'YOUR_GOOGLE_MAPS_API_KEY') {
+                console.warn('Google Maps API key not configured in static/config.js');
+                return;
+            }
+            if (document.getElementById('google-maps-script')) return;
+            const s = document.createElement('script');
+            s.id = 'google-maps-script';
+            s.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_API_KEY}&callback=initMap`;
+            s.async = true;
+            s.defer = true;
+            document.head.appendChild(s);
+        }
+
+        function renderItineraryOnMap(itinerary) {
+            if (!gmapInitialized) {
+                pendingItineraryForMap = itinerary;
+                loadGoogleMapsScript();
+                return;
+            }
+
+            clearMap();
+            const colors = ['#1f78b4', '#33a02c', '#e31a1c', '#ff7f00', '#6a3d9a'];
+            const bounds = new google.maps.LatLngBounds();
+
+            itinerary.forEach((day, dayIdx) => {
+                const path = (day.spots || []).map(s => ({ lat: Number(s.lat), lng: Number(s.lon) }));
+                if (!path.length) return;
+
+                path.forEach((pos, i) => {
+                    const marker = new google.maps.Marker({
+                        position: pos,
+                        map: gmap,
+                        label: `${day.day}-${i+1}`,
+                        title: (day.spots && day.spots[i] && day.spots[i].name) || `Day ${day.day} Point ${i+1}`,
+                    });
+                    gmapMarkers.push(marker);
+                    bounds.extend(pos);
+                });
+
+                if (path.length >= 2) {
+                    const pl = new google.maps.Polyline({
+                        path: path,
+                        geodesic: true,
+                        strokeColor: colors[dayIdx % colors.length],
+                        strokeOpacity: 0.85,
+                        strokeWeight: 4,
+                    });
+                    pl.setMap(gmap);
+                    gmapPolylines.push(pl);
+                }
+            });
+
+            if (!bounds.isEmpty()) {
+                gmap.fitBounds(bounds, 20);
+            }
+            // show map container
+            const mapEl = document.getElementById('map');
+            if (mapEl) mapEl.style.display = 'block';
+        }
+
         // Form submission handler
         document.getElementById('itinerary-form').addEventListener('submit', async (event) => {
             event.preventDefault();
@@ -407,6 +505,7 @@
                             timelineContainer.innerHTML = itinerary
                                 .map(day => renderDayTimeline(day, start_date))
                                 .join('');
+                            try { renderItineraryOnMap(itinerary); } catch (e) { console.warn('Map render failed', e); }
                         } else {
                             timelineContainer.innerHTML = '<p class="text-gray-500">No itinerary data available</p>';
                         }
