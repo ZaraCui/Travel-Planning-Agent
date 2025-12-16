@@ -1,0 +1,8 @@
+// build-config.js
+const fs = require('fs');
+const apiBase = process.env.API_BASE || 'https://travel-planning-agent.onrender.com';
+const googleKey = process.env.GOOGLE_MAPS_API_KEY || '';
+const content = `const API_BASE = '${apiBase}';\nconst GOOGLE_MAPS_API_KEY = '${googleKey}';\n`;
+fs.mkdirSync('static', { recursive: true });
+fs.writeFileSync('static/config.js', content);
+console.log('Generated static/config.js');
