@@ -42,8 +42,6 @@ Soft Constraints Scorer
 World Geometry (Time / Distance)
         ↓
 Best Itinerary + Explanation
-
-
 ```
 
 ## 📁 Project Structure
@@ -244,15 +242,6 @@ eb create production-env
 3. Set environment variables in AWS console
 4. Deploy updates with `eb deploy`
 
-## 📌 Disclaimer
-
-This project is an experimental planning agent for learning and exploration purposes.
-Distances and travel times are approximations.
-
-## 📫 Author
-
-Built as a hands-on exploration of agent architectures and planning systems.
-
 ## 📦 Deployment with Docker and Let's Encrypt (docker-compose)
 
 1. Update `deploy/nginx.conf` replacing `your.domain.com` with your real domain.
@@ -327,3 +316,11 @@ Notes:
 - CORS: if you deploy frontend and backend to different hosts, ensure the backend allows CORS for your frontend origin. Add a simple Flask CORS header or use `flask-cors`.
 - Secrets: keep secret keys only in backend provider (Render/Cloud Run) environment settings; do NOT commit them into `static/config.js`.
 
+## 📌 Disclaimer
+
+This project is an experimental planning agent for learning and exploration purposes.
+Distances and travel times are approximations.
+
+## 📫 Author
+
+Built as a hands-on exploration of agent architectures and planning systems.
