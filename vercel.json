@@ -2,8 +2,7 @@
   "version": 2,
   "name": "travel-planning-agent-frontend",
   "builds": [
-    { "src": "build-config.js", "use": "@vercel/node" },
-    { "src": "static/**/*", "use": "@vercel/static" }
+    { "src": "package.json", "use": "@vercel/static-build" }
   ],
   "routes": [
     { "src": "/(.*)", "dest": "/static/$1" }
