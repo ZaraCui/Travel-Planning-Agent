@@ -175,6 +175,75 @@ Replace heuristic distance with real routing APIs
 
 Multi-objective optimization (time × cost × comfort)
 
+## 🌐 Deploying as a Web Application
+
+### Local Development
+Requirements
+```python
+Python 3.9+
+```
+Install dependencies:
+```python
+pip install -r requirements.txt
+```
+
+Set up environment variables:
+```bash
+cp .env.example .env
+# Edit .env and add your OpenAI API key
+```
+
+Run the web application:
+```python
+python app.py
+```
+Visit `http://localhost:5000` in your browser.
+
+### Cloud Deployment
+
+#### Option 1: Heroku (Recommended for beginners)
+1. Create a Heroku account at https://heroku.com
+2. Install Heroku CLI
+3. Login and create an app:
+```bash
+heroku login
+heroku create your-app-name
+```
+4. Set environment variables:
+```bash
+heroku config:set OPENAI_API_KEY=your_openai_api_key_here
+```
+5. Deploy:
+```bash
+git push heroku main
+```
+6. Open your app:
+```bash
+heroku open
+```
+
+#### Option 2: Railway
+1. Go to https://railway.app and create an account
+2. Connect your GitHub repository
+3. Add environment variables in the Railway dashboard
+4. Deploy automatically
+
+#### Option 3: DigitalOcean App Platform
+1. Create a DigitalOcean account
+2. Use the App Platform service
+3. Connect your repository and configure environment variables
+4. Deploy
+
+#### Option 4: AWS Elastic Beanstalk
+1. Install AWS CLI and configure credentials
+2. Create an EB application:
+```bash
+eb init -p python-3.9 travel-planning-agent
+eb create production-env
+```
+3. Set environment variables in AWS console
+4. Deploy updates with `eb deploy`
+
 ## 📌 Disclaimer
 
 This project is an experimental planning agent for learning and exploration purposes.

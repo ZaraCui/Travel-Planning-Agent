@@ -1,0 +1,12 @@
+__pycache__
+*.pyc
+.pytest_cache
+venv
+env
+build
+dist
+.git
+.github
+output
+node_modules
+*.log

@@ -10,6 +10,10 @@ import json
 import os
 import traceback
 from typing import Dict, List, Tuple
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 app = Flask(__name__)
 
@@ -431,4 +435,7 @@ def internal_error(e):
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', debug=True)
+    # For production deployment
+    port = int(os.environ.get('PORT', 5000))
+    debug = os.environ.get('FLASK_DEBUG', 'False').lower() == 'true'
+    app.run(host='0.0.0.0', port=port, debug=debug)
