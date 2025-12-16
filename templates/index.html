@@ -135,7 +135,7 @@
 
         <!-- Form Card -->
         <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
-            <form id="itinerary-form" class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <form id="itinerary-form" class="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div>
                     <label for="city" class="block text-sm font-semibold text-gray-700 mb-2">City</label>
                     <select id="city" name="city" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
@@ -148,22 +148,13 @@
                 </div>
 
                 <div>
-                    <label for="preference" class="block text-sm font-semibold text-gray-700 mb-2">Preference</label>
-                    <select id="preference" name="preference" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-                        <option value="walk">🚶 Walking</option>
-                        <option value="transit">🚌 Transit</option>
-                        <option value="taxi">🚕 Taxi</option>
-                    </select>
-                </div>
-
-                <div>
                     <label for="start_date" class="block text-sm font-semibold text-gray-700 mb-2">Start Date</label>
                     <input type="date" id="start_date" name="start_date" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
                 </div>
 
                 <div class="flex items-end">
                     <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg transition duration-200 flex items-center justify-center">
-                        <span id="btn-text">Plan Itinerary</span>
+                        <span id="btn-text">Compare Transport Modes</span>
                         <span id="loading-spinner" class="loading ml-2" style="display: none;"></span>
                     </button>
                 </div>
@@ -175,18 +166,10 @@
             <!-- Status Alert -->
             <div id="status-alert"></div>
 
-            <!-- Score Card -->
-            <div id="score-card" class="bg-white rounded-lg shadow-lg p-8 mb-8">
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg">
-                        <h3 class="text-sm font-semibold text-gray-600 mb-2">Overall Score</h3>
-                        <p id="score-value" class="text-4xl font-bold text-blue-600">-</p>
-                    </div>
-                    <div class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg md:col-span-2">
-                        <h3 class="text-sm font-semibold text-gray-600 mb-2">Planning Insights</h3>
-                        <ul id="reasons-list" class="space-y-2"></ul>
-                    </div>
-                </div>
+            <!-- Mode Comparison -->
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
+                <h2 class="text-2xl font-bold text-gray-800 mb-6">🚗 Transport Mode Comparison</h2>
+                <div id="comparison-container" class="grid grid-cols-1 md:grid-cols-3 gap-6"></div>
             </div>
 
             <!-- Weather Advisory -->
@@ -195,9 +178,9 @@
                 <p id="weather-text" class="text-gray-700 leading-relaxed"></p>
             </div>
 
-            <!-- Timeline -->
-            <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
-                <h2 class="text-2xl font-bold text-gray-800 mb-8">📅 Your Itinerary</h2>
+            <!-- Recommended Itinerary -->
+            <div id="recommended-section" class="bg-white rounded-lg shadow-lg p-8 mb-8" style="display: none;">
+                <h2 class="text-2xl font-bold text-gray-800 mb-8">⭐ Recommended Itinerary (<span id="recommended-mode-name"></span>)</h2>
                 <div id="timeline-container" class="timeline"></div>
             </div>
         </div>
@@ -244,9 +227,9 @@
         const renderDayTimeline = (day, startDate) => {
             const dayDate = new Date(startDate);
             dayDate.setDate(dayDate.getDate() + day.day - 1);
-            
+
             const spots = day.spots.map(spot => renderSpotCard(spot)).join('');
-            
+
             return `
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
@@ -261,18 +244,67 @@
             `;
         };
 
+        const renderModeCard = (mode, modeData, isRecommended) => {
+            const modeNames = {
+                'walk': '🚶 Walking',
+                'transit': '🚌 Transit',
+                'taxi': '🚕 Taxi'
+            };
+
+            const modeName = modeNames[mode] || mode;
+            let cardClass = 'bg-white border border-gray-200 rounded-lg p-6 transition-all duration-200';
+
+            if (isRecommended) {
+                cardClass += ' ring-4 ring-yellow-400 shadow-lg bg-yellow-50';
+            } else {
+                cardClass += ' hover:shadow-md';
+            }
+
+            if (modeData.error) {
+                return `
+                    <div class="${cardClass}">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">${modeName}</h3>
+                        <div class="text-red-600 text-sm">
+                            <p>❌ Error: ${modeData.error}</p>
+                        </div>
+                    </div>
+                `;
+            }
+
+            const score = modeData.score;
+            const reasons = modeData.reasons || [];
+
+            return `
+                <div class="${cardClass}">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold text-gray-800">${modeName}</h3>
+                        ${isRecommended ? '<span class="bg-yellow-400 text-yellow-900 px-2 py-1 rounded-full text-xs font-semibold">⭐ RECOMMENDED</span>' : ''}
+                    </div>
+                    <div class="mb-4">
+                        <div class="text-3xl font-bold text-blue-600">${score.toFixed(2)}</div>
+                        <div class="text-sm text-gray-500">Score</div>
+                    </div>
+                    <div class="space-y-2">
+                        <h4 class="font-semibold text-gray-700">Key Benefits:</h4>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            ${reasons.slice(0, 3).map(reason => `<li>• ${reason}</li>`).join('')}
+                        </ul>
+                    </div>
+                </div>
+            `;
+        };
+
         // Form submission handler
         document.getElementById('itinerary-form').addEventListener('submit', async (event) => {
             event.preventDefault();
 
             const city = document.getElementById('city').value;
-            const preference = document.getElementById('preference').value;
             const start_date = document.getElementById('start_date').value;
 
             // Show loading state
             const btnText = document.getElementById('btn-text');
             const spinner = document.getElementById('loading-spinner');
-            btnText.textContent = 'Planning...';
+            btnText.textContent = 'Comparing...';
             spinner.style.display = 'inline-block';
 
             try {
@@ -283,7 +315,6 @@
                     },
                     body: JSON.stringify({
                         city: city,
-                        preference: preference,
                         start_date: start_date,
                     }),
                 });
@@ -299,20 +330,15 @@
                     statusAlert.innerHTML = createSuccessAlert(responseData.message);
 
                     const data = responseData.data;
+                    const comparison = data.comparison;
 
-                    // Render score
-                    document.getElementById('score-value').textContent = 
-                        (data.score !== undefined && data.score !== null) ? data.score.toFixed(2) : 'N/A';
-
-                    // Render reasons
-                    const reasonsList = document.getElementById('reasons-list');
-                    if (data.reasons && Array.isArray(data.reasons) && data.reasons.length > 0) {
-                        reasonsList.innerHTML = data.reasons
-                            .map(reason => `<li class="text-gray-700">✓ ${reason}</li>`)
-                            .join('');
-                    } else {
-                        reasonsList.innerHTML = '<li class="text-gray-500">No planning reasons available</li>';
-                    }
+                    // Render mode comparison
+                    const comparisonContainer = document.getElementById('comparison-container');
+                    const modeCards = Object.keys(comparison.modes).map(mode => {
+                        const isRecommended = mode === comparison.recommended_mode;
+                        return renderModeCard(mode, comparison.modes[mode], isRecommended);
+                    });
+                    comparisonContainer.innerHTML = modeCards.join('');
 
                     // Render weather
                     const weatherCard = document.getElementById('weather-card');
@@ -323,14 +349,28 @@
                         weatherCard.style.display = 'none';
                     }
 
-                    // Render timeline
-                    const timelineContainer = document.getElementById('timeline-container');
-                    if (data.itinerary && Array.isArray(data.itinerary) && data.itinerary.length > 0) {
-                        timelineContainer.innerHTML = data.itinerary
-                            .map(day => renderDayTimeline(day, start_date))
-                            .join('');
+                    // Render recommended itinerary
+                    const recommendedSection = document.getElementById('recommended-section');
+                    if (comparison.recommended_mode && comparison.recommended_data) {
+                        const modeNames = {
+                            'walk': '🚶 Walking',
+                            'transit': '🚌 Transit',
+                            'taxi': '🚕 Taxi'
+                        };
+                        document.getElementById('recommended-mode-name').textContent = modeNames[comparison.recommended_mode] || comparison.recommended_mode;
+
+                        const timelineContainer = document.getElementById('timeline-container');
+                        const itinerary = comparison.recommended_data.itinerary;
+                        if (itinerary && Array.isArray(itinerary) && itinerary.length > 0) {
+                            timelineContainer.innerHTML = itinerary
+                                .map(day => renderDayTimeline(day, start_date))
+                                .join('');
+                        } else {
+                            timelineContainer.innerHTML = '<p class="text-gray-500">No itinerary data available</p>';
+                        }
+                        recommendedSection.style.display = 'block';
                     } else {
-                        timelineContainer.innerHTML = '<p class="text-gray-500">No itinerary data available</p>';
+                        recommendedSection.style.display = 'none';
                     }
 
                     // Show results
@@ -355,7 +395,7 @@
                 document.getElementById('results-container').style.display = 'block';
             } finally {
                 // Reset button state
-                btnText.textContent = 'Plan Itinerary';
+                btnText.textContent = 'Compare Transport Modes';
                 spinner.style.display = 'none';
             }
         });

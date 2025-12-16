@@ -8,6 +8,7 @@ from datetime import date
 import json
 import os
 import traceback
+from typing import Dict, List, Tuple
 
 app = Flask(__name__)
 
@@ -30,6 +31,64 @@ def error_response(reason, status_code=400, message="Error"):
         "reason": reason
     }), status_code
 
+def compare_transport_modes(city: str, spots: List[Spot], cfg: ScoreConfig) -> Dict:
+    """
+    Calculate itineraries for all transport modes and return comparison data.
+    Returns structured data with all modes and recommendation.
+    """
+    modes = [TransportMode.WALK, TransportMode.TRANSIT, TransportMode.TAXI]
+    results = {}
+
+    best_mode = None
+    best_score = float('inf')
+    best_data = None
+
+    for mode in modes:
+        try:
+            itinerary, score, reasons = plan_itinerary_soft_constraints(
+                city=city,
+                spots=spots,
+                days=3,
+                cfg=cfg,
+                mode=mode,
+                trials=200,
+            )
+
+            # Convert itinerary to dict
+            itinerary_dict = []
+            for day in itinerary.days:
+                day_dict = {
+                    "day": day.day,
+                    "spots": [spot.to_dict() for spot in day.spots]
+                }
+                itinerary_dict.append(day_dict)
+
+            mode_data = {
+                "score": round(score, 2),
+                "reasons": reasons,
+                "itinerary": itinerary_dict
+            }
+
+            results[mode.value] = mode_data
+
+            # Track best mode (lowest score is better)
+            if score < best_score:
+                best_score = score
+                best_mode = mode
+                best_data = mode_data
+
+        except Exception as e:
+            app.logger.warning(f"Failed to plan itinerary for mode {mode.value}: {str(e)}")
+            results[mode.value] = {
+                "error": f"Failed to calculate: {str(e)}"
+            }
+
+    return {
+        "modes": results,
+        "recommended_mode": best_mode.value if best_mode else None,
+        "recommended_data": best_data
+    }
+
 @app.route('/')
 def index():
     # 返回首页，前端页面
@@ -42,33 +101,15 @@ def plan_itinerary():
         data = request.json
         if not data:
             return error_response("Request body must be JSON", 400, "Invalid request")
-        
+
         city = data.get('city')
-        preference = data.get('preference')
         start_date = data.get('start_date')
 
         # 验证必需参数
         if not city:
             return error_response("Missing required parameter: 'city'", 400, "Validation error")
-        if not preference:
-            return error_response("Missing required parameter: 'preference'", 400, "Validation error")
         if not start_date:
             return error_response("Missing required parameter: 'start_date'", 400, "Validation error")
-
-        # 根据偏好设置 transport mode
-        preference_to_mode = {
-            "walk": TransportMode.WALK,
-            "transit": TransportMode.TRANSIT,
-            "taxi": TransportMode.TAXI,
-        }
-
-        mode = preference_to_mode.get(preference)
-        if not mode:
-            return error_response(
-                f"Invalid preference value '{preference}'. Must be one of: walk, transit, taxi",
-                400,
-                "Validation error"
-            )
 
         # 加载 spots 数据
         def load_spots(city: str):
@@ -97,62 +138,58 @@ def plan_itinerary():
             min_spots_per_day=2,
         )
 
-        # 获取最佳行程
+        # 计算所有模式的比较数据
         try:
-            itinerary, score, reasons = plan_itinerary_soft_constraints(
-                city=city,
-                spots=spots,
-                days=3,
-                cfg=cfg,
-                mode=mode,
-                trials=200,
-            )
+            comparison_data = compare_transport_modes(city, spots, cfg)
         except Exception as e:
             return error_response(
-                f"Failed to plan itinerary: {str(e)}",
+                f"Failed to compare transport modes: {str(e)}",
                 500,
                 "Planning error"
             )
 
-        # 计算天气建议
+        # 计算推荐模式的天气建议
         weather_msg = None
-        try:
-            # start_date 可能是字符串，需转为 date
-            if isinstance(start_date, str):
-                start_date_obj = date.fromisoformat(start_date)
-            else:
-                start_date_obj = start_date
-            weather_msg = weather_advice(itinerary, start_date_obj)
-        except ValueError as e:
-            return error_response(
-                f"Invalid date format: {str(e)}. Expected YYYY-MM-DD",
-                400,
-                "Date parsing error"
-            )
-        except Exception as e:
-            # 天气建议失败不应该导致整个请求失败，但要记录原因
-            weather_msg = None
-            app.logger.warning(f"Weather advice generation failed: {str(e)}")
+        if comparison_data['recommended_mode'] and comparison_data['recommended_data']:
+            try:
+                # start_date 可能是字符串，需转为 date
+                if isinstance(start_date, str):
+                    start_date_obj = date.fromisoformat(start_date)
+                else:
+                    start_date_obj = start_date
 
-        # 将 Spot 对象转换为字典
-        itinerary_dict = []
-        for day in itinerary.days:
-            day_dict = {
-                "day": day.day,
-                "spots": [spot.to_dict() for spot in day.spots]
-            }
-            itinerary_dict.append(day_dict)
+                # Reconstruct itinerary from recommended data for weather advice
+                from agent.models import Itinerary, DayPlan
+                recommended_itinerary = Itinerary(
+                    city=city,
+                    days=[
+                        DayPlan(
+                            day=day_data['day'],
+                            spots=[Spot(**spot) for spot in day_data['spots']]
+                        )
+                        for day_data in comparison_data['recommended_data']['itinerary']
+                    ]
+                )
+                weather_msg = weather_advice(recommended_itinerary, start_date_obj)
+            except ValueError as e:
+                return error_response(
+                    f"Invalid date format: {str(e)}. Expected YYYY-MM-DD",
+                    400,
+                    "Date parsing error"
+                )
+            except Exception as e:
+                # 天气建议失败不应该导致整个请求失败，但要记录原因
+                weather_msg = None
+                app.logger.warning(f"Weather advice generation failed: {str(e)}")
 
-        # 返回计划结果
+        # 返回比较结果
         response_data = {
-            'score': score,
-            'reasons': reasons,
-            'itinerary': itinerary_dict,
+            'comparison': comparison_data,
             'weather_advice': weather_msg,
         }
-        
-        return success_response(response_data, "Itinerary planned successfully")
-    
+
+        return success_response(response_data, "Transport modes compared successfully")
+
     except Exception as e:
         # Catch-all for unexpected errors
         app.logger.error(f"Unexpected error in plan_itinerary: {traceback.format_exc()}")
