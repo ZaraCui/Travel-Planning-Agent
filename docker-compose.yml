@@ -35,6 +35,26 @@ services:
     entrypoint: ["/bin/sh", "-c", "sleep infinity"]
     restart: "no"
 
+  # Optional automated renewer: runs certbot renew periodically and reloads nginx.
+  # This service uses the Docker socket to spawn a short-lived certbot runner
+  # so it can reuse the same named volumes and then requests nginx to reload.
+  # NOTE: mounting the Docker socket grants broad privileges to this container.
+  # Use only on trusted hosts. Alternatively run renewal from the host's crontab.
+  certbot-renew:
+    image: docker:24
+    container_name: travel-agent-certbot-renew
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - certs:/etc/letsencrypt
+      - webroot:/var/www/certbot
+    restart: unless-stopped
+    command: >
+      sh -c "while :; do \
+        docker run --rm -v certs:/etc/letsencrypt -v webroot:/var/www/certbot certbot/certbot renew --webroot -w /var/www/certbot || true; \
+        docker exec travel-agent-nginx nginx -s reload || true; \
+        sleep 12h; \
+      done"
+
 volumes:
   certs:
   webroot:
