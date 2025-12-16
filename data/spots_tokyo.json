@@ -70,5 +70,68 @@
         "duration_minutes": 60,
         "rating": 3.9,
         "description": "Akihabara — Shopping area with stores and local vendors; good for browsing. Highlights: Akihabara. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Odaiba",
+        "lat": 35.6273,
+        "lon": 139.7765,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Odaiba — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Odaiba. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Ginza",
+        "lat": 35.6717,
+        "lon": 139.7645,
+        "category": "shopping",
+        "duration_minutes": 60,
+        "rating": 3.9,
+        "description": "Ginza — Shopping area with stores and local vendors; good for browsing. Highlights: Ginza. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Roppongi Hills",
+        "lat": 35.6605,
+        "lon": 139.7292,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Roppongi Hills — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Roppongi Hills. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Harajuku",
+        "lat": 35.6702,
+        "lon": 139.702,
+        "category": "shopping",
+        "duration_minutes": 60,
+        "rating": 3.9,
+        "description": "Harajuku — Shopping area with stores and local vendors; good for browsing. Highlights: Harajuku. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Ikebukuro",
+        "lat": 35.7289,
+        "lon": 139.7101,
+        "category": "shopping",
+        "duration_minutes": 60,
+        "rating": 3.9,
+        "description": "Ikebukuro — Shopping area with stores and local vendors; good for browsing. Highlights: Ikebukuro. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Shimokitazawa",
+        "lat": 35.6614,
+        "lon": 139.6676,
+        "category": "shopping",
+        "duration_minutes": 60,
+        "rating": 3.9,
+        "description": "Shimokitazawa — Shopping area with stores and local vendors; good for browsing. Highlights: Shimokitazawa. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Yanaka Ginza",
+        "lat": 35.7284,
+        "lon": 139.7703,
+        "category": "shopping",
+        "duration_minutes": 60,
+        "rating": 3.9,
+        "description": "Yanaka Ginza — Shopping area with stores and local vendors; good for browsing. Highlights: Yanaka Ginza. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
     }
 ]

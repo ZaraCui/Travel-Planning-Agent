@@ -1,0 +1,128 @@
+[
+    {
+        "name": "The Bund",
+        "description": "Iconic waterfront area with colonial-era buildings and stunning skyline views.",
+        "location": "The Bund, Shanghai, China",
+        "category": "Historical Landmark"
+    },
+    {
+        "name": "Yu Garden",
+        "description": "Classical Chinese garden with pavilions, rockeries, and ponds dating back to the Ming Dynasty.",
+        "location": "218 Anren St, Huangpu District, Shanghai, China",
+        "category": "Garden"
+    },
+    {
+        "name": "Shanghai Tower",
+        "description": "The tallest building in China with an observation deck offering panoramic views of the city.",
+        "location": "501 Yincheng Middle Rd, Lujiazui, Pudong, Shanghai, China",
+        "category": "Skyscraper"
+    },
+    {
+        "name": "Nanjing Road",
+        "description": "Famous shopping street with a mix of traditional stores and modern malls.",
+        "location": "Nanjing Rd, Shanghai, China",
+        "category": "Shopping Street"
+    },
+    {
+        "name": "Jade Buddha Temple",
+        "description": "Buddhist temple known for its two jade Buddha statues and serene atmosphere.",
+        "location": "170 Anyuan Rd, Jing'an District, Shanghai, China",
+        "category": "Temple"
+    },
+    {
+        "name": "Shanghai Museum",
+        "description": "World-class museum showcasing ancient Chinese art, including ceramics, paintings, and calligraphy.",
+        "location": "201 Renmin Ave, People's Square, Shanghai, China",
+        "category": "Museum"
+    },
+    {
+        "name": "Xintiandi",
+        "description": "Trendy area with restored Shikumen houses now serving as cafes, restaurants, and shops.",
+        "location": "Xintiandi, Huangpu District, Shanghai, China",
+        "category": "Entertainment District"
+    },
+    {
+        "name": "Oriental Pearl Tower",
+        "description": "Futuristic TV tower with observation decks and a revolving restaurant.",
+        "location": "1 Century Ave, Lujiazui, Pudong, Shanghai, China",
+        "category": "Landmark"
+    },
+    {
+        "name": "Tianzifang",
+        "description": "Artistic enclave with narrow alleys filled with galleries, boutiques, and eateries.",
+        "location": "Tianzifang, Huangpu District, Shanghai, China",
+        "category": "Art District"
+    },
+    {
+        "name": "Shanghai Disneyland",
+        "description": "Large theme park featuring Disney-themed rides, shows, and attractions.",
+        "location": "Pudong, Shanghai, China",
+        "category": "Theme Park"
+    },
+    {
+        "name": "Fuxing Park",
+        "description": "Beautiful park with French-style gardens, a lake, and recreational areas.",
+        "location": "516 Fuxing Middle Rd, Huangpu District, Shanghai, China",
+        "category": "Park"
+    },
+    {
+        "name": "Shanghai Science and Technology Museum",
+        "description": "Interactive museum with exhibits on science, technology, and natural history.",
+        "location": "2000 Century Ave, Pudong, Shanghai, China",
+        "category": "Science Museum"
+    },
+    {
+        "name": "Longhua Temple",
+        "description": "Ancient Buddhist temple complex with beautiful architecture and gardens.",
+        "location": "2853 Longhua Rd, Xuhui District, Shanghai, China",
+        "category": "Temple"
+    },
+    {
+        "name": "People's Square",
+        "description": "Central public square surrounded by museums, theaters, and government buildings.",
+        "location": "People's Square, Huangpu District, Shanghai, China",
+        "category": "Public Square"
+    },
+    {
+        "name": "Shanghai Circus World",
+        "description": "Venue offering spectacular circus performances featuring acrobatics and stunts.",
+        "location": "2266 Gonghexin Rd, Jing'an District, Shanghai, China",
+        "category": "Entertainment"
+    }, 
+    {
+        "name": "Zhujiajiao Water Town",
+        "description": "Ancient water town with canals, traditional architecture, and charming streets.",
+        "location": "Zhujiajiao, Qingpu District, Shanghai, China",
+        "category": "Water Town"
+    },
+    {
+        "name": "Shanghai Botanical Garden",
+        "description": "Expansive garden featuring diverse plant species, themed gardens, and greenhouses.",
+        "location": "1111 Longwu Rd, Xuhui District, Shanghai, China",
+        "category": "Botanical Garden"
+    },
+    {
+        "name": "M50 Creative Park",
+        "description": "Contemporary art district with galleries, studios, and cafes in a former industrial area.",
+        "location": "50 Moganshan Rd, Putuo District, Shanghai, China",
+        "category": "Art District"
+    },
+    {
+        "name": "Shanghai Ocean Aquarium",
+        "description": "Large aquarium featuring marine life from around the world and underwater tunnels.",
+        "location": "1388 Lujiazui Ring Rd, Pudong, Shanghai, China",
+        "category": "Aquarium"
+    },
+    {
+        "name": "Century Park",
+        "description": "Spacious urban park with lakes, gardens, and recreational facilities.",
+        "location": "No. 1001 Jinxiu Rd, Pudong, Shanghai, China",
+        "category": "Park"
+    },
+    {
+        "name": "Shanghai Grand Theatre",
+        "description": "Modern performing arts venue hosting operas, ballets, and concerts.",
+        "location": "300 Renmin Ave, People's Square, Shanghai, China",
+        "category": "Theatre"
+    }
+]

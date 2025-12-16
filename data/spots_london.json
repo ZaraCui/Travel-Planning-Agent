@@ -79,5 +79,77 @@
         "duration_minutes": 60,
         "rating": 3.9,
         "description": "Covent Garden — Shopping area with stores and local vendors; good for browsing. Highlights: Covent Garden. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Regent's Park",
+        "lat": 51.5313,
+        "lon": -0.1569,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Regent's Park — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Regent's Park. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "National Gallery",
+        "lat": 51.5089,
+        "lon": -0.1283,
+        "category": "indoor",
+        "duration_minutes": 90,
+        "rating": 4.3,
+        "description": "National Gallery — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: National Gallery. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Camden Market",
+        "lat": 51.5416,
+        "lon": -0.142,
+        "category": "shopping",
+        "duration_minutes": 60,
+        "rating": 3.9,
+        "description": "Camden Market — Shopping area with stores and local vendors; good for browsing. Highlights: Camden Market. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "St. Paul's Cathedral",
+        "lat": 51.5138,
+        "lon": -0.0984,
+        "category": "temple",
+        "duration_minutes": 45,
+        "rating": 4.1,
+        "description": "St. Paul's Cathedral — Historic or religious site, usually quiet and culturally significant. Highlights: St. Paul's Cathedral. Typical visit ~45 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Notting Hill",
+        "lat": 51.5095,
+        "lon": -0.2064,
+        "category": "shopping",
+        "duration_minutes": 60,
+        "rating": 3.9,
+        "description": "Notting Hill — Shopping area with stores and local vendors; good for browsing. Highlights: Notting Hill. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Greenwich Park",
+        "lat": 51.4769,
+        "lon": -0.0005,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Greenwich Park — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Greenwich Park. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Victoria and Albert Museum",
+        "lat": 51.4966,
+        "lon": -0.1722,
+        "category": "indoor",
+        "duration_minutes": 90,
+        "rating": 4.3,
+        "description": "Victoria and Albert Museum — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: V&A Museum. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Brick Lane",
+        "lat": 51.5214,
+        "lon": -0.0711,
+        "category": "shopping",
+        "duration_minutes": 60,
+        "rating": 3.9,
+        "description": "Brick Lane — Shopping area with stores and local vendors; good for browsing. Highlights: Brick Lane. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
     }
 ]

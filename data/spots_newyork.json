@@ -70,5 +70,95 @@
         "duration_minutes": 60,
         "rating": 3.9,
         "description": "Fifth Avenue Shopping — Shopping area with stores and local vendors; good for browsing. Highlights: Fifth Avenue. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "High Line",
+        "lat": 40.7479,
+        "lon": -74.0049,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "High Line — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: High Line. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Chelsea Market",
+        "lat": 40.7424,
+        "lon": -74.0059,
+        "category": "shopping",
+        "duration_minutes": 60,
+        "rating": 3.9,
+        "description": "Chelsea Market — Shopping area with stores and local vendors; good for browsing. Highlights: Chelsea Market. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Museum of Modern Art (MoMA)",
+        "lat": 40.7614,
+        "lon": -73.9776,
+        "category": "indoor",
+        "duration_minutes": 90,
+        "rating": 4.3,
+        "description": "Museum of Modern Art (MoMA) — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: MoMA. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "SoHo Shopping District",
+        "lat": 40.7233,
+        "lon": -74.002,
+        "category": "shopping",
+        "duration_minutes": 60,
+        "rating": 3.9,
+        "description": "SoHo Shopping District — Shopping area with stores and local vendors; good for browsing. Highlights: SoHo. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Coney Island",
+        "lat": 40.5749,
+        "lon": -73.985,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Coney Island — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Coney Island. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Wall Street",
+        "lat": 40.7075,
+        "lon": -74.0113,
+        "category": "outdoor",
+        "duration_minutes": 30,
+        "rating": 4.0,
+        "description": "Wall Street — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Wall Street. Typical visit ~30 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Madison Avenue Shopping",
+        "lat": 40.7632,
+        "lon": -73.9721,
+        "category": "shopping",
+        "duration_minutes": 60,
+        "rating": 3.9,
+        "description": "Madison Avenue Shopping — Shopping area with stores and local vendors; good for browsing. Highlights: Madison Avenue. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Bryant Park",
+        "lat": 40.7536,
+        "lon": -73.9832,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Bryant Park — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Bryant Park. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Lincoln Center for the Performing Arts",
+        "lat": 40.7725,
+        "lon": -73.9835,
+        "category": "indoor",
+        "duration_minutes": 90,
+        "rating": 4.3,
+        "description": "Lincoln Center for the Performing Arts — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Lincoln Center. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+    },
+    {
+        "name": "Fulton Street Mall",
+        "lat": 40.7099,
+        "lon": -74.0064,
+        "category": "shopping",
+        "duration_minutes": 60,
+        "rating": 3.9,
+        "description": "Fulton Street Mall — Shopping area with stores and local vendors; good for browsing. Highlights: Fulton Street Mall. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
     }
 ]
