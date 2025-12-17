@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, send_from_directory
 from flask_socketio import SocketIO, emit
 from agent.planner import plan_itinerary_soft_constraints
 from agent.geometry import TransportMode
@@ -286,6 +286,11 @@ def index():
     # Inject Google Maps API key from environment into the rendered template
     google_maps_key = os.environ.get('GOOGLE_MAPS_API_KEY', '')
     return render_template('index.html', google_maps_api_key=google_maps_key)
+
+@app.route('/static/<path:filename>')
+def serve_static(filename):
+    """Serve static files (especially config.js)"""
+    return send_from_directory('static', filename)
 
 @app.route('/api/spots/<city>', methods=['GET'])
 def get_spots(city):
