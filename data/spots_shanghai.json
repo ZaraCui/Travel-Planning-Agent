@@ -1,128 +1,191 @@
 [
     {
         "name": "The Bund",
-        "description": "Iconic waterfront area with colonial-era buildings and stunning skyline views.",
-        "location": "The Bund, Shanghai, China",
-        "category": "Historical Landmark"
+        "lat": 31.2401,
+        "lon": 121.4897,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.5,
+        "description": "The Bund — Iconic waterfront area with colonial-era buildings and stunning skyline views. Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes."
     },
     {
         "name": "Yu Garden",
-        "description": "Classical Chinese garden with pavilions, rockeries, and ponds dating back to the Ming Dynasty.",
-        "location": "218 Anren St, Huangpu District, Shanghai, China",
-        "category": "Garden"
+        "lat": 31.2280,
+        "lon": 121.4920,
+        "category": "outdoor",
+        "duration_minutes": 90,
+        "rating": 4.3,
+        "description": "Yu Garden — Classical Chinese garden with pavilions, rockeries, and ponds dating back to the Ming Dynasty. Beautiful traditional gardens and architecture. Typical visit ~90 minutes."
     },
     {
         "name": "Shanghai Tower",
-        "description": "The tallest building in China with an observation deck offering panoramic views of the city.",
-        "location": "501 Yincheng Middle Rd, Lujiazui, Pudong, Shanghai, China",
-        "category": "Skyscraper"
+        "lat": 31.2333,
+        "lon": 121.5051,
+        "category": "indoor",
+        "duration_minutes": 90,
+        "rating": 4.4,
+        "description": "Shanghai Tower — The tallest building in China with an observation deck offering panoramic views of the city. Well-curated indoor spot with amazing city views. Typical visit ~90 minutes."
     },
     {
         "name": "Nanjing Road",
-        "description": "Famous shopping street with a mix of traditional stores and modern malls.",
-        "location": "Nanjing Rd, Shanghai, China",
-        "category": "Shopping Street"
+        "lat": 31.2364,
+        "lon": 121.4786,
+        "category": "shopping",
+        "duration_minutes": 120,
+        "rating": 4.1,
+        "description": "Nanjing Road — Famous shopping street with a mix of traditional stores and modern malls. Shopping area with stores and local vendors; good for browsing. Typical visit ~120 minutes."
     },
     {
         "name": "Jade Buddha Temple",
-        "description": "Buddhist temple known for its two jade Buddha statues and serene atmosphere.",
-        "location": "170 Anyuan Rd, Jing'an District, Shanghai, China",
-        "category": "Temple"
+        "lat": 31.2451,
+        "lon": 121.4456,
+        "category": "temple",
+        "duration_minutes": 45,
+        "rating": 4.2,
+        "description": "Jade Buddha Temple — Buddhist temple known for its two jade Buddha statues and serene atmosphere. Historic or religious site, usually quiet and culturally significant. Typical visit ~45 minutes."
     },
     {
         "name": "Shanghai Museum",
-        "description": "World-class museum showcasing ancient Chinese art, including ceramics, paintings, and calligraphy.",
-        "location": "201 Renmin Ave, People's Square, Shanghai, China",
-        "category": "Museum"
+        "lat": 31.2281,
+        "lon": 121.4753,
+        "category": "museum",
+        "duration_minutes": 120,
+        "rating": 4.6,
+        "description": "Shanghai Museum — World-class museum showcasing ancient Chinese art, including ceramics, paintings, and calligraphy. High-quality museum with notable collections; allow more time. Typical visit ~120 minutes."
     },
     {
         "name": "Xintiandi",
-        "description": "Trendy area with restored Shikumen houses now serving as cafes, restaurants, and shops.",
-        "location": "Xintiandi, Huangpu District, Shanghai, China",
-        "category": "Entertainment District"
+        "lat": 31.2191,
+        "lon": 121.4755,
+        "category": "shopping",
+        "duration_minutes": 90,
+        "rating": 4.2,
+        "description": "Xintiandi — Trendy area with restored Shikumen houses now serving as cafes, restaurants, and shops. Popular entertainment and shopping district. Typical visit ~90 minutes."
     },
     {
         "name": "Oriental Pearl Tower",
-        "description": "Futuristic TV tower with observation decks and a revolving restaurant.",
-        "location": "1 Century Ave, Lujiazui, Pudong, Shanghai, China",
-        "category": "Landmark"
+        "lat": 31.2397,
+        "lon": 121.4994,
+        "category": "indoor",
+        "duration_minutes": 90,
+        "rating": 4.0,
+        "description": "Oriental Pearl Tower — Futuristic TV tower with observation decks and a revolving restaurant. Well-curated indoor spot with panoramic city views. Typical visit ~90 minutes."
     },
     {
         "name": "Tianzifang",
-        "description": "Artistic enclave with narrow alleys filled with galleries, boutiques, and eateries.",
-        "location": "Tianzifang, Huangpu District, Shanghai, China",
-        "category": "Art District"
+        "lat": 31.2107,
+        "lon": 121.4651,
+        "category": "shopping",
+        "duration_minutes": 90,
+        "rating": 4.3,
+        "description": "Tianzifang — Artistic enclave with narrow alleys filled with galleries, boutiques, and eateries. Shopping and art area with unique local character. Typical visit ~90 minutes."
     },
     {
         "name": "Shanghai Disneyland",
-        "description": "Large theme park featuring Disney-themed rides, shows, and attractions.",
-        "location": "Pudong, Shanghai, China",
-        "category": "Theme Park"
+        "lat": 31.1442,
+        "lon": 121.6608,
+        "category": "outdoor",
+        "duration_minutes": 360,
+        "rating": 4.5,
+        "description": "Shanghai Disneyland — Large theme park featuring Disney-themed rides, shows, and attractions. Popular outdoor attraction; plan a full day visit. Typical visit ~360 minutes."
     },
     {
         "name": "Fuxing Park",
-        "description": "Beautiful park with French-style gardens, a lake, and recreational areas.",
-        "location": "516 Fuxing Middle Rd, Huangpu District, Shanghai, China",
-        "category": "Park"
+        "lat": 31.2200,
+        "lon": 121.4651,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.1,
+        "description": "Fuxing Park — Beautiful park with French-style gardens, a lake, and recreational areas. Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes."
     },
     {
         "name": "Shanghai Science and Technology Museum",
-        "description": "Interactive museum with exhibits on science, technology, and natural history.",
-        "location": "2000 Century Ave, Pudong, Shanghai, China",
-        "category": "Science Museum"
+        "lat": 31.2222,
+        "lon": 121.5427,
+        "category": "museum",
+        "duration_minutes": 150,
+        "rating": 4.4,
+        "description": "Shanghai Science and Technology Museum — Interactive museum with exhibits on science, technology, and natural history. High-quality museum with notable collections; allow more time. Typical visit ~150 minutes."
     },
     {
         "name": "Longhua Temple",
-        "description": "Ancient Buddhist temple complex with beautiful architecture and gardens.",
-        "location": "2853 Longhua Rd, Xuhui District, Shanghai, China",
-        "category": "Temple"
+        "lat": 31.1791,
+        "lon": 121.4438,
+        "category": "temple",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Longhua Temple — Ancient Buddhist temple complex with beautiful architecture and gardens. Historic or religious site, usually quiet and culturally significant. Typical visit ~60 minutes."
     },
     {
         "name": "People's Square",
-        "description": "Central public square surrounded by museums, theaters, and government buildings.",
-        "location": "People's Square, Huangpu District, Shanghai, China",
-        "category": "Public Square"
+        "lat": 31.2281,
+        "lon": 121.4750,
+        "category": "outdoor",
+        "duration_minutes": 45,
+        "rating": 4.0,
+        "description": "People's Square — Central public square surrounded by museums, theaters, and government buildings. Popular outdoor attraction with good access to other sites. Typical visit ~45 minutes."
     },
     {
         "name": "Shanghai Circus World",
-        "description": "Venue offering spectacular circus performances featuring acrobatics and stunts.",
-        "location": "2266 Gonghexin Rd, Jing'an District, Shanghai, China",
-        "category": "Entertainment"
-    }, 
+        "lat": 31.3074,
+        "lon": 121.4539,
+        "category": "indoor",
+        "duration_minutes": 120,
+        "rating": 4.4,
+        "description": "Shanghai Circus World — Venue offering spectacular circus performances featuring acrobatics and stunts. Well-curated indoor entertainment; evening shows recommended. Typical visit ~120 minutes."
+    },
     {
         "name": "Zhujiajiao Water Town",
-        "description": "Ancient water town with canals, traditional architecture, and charming streets.",
-        "location": "Zhujiajiao, Qingpu District, Shanghai, China",
-        "category": "Water Town"
+        "lat": 31.1120,
+        "lon": 121.0524,
+        "category": "outdoor",
+        "duration_minutes": 180,
+        "rating": 4.3,
+        "description": "Zhujiajiao Water Town — Ancient water town with canals, traditional architecture, and charming streets. Popular outdoor attraction; plan a half-day visit. Typical visit ~180 minutes."
     },
     {
         "name": "Shanghai Botanical Garden",
-        "description": "Expansive garden featuring diverse plant species, themed gardens, and greenhouses.",
-        "location": "1111 Longwu Rd, Xuhui District, Shanghai, China",
-        "category": "Botanical Garden"
+        "lat": 31.1551,
+        "lon": 121.4367,
+        "category": "outdoor",
+        "duration_minutes": 120,
+        "rating": 4.2,
+        "description": "Shanghai Botanical Garden — Expansive garden featuring diverse plant species, themed gardens, and greenhouses. Popular outdoor attraction with scenic views. Typical visit ~120 minutes."
     },
     {
         "name": "M50 Creative Park",
-        "description": "Contemporary art district with galleries, studios, and cafes in a former industrial area.",
-        "location": "50 Moganshan Rd, Putuo District, Shanghai, China",
-        "category": "Art District"
+        "lat": 31.2555,
+        "lon": 121.4462,
+        "category": "indoor",
+        "duration_minutes": 90,
+        "rating": 4.0,
+        "description": "M50 Creative Park — Contemporary art district with galleries, studios, and cafes in a former industrial area. Well-curated indoor spot for art enthusiasts. Typical visit ~90 minutes."
     },
     {
         "name": "Shanghai Ocean Aquarium",
-        "description": "Large aquarium featuring marine life from around the world and underwater tunnels.",
-        "location": "1388 Lujiazui Ring Rd, Pudong, Shanghai, China",
-        "category": "Aquarium"
+        "lat": 31.2431,
+        "lon": 121.5014,
+        "category": "indoor",
+        "duration_minutes": 120,
+        "rating": 4.3,
+        "description": "Shanghai Ocean Aquarium — Large aquarium featuring marine life from around the world and underwater tunnels. Well-curated indoor spot; great for families. Typical visit ~120 minutes."
     },
     {
         "name": "Century Park",
-        "description": "Spacious urban park with lakes, gardens, and recreational facilities.",
-        "location": "No. 1001 Jinxiu Rd, Pudong, Shanghai, China",
-        "category": "Park"
+        "lat": 31.2193,
+        "lon": 121.5519,
+        "category": "outdoor",
+        "duration_minutes": 90,
+        "rating": 4.1,
+        "description": "Century Park — Spacious urban park with lakes, gardens, and recreational facilities. Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~90 minutes."
     },
     {
         "name": "Shanghai Grand Theatre",
-        "description": "Modern performing arts venue hosting operas, ballets, and concerts.",
-        "location": "300 Renmin Ave, People's Square, Shanghai, China",
-        "category": "Theatre"
+        "lat": 31.2287,
+        "lon": 121.4750,
+        "category": "indoor",
+        "duration_minutes": 150,
+        "rating": 4.3,
+        "description": "Shanghai Grand Theatre — Modern performing arts venue hosting operas, ballets, and concerts. Well-curated indoor entertainment; check performance schedule. Typical visit ~150 minutes."
     }
 ]
