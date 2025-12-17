@@ -466,6 +466,9 @@
         // Set today as default date
         document.getElementById('start_date').valueAsDate = new Date();
 
+        // Load Google Maps script on page load
+        loadGoogleMapsScript();
+
         // --- Google Maps integration ---
         let gmap = null;
         let gmapInitialized = false;
@@ -511,11 +514,24 @@
 
             itinerary.forEach(day => {
                 if (day.spots && Array.isArray(day.spots)) {
-                    const coords = day.spots.map(spot => ({ lat: spot.lat, lng: spot.lng }));
+                    // Convert lon to lng and validate coordinates
+                    const validSpots = day.spots.filter(spot => 
+                        spot && 
+                        typeof spot.lat === 'number' && 
+                        typeof (spot.lng || spot.lon) === 'number'
+                    );
                     
-                    day.spots.forEach((spot, i) => {
+                    const coords = validSpots.map(spot => ({ 
+                        lat: Number(spot.lat), 
+                        lng: Number(spot.lng || spot.lon) 
+                    }));
+                    
+                    validSpots.forEach((spot, i) => {
                         const marker = new google.maps.Marker({
-                            position: { lat: spot.lat, lng: spot.lng },
+                            position: { 
+                                lat: Number(spot.lat), 
+                                lng: Number(spot.lng || spot.lon) 
+                            },
                             map: gmap,
                             title: spot.name,
                             label: String(markerIndex++),
@@ -553,11 +569,24 @@
 
             modeData.itinerary.forEach(day => {
                 if (day.spots && Array.isArray(day.spots)) {
-                    const coords = day.spots.map(spot => ({ lat: spot.lat, lng: spot.lng }));
+                    // Convert lon to lng and validate coordinates
+                    const validSpots = day.spots.filter(spot => 
+                        spot && 
+                        typeof spot.lat === 'number' && 
+                        typeof (spot.lng || spot.lon) === 'number'
+                    );
                     
-                    day.spots.forEach((spot, i) => {
+                    const coords = validSpots.map(spot => ({ 
+                        lat: Number(spot.lat), 
+                        lng: Number(spot.lng || spot.lon) 
+                    }));
+                    
+                    validSpots.forEach((spot, i) => {
                         const marker = new google.maps.Marker({
-                            position: { lat: spot.lat, lng: spot.lng },
+                            position: { 
+                                lat: Number(spot.lat), 
+                                lng: Number(spot.lng || spot.lon) 
+                            },
                             map: gmap,
                             title: spot.name,
                             label: String(markerIndex++),
