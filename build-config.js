@@ -9,3 +9,12 @@ window.GOOGLE_MAPS_API_KEY = '${googleKey}';
 fs.mkdirSync('static', { recursive: true });
 fs.writeFileSync('static/config.js', content);
 console.log('Generated static/config.js');
+
+// Copy index.html to static/index.html so Vercel can serve it
+if (fs.existsSync('templates/index.html')) {
+    fs.copyFileSync('templates/index.html', 'static/index.html');
+    console.log('Copied templates/index.html to static/index.html');
+} else {
+    console.error('Error: templates/index.html not found!');
+    process.exit(1);
+}
