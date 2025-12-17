@@ -1,46 +1,46 @@
-# 用户自定义景点选择功能 (Custom Spot Selection)
+# Custom Spot Selection Feature
 
-## 概述
+## Overview
 
-现在用户可以选择自己想去的景点，而不是让 AI 自动选择所有景点。
+Users can now select specific spots they want to visit, rather than letting the AI automatically choose from all available spots.
 
-## 功能说明
+## Feature Description
 
-### 1. **所有城市的景点都会被 Agent 考虑**
+### 1. **All City Spots Are Considered by the Agent**
 
-- ✅ Agent 会加载该城市的所有景点数据
-- ✅ 规划算法会考虑所有可用景点
-- ✅ 通过优化算法选择最佳景点组合
+- ✅ Agent loads all spot data for the selected city
+- ✅ Planning algorithm considers all available spots
+- ✅ Optimal spot combinations are selected through optimization
 
-**为什么有些景点没被选中？**
-- 天数限制（3天只能去有限的景点）
-- 时间预算（每天240-360分钟）
-- 景点间距离（远的景点可能被淘汰）
-- 优化目标（最小化旅行时间和距离）
+**Why aren't some spots selected?**
+- Day limitations (3 days can only fit a limited number of spots)
+- Time budget (240-360 minutes per day)
+- Distance between spots (remote spots may be eliminated)
+- Optimization objectives (minimize travel time and distance)
 
-### 2. **用户可以手动选择景点**
+### 2. **Manual Spot Selection**
 
-新增功能让用户完全控制要去哪些景点：
+New feature gives users complete control over which spots to visit:
 
-**界面操作：**
-1. 选择城市（如 Shanghai）
-2. 景点列表自动加载，显示所有可用景点
-3. 勾选你想去的景点
-4. 点击"Compare Transport Modes"生成行程
+**UI Operations:**
+1. Select a city (e.g., Shanghai)
+2. Spot list automatically loads, displaying all available spots
+3. Check the spots you want to visit
+4. Click "Compare Transport Modes" to generate itinerary
 
-**可选操作：**
-- **全选**：快速选择所有景点
-- **全不选**：清除所有选择
-- **不选任何景点**：使用所有景点（原有行为）
+**Optional Actions:**
+- **Select All**: Quickly select all spots
+- **Deselect All**: Clear all selections
+- **No Selection**: Use all spots (default behavior)
 
-### 3. **API 支持**
+### 3. **API Support**
 
-#### 获取城市景点列表
+#### Get City Spot List
 ```bash
 GET /api/spots/<city>
 ```
 
-示例响应：
+Example Response:
 ```json
 {
   "status": "success",
@@ -61,18 +61,18 @@ GET /api/spots/<city>
 }
 ```
 
-#### 规划行程（带景点选择）
+#### Plan Itinerary (with spot selection)
 ```bash
 POST /plan_itinerary
 ```
 
-请求体：
+Request Body:
 ```json
 {
   "city": "shanghai",
   "start_date": "2025-01-01",
   "days": 3,
-  "selected_spots": ["The Bund", "Yu Garden", "Shanghai Tower"],  // 可选
+  "selected_spots": ["The Bund", "Yu Garden", "Shanghai Tower"],  // Optional
   "weights": {
     "time": 0.5,
     "distance": 0.2,
@@ -81,89 +81,89 @@ POST /plan_itinerary
 }
 ```
 
-**参数说明：**
-- `selected_spots`: 可选数组，包含景点名称
-  - 如果提供：只使用选中的景点
-  - 如果为空/null/不提供：使用该城市的所有景点
+**Parameter Description:**
+- `selected_spots`: Optional array containing spot names
+  - If provided: Only use selected spots
+  - If empty/null/omitted: Use all spots for that city
 
-## 使用场景
+## Use Cases
 
-### 场景 1：完全自定义
-用户知道想去哪些景点，手动选择：
+### Case 1: Full Customization
+User knows exactly which spots to visit:
 ```
-✅ 选择：The Bund, Yu Garden, Shanghai Tower, Nanjing Road
-→ Agent 只用这4个景点规划2-3天行程
-```
-
-### 场景 2：探索模式
-用户不确定去哪，不选任何景点：
-```
-✅ 不选景点（默认）
-→ Agent 从21个景点中自动选择最优组合
+✅ Select: The Bund, Yu Garden, Shanghai Tower, Nanjing Road
+→ Agent plans 2-3 day itinerary using only these 4 spots
 ```
 
-### 场景 3：排除不感兴趣的景点
-用户不想去某些景点，选择其余的：
+### Case 2: Exploration Mode
+User unsure about which spots, makes no selection:
 ```
-❌ 不想去：Shanghai Disneyland, Shopping malls
-✅ 选择：剩余18个景点
-→ Agent 在这18个中优化
+✅ No spot selection (default)
+→ Agent automatically selects optimal combination from 21 spots
 ```
 
-## 测试验证
+### Case 3: Exclude Unwanted Spots
+User doesn't want certain spots, selects the rest:
+```
+❌ Don't want: Shanghai Disneyland, Shopping malls
+✅ Select: Remaining 18 spots
+→ Agent optimizes among these 18
+```
 
-运行测试脚本验证功能：
+## Testing & Validation
+
+Run test script to verify functionality:
 ```bash
 python3 test_custom_spots.py
 ```
 
-测试覆盖：
-1. ✅ 获取景点列表 API
-2. ✅ 选择5个景点生成2天行程
-3. ✅ 不选景点使用所有21个景点
-4. ✅ 验证只使用用户选择的景点
+Test Coverage:
+1. ✅ Get spot list API
+2. ✅ Generate 2-day itinerary with 5 selected spots
+3. ✅ Use all 21 spots when none selected
+4. ✅ Verify only user-selected spots are used
 
-## 技术实现
+## Technical Implementation
 
-### 前端 (static/index.html)
-- 城市选择器增加 Shanghai 选项
-- 监听城市变化事件，调用 `/api/spots/<city>`
-- 渲染景点复选框列表（带滚动）
-- 表单提交时收集选中景点名称
+### Frontend (templates/index.html)
+- Added Shanghai to city dropdown
+- Listen to city change event, call `/api/spots/<city>`
+- Render spot checkbox list (with scrolling)
+- Collect selected spot names on form submission
 
-### 后端 (app.py)
-- 新增 `GET /api/spots/<city>` 端点返回景点列表
-- 修改 `POST /plan_itinerary` 支持 `selected_spots` 参数
-- 在加载景点后过滤，只保留选中的景点
-- 保持向后兼容（无选择=全部景点）
+### Backend (app.py)
+- New `GET /api/spots/<city>` endpoint returns spot list
+- Modified `POST /plan_itinerary` to accept `selected_spots` parameter
+- Filter spots after loading, keeping only selected ones
+- Maintains backward compatibility (no selection = all spots)
 
-## 常见问题
+## FAQ
 
-**Q: 为什么我的新景点没出现在行程里？**
-A: 现在有两个原因：
-1. 优化算法没选中它（天数/时间/距离限制）
-2. 你没有勾选它（如果使用了景点选择功能）
+**Q: Why doesn't my new spot appear in the itinerary?**
+A: Two possible reasons:
+1. Optimization algorithm didn't select it (day/time/distance constraints)
+2. You didn't check it (if using spot selection feature)
 
-**Q: 怎么确保某个景点一定在行程里？**
-A: 使用景点选择功能，只勾选你想去的景点（包括那个必须去的）
+**Q: How can I ensure a specific spot is definitely included?**
+A: Use the spot selection feature and only check the spots you want (including the must-visit one)
 
-**Q: 我想去所有景点怎么办？**
-A: 两种方式：
-1. 点击"全选"按钮
-2. 不选任何景点（默认行为）
-3. 增加旅行天数（如5-7天）
+**Q: What if I want to visit all spots?**
+A: Three options:
+1. Click "Select All" button
+2. Make no selection (default behavior)
+3. Increase travel days (e.g., 5-7 days)
 
-**Q: 选择太多景点会怎样？**
-A: Agent 会尽量全部使用，但如果天数太少：
-- 增加每天的景点数量
-- 优化景点顺序减少旅行时间
-- 如果实在放不下，会跳过部分景点
+**Q: What happens if I select too many spots?**
+A: Agent will try to use all of them, but if days are limited:
+- Increases spots per day
+- Optimizes spot order to reduce travel time
+- May skip some spots if they truly don't fit
 
-## 下一步改进
+## Future Enhancements
 
-可能的增强功能（参考 PRODUCT_ROADMAP.md）：
-- [ ] 按类别过滤景点（只看博物馆/寺庙等）
-- [ ] 标记"必去"景点（优先级高）
-- [ ] 显示景点地图预览
-- [ ] 保存用户的景点偏好
-- [ ] 推荐相似景点
+Possible improvements (refer to PRODUCT_ROADMAP.md):
+- [ ] Filter spots by category (museums/temples only)
+- [ ] Mark "must-visit" spots (high priority)
+- [ ] Display spot preview on map
+- [ ] Save user spot preferences
+- [ ] Recommend similar spots

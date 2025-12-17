@@ -1,120 +1,120 @@
-# WebSocket 实时进度功能说明
+# WebSocket Real-time Progress Feature
 
-## ✅ 已实现功能
+## ✅ Implemented Features
 
-### 后端（Flask + SocketIO）
+### Backend (Flask + SocketIO)
 
-1. **WebSocket 服务器集成**
-   - 使用 `flask-socketio` 实现实时双向通信
-   - 支持跨域 CORS 配置
-   - 事件驱动架构
+1. **WebSocket Server Integration**
+   - Uses `flask-socketio` for real-time bidirectional communication
+   - Supports cross-origin CORS configuration
+   - Event-driven architecture
 
-2. **进度推送机制**
-   - 规划开始：5%
-   - 每个交通模式计算：33%, 66%, 100%
-   - 天气获取：90%
-   - 完成：100%
+2. **Progress Pushing Mechanism**
+   - Planning start: 5%
+   - Each transport mode calculation: 33%, 66%, 100%
+   - Weather fetch: 90%
+   - Complete: 100%
 
-3. **会话管理**
-   - 每个请求生成唯一 session_id
-   - 客户端加入对应的 room
-   - 服务器定向推送进度到特定客户端
+3. **Session Management**
+   - Unique session_id generated for each request
+   - Client joins corresponding room
+   - Server pushes progress updates to specific clients
 
-### 前端（Socket.IO Client）
+### Frontend (Socket.IO Client)
 
-1. **实时进度条**
-   - 蓝紫渐变动画
-   - 百分比显示
-   - 阶段说明
+1. **Real-time Progress Bar**
+   - Blue-purple gradient animation
+   - Percentage display
+   - Stage description
 
-2. **状态提示**
-   - 初始化阶段
-   - 各个交通模式计算中
-   - 天气信息获取
-   - 完成提示
+2. **Status Indicators**
+   - Initialization stage
+   - Transport mode calculation status
+   - Weather information fetching
+   - Completion notification
 
-3. **用户体验优化**
-   - 提交表单后立即显示进度
-   - 实时更新进度百分比
-   - 完成后自动隐藏进度条
-   - 错误时也会隐藏进度条
+3. **User Experience Optimization**
+   - Show progress immediately after form submission
+   - Real-time progress percentage updates
+   - Auto-hide progress bar upon completion
+   - Hide progress bar on errors
 
-## 📊 进度阶段说明
+## 📊 Progress Stage Description
 
-| 进度 | 阶段 | 说明 |
-|------|------|------|
-| 0-5% | 初始化 | 连接服务器，加载景点数据 |
-| 5-30% | Walking 模式 | 计算步行方案 |
-| 30-60% | Transit 模式 | 计算公共交通方案 |
-| 60-90% | Taxi 模式 | 计算出租车方案 |
-| 90-100% | 天气获取 | 获取天气信息，准备最终结果 |
-| 100% | 完成 | 显示结果 |
+| Progress | Stage | Description |
+|----------|-------|-------------|
+| 0-5% | Initialization | Connecting to server, loading spot data |
+| 5-30% | Walking Mode | Calculating walking itinerary |
+| 30-60% | Transit Mode | Calculating public transport itinerary |
+| 60-90% | Taxi Mode | Calculating taxi itinerary |
+| 90-100% | Weather Fetch | Getting weather info, preparing final results |
+| 100% | Complete | Display results |
 
-## 🚀 测试说明
+## 🚀 Testing Guide
 
-### 本地测试步骤
+### Local Testing Steps
 
-1. **安装依赖**
+1. **Install Dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-2. **启动服务器**
+2. **Start Server**
 ```bash
 python app.py
 ```
 
-3. **访问应用**
+3. **Access Application**
 ```
 http://localhost:5000
 ```
 
-4. **观察进度条**
-   - 填写表单
-   - 点击 "Compare Transport Modes"
-   - 观察蓝色进度条实时更新
-   - 查看不同阶段的提示信息
+4. **Observe Progress Bar**
+   - Fill out the form
+   - Click "Compare Transport Modes"
+   - Watch the blue progress bar update in real-time
+   - See different stage notifications
 
-### 浏览器控制台日志
+### Browser Console Logs
 
-打开浏览器开发者工具（F12），在 Console 中可以看到：
+Open browser DevTools (F12), in the Console tab you'll see:
 
 ```
 🔌 WebSocket connected: abc123...
 ✅ Joined session: session_1234567890_abc
-📊 Progress update: {progress: 5, stage: "开始规划行程...", message: "正在为 paris 加载景点数据"}
-📊 Progress update: {progress: 33, stage: "正在计算 WALK 模式...", ...}
-📊 Progress update: {progress: 66, stage: "正在计算 TRANSIT 模式...", ...}
-📊 Progress update: {progress: 90, stage: "获取天气信息...", ...}
-📊 Progress update: {progress: 100, stage: "完成！", ...}
+📊 Progress update: {progress: 5, stage: "Starting planning...", message: "Loading spot data for paris"}
+📊 Progress update: {progress: 33, stage: "Calculating WALK mode...", ...}
+📊 Progress update: {progress: 66, stage: "Calculating TRANSIT mode...", ...}
+📊 Progress update: {progress: 90, stage: "Getting weather info...", ...}
+📊 Progress update: {progress: 100, stage: "Complete!", ...}
 ```
 
-## 🔧 技术细节
+## 🔧 Technical Details
 
-### WebSocket 事件
+### WebSocket Events
 
-**服务器 → 客户端**:
-- `planning_progress`: 进度更新
+**Server → Client**:
+- `planning_progress`: Progress updates
   ```javascript
   {
-    progress: 50,           // 0-100
-    stage: "计算中...",      // 当前阶段
-    message: "详细信息",     // 可选的详细说明
-    current_mode: "walk",   // 当前模式
-    completed_modes: 1,     // 已完成数量
-    total_modes: 3          // 总数量
+    progress: 50,              // 0-100
+    stage: "Calculating...",   // Current stage
+    message: "Details",        // Optional detailed description
+    current_mode: "walk",      // Current mode
+    completed_modes: 1,        // Completed count
+    total_modes: 3             // Total count
   }
   ```
 
-**客户端 → 服务器**:
-- `join_session`: 加入会话
+**Client → Server**:
+- `join_session`: Join session
   ```javascript
   {
     session_id: "session_123..."
   }
   ```
 
-### Session ID 生成
+### Session ID Generation
 
 ```javascript
 function generateSessionId() {
@@ -122,116 +122,116 @@ function generateSessionId() {
 }
 ```
 
-格式: `session_1703001234567_a1b2c3d4e`
+Format: `session_1703001234567_a1b2c3d4e`
 
-## 📝 部署注意事项
+## 📝 Deployment Notes
 
-### Render / Heroku 部署
+### Render / Heroku Deployment
 
-需要确保支持 WebSocket：
+Ensure WebSocket support:
 
-1. **Procfile** 保持不变：
+1. **Procfile** remains unchanged:
 ```
 web: gunicorn --worker-class eventlet -w 1 app:app
 ```
 
-2. **环境变量**：
+2. **Environment Variables**:
 ```
 CORS_ORIGINS=https://your-frontend.vercel.app
 ```
 
-### Vercel 前端部署
+### Vercel Frontend Deployment
 
-1. **Socket.IO 客户端**已通过 CDN 加载：
+1. **Socket.IO Client** loaded via CDN:
 ```html
 <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
 ```
 
-2. **API_BASE 配置**：
+2. **API_BASE Configuration**:
 ```javascript
 // static/config.js
 const API_BASE = 'https://your-backend.onrender.com';
 ```
 
-3. **WebSocket 连接**会自动使用正确的后端地址：
+3. **WebSocket Connection** automatically uses correct backend address:
 ```javascript
 const socket = io(_API_BASE || window.location.origin);
 ```
 
-## 🐛 故障排查
+## 🐛 Troubleshooting
 
-### 问题 1: WebSocket 连接失败
+### Issue 1: WebSocket Connection Failed
 
-**症状**: 控制台显示 `WebSocket connection failed`
+**Symptoms**: Console shows `WebSocket connection failed`
 
-**解决方案**:
-1. 检查后端服务器是否运行
-2. 确认 CORS 配置包含前端域名
-3. 检查防火墙是否阻止 WebSocket
+**Solutions**:
+1. Check if backend server is running
+2. Verify CORS configuration includes frontend domain
+3. Check if firewall blocks WebSocket
 
-### 问题 2: 进度不更新
+### Issue 2: Progress Not Updating
 
-**症状**: 进度条停在 0%
+**Symptoms**: Progress bar stuck at 0%
 
-**解决方案**:
-1. 检查浏览器控制台是否有错误
-2. 确认 `session_id` 正确传递到后端
-3. 检查 Socket.IO 连接状态
+**Solutions**:
+1. Check browser console for errors
+2. Verify `session_id` correctly passed to backend
+3. Check Socket.IO connection status
 
-### 问题 3: 部署后 WebSocket 不工作
+### Issue 3: WebSocket Not Working After Deployment
 
-**症状**: 本地正常，部署后无进度
+**Symptoms**: Works locally, no progress after deployment
 
-**解决方案**:
-1. Render: 确认使用 `eventlet` worker
-2. 检查 Render 日志中的 WebSocket 连接信息
-3. 确认环境变量 `CORS_ORIGINS` 设置正确
+**Solutions**:
+1. Render: Ensure using `eventlet` worker
+2. Check Render logs for WebSocket connection info
+3. Verify `CORS_ORIGINS` environment variable is set correctly
 
-## 🎨 自定义进度样式
+## 🎨 Customize Progress Styles
 
-可以在 `static/index.html` 中修改 CSS：
+Modify CSS in `templates/index.html`:
 
 ```css
-/* 改变进度条颜色 */
+/* Change progress bar color */
 .progress-fill {
-    background: linear-gradient(90deg, #ff6b6b, #feca57);  /* 红黄渐变 */
+    background: linear-gradient(90deg, #ff6b6b, #feca57);  /* Red-yellow gradient */
 }
 
-/* 改变进度条高度 */
+/* Change progress bar height */
 .progress-bar {
-    height: 12px;  /* 加粗进度条 */
+    height: 12px;  /* Thicker bar */
 }
 
-/* 动画效果 */
+/* Animation effect */
 .progress-fill {
     transition: width 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 ```
 
-## 📈 性能优化建议
+## 📈 Performance Optimization Suggestions
 
-1. **连接池管理**
-   - Socket.IO 自动管理连接
-   - 页面刷新会自动重连
+1. **Connection Pool Management**
+   - Socket.IO automatically manages connections
+   - Page refresh triggers auto-reconnect
 
-2. **内存优化**
-   - 完成后自动清理 session room
-   - 避免创建过多未使用的连接
+2. **Memory Optimization**
+   - Auto-cleanup session room after completion
+   - Avoid creating too many unused connections
 
-3. **网络优化**
-   - 使用二进制传输（可选）
-   - 减少消息频率（当前：每个模式发送一次）
+3. **Network Optimization**
+   - Use binary transmission (optional)
+   - Reduce message frequency (current: once per mode)
 
-## ✨ 未来增强功能
+## ✨ Future Enhancements
 
-- [ ] 添加"取消"按钮（中断规划）
-- [ ] 显示预计剩余时间
-- [ ] 更详细的子阶段进度
-- [ ] 进度历史记录
-- [ ] 多设备同步进度
+- [ ] Add "Cancel" button (interrupt planning)
+- [ ] Display estimated remaining time
+- [ ] More detailed sub-stage progress
+- [ ] Progress history log
+- [ ] Multi-device progress sync
 
 ---
 
-**实现完成时间**: 2025-12-17
-**技术栈**: Flask-SocketIO + Socket.IO Client
-**状态**: ✅ 已完成并测试
+**Implementation Date**: 2025-12-17
+**Tech Stack**: Flask-SocketIO + Socket.IO Client
+**Status**: ✅ Complete and Tested
