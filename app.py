@@ -417,11 +417,19 @@ def plan_itinerary():
             return error_response(str(e), 404, "City not found")
         except json.JSONDecodeError as e:
             return error_response(f"Corrupted city data: {str(e)}", 500, "Data loading error")
+        
+        # Store total available spots before filtering
+        total_available_spots = len(spots)
 
         # Filter spots if user selected specific ones
         selected_spots = data.get('selected_spots')
-        if selected_spots and isinstance(selected_spots, list) and len(selected_spots) > 0:
-            # Filter to only include selected spots by name
+
+        # Check for 'all selected' or 'subset selected'
+        is_subset_selected = selected_spots and isinstance(selected_spots, list) and \
+                             len(selected_spots) > 0 and len(selected_spots) < total_available_spots
+
+        if is_subset_selected:
+            # Case: A subset of spots is selected. Filter the spots list.
             selected_names = set(selected_spots)
             spots = [s for s in spots if s.name in selected_names]
             
@@ -431,16 +439,23 @@ def plan_itinerary():
                     400, 
                     "Validation error"
                 )
-        else:
-            # No spots selected - intelligent filtering for large datasets
+        
+        # If is_subset_selected is False, it means either:
+        # 1. selected_spots is falsy (None/empty list) -> "No spots selected"
+        # 2. len(selected_spots) == total_available_spots -> "All spots selected"
+        # In both these cases, we apply intelligent filtering if the dataset is large (total_available_spots > 20).
+        is_all_or_none_selected = not is_subset_selected
+
+        if is_all_or_none_selected and total_available_spots > 20:
+            # No spots or all spots selected - intelligent filtering for large datasets
             # If there are too many spots, the itinerary planner might timeout or struggle.
             # We select top 20 spots based on rating (and maybe variety later)
-            if len(spots) > 20:
-                # Sort by rating descending
-                # Ensure rating is a float
-                spots.sort(key=lambda s: float(s.rating) if s.rating is not None else 0.0, reverse=True)
-                spots = spots[:20]
-                app.logger.info(f"Auto-selected top 20 spots from {len(raw)} available for {city}")
+            
+            # Sort by rating descending
+            # Ensure rating is a float
+            spots.sort(key=lambda s: float(s.rating) if s.rating is not None else 0.0, reverse=True)
+            spots = spots[:20]
+            app.logger.info(f"Auto-selected top 20 spots from {total_available_spots} available for {city}")
         
         # 配置评分标准
         cfg = ScoreConfig(

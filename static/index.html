@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planning Agent</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+
+            body {
+                background: white !important;
+                color: black !important;
+            }
+
+            .container {
+                max-width: 100% !important;
+                padding: 0 !important;
+            }
+
+            .shadow-xl,
+            .shadow-lg,
+            .shadow-md {
+                box-shadow: none !important;
+            }
+
+            .bg-slate-50,
+            .bg-white {
+                background: white !important;
+            }
+
+            #map {
+                display: none !important;
+            }
+
+            /* Maps are tricky to print */
+            .timeline::before {
+                border-left: 2px solid #ccc;
+                background: transparent;
+            }
+
+            /* Ensure timeline content doesn't break across pages awkwardly */
+            .timeline-item {
+                break-inside: avoid;
+                page-break-inside: avoid;
+            }
+        }
+
+        /* Refined Timeline Styles */
+        .timeline {
+            position: relative;
+            padding: 40px 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 100%;
+            background: #e2e8f0;
+        }
+
+        .timeline-item {
+            margin-bottom: 60px;
+            position: relative;
+        }
+
+        .timeline-item:nth-child(odd) .timeline-content {
+            margin-left: 0;
+            margin-right: 54%;
+            text-align: right;
+        }
+
+        .timeline-item:nth-child(even) .timeline-content {
+            margin-left: 54%;
+            margin-right: 0;
+            text-align: left;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 20px;
+            background: #4f46e5;
+            border: 4px solid #e0e7ff;
+            border-radius: 50%;
+            top: 24px;
+            z-index: 10;
+            box-shadow: 0 0 0 4px white;
+        }
+
+        .timeline-content {
+            background: white;
+            padding: 24px;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            transition: all 0.3s ease;
+            border: 1px solid #f1f5f9;
+        }
+
+        .timeline-content:hover {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            transform: translateY(-4px);
+            border-color: #e0e7ff;
+        }
+
+        /* Updated Spot Card */
+        .spot-card {
+            background: #f8fafc;
+            border-left: 3px solid #4f46e5;
+            padding: 16px;
+            margin: 12px 0;
+            border-radius: 8px;
+            text-align: left;
+            /* Always align text left inside the card */
+            transition: all 0.2s ease;
+        }
+
+        .spot-card:hover {
+            background: #f1f5f9;
+        }
+
+        /* Alerts */
+        .error-alert {
+            background: #fef2f2;
+            border: 1px solid #fecaca;
+            color: #991b1b;
+            padding: 16px;
+            border-radius: 12px;
+            margin: 16px 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .success-alert {
+            background: #f0fdf4;
+            border: 1px solid #bbf7d0;
+            color: #166534;
+            padding: 16px;
+            border-radius: 12px;
+            margin: 16px 0;
+        }
+
+        /* Animations */
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #e5e7eb;
+            border-top-color: #4f46e5;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Progress bar styles */
+        .progress-container {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            padding: 32px;
+            margin: 32px 0;
+            text-align: center;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #f1f5f9;
+            border-radius: 999px;
+            overflow: hidden;
+            margin: 16px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4f46e5, #818cf8);
+            transition: width 0.5s ease;
+            width: 0%;
+            border-radius: 999px;
+        }
+
+        .progress-stage {
+            font-weight: 500;
+            color: #1e293b;
+            margin-top: 12px;
+        }
+
+        .progress-message {
+            font-size: 14px;
+            color: #64748b;
+            margin-top: 4px;
+        }
+
+        /* Custom Scrollbar for spots */
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 3px;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 24px;
+            }
+
+            .timeline-dot {
+                left: 24px;
+            }
+
+            .timeline-item:nth-child(odd) .timeline-content,
+            .timeline-item:nth-child(even) .timeline-content {
+                margin-left: 64px;
+                margin-right: 0;
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 text-slate-900 font-sans antialiased selection:bg-indigo-100 selection:text-indigo-700">
+    <!-- Hero Section -->
+    <div class="relative bg-indigo-900 text-white overflow-hidden mb-8 no-print">
+        <div
+            class="absolute inset-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-4.0.3&auto=format&fit=crop&w=2021&q=80')] bg-cover bg-center">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-b from-indigo-900/50 to-indigo-900/90"></div>
+        <div class="container mx-auto px-6 py-16 relative z-10 text-center">
+            <div
+                class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-sm text-3xl mb-6 shadow-2xl ring-1 ring-white/20">
+                ✈️
+            </div>
+            <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4 text-white drop-shadow-sm">Travel
+                Planning Agent</h1>
+            <p class="text-indigo-100 text-lg max-w-2xl mx-auto font-medium">Design your perfect journey with our
+                intelligent itinerary assistant. Optimize for time, comfort, and distance.</p>
+        </div>
+    </div>
+
+    <div class="container mx-auto p-4 sm:p-6 max-w-5xl -mt-12 relative z-20">
+        <!-- Form Card -->
+        <div
+            class="bg-white rounded-2xl shadow-xl shadow-slate-200/50 p-6 sm:p-8 mb-8 border border-slate-100 no-print">
+            <form id="itinerary-form" class="grid grid-cols-1 md:grid-cols-12 gap-6">
+
+                <!-- City Selection -->
+                <div class="md:col-span-4">
+                    <label for="city" class="block text-sm font-medium text-slate-700 mb-2">Destination City</label>
+                    <div class="relative">
+                        <select id="city" name="city"
+                            class="w-full pl-4 pr-10 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-shadow appearance-none">
+                            <option value="" disabled selected>Loading cities...</option>
+                        </select>
+                        <div
+                            class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-slate-500">
+                            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Start Date -->
+                <div class="md:col-span-4">
+                    <label for="start_date" class="block text-sm font-medium text-slate-700 mb-2">Start Date</label>
+                    <input type="date" id="start_date" name="start_date"
+                        class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-shadow">
+                </div>
+
+                <!-- Days -->
+                <div class="md:col-span-4">
+                    <label for="days" class="block text-sm font-medium text-slate-700 mb-2">Duration (Days)</label>
+                    <input type="number" id="days" name="days" min="1" max="14" value="3"
+                        class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-shadow">
+                </div>
+
+                <!-- Spots Selector -->
+                <div class="md:col-span-12">
+                    <div class="flex items-center justify-between mb-3">
+                        <label class="block text-sm font-medium text-slate-700">Attractions to Visit <span
+                                class="text-slate-400 font-normal">(Optional)</span></label>
+                        <div class="space-x-3 text-sm">
+                            <button type="button" id="select-all-spots"
+                                class="text-indigo-600 hover:text-indigo-800 font-medium transition-colors">Select
+                                All</button>
+                            <span class="text-slate-300">|</span>
+                            <button type="button" id="deselect-all-spots"
+                                class="text-slate-500 hover:text-slate-700 transition-colors">Deselect All</button>
+                        </div>
+                    </div>
+                    <div id="spots-container"
+                        class="border border-slate-200 rounded-xl p-4 max-h-80 overflow-y-auto bg-slate-50 custom-scrollbar grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                        <div class="col-span-full text-center py-8">
+                            <p class="text-slate-500">Please select a city to view available attractions</p>
+                        </div>
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 flex items-center">
+                        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        If no spots are selected, all available city attractions will be included.
+                    </p>
+                </div>
+
+                <!-- Advanced Options -->
+                <div class="md:col-span-12 pt-4 border-t border-slate-100">
+                    <div class="flex flex-col md:flex-row md:items-start gap-8">
+                        <!-- Weights -->
+                        <div class="flex-1">
+                            <label class="block text-sm font-medium text-slate-700 mb-4">Optimization
+                                Preferences</label>
+                            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                                <div class="bg-slate-50 p-3 rounded-lg border border-slate-200">
+                                    <label
+                                        class="text-xs font-semibold text-slate-500 uppercase tracking-wider block mb-1">Time
+                                        Priority</label>
+                                    <input type="range" id="weight_time" min="0" max="1" step="0.1" value="0.5"
+                                        class="w-full accent-indigo-600 h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer">
+                                    <div class="flex justify-between text-xs text-slate-400 mt-1">
+                                        <span>Less</span><span>More</span>
+                                    </div>
+                                </div>
+                                <div class="bg-slate-50 p-3 rounded-lg border border-slate-200">
+                                    <label
+                                        class="text-xs font-semibold text-slate-500 uppercase tracking-wider block mb-1">Distance
+                                        Priority</label>
+                                    <input type="range" id="weight_distance" min="0" max="1" step="0.1" value="0.2"
+                                        class="w-full accent-indigo-600 h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer">
+                                    <div class="flex justify-between text-xs text-slate-400 mt-1">
+                                        <span>Less</span><span>More</span>
+                                    </div>
+                                </div>
+                                <div class="bg-slate-50 p-3 rounded-lg border border-slate-200">
+                                    <label
+                                        class="text-xs font-semibold text-slate-500 uppercase tracking-wider block mb-1">Comfort
+                                        Priority</label>
+                                    <input type="range" id="weight_comfort" min="0" max="1" step="0.1" value="0.3"
+                                        class="w-full accent-indigo-600 h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer">
+                                    <div class="flex justify-between text-xs text-slate-400 mt-1">
+                                        <span>Less</span><span>More</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="flex-none md:w-64 pt-6">
+                            <button type="submit"
+                                class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-6 rounded-xl shadow-lg shadow-indigo-200 transition-all duration-200 transform hover:-translate-y-0.5 flex items-center justify-center">
+                                <span id="btn-text" class="text-lg">Generate Itinerary</span>
+                                <span id="loading-spinner" class="loading ml-3"
+                                    style="display: none; border-color: rgba(255,255,255,0.3); border-top-color: white;"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Progress Container -->
+        <div id="progress-container" class="progress-container" style="display: none;">
+            <h3 class="text-lg font-semibold text-gray-800 mb-2">🔄 正在规划您的行程...</h3>
+            <div class="progress-bar">
+                <div id="progress-fill" class="progress-fill"></div>
+            </div>
+            <div id="progress-stage" class="progress-stage">准备中...</div>
+            <div id="progress-message" class="progress-message"></div>
+        </div>
+
+        <!-- Results Section -->
+        <div id="results-container" style="display: none;">
+            <!-- Status Alert -->
+            <div id="status-alert"></div>
+
+            <!-- Mode Comparison -->
+            <div class="bg-white rounded-2xl shadow-xl shadow-slate-200/50 p-6 sm:p-8 mb-8 border border-slate-100">
+                <div class="flex items-center mb-8">
+                    <div class="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center text-xl mr-4">🚗
+                    </div>
+                    <h2 class="text-2xl font-bold text-slate-800">Transport Mode Comparison</h2>
+                </div>
+                <div id="comparison-container" class="grid grid-cols-1 md:grid-cols-3 gap-6"></div>
+            </div>
+
+            <!-- Weather Advisory -->
+            <div id="weather-card"
+                class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl shadow-xl shadow-blue-100/50 p-6 sm:p-8 mb-8 border border-blue-100"
+                style="display: none;">
+                <div class="flex items-center mb-4">
+                    <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-xl mr-4">🌤️
+                    </div>
+                    <h2 class="text-2xl font-bold text-slate-800">Weather Advisory</h2>
+                </div>
+                <div id="weather-text"
+                    class="text-slate-700 leading-relaxed bg-white/60 p-4 rounded-xl backdrop-blur-sm border border-white/50">
+                </div>
+            </div>
+
+            <!-- Map (Google Maps) -->
+            <div id="map"
+                class="bg-white rounded-2xl shadow-xl shadow-slate-200/50 overflow-hidden mb-8 border border-slate-200"
+                style="height: 480px; display: none;"></div>
+
+            <!-- Recommended Itinerary -->
+            <div id="recommended-section"
+                class="bg-white rounded-2xl shadow-xl shadow-slate-200/50 p-6 sm:p-8 mb-8 border border-slate-100"
+                style="display: none;">
+                <div
+                    class="flex flex-col sm:flex-row sm:items-center justify-between mb-8 pb-6 border-b border-slate-100">
+                    <div class="flex items-center mb-4 sm:mb-0">
+                        <div
+                            class="w-12 h-12 rounded-full bg-amber-100 flex items-center justify-center text-2xl mr-4 shadow-sm">
+                            ⭐</div>
+                        <div>
+                            <h2 class="text-2xl font-bold text-slate-800">Recommended Itinerary</h2>
+                            <p class="text-slate-500 mt-1">Optimized for <span id="recommended-mode-name"
+                                    class="font-semibold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded"></span></p>
+                        </div>
+                    </div>
+                    <button onclick="window.print()"
+                        class="no-print inline-flex items-center justify-center px-4 py-2 border border-slate-300 shadow-sm text-sm font-medium rounded-lg text-slate-700 bg-white hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-colors">
+                        🖨️ Print Plan
+                    </button>
+                </div>
+                <div id="timeline-container" class="timeline"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Socket.IO Client Library -->
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+
+    <!-- runtime config: create static/config.js with your API_BASE before deployment -->
+    <script src="/static/config.js"></script>
+
+    <script>
+        // Inject Google Maps API Key from Flask if available
+        const flaskMapsKey = "{{ google_maps_api_key|default('') }}";
+        if (flaskMapsKey) {
+            window.GOOGLE_MAPS_API_KEY = flaskMapsKey;
+        }
+    </script>
+
+    <script>
+        // Use API_BASE from config.js if provided, otherwise default to same origin.
+        const _API_BASE = (typeof API_BASE !== 'undefined' && API_BASE) ? API_BASE.replace(/\/$/, '') : '';
+
+        // Google Maps API key from config.js (set by window.GOOGLE_MAPS_API_KEY)
+        let GOOGLE_MAPS_API_KEY = window.GOOGLE_MAPS_API_KEY || '';
+
+        // Initialize Socket.IO connection
+        const socket = io(_API_BASE || window.location.origin, {
+            transports: ['websocket', 'polling']
+        });
+
+        let currentSessionId = null;
+
+        // Socket connection handlers
+        socket.on('connect', () => {
+            console.log('🔌 WebSocket connected:', socket.id);
+        });
+
+        socket.on('disconnect', () => {
+            console.log('❌ WebSocket disconnected');
+        });
+
+        socket.on('session_joined', (data) => {
+            console.log('✅ Joined session:', data.session_id);
+        });
+
+        socket.on('connect_error', (error) => {
+            console.error('❌ WebSocket connection error:', error);
+        });
+
+        // Progress update handler
+        socket.on('planning_progress', (data) => {
+            console.log('📊 Progress update:', data);
+            updateProgress(data.progress, data.stage, data.message || '');
+        });
+
+        // === Persistence & Initialization ===
+        document.addEventListener('DOMContentLoaded', async () => {
+            await loadCities();
+            loadPreferences();
+            // Trigger spot loading for initial or restored city
+            const city = document.getElementById('city').value;
+            if (city) loadSpotsForCity(city);
+        });
+
+        async function loadCities() {
+            const citySelect = document.getElementById('city');
+            try {
+                const response = await fetch((_API_BASE ? _API_BASE : '') + '/api/cities');
+                const data = await response.json();
+
+                if (data.status === 'success' && data.data.length > 0) {
+                    citySelect.innerHTML = data.data.map(city =>
+                        `<option value="${city.value}">${city.label}</option>`
+                    ).join('');
+                } else {
+                    citySelect.innerHTML = '<option value="" disabled>No cities available</option>';
+                }
+            } catch (error) {
+                console.error("Failed to load cities:", error);
+                citySelect.innerHTML = '<option value="" disabled>Error loading cities</option>';
+            }
+        }
+
+        function savePreferences() {
+            const prefs = {
+                city: document.getElementById('city').value,
+                start_date: document.getElementById('start_date').value,
+                days: document.getElementById('days').value,
+                weight_time: document.getElementById('weight_time').value,
+                weight_distance: document.getElementById('weight_distance').value,
+                weight_comfort: document.getElementById('weight_comfort').value
+            };
+            localStorage.setItem('travel_agent_prefs', JSON.stringify(prefs));
+        }
+
+        function loadPreferences() {
+            const saved = localStorage.getItem('travel_agent_prefs');
+            if (saved) {
+                try {
+                    const prefs = JSON.parse(saved);
+                    if (prefs.city) document.getElementById('city').value = prefs.city;
+                    if (prefs.start_date) document.getElementById('start_date').value = prefs.start_date;
+                    if (prefs.days) document.getElementById('days').value = prefs.days;
+                    if (prefs.weight_time) document.getElementById('weight_time').value = prefs.weight_time;
+                    if (prefs.weight_distance) document.getElementById('weight_distance').value = prefs.weight_distance;
+                    if (prefs.weight_comfort) document.getElementById('weight_comfort').value = prefs.weight_comfort;
+                } catch (e) {
+                    console.error("Failed to load preferences", e);
+                }
+            } else {
+                // Default date to today if nothing saved
+                document.getElementById('start_date').valueAsDate = new Date();
+            }
+        }
+
+        // === Spots Selection Feature ===
+        let availableSpots = [];
+
+        // Load spots when city changes
+        document.getElementById('city').addEventListener('change', async (event) => {
+            const city = event.target.value;
+            await loadSpotsForCity(city);
+        });
+
+        // Select/Deselect all buttons
+        document.getElementById('select-all-spots').addEventListener('click', () => {
+            document.querySelectorAll('#spots-container input[type="checkbox"]').forEach(cb => cb.checked = true);
+        });
+
+        document.getElementById('deselect-all-spots').addEventListener('click', () => {
+            document.querySelectorAll('#spots-container input[type="checkbox"]').forEach(cb => cb.checked = false);
+        });
+
+        async function loadSpotsForCity(city) {
+            const container = document.getElementById('spots-container');
+            container.innerHTML = '<p class="text-sm text-gray-500">加载中...</p>';
+
+            try {
+                const apiUrl = window.location.origin + `/api/spots/${city}`;
+                console.log('Loading spots from:', apiUrl);
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+                console.log('Spots loaded:', data);
+
+                if (data.status === 'success') {
+                    availableSpots = data.data.spots;
+                    renderSpotsCheckboxes(availableSpots);
+                } else {
+                    container.innerHTML = '<p class="text-sm text-red-500">加载失败: ' + data.reason + '</p>';
+                }
+            } catch (error) {
+                container.innerHTML = '<p class="text-sm text-red-500">加载失败: ' + error.message + '</p>';
+            }
+        }
+
+        function renderSpotsCheckboxes(spots) {
+            const container = document.getElementById('spots-container');
+            if (spots.length === 0) {
+                container.innerHTML = '<p class="text-sm text-slate-500 col-span-full text-center">No attractions found for this city.</p>';
+                return;
+            }
+
+            container.innerHTML = spots.map((spot, index) => `
+                <label class="cursor-pointer relative flex items-start p-3 rounded-xl border border-slate-200 hover:border-indigo-500 hover:bg-indigo-50/50 hover:shadow-sm transition-all duration-200 group bg-white">
+                    <div class="flex items-center h-5">
+                        <input type="checkbox" 
+                               id="spot-${index}" 
+                               value="${spot.name}" 
+                               class="h-4 w-4 text-indigo-600 border-slate-300 rounded focus:ring-indigo-500 transition-colors">
+                    </div>
+                    <div class="ml-3 text-sm flex-1">
+                        <span class="font-semibold text-slate-800 group-hover:text-indigo-700 transition-colors block mb-0.5">${spot.name}</span>
+                        <div class="flex items-center justify-between mt-1">
+                            <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-slate-100 text-slate-600">
+                                ${spot.category || 'Sightseeing'}
+                            </span>
+                            <span class="text-xs text-slate-500">
+                                ${spot.duration_minutes ? `⏱️ ${spot.duration_minutes}m` : ''}
+                            </span>
+                        </div>
+                        <div class="flex items-center mt-2 text-amber-500 text-xs font-medium">
+                            <span class="mr-1">⭐</span>${spot.rating || 'N/A'}
+                        </div>
+                    </div>
+                </label>
+            `).join('');
+        }
+
+        function getSelectedSpots() {
+            const checkboxes = document.querySelectorAll('#spots-container input[type="checkbox"]:checked');
+            return Array.from(checkboxes).map(cb => cb.value);
+        }
+
+        // === End Spots Selection Feature ===
+
+
+        // Progress UI functions
+        function showProgress() {
+            document.getElementById('progress-container').style.display = 'block';
+            document.getElementById('results-container').style.display = 'none';
+        }
+
+        function hideProgress() {
+            document.getElementById('progress-container').style.display = 'none';
+        }
+
+        function updateProgress(percent, stage, message) {
+            document.getElementById('progress-fill').style.width = percent + '%';
+            document.getElementById('progress-stage').textContent = stage || '';
+            document.getElementById('progress-message').textContent = message || '';
+        }
+
+        function generateSessionId() {
+            return 'session_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+        }
+
+        // Utility functions (same as template)
+        const formatDate = (dateString) => {
+            const options = { weekday: 'long', month: 'long', day: 'numeric' };
+            return new Date(dateString + 'T00:00:00Z').toLocaleDateString('en-US', options);
+        };
+
+        const createErrorAlert = (message, reason) => {
+            return `
+                <div class="error-alert">
+                    <div class="text-xl">❌</div>
+                    <div>
+                        <p class="font-bold text-red-800">${message}</p>
+                        <p class="text-sm text-red-600 mt-1">${reason}</p>
+                    </div>
+                </div>
+            `;
+        };
+
+        const createSuccessAlert = (message) => {
+            return `
+                <div class="success-alert flex items-center gap-3">
+                    <div class="text-xl">✅</div>
+                    <p class="font-bold text-green-800">${message}</p>
+                </div>
+            `;
+        };
+
+        const renderSpotCard = (spot) => {
+            return `
+                <div class="spot-card group hover:shadow-md hover:border-indigo-500/30">
+                    <div class="flex justify-between items-start mb-2">
+                        <h4 class="font-bold text-slate-800 text-lg flex items-center">
+                            <span class="mr-2 text-indigo-500">📍</span> ${spot.name}
+                        </h4>
+                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-50 text-indigo-700 border border-indigo-100">
+                            ${spot.category || 'Sightseeing'}
+                        </span>
+                    </div>
+                    <div class="flex items-center space-x-4 text-sm text-slate-600 mb-3 bg-slate-50 p-2 rounded-lg">
+                        <div class="flex items-center" title="Duration"><span class="mr-1.5">⏱️</span> ${spot.duration_minutes || 'N/A'} mins</div>
+                        <div class="flex items-center" title="Rating"><span class="mr-1.5 text-amber-400">⭐</span> ${spot.rating ? Number(spot.rating).toFixed(1) : 'N/A'}</div>
+                    </div>
+                    ${spot.description ? `<p class="text-sm text-slate-500 leading-relaxed">${spot.description}</p>` : ''}
+                </div>
+            `;
+        };
+
+        const renderDayTimeline = (day, startDate) => {
+            const dayDate = new Date(startDate);
+            dayDate.setDate(dayDate.getDate() + day.day - 1);
+
+            const spots = day.spots.map(spot => renderSpotCard(spot)).join('');
+
+            return `
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="flex flex-col mb-6 pb-4 border-b border-slate-100">
+                            <h3 class="text-2xl font-bold text-slate-800 mb-1">Day ${day.day}</h3>
+                            <div class="text-sm font-medium text-indigo-600 mb-2">${formatDate(dayDate.toISOString().split('T')[0])}</div>
+                            <div class="flex items-center text-xs text-slate-500 space-x-4 bg-slate-50 px-3 py-2 rounded-lg w-fit">
+                                <span class="flex items-center"><span class="mr-1">🚗</span> ${day.travel_minutes ?? 'N/A'} min travel</span>
+                                <span class="flex items-center"><span class="mr-1">📏</span> ${day.total_distance_km ?? 'N/A'} km</span>
+                            </div>
+                        </div>
+                        <div class="space-y-4">
+                            ${spots}
+                        </div>
+                    </div>
+                </div>
+            `;
+        };
+
+        const renderModeCard = (mode, modeData, isRecommended) => {
+            const modeNames = { 'walk': '🚶 Walking', 'transit': '🚌 Transit', 'taxi': '🚕 Taxi' };
+            const modeName = modeNames[mode] || mode;
+
+            // Base styles
+            let cardClass = 'bg-white rounded-2xl p-6 transition-all duration-300 border relative overflow-hidden';
+
+            // Conditional styles
+            if (isRecommended) {
+                cardClass += ' border-indigo-500 shadow-xl shadow-indigo-100 ring-4 ring-indigo-50';
+            } else {
+                cardClass += ' border-slate-200 hover:shadow-lg hover:border-indigo-300 hover:-translate-y-1';
+            }
+
+            if (modeData.error) {
+                return `
+                    <div class="${cardClass}">
+                        <h3 class="text-xl font-bold text-slate-800 mb-2">${modeName}</h3>
+                        <div class="bg-red-50 text-red-700 text-sm p-4 rounded-xl border border-red-100 flex items-start">
+                            <span class="mr-2">❌</span>
+                            <p>${modeData.error}</p>
+                        </div>
+                    </div>
+                `;
+            }
+
+            const score = modeData.score;
+            const utility = modeData.utility_score;
+            const reasons = modeData.reasons || [];
+
+            return `
+                <div class="${cardClass}">
+                    ${isRecommended ? '<div class="absolute top-0 right-0 bg-indigo-500 text-white text-xs font-bold px-3 py-1 rounded-bl-xl shadow-sm">RECOMMENDED</div>' : ''}
+                    
+                    <h3 class="text-2xl font-bold text-slate-800 mb-4 flex items-center">
+                        ${modeName}
+                    </h3>
+                    
+                    <div class="mb-6 p-4 bg-slate-50 rounded-xl border border-slate-100">
+                        <div class="flex items-baseline">
+                            <span class="text-4xl font-black text-indigo-600 tracking-tight">
+                                ${utility !== undefined && utility !== null ? Number(utility).toFixed(1) : Number(score).toFixed(2)}
+                            </span>
+                            <span class="ml-2 text-sm font-semibold text-slate-500 uppercase tracking-wide">
+                                ${utility !== undefined && utility !== null ? 'Utility Score' : 'Cost Score'}
+                            </span>
+                        </div>
+                        
+                        ${modeData.utility_explanation ?
+                    `<p class="text-sm text-slate-600 mt-3 leading-relaxed border-t border-slate-200 pt-3">${modeData.utility_explanation}</p>`
+                    : ''}
+                            
+                        <p class="text-xs text-slate-400 mt-2 font-mono">Raw Cost: ${Number(score).toFixed(2)}</p>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-bold text-slate-700 mb-3 flex items-center text-sm uppercase tracking-wide">
+                            <svg class="w-4 h-4 mr-2 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            Key Benefits
+                        </h4>
+                        <ul class="space-y-2">
+                            ${reasons.slice(0, 3).map(reason => `
+                                <li class="text-sm text-slate-600 flex items-start group">
+                                    <span class="mr-2 text-indigo-400 mt-0.5 group-hover:text-indigo-600 transition-colors">•</span>
+                                    <span>${reason}</span>
+                                </li>
+                            `).join('')}
+                        </ul>
+                    </div>
+                </div>
+            `;
+        };
+
+        // Form submission handler
+        document.getElementById('itinerary-form').addEventListener('submit', async (event) => {
+            event.preventDefault();
+
+            // Save current preferences
+            savePreferences();
+
+            // Generate unique session ID for this request
+            currentSessionId = generateSessionId();
+
+            // Join session room
+            socket.emit('join_session', { session_id: currentSessionId });
+
+            const city = document.getElementById('city').value;
+            const start_date = document.getElementById('start_date').value;
+            const days = Number(document.getElementById('days').value) || 3;
+            const weight_time = Number(document.getElementById('weight_time').value) || 0.5;
+            const weight_distance = Number(document.getElementById('weight_distance').value) || 0.2;
+            const weight_comfort = Number(document.getElementById('weight_comfort').value) || 0.3;
+
+            // Get selected spots (if any)
+            const selectedSpots = getSelectedSpots();
+
+            const btnText = document.getElementById('btn-text');
+            const spinner = document.getElementById('loading-spinner');
+            btnText.textContent = 'Comparing...'; spinner.style.display = 'inline-block';
+
+            // Show progress container
+            showProgress();
+            updateProgress(0, '初始化...', '正在连接服务器');
+
+            try {
+                const response = await fetch((_API_BASE ? _API_BASE : '') + '/plan_itinerary', {
+                    method: 'POST', headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        city: city,
+                        start_date: start_date,
+                        days: days,
+                        session_id: currentSessionId,
+                        selected_spots: selectedSpots.length > 0 ? selectedSpots : null,
+                        weights: { time: weight_time, distance: weight_distance, comfort: weight_comfort }
+                    }),
+                });
+                const responseData = await response.json();
+
+                // Hide progress, show results
+                hideProgress();
+
+                document.getElementById('results-container').style.display = 'none';
+                if (responseData.status === 'success') {
+                    const statusAlert = document.getElementById('status-alert');
+                    statusAlert.innerHTML = createSuccessAlert(responseData.message);
+                    const data = responseData.data;
+                    const comparison = data.comparison;
+                    const comparisonContainer = document.getElementById('comparison-container');
+                    const modeCards = Object.keys(comparison.modes).map(mode => renderModeCard(mode, comparison.modes[mode], mode === comparison.recommended_mode));
+                    comparisonContainer.innerHTML = modeCards.join('');
+                    const weatherCard = document.getElementById('weather-card');
+                    const weatherTextEl = document.getElementById('weather-text');
+                    if (data.weather_advice) { const w = data.weather_advice.split('\n').map(l => l.trim()).filter(Boolean).map(l => `<div class="mb-1">${l}</div>`).join(''); weatherTextEl.innerHTML = w; } else { weatherTextEl.innerHTML = '<div class="mb-1">⚠️ Weather forecast unavailable for the selected start date. Try selecting a later date.</div>'; }
+                    weatherCard.style.display = 'block';
+                    const recommendedSection = document.getElementById('recommended-section');
+                    if (comparison.recommended_mode && comparison.recommended_data) {
+                        const modeNames = { 'walk': '🚶 Walking', 'transit': '🚌 Transit', 'taxi': '🚕 Taxi' };
+                        document.getElementById('recommended-mode-name').textContent = modeNames[comparison.recommended_mode] || comparison.recommended_mode;
+                        const timelineContainer = document.getElementById('timeline-container');
+                        const itinerary = comparison.recommended_data.itinerary;
+                        if (itinerary && Array.isArray(itinerary) && itinerary.length > 0) {
+                            timelineContainer.innerHTML = itinerary.map(day => renderDayTimeline(day, start_date)).join('');
+                            // Render map
+                            renderItineraryOnMap(itinerary);
+                        } else { timelineContainer.innerHTML = '<p class="text-gray-500">No itinerary data available</p>'; }
+                        recommendedSection.style.display = 'block';
+                    } else { recommendedSection.style.display = 'none'; }
+                    document.getElementById('results-container').style.display = 'block';
+                } else if (responseData.status === 'error') {
+                    const statusAlert = document.getElementById('status-alert');
+                    statusAlert.innerHTML = createErrorAlert(responseData.message, responseData.reason);
+                    document.getElementById('results-container').style.display = 'block';
+                }
+            } catch (error) {
+                hideProgress();
+                const statusAlert = document.getElementById('status-alert');
+                statusAlert.innerHTML = createErrorAlert('Network Error', error.message);
+                document.getElementById('results-container').style.display = 'block';
+            } finally {
+                btnText.textContent = 'Compare Transport Modes';
+                spinner.style.display = 'none';
+            }
+        });
+
+        // (Default date setting moved to loadPreferences)
+
+        // Load Google Maps script on page load
+        loadGoogleMapsScript();
+
+        // --- Google Maps integration ---
+        let gmap = null;
+        let gmapInitialized = false;
+        let pendingItineraryForMap = null;
+
+        window.initMap = function () {
+            gmapInitialized = true;
+            gmap = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: 0, lng: 0 },
+                zoom: 2,
+            });
+
+            if (pendingItineraryForMap) {
+                renderItineraryOnMap(pendingItineraryForMap);
+                pendingItineraryForMap = null;
+            }
+        };
+
+        function loadGoogleMapsScript() {
+            if (!GOOGLE_MAPS_API_KEY || GOOGLE_MAPS_API_KEY === '') {
+                console.error('Google Maps API key not configured!');
+                console.log('Current GOOGLE_MAPS_API_KEY:', GOOGLE_MAPS_API_KEY);
+                return;
+            }
+            console.log('Loading Google Maps with key:', GOOGLE_MAPS_API_KEY.substring(0, 10) + '...');
+            if (document.getElementById('google-maps-script')) return;
+            const s = document.createElement('script');
+            s.id = 'google-maps-script';
+            s.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_API_KEY}&callback=initMap`;
+            s.async = true;
+            s.defer = true;
+            document.head.appendChild(s);
+        }
+
+        function renderItineraryOnMap(itinerary) {
+            if (!gmapInitialized) {
+                pendingItineraryForMap = itinerary;
+                loadGoogleMapsScript();
+                return;
+            }
+            const bounds = new google.maps.LatLngBounds();
+            let markerIndex = 1;
+
+            itinerary.forEach(day => {
+                if (day.spots && Array.isArray(day.spots)) {
+                    // Convert lon to lng and validate coordinates
+                    const validSpots = day.spots.filter(spot =>
+                        spot &&
+                        typeof spot.lat === 'number' &&
+                        typeof (spot.lng || spot.lon) === 'number'
+                    );
+
+                    const coords = validSpots.map(spot => ({
+                        lat: Number(spot.lat),
+                        lng: Number(spot.lng || spot.lon)
+                    }));
+
+                    validSpots.forEach((spot, i) => {
+                        const marker = new google.maps.Marker({
+                            position: {
+                                lat: Number(spot.lat),
+                                lng: Number(spot.lng || spot.lon)
+                            },
+                            map: gmap,
+                            title: spot.name,
+                            label: String(markerIndex++),
+                        });
+                        bounds.extend(marker.getPosition());
+                    });
+
+                    if (coords.length > 1) {
+                        const pl = new google.maps.Polyline({
+                            path: coords,
+                            geodesic: true,
+                            strokeColor: '#3b82f6',
+                            strokeOpacity: 0.7,
+                            strokeWeight: 3,
+                            map: gmap,
+                        });
+                    }
+                }
+            });
+
+            gmap.fitBounds(bounds);
+            document.getElementById('map').style.display = 'block';
+        }
+
+        // Alternative function to render a single mode's itinerary
+        function renderSingleModeOnMap(modeData) {
+            if (!modeData || !modeData.itinerary) return;
+            if (!gmapInitialized) {
+                pendingItineraryForMap = modeData.itinerary;
+                loadGoogleMapsScript();
+                return;
+            }
+            const bounds = new google.maps.LatLngBounds();
+            let markerIndex = 1;
+
+            modeData.itinerary.forEach(day => {
+                if (day.spots && Array.isArray(day.spots)) {
+                    // Convert lon to lng and validate coordinates
+                    const validSpots = day.spots.filter(spot =>
+                        spot &&
+                        typeof spot.lat === 'number' &&
+                        typeof (spot.lng || spot.lon) === 'number'
+                    );
+
+                    const coords = validSpots.map(spot => ({
+                        lat: Number(spot.lat),
+                        lng: Number(spot.lng || spot.lon)
+                    }));
+
+                    validSpots.forEach((spot, i) => {
+                        const marker = new google.maps.Marker({
+                            position: {
+                                lat: Number(spot.lat),
+                                lng: Number(spot.lng || spot.lon)
+                            },
+                            map: gmap,
+                            title: spot.name,
+                            label: String(markerIndex++),
+                        });
+                        bounds.extend(marker.getPosition());
+                    });
+
+                    if (coords.length > 1) {
+                        const pl = new google.maps.Polyline({
+                            path: coords,
+                            geodesic: true,
+                            strokeColor: '#3b82f6',
+                            strokeOpacity: 0.7,
+                            strokeWeight: 3,
+                            map: gmap,
+                        });
+                    }
+                }
+            });
+
+            gmap.fitBounds(bounds);
+            document.getElementById('map').style.display = 'block';
+        }
+    </script>
+</body>
+
+</html>
