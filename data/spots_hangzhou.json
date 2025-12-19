@@ -1,0 +1,4062 @@
+[
+  {
+    "name": "1号观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1150211,
+    "lon": 119.6620502,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "2号观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1175131,
+    "lon": 119.6633173,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Diamond hill under the evening sunlight",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2631734,
+    "lon": 120.1425533,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Dragon Tea Field",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2253083,
+    "lon": 120.1032149,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Fengshan Water Gate relics",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2277649,
+    "lon": 120.1662578,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Fukui garden",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2518358,
+    "lon": 120.1283822,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Hangzhou city development history museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.261163,
+    "lon": 120.158842,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Historic village",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.5215935,
+    "lon": 118.6034989,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Korean Temple",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.230287,
+    "lon": 120.1260893,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Light show (Dancing fountains)",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2530932,
+    "lon": 120.1569225,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Lotus garden",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2498008,
+    "lon": 120.1288663,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Lu You memorial hall",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.264157,
+    "lon": 120.1622203,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Maling Sky View",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.5695332,
+    "lon": 119.7338173,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Medecine Temple - Chinese Medecine museum - Hu Qing Yu Tang",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2418809,
+    "lon": 120.1645389,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Memorial hall",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2613814,
+    "lon": 120.1615367,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Paradise Walk Walking Street",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3129437,
+    "lon": 120.3223406,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Scénické Spot",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2467,
+    "lon": 120.127426,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Sunrise Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.196345,
+    "lon": 119.9332988,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Sunrise Terrace",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2612263,
+    "lon": 120.1372608,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Sunset Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1276054,
+    "lon": 120.2206814,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Sunset over the mountains",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2430215,
+    "lon": 120.1275973,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "The old site of Baodashen",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.241667,
+    "lon": 120.1649293,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Tianducheng Arch",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3767238,
+    "lon": 120.2459027,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Underwater bridge",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2732699,
+    "lon": 120.0720923,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "Zhongshan Park",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.253632,
+    "lon": 120.13591,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "“僎宾”牌匾",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2553206,
+    "lon": 119.7674419,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "“千秋爼豆”牌匾",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2553795,
+    "lon": 119.7673189,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "“圣㫖”牌匾",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2554954,
+    "lon": 119.7680708,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "“大汉千古”牌匾",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2557962,
+    "lon": 119.7680573,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "“彭祖祠”牌匾",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2555822,
+    "lon": 119.7679654,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "“用行堂”牌匾",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2572578,
+    "lon": 119.7697234,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "“益世名医”碑石",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2597346,
+    "lon": 119.7721942,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "”紫气东来“牌匾",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.255683,
+    "lon": 119.7687871,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "一尖仙人顶",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3493236,
+    "lon": 119.4236775,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "一尺花园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3599119,
+    "lon": 120.1655406,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "七尖大仙顶",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3631195,
+    "lon": 119.5129916,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "丄美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.9627887,
+    "lon": 120.1768863,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "万松书院",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2290341,
+    "lon": 120.155994,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "三区",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3844025,
+    "lon": 120.0120865,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "三台雲水",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2334483,
+    "lon": 120.1265332,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "三潭印月",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2410133,
+    "lon": 120.1407176,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "三生石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2393324,
+    "lon": 120.097964,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "上白泷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1922906,
+    "lon": 119.9972937,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "下白泷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1967584,
+    "lon": 120.0081429,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "世界旅游博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1204373,
+    "lon": 120.2099711,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "丛林火车乘车点",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1543591,
+    "lon": 119.981095,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "东北虎",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1602503,
+    "lon": 119.9844206,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "东天目山西门口",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3417702,
+    "lon": 119.4998621,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "东梓关村油菜花拍摄点",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.8887474,
+    "lon": 119.8218492,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "东风内燃机车",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3005828,
+    "lon": 119.9786888,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "严州古镇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.5404006,
+    "lon": 119.4975787,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "中国丝绸博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2251936,
+    "lon": 120.1465893,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "中国伞博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3180517,
+    "lon": 120.1332907,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "中国刀剪剑博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3185584,
+    "lon": 120.1335263,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "中国动漫博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1644181,
+    "lon": 120.2010471,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "中国印学博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2536472,
+    "lon": 120.1347979,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "中国国际设计博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1543763,
+    "lon": 120.0752595,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "中国扇博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3209789,
+    "lon": 120.133358,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "中国杭州低碳科技馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2117575,
+    "lon": 120.1973866,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "中国杭州工艺美术博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3178948,
+    "lon": 120.1324017,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "中国水利博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2615536,
+    "lon": 120.3080415,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "中国湿地博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2665269,
+    "lon": 120.0827675,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "中国第一社区纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2393334,
+    "lon": 120.169272,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "中国茶叶博物馆（双峰馆区）",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2346737,
+    "lon": 120.1155563,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "中国茶叶博物馆（龙井馆区）",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2221335,
+    "lon": 120.1085607,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "中国财税博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2405138,
+    "lon": 120.1589459,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "中国锁文化博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.412371,
+    "lon": 120.2471622,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "中國美術學院美術館",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2452364,
+    "lon": 120.1550644,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "中山纪念林碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2260778,
+    "lon": 120.1602284,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "中白泷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.195592,
+    "lon": 120.000871,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "临安博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2279087,
+    "lon": 119.7252271,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "临安美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2285289,
+    "lon": 119.7248783,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "临安西关跳台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3384402,
+    "lon": 119.4609389,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "临安跳鱼潭",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3570589,
+    "lon": 119.5684814,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "临安风之谷户外乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1516461,
+    "lon": 119.2411172,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "临平公园动物园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.4302454,
+    "lon": 120.2908779,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "临平公园游乐场",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.4290455,
+    "lon": 120.2905645,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "临平革命烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.428666,
+    "lon": 120.2879834,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "临时展厅",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3188188,
+    "lon": 120.1329864,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "为艺术战刻石",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1562676,
+    "lon": 120.0735917,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "主书房",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3835217,
+    "lon": 120.0117415,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "乔司千人坑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.354823,
+    "lon": 120.2833626,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "乔司大屠杀纪念馆",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3549103,
+    "lon": 120.2828495,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "乔司机场指挥塔（？",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3615936,
+    "lon": 120.3265344,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "二区",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3840071,
+    "lon": 120.0115747,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "云泉胜地",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1229899,
+    "lon": 120.0454001,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "云溪竹径",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.192583,
+    "lon": 120.0851883,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "五四宪法历史资料陈列馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.258429,
+    "lon": 120.1365357,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "五柳巷历史街区",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2448031,
+    "lon": 120.1719417,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "亚洲小爪水獭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1543423,
+    "lon": 119.9796694,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "亚洲象",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1543365,
+    "lon": 119.9775783,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "京杭大运河博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.319674,
+    "lon": 120.136993,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "仙人潭",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.8463957,
+    "lon": 120.0347214,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "仙桥洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1173527,
+    "lon": 120.0294097,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "仪门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2380075,
+    "lon": 120.1600222,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "侨家大院",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.0511711,
+    "lon": 119.9540606,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "光达美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2082409,
+    "lon": 120.1409661,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "兔子山国际音乐公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1892667,
+    "lon": 120.0479291,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "八十八师阵亡将士碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2716919,
+    "lon": 120.1391244,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "公共服务大厅",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3184587,
+    "lon": 120.1327869,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "公望美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.0235739,
+    "lon": 119.9333643,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "六尖仰天坪",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.4082758,
+    "lon": 119.4995454,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "再生花园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3590034,
+    "lon": 120.1673856,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "农夫乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3866674,
+    "lon": 120.0550673,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "凤凰山观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.4271675,
+    "lon": 120.0125839,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "凤凰村史馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1657832,
+    "lon": 120.4044475,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "刘庄",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2391948,
+    "lon": 120.1321158,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "北城墙遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.4019547,
+    "lon": 119.9858501,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "北山街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2581564,
+    "lon": 120.1395178,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "北街梦寻",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2572881,
+    "lon": 120.1367986,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "十二生肖石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2376386,
+    "lon": 120.1602582,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "千岛湖竹里村观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.5288791,
+    "lon": 118.7759663,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "午潮山别墅废墟",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1921388,
+    "lon": 120.0024441,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "午潮山惨案遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1966633,
+    "lon": 120.0126137,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "半山青少年宫游乐场",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3592086,
+    "lon": 120.1691056,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "半道春红",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2895954,
+    "lon": 120.1508936,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "南书房",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3826012,
+    "lon": 120.0117,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "南城墙遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3852236,
+    "lon": 119.9868272,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "南宋官窑博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2121017,
+    "lon": 120.1506159,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "南宋官窖艺术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1435848,
+    "lon": 120.2454238,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "南宋御街遗址陈列馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2321915,
+    "lon": 120.1652021,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "南宋德寿宫遗址博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2412852,
+    "lon": 120.1686218,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "南屏晚钟",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2312935,
+    "lon": 120.1444623,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "南湖",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2293294,
+    "lon": 120.1332885,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "南湖公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2730638,
+    "lon": 119.9310339,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "南门",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3822983,
+    "lon": 120.0106631,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "原仓前火车站",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2965548,
+    "lon": 119.9828471,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "双峰插云",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.249925,
+    "lon": 120.118097,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "变电站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1922107,
+    "lon": 120.0024295,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "古清泰门",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2500929,
+    "lon": 120.1806039,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "司徒雷登故居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2713937,
+    "lon": 120.1616561,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "同家乡村乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2425361,
+    "lon": 119.8974209,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "吳山景區",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2350005,
+    "lon": 120.1577165,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "品图美术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.263308,
+    "lon": 120.1514897,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "唐云艺术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2357303,
+    "lon": 120.1506522,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "四区",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.385049,
+    "lon": 120.011859,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "四拐角",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2426088,
+    "lon": 120.1662607,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "国美民艺博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1576412,
+    "lon": 120.0739868,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "城隍阁",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2388851,
+    "lon": 120.159932,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "塘栖八字桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.4797459,
+    "lon": 120.1856543,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "夏同善纪念馆",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2101019,
+    "lon": 120.063472,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "大兜路历史文化街区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3028206,
+    "lon": 120.1393201,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "大明山风景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.0601615,
+    "lon": 118.9898922,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "大洋坞古道观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1829695,
+    "lon": 120.0106914,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "大清谷",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1967719,
+    "lon": 120.0664255,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "大羚羊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1594294,
+    "lon": 119.9850208,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "大食蚁兽",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1522462,
+    "lon": 119.9827957,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "大麦本草博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1313282,
+    "lon": 120.0885938,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "天目大峡谷门口",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3677028,
+    "lon": 119.4715149,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "天路飞瀑",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.146619,
+    "lon": 118.9158267,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "天都公园-儿童乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3958247,
+    "lon": 120.2438109,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "天鹅湖",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1534685,
+    "lon": 119.9803165,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "太史第弄",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.4818574,
+    "lon": 120.1839629,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "太子尖驿站",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1775759,
+    "lon": 118.8932603,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "太子湾公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2288694,
+    "lon": 120.1373568,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "太庙墙基",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2351485,
+    "lon": 120.1648646,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "孙中山像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2568334,
+    "lon": 120.1655531,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "孤山公园-鲁迅铜像",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2552535,
+    "lon": 120.1393059,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "宋城",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1722659,
+    "lon": 120.0939884,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "宝塔山烈士墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2756916,
+    "lon": 119.9428509,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "宝成寺",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.23637,
+    "lon": 120.1626245,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "宝石山造像",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2626188,
+    "lon": 120.1446998,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "富春桃源",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.0137546,
+    "lon": 119.6288783,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "富阳上臧坝",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.7947972,
+    "lon": 119.9428909,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "富阳乌龟坝",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.9091563,
+    "lon": 119.8888219,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "富阳双坝坝",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.7859423,
+    "lon": 119.9459856,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "富阳古城堰坝",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.8584935,
+    "lon": 119.9126015,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "富阳同心坝",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.7691201,
+    "lon": 119.9563696,
+    "description": "关于露营，晚上有人来赶 说8点后河岸不能有灯，有监控，过夜可以去大礼堂那边。2025.8.31",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "富阳回龙坝",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.7711494,
+    "lon": 119.9640577,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "富阳小龙鳞坝",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.7948764,
+    "lon": 119.9399963,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "富阳曼哈顿打卡点",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.0254494,
+    "lon": 119.9163969,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "富阳木塔坝",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.8032005,
+    "lon": 119.9464906,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "富阳梅州坝",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.8171151,
+    "lon": 119.943686,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "富阳沸腾坝",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.8429308,
+    "lon": 119.9160138,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "富阳申渡坝",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.7977497,
+    "lon": 119.9422892,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "富阳石亩口堰坝",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.8232047,
+    "lon": 119.9343056,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "富阳莲花坝",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.7918548,
+    "lon": 119.9478395,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "富阳蚌潭坝",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.866006,
+    "lon": 119.9090657,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "富阳龙门瀑布",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.8739632,
+    "lon": 119.9589255,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "富阳龙鳞坝",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.8116051,
+    "lon": 119.9442738,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "小河直街历史文化街区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3095082,
+    "lon": 120.1313303,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "小浣熊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1515922,
+    "lon": 119.9822462,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "小火车乐园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2156952,
+    "lon": 120.1286926,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "小白菜文化园",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2441145,
+    "lon": 119.963395,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "小金山观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.6283048,
+    "lon": 118.9392529,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "小食蚁兽",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1520398,
+    "lon": 119.9826951,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "山体书库",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3835745,
+    "lon": 120.0132717,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "山房遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1973885,
+    "lon": 120.0129042,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "山里王观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.0719151,
+    "lon": 120.2848433,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "岳王庙",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2547381,
+    "lon": 120.1297651,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "巨型淘公仔纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2828901,
+    "lon": 120.022018,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "巨型闲鱼雕塑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2817666,
+    "lon": 120.0244303,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "平湖秋月",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2542019,
+    "lon": 120.1416133,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "广济桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.4803604,
+    "lon": 120.1787856,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "御道遗址",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2318308,
+    "lon": 120.165374,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "恒庐美术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2436652,
+    "lon": 120.1539174,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "悬崖铁索（石塔横路）",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.8262714,
+    "lon": 120.04923,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "惜别白公",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2624852,
+    "lon": 120.1520418,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "慧定法师坟塔",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2764325,
+    "lon": 119.9437526,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "戏迷小广场",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.19398,
+    "lon": 120.218749,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "手工艺活态展示馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3212157,
+    "lon": 120.1334782,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "护国仁王寺遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2670122,
+    "lon": 120.1343016,
+    "description": "铭文在朝南（背对曙光路）一面\n护国仁王寺从50年代开始被征用作浙江省艺术学校，随着校址迁到滨江区，寺院于2003年被拆光，原址建立浙江老年大学。纪念碑树立于2005年\n铭文中文部分还有一句话由于字数限制不能打：“日本并将杭州护国仁王禅寺作为日本尺八的祖庭。”请加上，谢谢",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "排衙石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2169363,
+    "lon": 120.1444437,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "揽江台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.0060351,
+    "lon": 120.0745655,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "搁船尖（光明顶）",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.0125684,
+    "lon": 118.8852413,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "数字馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3833034,
+    "lon": 120.0124091,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "文家山墓地",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3878264,
+    "lon": 119.9722784,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "文润阁",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3833577,
+    "lon": 120.0127607,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "文澜阁",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2531098,
+    "lon": 120.1382148,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "斑马",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1563101,
+    "lon": 119.9789087,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "断桥残雪",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.261531,
+    "lon": 120.147367,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "新叶",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.3326704,
+    "lon": 119.330148,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "日中不再战纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2434166,
+    "lon": 120.1523087,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "春天美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2040187,
+    "lon": 120.0520035,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "普庆寺石塔",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3602048,
+    "lon": 119.7636719,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "曲院",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.251296,
+    "lon": 120.129118,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "曲院风荷",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.251607,
+    "lon": 120.126904,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "月岩",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2198109,
+    "lon": 120.1532761,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杨公堤",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2373941,
+    "lon": 120.1263686,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭大幼儿园（已废弃）",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2722506,
+    "lon": 120.1395461,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1626114,
+    "lon": 120.2409696,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州动物园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2156829,
+    "lon": 120.1304625,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州博物馆北馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2417711,
+    "lon": 120.1615254,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州博物馆南馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2412352,
+    "lon": 120.1616639,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州国家版本馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3834353,
+    "lon": 120.0126959,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州国画院美术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2598868,
+    "lon": 120.1412496,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州城市规划展览馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2490683,
+    "lon": 120.206857,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州宋城旅游区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.170498,
+    "lon": 120.0902703,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州市方志馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2403745,
+    "lon": 120.1683308,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州市科技交流馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2678197,
+    "lon": 120.1584467,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州市萧山区政协书画院",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1618653,
+    "lon": 120.2593464,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州市革命烈士纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1999543,
+    "lon": 120.1291739,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州开元森泊度假乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1344632,
+    "lon": 120.2210889,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州开发区展示中心（城建文化馆）",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3041675,
+    "lon": 120.335567,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州海塘遗址博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.311571,
+    "lon": 120.2665752,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州清廉馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3292632,
+    "lon": 120.1329432,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州玉架山考古博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.4408105,
+    "lon": 120.2563926,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州西湖本山龙井茶叶博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.192592,
+    "lon": 120.0824932,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州近代教育史陈列馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2597412,
+    "lon": 120.1784513,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州野生动物世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1550091,
+    "lon": 119.9809686,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州长乔亲子乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1420018,
+    "lon": 120.2197309,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭州长乔极地海洋公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1450598,
+    "lon": 120.22217,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭帮菜博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2102443,
+    "lon": 120.1386342,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "杭钢动力草坪",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3591902,
+    "lon": 120.1649906,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "柳浪闻莺",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2419031,
+    "lon": 120.151076,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "校名石",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2899299,
+    "lon": 119.8181469,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "核酸采样点",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3337538,
+    "lon": 120.2127336,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "桃源坞",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2582104,
+    "lon": 120.1013428,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "桃花湖",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3542503,
+    "lon": 120.2142,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "桐庐高家坝",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.7647228,
+    "lon": 119.8170365,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "桥西历史保护街区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3198759,
+    "lon": 120.1331535,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "棕熊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1585243,
+    "lon": 119.9855361,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "森巴精灵部落",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1523599,
+    "lon": 119.9831552,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "植物园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2552608,
+    "lon": 120.1232066,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "此时艺术空间",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2413177,
+    "lon": 120.1653251,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "武林书画院美术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2489934,
+    "lon": 120.156301,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "水城门",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2776899,
+    "lon": 119.9291303,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "求是书院",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3053327,
+    "lon": 120.0748056,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "江南龙门湾",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.6958923,
+    "lon": 119.6598367,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "江湖汇观亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2351977,
+    "lon": 120.1615457,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "沙孟海旧居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2640176,
+    "lon": 120.1538475,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "河坊街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2424766,
+    "lon": 120.1647924,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "泰山石",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2940546,
+    "lon": 120.1618363,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "浙江大学人体博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2982615,
+    "lon": 120.0791298,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "浙江大学艺术与考古博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3000809,
+    "lon": 120.0667415,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "浙江大学西迁纪念亭",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3077934,
+    "lon": 120.0800605,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "浙江大学西迁纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3077934,
+    "lon": 120.0800605,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "浙江文学馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1634919,
+    "lon": 120.09559,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "浙江电影制片厂原址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2820519,
+    "lon": 120.1285946,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "浙江监狱陈列馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3474736,
+    "lon": 120.3032025,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "浙江省博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2535309,
+    "lon": 120.1387829,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "浙江省博物馆(之江馆)",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1619658,
+    "lon": 120.096986,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "浙江省现代陶瓷艺术博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1288085,
+    "lon": 120.2116766,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "浙江省科技馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2786022,
+    "lon": 120.159742,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "浙江省非物质文化遗产馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1620353,
+    "lon": 120.0991054,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "浙江省革命烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2338838,
+    "lon": 120.157869,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "浙江自然博物院",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2789358,
+    "lon": 120.159624,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "浙江赛丽美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2315311,
+    "lon": 120.1680834,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "海狮训练馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2163645,
+    "lon": 120.1285728,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "涌金桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2482803,
+    "lon": 120.1545803,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "淳安县博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.5978633,
+    "lon": 119.1067935,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "清凉峰",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1011923,
+    "lon": 118.8619788,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "清河坊历史文化特色街区",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2416029,
+    "lon": 120.1648148,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "湘湖师范旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.120416,
+    "lon": 120.1976633,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "满陇桂雨（杭州少儿公园）",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2182996,
+    "lon": 120.1288824,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "滨江互联网小镇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1976686,
+    "lon": 120.2027444,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "潘天嘉纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2446299,
+    "lon": 120.1549812,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "澄明湖绿",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2455032,
+    "lon": 120.1526568,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "火烈鸟",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1509689,
+    "lon": 119.9803946,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "灵山卡丁车乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1233552,
+    "lon": 120.0450522,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "灵峰探梅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.260061,
+    "lon": 120.1085771,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "灵隐寺",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2427953,
+    "lon": 120.0967987,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "烂苹果乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1670089,
+    "lon": 120.2376354,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "熊猫殿",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.154871,
+    "lon": 119.9765028,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "牛头山观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2118503,
+    "lon": 119.9199942,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "牵牛岗日落观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.0265895,
+    "lon": 119.0011111,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "特弗伦羊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1519505,
+    "lon": 119.9824621,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "犀牛",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1544687,
+    "lon": 119.9800929,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "狐猴岛",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1532371,
+    "lon": 119.977689,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "狮城博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.4760755,
+    "lon": 118.6694849,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "狮城遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.4807987,
+    "lon": 118.7456179,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "狼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1569937,
+    "lon": 119.9846054,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "猩猩馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.152713,
+    "lon": 119.9776876,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "猴子王国",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1521123,
+    "lon": 119.9778942,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "猴房",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2148985,
+    "lon": 120.1283156,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "环四岭水库水库绿道观景平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.4200807,
+    "lon": 119.7759791,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "球顶观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2662776,
+    "lon": 120.0822336,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "白虎",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1589702,
+    "lon": 119.9801479,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "白龙潭景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1922452,
+    "lon": 120.0159049,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "百药山观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.8946039,
+    "lon": 120.0790052,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "皮影艺术博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2442437,
+    "lon": 120.1549565,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "真人cs勇拓户外拓展灵山基地",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1214677,
+    "lon": 120.0463707,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "石林景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.3801571,
+    "lon": 119.0051335,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "石爆头瀑布",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.0397315,
+    "lon": 119.0601598,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "石长城",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1155782,
+    "lon": 119.663381,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "砖立配楼",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1924531,
+    "lon": 120.0025654,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "社会主义核心价值观",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2157287,
+    "lon": 120.2004381,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "秋雪庵",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2681448,
+    "lon": 120.0590028,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "竹素园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2539659,
+    "lon": 120.1290694,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "红军北上抗日先遣队纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.5041654,
+    "lon": 118.4374327,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "红灯笼-外婆家",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.9191934,
+    "lon": 119.5150285,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "红绿金刚鹦鹉",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1504893,
+    "lon": 119.9812075,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "纳福云台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2553313,
+    "lon": 120.0995418,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "绿城·桂冠东方美学馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.250521,
+    "lon": 120.2392458,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "绿草地艺术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2781503,
+    "lon": 120.0669499,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "羊角尖碉堡",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.9950748,
+    "lon": 120.2291079,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "老虎山观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.4339919,
+    "lon": 119.7702874,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "老虎山骨干林道瞭望塔",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.4340925,
+    "lon": 119.769936,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "肖锋美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.207249,
+    "lon": 120.1327536,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "胡雪岩故居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2395816,
+    "lon": 120.1682783,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "船山村",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.9605464,
+    "lon": 120.1046,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "良渚博物院",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3797659,
+    "lon": 120.0231606,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "花港观鱼",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.234386,
+    "lon": 120.137392,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "苏堤春晓",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2438403,
+    "lon": 120.1342104,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "茅公埠",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2408646,
+    "lon": 120.1197808,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "茶博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2218422,
+    "lon": 120.1091475,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "莫角山遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.394295,
+    "lon": 119.985349,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "萧山区烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1721041,
+    "lon": 120.2693205,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "萧山博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1738266,
+    "lon": 120.2801295,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "蔡東藩故居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.0938211,
+    "lon": 120.2906831,
+    "description": "杭州市市级文物保护单位",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "蔡永祥陈列馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2008717,
+    "lon": 120.1299311,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "蘇小小之墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2545135,
+    "lon": 120.1338176,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "虎跑梦泉",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2117722,
+    "lon": 120.1300914,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "袋鼠",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1549621,
+    "lon": 119.9834091,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "西兴古镇",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1912959,
+    "lon": 120.2218348,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "西城墙遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3977384,
+    "lon": 119.9784081,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "西泠·武林美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3235477,
+    "lon": 120.1788767,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "西泠印社",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.252792,
+    "lon": 120.1354984,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "西湖十景",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2464123,
+    "lon": 120.1345865,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "西湖博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2443134,
+    "lon": 120.152661,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "西湖博览会展示厅",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2597301,
+    "lon": 120.1407511,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "西湖音乐喷泉",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2560855,
+    "lon": 120.1557357,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "西溪蔡志忠美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2651197,
+    "lon": 120.0722734,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.0273787,
+    "lon": 119.0042839,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "观景平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.8251057,
+    "lon": 120.0505293,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "观鸟楼东区",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.266779,
+    "lon": 120.0777776,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "观鸟楼西区",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2666801,
+    "lon": 120.077302,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "角马",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1566997,
+    "lon": 119.9771277,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "豺",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1573694,
+    "lon": 119.984836,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "贵人阁",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2134007,
+    "lon": 120.1209723,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "跨湖桥遗址博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1443106,
+    "lon": 120.2173537,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "迁建志",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.924167,
+    "lon": 119.8982279,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "运河·塘栖古镇",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.4801901,
+    "lon": 120.17904,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "远源",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1308546,
+    "lon": 119.8953542,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "遗迹花园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3586315,
+    "lon": 120.1617246,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "郭庄",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.245895,
+    "lon": 120.1275924,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "都锦生织锦博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2648735,
+    "lon": 120.1551719,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "野马",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1593749,
+    "lon": 119.9814119,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "野驴",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1596369,
+    "lon": 119.9821307,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "金紫尖最佳观景点",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.8029468,
+    "lon": 118.9436154,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "金陵天路(入口)",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.9400011,
+    "lon": 118.9441492,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "金陵天路海拔1031.4米打卡点",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.9714295,
+    "lon": 118.9501963,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "钢之运河广场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3583543,
+    "lon": 120.1605979,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "钱塘区规划展示馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.3234841,
+    "lon": 120.4873111,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "钱塘江大桥纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2012832,
+    "lon": 120.1305567,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "钱塘江观潮城",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2806048,
+    "lon": 120.4024393,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "钱王祠",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.245165,
+    "lon": 120.1532894,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "长桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2358002,
+    "lon": 120.1502965,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "长颈鹿",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1552166,
+    "lon": 119.9782603,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "闲林老街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2259571,
+    "lon": 119.9819715,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "闸口白塔",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2027959,
+    "lon": 120.1403831,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "闸口白塔历史文化陈列馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2022922,
+    "lon": 120.1404573,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "阳平山碑记",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.99983,
+    "lon": 119.99996,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "阿里巴巴标志",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2794656,
+    "lon": 120.0195915,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "集贤亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.253142,
+    "lon": 120.1569882,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "雷威乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2416468,
+    "lon": 119.7203202,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "雷峰夕照",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2399079,
+    "lon": 120.1409416,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "青山湖科技城规划馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2735237,
+    "lon": 119.821138,
+    "description": "A popular museum spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "非洲狮",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1600034,
+    "lon": 119.9828321,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "领要阁遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2536312,
+    "lon": 120.1370207,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "香泉井",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2748186,
+    "lon": 119.9307005,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "马可波罗像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2610806,
+    "lon": 120.1529085,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "驼羊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1573769,
+    "lon": 119.9767254,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "骆驼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1584809,
+    "lon": 119.9775622,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "鸬鸟山观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.4844524,
+    "lon": 119.7308847,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "鸵鸟",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1579799,
+    "lon": 119.9768058,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "黄望公隐居地",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.0904756,
+    "lon": 120.0068714,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "鼓楼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2403444,
+    "lon": 120.1667892,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "龙兴寺经幢",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2665806,
+    "lon": 120.1585817,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "龙吟狮吼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1977365,
+    "lon": 120.013497,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "龙坞3号瞭望塔",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.4826675,
+    "lon": 119.8477631,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "龙坞茶镇·九街驿站",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1870391,
+    "lon": 120.0534629,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "龙川湾景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.4474431,
+    "lon": 118.6712752,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "龙门古镇景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 29.9056084,
+    "lon": 119.9435783,
+    "description": "A popular sightseeing spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "龙鳍岩",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.1153336,
+    "lon": 119.6633682,
+    "description": "A popular outdoor spot in Hangzhou.",
+    "city": "Hangzhou"
+  },
+  {
+    "name": "龚隹育墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.2029336,
+    "lon": 120.1263433,
+    "description": "A popular history spot in Hangzhou.",
+    "city": "Hangzhou"
+  }
+]

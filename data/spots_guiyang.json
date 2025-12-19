@@ -1,0 +1,432 @@
+[
+  {
+    "name": "Buddah",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.714518,
+    "lon": 106.7348909,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "Guizhou Provincial Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.5984981,
+    "lon": 106.6973283,
+    "description": "A popular museum spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "Xia Shui Bouddha",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.7143633,
+    "lon": 106.7348363,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "东方科幻谷主题公园（已关闭）",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.5291224,
+    "lon": 106.7702051,
+    "description": "A popular outdoor spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "中铁国际旅游度假区",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.4937953,
+    "lon": 106.8247723,
+    "description": "A popular outdoor spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "云岩区文化馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.6091758,
+    "lon": 106.7209822,
+    "description": "A popular museum spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "人民广场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.572851,
+    "lon": 106.7073379,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.6266897,
+    "lon": 106.6601228,
+    "description": "A popular outdoor spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "南城墙望风亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.332512,
+    "lon": 106.6821015,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "南江大峡谷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.9453017,
+    "lon": 106.9674275,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "城南胜迹牌坊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.5754778,
+    "lon": 106.7156667,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "大山洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.6206841,
+    "lon": 106.7313416,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "擦耳岩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.5289956,
+    "lon": 106.6312313,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "文昌阁",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.5821966,
+    "lon": 106.7155697,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "新馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.5947876,
+    "lon": 106.701893,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "旧馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.5951761,
+    "lon": 106.701661,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "毛主席像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.5718945,
+    "lon": 106.7085961,
+    "description": "A popular history spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "熊猫馆",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.6044164,
+    "lon": 106.694717,
+    "description": "A popular outdoor spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "王阳明纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.8494657,
+    "lon": 106.6073099,
+    "description": "A popular museum spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "甲秀楼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.5749457,
+    "lon": 106.715926,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "科技艺术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.6265252,
+    "lon": 106.6236933,
+    "description": "A popular museum spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "筑城广场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.57387,
+    "lon": 106.7055609,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "紫江地缝生态旅游区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.9094257,
+    "lon": 107.0335688,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "翠微园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.5743759,
+    "lon": 106.7161808,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "老东门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.5822916,
+    "lon": 106.7153009,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "蓬莱仙界荷塘月色景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.7501225,
+    "lon": 106.7314799,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "观山湖公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.6436995,
+    "lon": 106.6294205,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.5956726,
+    "lon": 106.6889375,
+    "description": "A popular outdoor spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "观风台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.5734144,
+    "lon": 106.7214028,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "贵州人民抗日战争纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.6133923,
+    "lon": 106.7353541,
+    "description": "A popular history spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "贵州地质博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.6265976,
+    "lon": 106.6033581,
+    "description": "A popular museum spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "贵州省博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.6512991,
+    "lon": 106.6390005,
+    "description": "A popular museum spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "贵州省科学技术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.5767689,
+    "lon": 106.7017048,
+    "description": "A popular museum spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "贵州省革命烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.6131174,
+    "lon": 106.7360014,
+    "description": "A popular history spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "贵州警察博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.5851532,
+    "lon": 106.7200457,
+    "description": "A popular museum spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "贵阳城乡规划展览馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.648184,
+    "lon": 106.637895,
+    "description": "A popular museum spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "贵阳森林野生动物园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.864493,
+    "lon": 106.6902239,
+    "description": "A popular outdoor spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "贵阳欢乐世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.6742919,
+    "lon": 106.636635,
+    "description": "A popular outdoor spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "赵理伦百岁坊",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.331686,
+    "lon": 106.6845305,
+    "description": "A popular history spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "阅山湖公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.6380407,
+    "lon": 106.6008403,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "青岩古镇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.333942,
+    "lon": 106.682514,
+    "description": "A popular sightseeing spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "黔灵山动物园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.6044961,
+    "lon": 106.6914397,
+    "description": "A popular outdoor spot in Guiyang.",
+    "city": "Guiyang"
+  },
+  {
+    "name": "龙冈书院旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.8508678,
+    "lon": 106.6070943,
+    "description": "A popular history spot in Guiyang.",
+    "city": "Guiyang"
+  }
+]

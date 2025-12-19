@@ -1,0 +1,1352 @@
+[
+  {
+    "name": "1994防洪纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8623401,
+    "lon": 113.1121605,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "Bruce Lee’s Ancestors’ House",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7174009,
+    "lon": 113.1351196,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "Hotel near Pho's place",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9512768,
+    "lon": 113.0948136,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "Li Xiao Long",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7172513,
+    "lon": 113.1352537,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "Wong Fei-hong Lion Dance & Martial Arts School",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9270897,
+    "lon": 112.9403544,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "fengda factory",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6808904,
+    "lon": 113.1553856,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "si ji da cao ping",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8223585,
+    "lon": 113.2709348,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "一线天",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9350509,
+    "lon": 112.9595009,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "三水荷花世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.198453,
+    "lon": 112.8990465,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "三湖书院",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9357896,
+    "lon": 112.9596171,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "东门圩历史文化沉浸式体验街区",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8562562,
+    "lon": 112.6991149,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "佛山乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0240725,
+    "lon": 113.104235,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "佛山初地",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0272501,
+    "lon": 113.1162536,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "佛山古镇历史风貌展示馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0415551,
+    "lon": 113.1078268,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "佛山大剧院",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9714956,
+    "lon": 113.1102618,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "佛山市博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9643692,
+    "lon": 113.110956,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "佛山市岭南金融博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0666813,
+    "lon": 113.1430316,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "佛山祖庙",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0316193,
+    "lon": 113.107831,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "佛山科学馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9704388,
+    "lon": 113.1109817,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "佛山第一梯",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7302444,
+    "lon": 112.7846589,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "佛山警察博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9957375,
+    "lon": 113.1256216,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "佛山铁炮",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0316691,
+    "lon": 113.108067,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "佛山鸿盛纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0281412,
+    "lon": 113.1160825,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "儒溪镇顶炮楼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9092386,
+    "lon": 112.9547316,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "公仔街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0613428,
+    "lon": 113.0732863,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "六松江滩乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9748896,
+    "lon": 113.114829,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "兴修水利 造福沙头",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9094176,
+    "lon": 113.0585899,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "凤鸣阁",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.84433,
+    "lon": 113.2433452,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "勒流渔人码头",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8580768,
+    "lon": 113.1092126,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "华侨城欢乐海岸主题公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8173025,
+    "lon": 113.2978695,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "华西村反贪腐教育中心",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8733797,
+    "lon": 113.0351976,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "南国丝都博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8114377,
+    "lon": 113.2938922,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "南海博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9104217,
+    "lon": 112.9728001,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "南海影视城",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1889922,
+    "lon": 113.1022223,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "古洛兰芝牌坊",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0310522,
+    "lon": 113.1072686,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "史努比主题乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7981382,
+    "lon": 113.2790254,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "和美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9356578,
+    "lon": 113.2148117,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "四友图书馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.125331,
+    "lon": 113.1797868,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "四季大草坪",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8243599,
+    "lon": 113.2795725,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "国立中大大学牌坊",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8328498,
+    "lon": 113.2840475,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "塔坡古迹（塔坡庙和井）",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.027763,
+    "lon": 113.1162282,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "塘伙旅游生态乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9293502,
+    "lon": 112.7893758,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "塘肚小学牌坊",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9294581,
+    "lon": 112.7798063,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "壁立千刃",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9351561,
+    "lon": 112.9602167,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "夏漖粮仓",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0488375,
+    "lon": 113.1685104,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "大凤来仪",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7759098,
+    "lon": 113.2756537,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "太平塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8167909,
+    "lon": 113.2770684,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "如是书院",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9357893,
+    "lon": 112.9591972,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "孔圣园",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.031156,
+    "lon": 113.1073817,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "孔子像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0294035,
+    "lon": 113.1821873,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "孔子碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0309576,
+    "lon": 113.1071987,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "安纳希小镇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8430756,
+    "lon": 112.7601743,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "容桂展览厅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7813882,
+    "lon": 113.265087,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "容桂革命烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7758368,
+    "lon": 113.2761022,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "山体瀑布",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7246716,
+    "lon": 113.1202691,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "岭南圣域",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0309801,
+    "lon": 113.1075918,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "岭南文化苑",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9432355,
+    "lon": 112.963934,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "广东书法园",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0917873,
+    "lon": 113.1781503,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "广东千古情景区",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9454788,
+    "lon": 112.9503727,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "广东粤剧博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0297484,
+    "lon": 113.1144217,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "康有为博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0247385,
+    "lon": 112.8971968,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "康有为纪念馆",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0235279,
+    "lon": 112.8994388,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "开心牧场",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9400034,
+    "lon": 112.7631516,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "新世纪水上乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8158857,
+    "lon": 113.0688157,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "新石湾美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0026588,
+    "lon": 113.0843509,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "有为石",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0288799,
+    "lon": 113.1822473,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "李众胜堂祖铺 李众胜堂祖铺",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0318686,
+    "lon": 113.1099803,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "李小龙乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7199971,
+    "lon": 113.1191206,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "李小龙纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7242787,
+    "lon": 113.1190657,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "枫林白塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9360526,
+    "lon": 112.9589506,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "树生桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7628637,
+    "lon": 113.2877302,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "森林市集",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8526735,
+    "lon": 112.7580025,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "榕树记",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0284871,
+    "lon": 113.1806462,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "樁林霍公祠",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9898715,
+    "lon": 113.1128246,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "欢乐岛",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9407883,
+    "lon": 112.7643237,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "洛克网咖",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7826736,
+    "lon": 113.2650514,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "海天娅米的阳光城堡",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8817693,
+    "lon": 112.8128139,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "海尾石碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.747167,
+    "lon": 113.2716855,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "海立方海洋馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7546461,
+    "lon": 113.3006476,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "清晖园",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8384236,
+    "lon": 113.2497837,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "清风廊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7437503,
+    "lon": 113.2747907,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "渔人码头",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7828078,
+    "lon": 113.2654468,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "滨荷Park生态文创园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9083399,
+    "lon": 112.8856361,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "灯塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7832268,
+    "lon": 113.26492,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "灵应牌坊",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0313252,
+    "lon": 113.1085041,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "爱情锁桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7223577,
+    "lon": 113.2127389,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "白鹭湾观鸟区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7194707,
+    "lon": 113.1240932,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "盈香心动乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9409467,
+    "lon": 112.7615956,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "碑廊",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0320763,
+    "lon": 113.1081016,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "碧江金楼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9453666,
+    "lon": 113.2572498,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "祖庙牌坊",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0315539,
+    "lon": 113.107511,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "禅城区文化馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0221128,
+    "lon": 113.1039561,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "第一洞天",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9363014,
+    "lon": 112.9597123,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "第三洞天",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9350604,
+    "lon": 112.9598042,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "第二洞天",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9355143,
+    "lon": 112.9598355,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "簡氏别墅",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0325752,
+    "lon": 113.1099624,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "红祠堂直街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7620819,
+    "lon": 113.2831756,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "节孝流芳牌坊",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0322647,
+    "lon": 113.1081681,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "苏村转运锦鲤文化街区",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9359743,
+    "lon": 112.8622336,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "藏珍阁展览馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0310923,
+    "lon": 113.1080587,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "褒宠牌坊",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0317916,
+    "lon": 113.108136,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "西山庙",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8427987,
+    "lon": 113.2464605,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "观景平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9376703,
+    "lon": 112.9720406,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "谭平山故居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8538856,
+    "lon": 112.693726,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "邓培故居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.2245776,
+    "lon": 112.9207213,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "金舵领航馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9877668,
+    "lon": 113.059622,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "长流水",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8706044,
+    "lon": 113.0570022,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "长鹿农庄",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8808136,
+    "lon": 113.2831525,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "长鹿动物园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8802374,
+    "lon": 113.2853883,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "雾荷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0074151,
+    "lon": 113.1271512,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "霍勉斋公家庙",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9897307,
+    "lon": 113.1128503,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "霍氏家庙",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9900187,
+    "lon": 113.1127977,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "青云塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.826355,
+    "lon": 113.273636,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "革命烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8428528,
+    "lon": 113.2451567,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "顺峰山公园牌坊",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.827822,
+    "lon": 113.2718766,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "顺德人民礼堂",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8433746,
+    "lon": 113.2501872,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "顺德华侨城欢乐海岸PLUS",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8188384,
+    "lon": 113.2991258,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "顺德南宏海立方海洋公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7549649,
+    "lon": 113.3005365,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "顺德博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8017497,
+    "lon": 113.2884255,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "顺德展览馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8013179,
+    "lon": 113.288382,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "顺德工业发展博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7821939,
+    "lon": 113.2930322,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "顺德第二工人文化宫",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7762933,
+    "lon": 113.2613058,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "顺德艺术展览中心",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8432831,
+    "lon": 113.2499524,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "顺德钟楼",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8421326,
+    "lon": 113.2499868,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "飞流千尺瀑布",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9346341,
+    "lon": 112.9596736,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "香云纱博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8617589,
+    "lon": 113.2151957,
+    "description": "A popular museum spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "香港街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9111136,
+    "lon": 112.9678306,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "鹭湖探索王国",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8531099,
+    "lon": 112.7578273,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "鹭鸟天堂",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8453495,
+    "lon": 113.283656,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "麒龙盘云",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0179005,
+    "lon": 113.2306303,
+    "description": "A popular outdoor spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "黄仕聪革命烈士纪念碑",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7662881,
+    "lon": 112.5778288,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "龙山第一村",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8744302,
+    "lon": 113.0539994,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "龙江一桥遗址（北）",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9041077,
+    "lon": 113.0717376,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "龙江一桥遗址（南）",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9004975,
+    "lon": 113.0693227,
+    "description": "A popular history spot in Foshan.",
+    "city": "Foshan"
+  },
+  {
+    "name": "龙舟汇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8239109,
+    "lon": 113.2820388,
+    "description": "A popular sightseeing spot in Foshan.",
+    "city": "Foshan"
+  }
+]

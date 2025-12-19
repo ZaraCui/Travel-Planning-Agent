@@ -1,0 +1,2472 @@
+[
+  {
+    "name": "Bridge view",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.7795004,
+    "lon": 102.6078377,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "Cherry and Flowers Garden",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0724082,
+    "lon": 102.6208828,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "Dianchi Lake scenery",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.77433,
+    "lon": 102.6062098,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "Dianchi View",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.6714608,
+    "lon": 102.5902249,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "Elephant",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8168086,
+    "lon": 103.3241223,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "Entrance to Stone Forest Scenic Area",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8239604,
+    "lon": 103.3238638,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "Lexiaguo (Red Land)",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0284753,
+    "lon": 103.0155292,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "Palm Scenic Area",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8103525,
+    "lon": 103.322625,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "Peak View Pavillion",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8177868,
+    "lon": 103.3239356,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "Red Land Sacred Cedar Tree Viewpoint",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9185691,
+    "lon": 103.0874583,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "Red Land Viewpoint",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9320214,
+    "lon": 103.0819497,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "Red Lands Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9077948,
+    "lon": 103.0706977,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "Red Lands Viewpoint",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9328979,
+    "lon": 103.1088861,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "Stone Forest - national park",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8321861,
+    "lon": 103.339937,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "Thousand year old Tortoise",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8170286,
+    "lon": 103.3241113,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "Xiong Da Tea Market",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0752604,
+    "lon": 102.7265144,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "calm wanderer",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8127374,
+    "lon": 103.3262557,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "marketplace",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0595383,
+    "lon": 102.7058917,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "“一二·一”运动三烈士殉难处",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0534535,
+    "lon": 102.6940712,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "《云南人民革命斗争史》展厅",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0431349,
+    "lon": 102.7060657,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "一得测候所",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9621938,
+    "lon": 102.6247509,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "一线天",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.088793,
+    "lon": 102.844349,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "七彩云南",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9829315,
+    "lon": 102.8465063,
+    "description": "虚假景点，自由行千万别来，在本地完全不出名。如果是跟着旅行团来的，诱导消费必是少不了。",
+    "city": "Kunming"
+  },
+  {
+    "name": "七彩云南欢乐世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.7725415,
+    "lon": 102.7383128,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "七彩坡",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9424,
+    "lon": 103.0650599,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "万年灵芝",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8095188,
+    "lon": 103.3164513,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "下坪子",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0846054,
+    "lon": 102.8406622,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "世博园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0770999,
+    "lon": 102.7629037,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "东川红土地",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9365466,
+    "lon": 103.0754702,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "中国空军抗日战争殉国将士墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.002951,
+    "lon": 102.8031116,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "中国远征军将官住所旧址（紫园）",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9830362,
+    "lon": 102.6247605,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "丹桂村中央红军总部驻地旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.561028,
+    "lon": 102.8611633,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "乃古石林",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9017212,
+    "lon": 103.3491246,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "九乡风景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0687006,
+    "lon": 103.3814172,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "云南大学 东陆校区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0569867,
+    "lon": 102.7004417,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "云南师范大学西南联大博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0591279,
+    "lon": 102.6954238,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "云南文学艺术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9541681,
+    "lon": 102.7549801,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "云南民族博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9685695,
+    "lon": 102.6678432,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "云南民族村",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.969157,
+    "lon": 102.6594697,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "云南滇南本草植物博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.1623176,
+    "lon": 102.9994536,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "云南电信博物馆红庙分馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9955211,
+    "lon": 102.6975508,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "云南省中医药民族医药博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8411599,
+    "lon": 102.8228873,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "云南省博物馆新馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.952239,
+    "lon": 102.7521982,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "云南省气象博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9619067,
+    "lon": 102.6248977,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "云南省茶文化博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0436174,
+    "lon": 102.7076089,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "云南美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0401259,
+    "lon": 102.7027193,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "云南野生动物园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0997324,
+    "lon": 102.7863143,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "云南铁路博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.060202,
+    "lon": 102.7200481,
+    "description": "支付宝现场扫码预约进馆;Alipay on-site code scanning reservation into the museum",
+    "city": "Kunming"
+  },
+  {
+    "name": "云南陆军讲武堂",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0508609,
+    "lon": 102.6991557,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "云南雄风赛车主题公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.1441798,
+    "lon": 102.9679012,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "云端花海",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9720147,
+    "lon": 103.0194962,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "云纺历史博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0234366,
+    "lon": 102.7088588,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "云隅",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0294901,
+    "lon": 102.6735925,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "人民英雄纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0431301,
+    "lon": 102.7060707,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "伍马瑶人类学博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0576545,
+    "lon": 102.7024162,
+    "description": "节假日除外",
+    "city": "Kunming"
+  },
+  {
+    "name": "会泽院",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.055836,
+    "lon": 102.7021532,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "佛光崖",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0883759,
+    "lon": 102.8587326,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "傲骨林",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0945448,
+    "lon": 102.8468081,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "公园1903奥兰度骑士院",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9921691,
+    "lon": 102.6738601,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "公园1903梦幻联邦公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9915967,
+    "lon": 102.6752118,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "六十八道拐",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9374929,
+    "lon": 103.1192288,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "关圣宫",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8129238,
+    "lon": 102.769289,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "冰心默庐",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8963495,
+    "lon": 102.7967149,
+    "description": "冰心默庐位于昆明市呈贡区三台路 38 号，原名“华氏墓庐”，是呈贡斗南华氏家族于民国初年修建用于守坟和追祭先辈时的歇息地，为一幢三间六耳的土木结构中式庭院。 1938 年到 1940 年冰心和丈夫吴文藻携儿吴平、女吴冰、吴青在此居住时，取“墓”之谐音，改名“默庐”。冰心默庐于 2003 年 5月被列为昆明市级文物保护单位， 2005 年 10 月经修葺后面向社会开放，由呈贡区文物管理所负责管理维护，主体建筑保存完好，交通便利，现已被列为呈贡新区三台山片区开发改造的重要人文旅游景点，具有深厚的文化底蕴。",
+    "city": "Kunming"
+  },
+  {
+    "name": "准提寺碑记",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.04144,
+    "lon": 102.7387212,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "凌云阁",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9620691,
+    "lon": 102.7560919,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "华严阁佛号经幢",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0282397,
+    "lon": 102.6722568,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "华罗庚旧居",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0978565,
+    "lon": 102.6541137,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "南洋华侨机工抗日纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9766125,
+    "lon": 102.6244858,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "古崖画",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8130919,
+    "lon": 103.3242178,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "古戏台",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.7271427,
+    "lon": 102.3747488,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "古滇博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.7684352,
+    "lon": 102.7508593,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "吴尔岭景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.1297734,
+    "lon": 102.6455212,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "呈贡“五·一九 ”反蒋武装起义 旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8033044,
+    "lon": 102.8778447,
+    "description": "呈贡区革命遗址",
+    "city": "Kunming"
+  },
+  {
+    "name": "商埠界址碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0450171,
+    "lon": 102.7152827,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "嘉丽泽洪痕海拔石刻",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.2675847,
+    "lon": 103.1153704,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "四方景",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0577358,
+    "lon": 102.82225,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "团结三塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.093113,
+    "lon": 102.5250229,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "国保碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0291175,
+    "lon": 102.632148,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "国立艺专记忆馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.109483,
+    "lon": 102.7476168,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "国立西南联合大学纪念亭标志柱",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0571495,
+    "lon": 102.6953707,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "国立西南联合大学纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0594643,
+    "lon": 102.6955883,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "圈养兔子",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0261247,
+    "lon": 102.6845983,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "圣托里尼酒店",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9678691,
+    "lon": 103.0130939,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "地藏寺经幢",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0354133,
+    "lon": 102.7268457,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "大十字",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0481491,
+    "lon": 102.6481548,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "大叠水瀑布（未运营）",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.6699686,
+    "lon": 103.1948858,
+    "description": "不开放数年",
+    "city": "Kunming"
+  },
+  {
+    "name": "大观公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0245168,
+    "lon": 102.6711076,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "大黑箐",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0830453,
+    "lon": 102.8466281,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "天台峰",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0868446,
+    "lon": 102.8599524,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "天来瀑布",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0845669,
+    "lon": 102.8519467,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "太阳碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.1203988,
+    "lon": 102.4943647,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "妙高寺继喜亭记碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.1009384,
+    "lon": 102.6277877,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "孔雀园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0567668,
+    "lon": 102.7050179,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "安宁市博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9263873,
+    "lon": 102.4854458,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "安宁民用器物博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.6700801,
+    "lon": 102.3567366,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "官渡区博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0119595,
+    "lon": 102.7490357,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "官渡古镇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9583673,
+    "lon": 102.7539924,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "寻芳深处牌坊",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0209393,
+    "lon": 102.6725927,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "将军公馆",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.05443,
+    "lon": 102.6860333,
+    "description": "将军公馆位于旧址西侧的昆明开关厂的职工宿舍区内，为一座砖木结构的“工”字型西式平房。1942年2月至1945年8月，驻华美军总司令部还在昆华农校建立了昆明美军司令部。现存 “将军楼”是其高级军官的办公处和住宅。——摘自文保牌第三段",
+    "city": "Kunming"
+  },
+  {
+    "name": "小人国",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8550521,
+    "lon": 102.6126962,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "尚义社区摄影展",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0393793,
+    "lon": 102.7216925,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "岩泉寺",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9264035,
+    "lon": 103.125229,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "嵩明法界寺森林公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.3534213,
+    "lon": 103.0067289,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "巫家坝机场旧址民国时期候机楼",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0052429,
+    "lon": 102.7448739,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "废弃主题公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8044824,
+    "lon": 102.5594479,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "得胜桥碑记",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0365719,
+    "lon": 102.7155764,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "御路石",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0371171,
+    "lon": 102.7244405,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "德教碑亭",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0563295,
+    "lon": 102.7101155,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "忠孝碑亭",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0557305,
+    "lon": 102.7118844,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "打马坎",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9645855,
+    "lon": 103.0438794,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "抗战石碾",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8963354,
+    "lon": 102.7969506,
+    "description": "1940 年至 1941 年修建呈贡飞机场时，石碾是呈贡人民创造打制，用来压平机场的重要工具。",
+    "city": "Kunming"
+  },
+  {
+    "name": "抗战胜利纪念堂博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0435797,
+    "lon": 102.7060058,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "护国起义纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0413322,
+    "lon": 102.713278,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "捞鱼河湿地公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8241686,
+    "lon": 102.7674175,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "摩崖景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0809256,
+    "lon": 102.7647741,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "文庙",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0455,
+    "lon": 102.7072701,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "斗南花卉市场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9054792,
+    "lon": 102.7864413,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "施家咀网红沙滩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9544875,
+    "lon": 103.0042666,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "昆明动物博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0704433,
+    "lon": 102.7033541,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "昆明动物园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0566489,
+    "lon": 102.7084869,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "昆明国际无线电支台旧址（团山发信台旧址）",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.054443,
+    "lon": 102.6508919,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "昆明国际无线电支台旧址（西山区红庙收信台）",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9956729,
+    "lon": 102.6976526,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "昆明城市规划展览馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0364194,
+    "lon": 102.7274346,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "昆明城市规划馆新馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9284313,
+    "lon": 102.7245336,
+    "description": "不对公众开放",
+    "city": "Kunming"
+  },
+  {
+    "name": "昆明市博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0353841,
+    "lon": 102.7269732,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "昆明市自来水历史博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.052574,
+    "lon": 102.7034176,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "昆明广播电台旧址",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.047419,
+    "lon": 102.692502,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "昆明植物园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.143353,
+    "lon": 102.7415618,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "昆明碑林博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9604161,
+    "lon": 102.7548373,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "昆明老街",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.042789,
+    "lon": 102.706613,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "昆明聂耳故居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0415617,
+    "lon": 102.7063216,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "明永历帝殉国处碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0492598,
+    "lon": 102.7057703,
+    "description": "市级文物",
+    "city": "Kunming"
+  },
+  {
+    "name": "春城圆舞曲",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9620416,
+    "lon": 102.6553072,
+    "description": "建于1984年，是云南第一件大型城市公共雕塑。原放置于昆明东站环岛，02年移至海埂公园",
+    "city": "Kunming"
+  },
+  {
+    "name": "春城路改建工程纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0123472,
+    "lon": 102.7277456,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "晋宁博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.6714263,
+    "lon": 102.5892056,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "普坪摩崖石刻",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0125587,
+    "lon": 102.6205444,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "曹溪寺",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9513473,
+    "lon": 102.4467623,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "月亮岩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0838999,
+    "lon": 102.8517075,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "月亮田观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9893068,
+    "lon": 103.118993,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "朱德赠映空和尚诗文碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0479075,
+    "lon": 102.7460302,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "李公朴衣冠冢",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0596182,
+    "lon": 102.6959353,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "李广田殉难处碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0630453,
+    "lon": 102.6995861,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "松鹿部落风景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.1310459,
+    "lon": 102.5978529,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "林则徐半身像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.1414349,
+    "lon": 102.7468698,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "林则徐游黑龙潭简介",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.1413536,
+    "lon": 102.7468168,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "殿神财功德碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0372955,
+    "lon": 102.7245504,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "母子漫遊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8130382,
+    "lon": 103.3266635,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "汉益州郡滇池县治故址碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.7034515,
+    "lon": 102.7450376,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "河泊所遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.7102059,
+    "lon": 102.6880337,
+    "description": "国保碑位置",
+    "city": "Kunming"
+  },
+  {
+    "name": "海口川字闸",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.7826658,
+    "lon": 102.601309,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "海口林场纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.803224,
+    "lon": 102.6077698,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "海埂大坝",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9759724,
+    "lon": 102.6494902,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "海晏村博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8125051,
+    "lon": 102.7678996,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "海鸥老人铸像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0509632,
+    "lon": 102.7028172,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "清华大学西南联大国情普查研究所旧址",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8950574,
+    "lon": 102.7981503,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "渠首水轮泵站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.1394475,
+    "lon": 102.7767992,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "温泉摩崖石刻群",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9598714,
+    "lon": 102.4499962,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "湖之桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.6699259,
+    "lon": 102.658723,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "滇池博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0022547,
+    "lon": 102.7171405,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "滇缅公路历史博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0281124,
+    "lon": 102.6301179,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "滇缅公路纪念雕塑群",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0503375,
+    "lon": 102.6452261,
+    "description": "含数面壁雕",
+    "city": "Kunming"
+  },
+  {
+    "name": "滴水",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.7300256,
+    "lon": 103.0631511,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "潘光旦故居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0918205,
+    "lon": 102.6516566,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "灵毓胜地",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0487191,
+    "lon": 102.7469623,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "牌坊箐",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0696537,
+    "lon": 102.6286286,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "狗街子",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.7882674,
+    "lon": 103.1365465,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "王德三、吴澄、马登云三烈士墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.1392083,
+    "lon": 102.7470321,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "环翠宫",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0921846,
+    "lon": 102.7699879,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "珍稀动物区",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.1018553,
+    "lon": 102.7750444,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "看日落的地方",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9223513,
+    "lon": 102.7325997,
+    "description": "看日落的地方",
+    "city": "Kunming"
+  },
+  {
+    "name": "石城风景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8027236,
+    "lon": 102.5801737,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "石林冰雪海洋世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8149359,
+    "lon": 103.3093894,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "石林喀斯特地质科研博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8277626,
+    "lon": 103.3232457,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "石林文庙",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.7651652,
+    "lon": 103.2658106,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "石林风景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8162558,
+    "lon": 103.3225322,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "石頭寨",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.6719979,
+    "lon": 103.5194345,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "石龙坝水电博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8570505,
+    "lon": 102.5231426,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "碑林",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.670565,
+    "lon": 102.589346,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "碧鸡坊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0362642,
+    "lon": 102.7083244,
+    "description": "Gate",
+    "city": "Kunming"
+  },
+  {
+    "name": "神庙",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0915841,
+    "lon": 102.8452926,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "禄劝金沙江皎平渡口红军长征渡江纪念馆",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.2915996,
+    "lon": 102.3850509,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "福保·小三亚",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.920238,
+    "lon": 102.6919636,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "福春恒商号旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.041692,
+    "lon": 102.7077486,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "税务告示碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0480716,
+    "lon": 102.7150185,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "站牌",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.6241871,
+    "lon": 103.0363888,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "第一观赏平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0976292,
+    "lon": 102.797261,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "第三观赏平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0971432,
+    "lon": 102.7979376,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "第二观赏平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0966156,
+    "lon": 102.7965217,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "笼中鸟园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8237315,
+    "lon": 102.8482922,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "筇竹寺墓塔",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0686248,
+    "lon": 102.6222396,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "篆新农贸市场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0397791,
+    "lon": 102.6908344,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "红军碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.1911966,
+    "lon": 102.7435975,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "红军长征纪念馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.5604281,
+    "lon": 102.8602678,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "红土地老明星",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9191747,
+    "lon": 103.0667951,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "红土坡",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.1846106,
+    "lon": 102.6794209,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "纪念在华殉难盟军将士碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0400646,
+    "lon": 102.7068834,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "缅甸战役中国阵亡将士碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0564388,
+    "lon": 102.7092129,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "羊街子",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8536431,
+    "lon": 103.1275034,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "羊驼园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8311221,
+    "lon": 102.8391182,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "翠湖公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0514728,
+    "lon": 102.7025838,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "翠湖南路65号宅院",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0497894,
+    "lon": 102.7034163,
+    "description": "建于民国时期，2019年5月作为开放的博物馆使用。",
+    "city": "Kunming"
+  },
+  {
+    "name": "聂耳像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0505792,
+    "lon": 102.7009202,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "聂耳墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.961403,
+    "lon": 102.6329071,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "聂耳纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9611114,
+    "lon": 102.633039,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "航空委员会第一飞机制造厂旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0571851,
+    "lon": 102.6364697,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "花木岭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.1209095,
+    "lon": 103.0206677,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "花溪",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0852559,
+    "lon": 102.8492805,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "苗王峡",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0092212,
+    "lon": 103.3033462,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "范石生旧居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0887516,
+    "lon": 102.6746123,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "草木百兼馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.1441623,
+    "lon": 102.7412371,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "莲花瀑布",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0849337,
+    "lon": 102.8507498,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "落霞沟",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.932232,
+    "lon": 103.1088453,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "螺蛳湾",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9118584,
+    "lon": 103.0667481,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "西山小石林观光点",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9301239,
+    "lon": 102.63532,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "西山风景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9682241,
+    "lon": 102.6260635,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "西山龙门景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9553757,
+    "lon": 102.6363427,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "西游洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.1460616,
+    "lon": 102.6372599,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "观景",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8036362,
+    "lon": 102.6046762,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9900388,
+    "lon": 102.4234708,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "观音阁",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.838553,
+    "lon": 102.6643717,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "费孝通旧居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8877258,
+    "lon": 102.7928036,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "轿子雪山国际滑雪场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0583781,
+    "lon": 102.819728,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "轿顶",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0856052,
+    "lon": 102.8643432,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "郑和纪念亭",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.6698162,
+    "lon": 102.5899117,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "金殿",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0914321,
+    "lon": 102.7700939,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "金殿公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0885396,
+    "lon": 102.7698659,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "金马坊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0362644,
+    "lon": 102.7089611,
+    "description": "Gate",
+    "city": "Kunming"
+  },
+  {
+    "name": "铜犴",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0418038,
+    "lon": 102.7151937,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "铸像落成记",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.050961,
+    "lon": 102.7028544,
+    "description": "https://hnxxsy.com/shuqing/13567.html",
+    "city": "Kunming"
+  },
+  {
+    "name": "锦绣园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9353001,
+    "lon": 103.0689388,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "闻一多、朱自清旧居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.1096458,
+    "lon": 102.7479797,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "闻一多像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0581284,
+    "lon": 102.6956787,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "闻一多先生殉难处",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.052555,
+    "lon": 102.697993,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "闻一多历史陈列馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.1108176,
+    "lon": 102.748127,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "闻一多故居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.052628,
+    "lon": 102.6978591,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "闻一多衣冠冢",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0595252,
+    "lon": 102.6959547,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "阿诗玛",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8201062,
+    "lon": 103.3274966,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "青龙峡风情区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0656103,
+    "lon": 102.3679618,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "非洲部落",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0971201,
+    "lon": 102.7808506,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "飞来瀑",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.084493,
+    "lon": 102.8509788,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "飞虎队纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.03866,
+    "lon": 102.7181098,
+    "description": "A popular museum spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "驼峰飞行纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0754659,
+    "lon": 102.6240916,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "魁阁",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.8899299,
+    "lon": 102.7937293,
+    "description": "费孝通在抗战时期带领的学术团队工作场所",
+    "city": "Kunming"
+  },
+  {
+    "name": "鸟园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.0560239,
+    "lon": 102.7067821,
+    "description": "A popular outdoor spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "鸣凤门",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.089206,
+    "lon": 102.7691882,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "黑龙潭公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.1447855,
+    "lon": 102.7492409,
+    "description": "A popular sightseeing spot in Kunming.",
+    "city": "Kunming"
+  },
+  {
+    "name": "龙门",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.9521671,
+    "lon": 102.639021,
+    "description": "A popular history spot in Kunming.",
+    "city": "Kunming"
+  }
+]

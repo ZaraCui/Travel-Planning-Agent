@@ -1,0 +1,482 @@
+[
+  {
+    "name": "Glas Bridge",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6988244,
+    "lon": 117.5088357,
+    "description": "A popular sightseeing spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "Hefei Historical and Cultural Museum of the Three Kingdoms",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8728552,
+    "lon": 117.2874338,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "Qingfeng Pavillion",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8586625,
+    "lon": 117.2905086,
+    "description": "A popular history spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "Triathlon Museuam",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9107957,
+    "lon": 117.0418291,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "中国稻米博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.4771321,
+    "lon": 117.2584114,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "何氏太始祖陵园",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2438473,
+    "lon": 117.3622421,
+    "description": "A popular history spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "刘耋龄博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.24523,
+    "lon": 117.2729915,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "原合肥骆岗机场航站楼",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.7816933,
+    "lon": 117.3022466,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "县文化展示中心",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2786813,
+    "lon": 117.2862244,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "合肥-久留米友好美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8700432,
+    "lon": 117.2937504,
+    "description": "A popular sightseeing spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "合肥市野生动物园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8382644,
+    "lon": 117.1641671,
+    "description": "A popular outdoor spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "合肥文化馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.7286581,
+    "lon": 117.2899838,
+    "description": "A popular sightseeing spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "合肥欢乐岛",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.7820454,
+    "lon": 117.2123542,
+    "description": "A popular outdoor spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "合肥现代科技馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9010574,
+    "lon": 117.1717172,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "合肥科技馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8439249,
+    "lon": 117.2440116,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "合肥融创乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.698398,
+    "lon": 117.3003077,
+    "description": "A popular outdoor spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "合肥非物质文化遗产园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0065287,
+    "lon": 117.1087008,
+    "description": "A popular outdoor spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "周瑜文化园",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2490057,
+    "lon": 117.2939884,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "大蜀山陣地构築纪念塔",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8407919,
+    "lon": 117.1713295,
+    "description": "A popular history spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "太平天国三河大捷纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.5123722,
+    "lon": 117.2399841,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "安徽创新馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.7135275,
+    "lon": 117.3276696,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "安徽博物院",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8040653,
+    "lon": 117.2146525,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "安徽古楼小镇博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9556575,
+    "lon": 117.1153515,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "安徽百戏城",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.7151126,
+    "lon": 117.3304541,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "安徽省名人馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.7132265,
+    "lon": 117.3213202,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "安徽省地质博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8053697,
+    "lon": 117.2162803,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "安徽省科技馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.7097379,
+    "lon": 117.3179147,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "安徽省美术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.7104478,
+    "lon": 117.320267,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "巨石阵复制版",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9958963,
+    "lon": 117.2456521,
+    "description": "A popular sightseeing spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "庐江奇石馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2482756,
+    "lon": 117.3086311,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "张治中故居",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6579747,
+    "lon": 117.537059,
+    "description": "A popular outdoor spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "张治中纪念馆",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6588287,
+    "lon": 117.536496,
+    "description": "A popular history spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "拱辰桥死难者纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8754309,
+    "lon": 117.2830227,
+    "description": "A popular history spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "李克农故居",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.655964,
+    "lon": 117.6223483,
+    "description": "A popular history spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "桂军抗战战壕遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3036972,
+    "lon": 117.3457354,
+    "description": "A popular history spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "汉哥窟",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.743237,
+    "lon": 117.2910139,
+    "description": "A popular history spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "江泽民主席题词",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8401681,
+    "lon": 117.2616784,
+    "description": "A popular history spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "渡江战役纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.7126656,
+    "lon": 117.3244346,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "温家套惨案纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6262577,
+    "lon": 117.7769672,
+    "description": "A popular history spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "独山观景平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2748101,
+    "lon": 117.3638847,
+    "description": "A popular outdoor spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "瑜婆墩",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2521403,
+    "lon": 117.2780792,
+    "description": "A popular history spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "祥源花世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.689413,
+    "lon": 117.1267314,
+    "description": "A popular outdoor spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "红专并进 理实交融",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.840471,
+    "lon": 117.2642385,
+    "description": "A popular history spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "艺术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8149656,
+    "lon": 117.2500536,
+    "description": "A popular sightseeing spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "蓝藻科普馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.7174476,
+    "lon": 117.3407163,
+    "description": "A popular museum spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "陈陆纪念馆",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2518759,
+    "lon": 117.2506015,
+    "description": "A popular history spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "龙王桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8448264,
+    "lon": 117.1658606,
+    "description": "A popular sightseeing spot in Hefei.",
+    "city": "Hefei"
+  },
+  {
+    "name": "龙遛弯欢乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.7161848,
+    "lon": 117.7232482,
+    "description": "A popular outdoor spot in Hefei.",
+    "city": "Hefei"
+  }
+]

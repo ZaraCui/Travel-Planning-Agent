@@ -1,0 +1,4862 @@
+[
+  {
+    "name": "Dayu gallery",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.3832472,
+    "lon": 120.4118437,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "Exhibition Hall",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.3053307,
+    "lon": 120.5018402,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "Night Market",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1569104,
+    "lon": 120.4189815,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "Oceanarium",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1684137,
+    "lon": 120.6872901,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "Sunday market",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1132669,
+    "lon": 120.3485262,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "Zoo gate",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0695909,
+    "lon": 120.3423247,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "一指天",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1532092,
+    "lon": 120.6639702,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "一柱香",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1941186,
+    "lon": 120.4474287,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "一线天",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1497633,
+    "lon": 120.6291106,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "七涧谷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.3089057,
+    "lon": 120.5612343,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "万丽海景",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0554702,
+    "lon": 120.3627115,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "万年梯",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1672433,
+    "lon": 120.6375287,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "万年船",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1591368,
+    "lon": 120.6580679,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "三丰洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1564031,
+    "lon": 120.6616147,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "三寸金莲",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1996005,
+    "lon": 120.5993206,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "三教台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1669176,
+    "lon": 120.6178005,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "三清亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1413403,
+    "lon": 120.6692007,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "三清殿遗迹",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.216714,
+    "lon": 120.5924522,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "三界石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2157235,
+    "lon": 120.4793888,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "三阳洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2379442,
+    "lon": 120.4971741,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "丑石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1573025,
+    "lon": 120.6331244,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "丘处机修炼处",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2709517,
+    "lon": 120.4956294,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "东天门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1938565,
+    "lon": 120.4474789,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "东方伊甸园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2581666,
+    "lon": 120.3054442,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "东西歧",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1589411,
+    "lon": 120.6508206,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "中华人民共和国水准零点",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0568775,
+    "lon": 120.4181966,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "中国人民解放军海军博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0547934,
+    "lon": 120.3238996,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "中国雕塑院·青岛雕塑园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0779039,
+    "lon": 120.4487559,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "串石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2351312,
+    "lon": 120.4642479,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "乾坤洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1740833,
+    "lon": 120.6228038,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "乾坤门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1564106,
+    "lon": 120.6614709,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "乾门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1801723,
+    "lon": 120.6238135,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "二平潭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1430406,
+    "lon": 120.6546241,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "二界",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2045372,
+    "lon": 120.4673149,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "云洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2702782,
+    "lon": 120.5046998,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "云海游乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1831078,
+    "lon": 120.4878241,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "云窟",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1557197,
+    "lon": 120.6625726,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "云霄洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.175147,
+    "lon": 120.6228958,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "五四广场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0611741,
+    "lon": 120.3802257,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "五子登科",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2194274,
+    "lon": 120.6401496,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "五峰仙馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1792276,
+    "lon": 120.6243868,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "仙人崮",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2244519,
+    "lon": 120.6532952,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "仙人桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.21729,
+    "lon": 120.6097995,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "仙人洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.225009,
+    "lon": 120.6316204,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "仙古洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2167721,
+    "lon": 120.5925456,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "仙女洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.213457,
+    "lon": 120.5186691,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "仙女盆/洗澡盆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2135608,
+    "lon": 120.5187334,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "仙岩石刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2383632,
+    "lon": 120.4968681,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "仰天池",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1771143,
+    "lon": 120.6280369,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "伊伦娜旅馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1831864,
+    "lon": 120.6096875,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "会前村遗址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0631934,
+    "lon": 120.3448122,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "伴山居士石刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1566372,
+    "lon": 120.659585,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "俾斯麦炮台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0684015,
+    "lon": 120.3377677,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "借粮台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.21997,
+    "lon": 120.6648691,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "元宝石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2372765,
+    "lon": 120.4999781,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "兑门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1770392,
+    "lon": 120.6238227,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "兔子石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2356749,
+    "lon": 120.4663414,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "全真庵遗址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2160878,
+    "lon": 120.5194863,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "八不砂大王令旨石刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2377346,
+    "lon": 120.49678,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "八大关风景名胜区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0534333,
+    "lon": 120.3458323,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "八角池",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1776688,
+    "lon": 120.6296709,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "公主楼",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0522897,
+    "lon": 120.3444601,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "关公夜读",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2380479,
+    "lon": 120.6483714,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "凌海山",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1446328,
+    "lon": 120.6776144,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "凤凰台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2784705,
+    "lon": 120.4905688,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "凭虚石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2383662,
+    "lon": 120.4970892,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "刘武美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.064471,
+    "lon": 120.3364323,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "劈柴院",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.071175,
+    "lon": 120.3128512,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "劈柴院江宁会馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0712762,
+    "lon": 120.3131062,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "劈石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2898135,
+    "lon": 120.5811699,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "化化浪子",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1525097,
+    "lon": 120.6431562,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "北岭山森林公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1224472,
+    "lon": 120.3661245,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "十五大街古玩城",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0757212,
+    "lon": 120.3448491,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "千年之吻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1950391,
+    "lon": 120.4467774,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "华楼周鲁孙镗石刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2389106,
+    "lon": 120.4981838,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "华楼山摩崖石刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2384845,
+    "lon": 120.4996663,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "华阳书院",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2346142,
+    "lon": 120.5031377,
+    "description": "华阳书院建于明正德年间，明黄宗昌《崂山志》载：“在华楼山南麓，盖少司寇蓝公伤心时事，退休大崂之侧，卜筑于此者也。”\n蓝公即蓝章，字文绣，即墨人，明成化二十年（1484）进士，曾任都察院右佥都御史、刑部右侍郎等职，后告退归里，于华阳山筑华阳书院，结庐隐居，自号“大崂山人”，教儿子蓝田、蓝囦攻读诗书，后世子孙多就读于此，人才辈出，盛极一时。\n华阳书院占地亩余，东西建有两栋各为三间的砖木结构平房， 分别取名“紫云阁”和“文昌阁”。书院南侧溪流潺潺，山石上刻有“谈经地”“枕石漱流”“曲水流觞”以及“松关”“八仙台",
+    "city": "Qingdao"
+  },
+  {
+    "name": "华阳书院碑记石刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2336293,
+    "lon": 120.5017555,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "华阳洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2289212,
+    "lon": 120.4932182,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "南天门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2368495,
+    "lon": 120.4980119,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "南张村",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1400291,
+    "lon": 120.4680201,
+    "description": "A popular history spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "南方院子",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.9281535,
+    "lon": 120.1966643,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "南村镇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.5341029,
+    "lon": 120.1271616,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "南长坂坡",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1492986,
+    "lon": 120.6280365,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "即墨古城",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.3884921,
+    "lon": 120.462969,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "即墨路小商品市场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0742252,
+    "lon": 120.3187844,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "原泉(太乙泉)",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.179312,
+    "lon": 120.6274262,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "双兔石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0860777,
+    "lon": 120.428398,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "双福",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1828068,
+    "lon": 120.6330362,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "双面兽",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2777161,
+    "lon": 120.5013607,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "台东商业步行街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.082427,
+    "lon": 120.3509106,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "台东夜市",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0834948,
+    "lon": 120.3503899,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "台东布艺街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0881967,
+    "lon": 120.3518554,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "吉普车",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.200898,
+    "lon": 120.4579155,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "名山第一石刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.238842,
+    "lon": 120.4983163,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "吕美荪故居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0607371,
+    "lon": 120.3286751,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "听风",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1957221,
+    "lon": 120.4488183,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "周叔迦故居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0598601,
+    "lon": 120.3320201,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "和尚石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2260041,
+    "lon": 120.5725816,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "响石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2504665,
+    "lon": 120.4994732,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "哑铃石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1707935,
+    "lon": 120.631448,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "啸天犬",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.3002503,
+    "lon": 120.5726502,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "嘉年华游乐区",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1936179,
+    "lon": 120.4917339,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "嘉靖甲辰响石石刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2489578,
+    "lon": 120.4980863,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "回澜阁",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0582954,
+    "lon": 120.3154339,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "地下长城",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2194017,
+    "lon": 120.4852913,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "地棺",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2178817,
+    "lon": 120.6367517,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "坊子街山公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1990756,
+    "lon": 120.3875786,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "坎门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.180282,
+    "lon": 120.6281896,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "坤门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1722335,
+    "lon": 120.6225223,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "垭口驿站",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1453359,
+    "lon": 120.6779862,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "外星人",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2230217,
+    "lon": 120.6171114,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "大圣故居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2392736,
+    "lon": 120.6502785,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "大崂观遗址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.240415,
+    "lon": 120.5720352,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "大棒骨",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2215528,
+    "lon": 120.4602858,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "大泽山风景名胜区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.9899115,
+    "lon": 120.0085124,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "大港海关博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0839574,
+    "lon": 120.319176,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "大珠山风景名胜区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.7973292,
+    "lon": 119.9991553,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "大蘑菇石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2350914,
+    "lon": 120.4695027,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "大象石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2115083,
+    "lon": 120.4744434,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "大象鼻子",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2007214,
+    "lon": 120.4541668,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "大鹰嘴石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1994224,
+    "lon": 120.4495974,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "天书",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.162261,
+    "lon": 120.659004,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "天后宫",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0614722,
+    "lon": 120.3222445,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "天寿",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2174853,
+    "lon": 120.4671857,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "天幕城",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0812038,
+    "lon": 120.3381518,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "天心池",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1792436,
+    "lon": 120.6575968,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "天心石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1708402,
+    "lon": 120.6315506,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "天板石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1985334,
+    "lon": 120.6313539,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "天柱石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2131814,
+    "lon": 120.6548433,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "天梯石刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1355573,
+    "lon": 120.6593026,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "天棺",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2187834,
+    "lon": 120.6397264,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "天池晴波",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1557025,
+    "lon": 120.6626994,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "天河石刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2058121,
+    "lon": 120.4692803,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "天波池",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1984244,
+    "lon": 120.6716785,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "天液泉",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.238383,
+    "lon": 120.4968517,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "天生一个仙人洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2005871,
+    "lon": 120.4476985,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "天苑",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2295181,
+    "lon": 120.6537946,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "天落水",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2314191,
+    "lon": 120.4862692,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "天门池",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1537332,
+    "lon": 120.6330084,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "天险",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1531731,
+    "lon": 120.6636954,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "太师椅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2003611,
+    "lon": 120.4541424,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "太平顶",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.068866,
+    "lon": 120.3502588,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "太清胜境",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1378521,
+    "lon": 120.6645882,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "夹蛋石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2243728,
+    "lon": 120.4851813,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "奥帆博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0527698,
+    "lon": 120.3893664,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "如意石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2194634,
+    "lon": 120.6356649,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "姊妹洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1917767,
+    "lon": 120.6117021,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "姜公背姜婆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2199662,
+    "lon": 120.4607429,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "威尼斯水城",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.20676,
+    "lon": 120.2772913,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "孔子塑像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1581866,
+    "lon": 120.4900137,
+    "description": "A popular history spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "孔子石（老子石）",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1893897,
+    "lon": 120.587688,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "孔子讲书",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2216406,
+    "lon": 120.4606367,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "孔祥熙别墅（法国楼）",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0598068,
+    "lon": 120.3583026,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "孙昙采药刻石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2008251,
+    "lon": 120.6528984,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "孤山",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1298194,
+    "lon": 120.3502044,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "安静潭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1464601,
+    "lon": 120.648652,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "宗鑫博物馆（东莱银行旧址）",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0651122,
+    "lon": 120.3129968,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "官帽石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1885442,
+    "lon": 120.568322,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "宫崎骏漫画街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0630585,
+    "lon": 120.3261786,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "寻真门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1362986,
+    "lon": 120.662282,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "寿星石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1665659,
+    "lon": 120.6278882,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "将军台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1686639,
+    "lon": 120.6296005,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "小圣天",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2193344,
+    "lon": 120.463254,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "小圣故居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1550306,
+    "lon": 120.6129299,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "小天池",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1587352,
+    "lon": 120.6578554,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "小天落水",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2291781,
+    "lon": 120.4842117,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "小湛山堡垒遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.075658,
+    "lon": 120.3628712,
+    "description": "德国仲家洼炮台遗址",
+    "city": "Qingdao"
+  },
+  {
+    "name": "小珠山风景名胜区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.9811232,
+    "lon": 120.0575351,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "小鸡石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2170302,
+    "lon": 120.6157717,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "少海湿地公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2363911,
+    "lon": 120.0777959,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "山海重光",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1435591,
+    "lon": 120.671562,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "山神石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.9900836,
+    "lon": 120.0143324,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "岳母刺字",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2171008,
+    "lon": 120.5832069,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "崂山之谷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1724453,
+    "lon": 120.6264434,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "崂山风景名胜区九水游览区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2043993,
+    "lon": 120.6092124,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "崂山风景名胜区仰口游览区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2379984,
+    "lon": 120.6619489,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "崂山风景名胜区华楼游览区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2364718,
+    "lon": 120.5034989,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "崂山风景名胜区太清游览区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1390545,
+    "lon": 120.668098,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "崂山风景名胜区巨峰游览区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1731096,
+    "lon": 120.6244167,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "崂山风景名胜区棋盘石游览区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2061329,
+    "lon": 120.6762862,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "崂山风景名胜区流清游览区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1227821,
+    "lon": 120.6052692,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "巽门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1729244,
+    "lon": 120.6264762,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "帆船石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2082412,
+    "lon": 120.6599038,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "平度市博物館",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.7865201,
+    "lon": 119.9521491,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "平湖度假村",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.904058,
+    "lon": 119.9209932,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "康有为故居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0596978,
+    "lon": 120.3342231,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "德军要塞地下指挥部",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0694389,
+    "lon": 120.3379718,
+    "description": "A popular history spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "德孝坊怀念堂",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1946926,
+    "lon": 120.4622222,
+    "description": "A popular history spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "德文石刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1832058,
+    "lon": 120.6093931,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "慧炬院遗址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2649423,
+    "lon": 120.4916367,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "戏凤台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1530216,
+    "lon": 120.6637881,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "扇子石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2168325,
+    "lon": 120.6117273,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "抗战八周年-1945",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1435292,
+    "lon": 120.6717049,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "护士石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.214456,
+    "lon": 120.6238407,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "披云石刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2367321,
+    "lon": 120.497857,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "拇指石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2216838,
+    "lon": 120.6337192,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "拦路狗",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2285832,
+    "lon": 120.4816261,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "摘星亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.172183,
+    "lon": 120.6260482,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "放生池",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.237511,
+    "lon": 120.4977797,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "方特梦幻王国",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2077778,
+    "lon": 120.2744633,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "无脸婆婆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2276445,
+    "lon": 120.4784099,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "日月池",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1699808,
+    "lon": 120.6313509,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "日月潭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1337941,
+    "lon": 120.6504091,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "明真洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.237968,
+    "lon": 120.4973149,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "明黄嘉善书院遗址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2250465,
+    "lon": 120.4637302,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "星星潭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1407933,
+    "lon": 120.6152232,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "春和楼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0706097,
+    "lon": 120.3135176,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "最乐处石刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2367383,
+    "lon": 120.4979339,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "月亮船",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2273099,
+    "lon": 120.4799789,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "望海猴",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2117566,
+    "lon": 120.4752422,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "望海门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2057486,
+    "lon": 120.6621349,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "李哥庄镇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.346342,
+    "lon": 120.1494383,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "李村公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1683309,
+    "lon": 120.4170228,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "李村商业步行街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1590091,
+    "lon": 120.4181877,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "李村河公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1632663,
+    "lon": 120.4670567,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "李沧区科技馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.169302,
+    "lon": 120.4173492,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "李沧文化公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1678005,
+    "lon": 120.4188342,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "栓马柱",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2230918,
+    "lon": 120.521628,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "桟桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0599579,
+    "lon": 120.3148805,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "梨庵子",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1358117,
+    "lon": 120.6555041,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "棋盘石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1979667,
+    "lon": 120.6539293,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "棒槌石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2241054,
+    "lon": 120.4844084,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "楼山公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1962302,
+    "lon": 120.380749,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "楼山物流园",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2238294,
+    "lon": 120.3739635,
+    "description": "A popular history spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "母子石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1918562,
+    "lon": 120.5880928,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "毛主席石像",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0788403,
+    "lon": 120.4339897,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "水晶洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2076658,
+    "lon": 120.4713918,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "水洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2701743,
+    "lon": 120.5046077,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "汇泉广场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0584921,
+    "lon": 120.3403285,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "沈鸿烈别墅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2377666,
+    "lon": 120.4962413,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "沈鸿烈华楼题字",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2384783,
+    "lon": 120.498624,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "沙子口渔港码头",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1133131,
+    "lon": 120.5541848,
+    "description": "A popular history spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "沧口公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1860825,
+    "lon": 120.3829158,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "河马石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2000799,
+    "lon": 120.454277,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "洋和尚",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2277009,
+    "lon": 120.4781792,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "洗脸盆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2079882,
+    "lon": 120.453527,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "流云亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2044527,
+    "lon": 120.6178385,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "流清河风景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1324204,
+    "lon": 120.5964733,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "济公石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2151768,
+    "lon": 120.607356,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "浴日奇观",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2016402,
+    "lon": 120.6577964,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "海上回音天坛",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0506831,
+    "lon": 120.2999109,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "海云庵",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1108624,
+    "lon": 120.3450986,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "海云庵庙会",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1109928,
+    "lon": 120.3478284,
+    "description": "青岛糖球会\n中国农历正月十六至正月十八举办",
+    "city": "Qingdao"
+  },
+  {
+    "name": "海云庵民俗街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1119763,
+    "lon": 120.3465324,
+    "description": "海云庵糖球会或海云庵庙会 中国农历正月十六至正月十八举办",
+    "city": "Qingdao"
+  },
+  {
+    "name": "海兽馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0556719,
+    "lon": 120.3298719,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "海天中心",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.057116,
+    "lon": 120.3975857,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "海泊桥公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0971672,
+    "lon": 120.3506605,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "海洋生物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.056601,
+    "lon": 120.3309442,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "海滨旅馆旧址",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0582616,
+    "lon": 120.3362336,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "海豚石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1998783,
+    "lon": 120.4527243,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "海象石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1699552,
+    "lon": 120.6312546,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "海阔天空石刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2389331,
+    "lon": 120.4966388,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "海龟石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1688535,
+    "lon": 120.6304,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "清心潭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1456818,
+    "lon": 120.6515427,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "清水湾",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1974408,
+    "lon": 120.6454015,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "清溪庵庙会",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0838115,
+    "lon": 120.3409097,
+    "description": "青岛萝卜会\n正月初九到正月十五举办",
+    "city": "Qingdao"
+  },
+  {
+    "name": "清雅石刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2360254,
+    "lon": 120.657005,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "滑溜口",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2082413,
+    "lon": 120.6332316,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "滴水洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.211335,
+    "lon": 120.4621331,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "潜艇石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2079804,
+    "lon": 120.4713995,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "灵山岛风景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.7625185,
+    "lon": 120.1680212,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "灵岩窟",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2380653,
+    "lon": 120.4813621,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "灵峰道庵",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.245356,
+    "lon": 120.5023403,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "烟墩山公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1960597,
+    "lon": 120.3717044,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "牛毛山",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1816395,
+    "lon": 120.3937155,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "狗头石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1991426,
+    "lon": 120.4518085,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "狗熊背",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2276403,
+    "lon": 120.479561,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "狮子岩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1462719,
+    "lon": 120.6783383,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "猪头石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2171301,
+    "lon": 120.4550069,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "猪肝石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2126473,
+    "lon": 120.4637532,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "猪蹄石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2349485,
+    "lon": 120.4642975,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "猿人石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.141043,
+    "lon": 120.6214238,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "玄武洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1351205,
+    "lon": 120.6578387,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "玄真洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1562898,
+    "lon": 120.6614449,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "玄阳观遗址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2119681,
+    "lon": 120.4736658,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "玉女洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2219892,
+    "lon": 120.6329692,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "玉女盆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2385759,
+    "lon": 120.4962271,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "玉皇洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2378637,
+    "lon": 120.4963111,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "玉蕊楼遗址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2995026,
+    "lon": 120.5404896,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "王家下河基督教堂",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1702279,
+    "lon": 120.4792321,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "王炕",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2084216,
+    "lon": 120.4410547,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "王荷波在青岛纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0901388,
+    "lon": 120.3303812,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "琅琊台风景名胜区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.6469546,
+    "lon": 119.8968342,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "琴屿路",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0533086,
+    "lon": 120.3249192,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "瑶池",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.148234,
+    "lon": 120.6725632,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "登州周鲁石刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2748376,
+    "lon": 120.5001219,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "登州周鲁胶州赵云凤石刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1562318,
+    "lon": 120.6615985,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "白云洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2186284,
+    "lon": 120.665953,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "白石头窑",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1601553,
+    "lon": 120.6512889,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "白石潭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1451483,
+    "lon": 120.6517388,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "白虎",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2057121,
+    "lon": 120.4692367,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "白龙洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2362588,
+    "lon": 120.6576367,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "百乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2024801,
+    "lon": 120.5085145,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "百年老屋",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.223087,
+    "lon": 120.5217198,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "百福古井",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2233158,
+    "lon": 120.5205272,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "盘丝洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1970275,
+    "lon": 120.5987872,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "真人洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2724433,
+    "lon": 120.5664006,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "睡陈抟",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.200526,
+    "lon": 120.447887,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "督署医院III号病房旧址",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0674915,
+    "lon": 120.3221504,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "石老人",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0884414,
+    "lon": 120.4909003,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "石门小屋",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2223135,
+    "lon": 120.4830935,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "石门庵遗址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2188882,
+    "lon": 120.4874664,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "石门开",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2272205,
+    "lon": 120.5692965,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "石门涧",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1751055,
+    "lon": 120.6048218,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "石门涧石刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2030595,
+    "lon": 120.4459907,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "石门题记",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2250388,
+    "lon": 120.4636299,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "石马槽",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2044288,
+    "lon": 120.4453858,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "石鼓",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2275632,
+    "lon": 120.4788448,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "矿晶博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.3789181,
+    "lon": 120.6841883,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "碧天洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.140391,
+    "lon": 120.6424139,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "碧月潭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2286349,
+    "lon": 120.6311555,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "碰头石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2145608,
+    "lon": 120.6169967,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "礼泉",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1759591,
+    "lon": 120.6307052,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "神仙座",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2759021,
+    "lon": 120.555398,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "神仙桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.239538,
+    "lon": 120.480314,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "神仙梯",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2053781,
+    "lon": 120.4705236,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "神掌",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2242597,
+    "lon": 120.6533638,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "神水泉",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2122282,
+    "lon": 120.5136289,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "神泉",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1577189,
+    "lon": 120.6635399,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "神龙泉",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2709073,
+    "lon": 120.495858,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "神龟",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2010851,
+    "lon": 120.4452884,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "神龟拜寿",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2198707,
+    "lon": 120.4795374,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "神龟推球",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2115769,
+    "lon": 120.6612962,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "神龟石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2318914,
+    "lon": 120.478185,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "福寿金龟",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.271684,
+    "lon": 120.4975004,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "福山路文化名人街区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.060731,
+    "lon": 120.3349759,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "福泰庵",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2447305,
+    "lon": 120.5158315,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "离门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1715575,
+    "lon": 120.6247318,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "童子洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2131501,
+    "lon": 120.5183901,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "笑池",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1631285,
+    "lon": 120.6360481,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "羊角石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1529311,
+    "lon": 120.6328282,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "美国楼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.061422,
+    "lon": 120.3554691,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "翠屏岩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.237824,
+    "lon": 120.4963253,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "老头脸",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2039368,
+    "lon": 120.6203297,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "老师父坟",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2384394,
+    "lon": 120.4956521,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "老碾房",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2233278,
+    "lon": 120.5205585,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "老虎山森林公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1859727,
+    "lon": 120.412326,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "老虎洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.221858,
+    "lon": 120.6110339,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "老虎牙",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2217655,
+    "lon": 120.610996,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "聚仙亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.3034511,
+    "lon": 120.5651797,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "聚仙台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2384719,
+    "lon": 120.5000431,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "背来石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.7842947,
+    "lon": 120.1753948,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "胭脂潭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1508589,
+    "lon": 120.6445701,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "胶济铁路青岛博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0633687,
+    "lon": 120.3084434,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "脚丫石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1683691,
+    "lon": 120.6355525,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "自然碑",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1707739,
+    "lon": 120.6240059,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "艮门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1773407,
+    "lon": 120.6291462,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "芝麻石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2302492,
+    "lon": 120.639466,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "花石楼",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0499889,
+    "lon": 120.3483975,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "茶涧庙",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1796816,
+    "lon": 120.6051977,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "莲台寺遗址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2496914,
+    "lon": 120.4870791,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "落霞潭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1514733,
+    "lon": 120.6438943,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "葫芦洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1690052,
+    "lon": 120.6230936,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "蒲台路美食小巷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0842871,
+    "lon": 120.3290976,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "蓝树谷青少年世博园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.7987743,
+    "lon": 120.0943271,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "蘑菇蛋",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2275376,
+    "lon": 120.4770716,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "虔女洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1788857,
+    "lon": 120.6168206,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "虹桥待月公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.9215109,
+    "lon": 120.1334388,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "蝴蝶楼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0496848,
+    "lon": 120.3410434,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "蝴蝶泉",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2002883,
+    "lon": 120.6108392,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "融創城",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.9044026,
+    "lon": 120.0938812,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "蟹夹石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1493084,
+    "lon": 120.6055644,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "西海岸新区啤酒广场",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.9546208,
+    "lon": 120.2351155,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "西海美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.9158119,
+    "lon": 120.1805777,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "西班牙风情馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0519723,
+    "lon": 120.3445199,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "要儿石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2023396,
+    "lon": 120.4474009,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "观星台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2406309,
+    "lon": 120.4819192,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "观音石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2266639,
+    "lon": 120.5718368,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "试刀石风景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.7688447,
+    "lon": 120.1771162,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "试胆石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1896889,
+    "lon": 120.5892587,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "诗苑洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1568816,
+    "lon": 120.6631636,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "货郎鼓石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2751281,
+    "lon": 120.5549843,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "赫崇本故居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0609574,
+    "lon": 120.3289919,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "赵太侔故居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0627902,
+    "lon": 120.3261669,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "躲荒洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2271178,
+    "lon": 120.5712881,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "迷魂涧",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1572515,
+    "lon": 120.5961406,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "逸夫科技馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0620512,
+    "lon": 120.3320346,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "道士帽子",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2077314,
+    "lon": 120.4557747,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "道路交通博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0806563,
+    "lon": 120.31799,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "醉仙石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1530929,
+    "lon": 120.6638343,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "采药石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2204602,
+    "lon": 120.6361792,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "重阳洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2366166,
+    "lon": 120.4978173,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "金液泉",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2376882,
+    "lon": 120.4966368,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "金童盆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2156987,
+    "lon": 120.4799653,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "金蝉望月",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2699149,
+    "lon": 120.4961767,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "金蟾灵蛇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.3064463,
+    "lon": 120.5619355,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "金蟾石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2173079,
+    "lon": 120.6108246,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "银杏",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2341284,
+    "lon": 120.4421808,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "银海大世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0567676,
+    "lon": 120.4187594,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "镜岩楼上院（疑似）",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2323553,
+    "lon": 120.482113,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "镜岩楼下院（老庵子）",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2324681,
+    "lon": 120.4852539,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "镜面石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1543971,
+    "lon": 120.6067337,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "长征一号",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0557771,
+    "lon": 120.3213534,
+    "description": "A popular history spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "闻一多故居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0675569,
+    "lon": 120.3328913,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "阴阳石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2055471,
+    "lon": 120.4659897,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "雄崖所故城",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.5836825,
+    "lon": 120.8643733,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "震门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1748026,
+    "lon": 120.6281828,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "霸王台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2226391,
+    "lon": 120.4440059,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "霸王寨",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2202925,
+    "lon": 120.4592234,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "霸王洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2140746,
+    "lon": 120.4643616,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青山渔村牌坊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1458777,
+    "lon": 120.6789257,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛一战遗址博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0686007,
+    "lon": 120.3399266,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛党史纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1071642,
+    "lon": 120.3388511,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛八大关近代建筑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.052286,
+    "lon": 120.3468158,
+    "description": "A popular history spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛六中美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0211372,
+    "lon": 120.0853909,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛啤酒博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0789716,
+    "lon": 120.3419778,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛城阳铁陨石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2873837,
+    "lon": 120.38539,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛天幕城",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0809028,
+    "lon": 120.3383072,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛奥林匹克帆船中心",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0557034,
+    "lon": 120.3911399,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛婚纱街遗址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.078773,
+    "lon": 120.3472662,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛安徒生童话乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.7271837,
+    "lon": 119.9656718,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛小鱼山文化名人街区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0634869,
+    "lon": 120.3289049,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛崂山湾渔村民俗博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1683061,
+    "lon": 120.6875334,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛市 下关市 结成友好城市植树纪念",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0640677,
+    "lon": 120.3189702,
+    "description": "A popular history spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛市博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1016154,
+    "lon": 120.4680619,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛市文化馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0685009,
+    "lon": 120.3168334,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛市美术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0614226,
+    "lon": 120.3275421,
+    "description": "青岛“万字会”旧址",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛市革命烈士纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0663394,
+    "lon": 120.3577413,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛广播电台旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0610501,
+    "lon": 120.3063685,
+    "description": "青岛广播电台1929-1999",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛德华大学旧址/青岛黑澜兵营旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.059461,
+    "lon": 120.3054162,
+    "description": "A popular history spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛德国建筑群",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0553542,
+    "lon": 120.3053155,
+    "description": "A popular history spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛德国总督楼旧址",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0647362,
+    "lon": 120.3279321,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛德国监狱博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.061437,
+    "lon": 120.3237461,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛德国风情街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0780935,
+    "lon": 120.3161199,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛总理衙门遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.060354,
+    "lon": 120.3243952,
+    "description": "A popular history spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛文具街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0850897,
+    "lon": 120.3444748,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛文化街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0841924,
+    "lon": 120.3401776,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛文学馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.06602,
+    "lon": 120.3164141,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛极地海洋世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0686174,
+    "lon": 120.4375246,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛档案馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0639117,
+    "lon": 120.3293579,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛森林野生动物世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.9810614,
+    "lon": 120.0527443,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛海底隧道博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0025667,
+    "lon": 120.2851423,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛海洋科技馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0574655,
+    "lon": 120.3302853,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛湛山小学",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0617698,
+    "lon": 120.3693874,
+    "description": "A popular history spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛登州路啤酒街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0787056,
+    "lon": 120.3421616,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛科技街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0825087,
+    "lon": 120.3273117,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛科技馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0632748,
+    "lon": 120.3144353,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛纺织博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1439561,
+    "lon": 120.3718439,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛网红墙",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0611841,
+    "lon": 120.3264854,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛葡萄酒博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0723194,
+    "lon": 120.3428327,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛规划展览馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0844561,
+    "lon": 120.4561648,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛贝林自然博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0792606,
+    "lon": 120.3285944,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛邮电博物馆;青岛市邮政管理局",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0632588,
+    "lon": 120.316602,
+    "description": "Built in 1901, former site of German Imperial Post Office.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青岛雕塑园室外区域",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0798863,
+    "lon": 120.4499166,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青島煙草博物館",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0885546,
+    "lon": 120.3388068,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青蛙石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2197302,
+    "lon": 120.4597147,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青龙",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.205776,
+    "lon": 120.4695221,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "青龙岭石刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2702032,
+    "lon": 120.5047967,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "鞋子石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2199896,
+    "lon": 120.4703828,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "顶牛石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.140129,
+    "lon": 120.6458229,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "颐善潭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2252213,
+    "lon": 120.4639549,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "风动石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2994287,
+    "lon": 120.5722118,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "风河综合治理工程纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.8610837,
+    "lon": 120.0028311,
+    "description": "A popular history spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "风琴崮",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2965844,
+    "lon": 120.5731468,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "飞云瀑",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2163668,
+    "lon": 120.5671564,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "飞来石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1544173,
+    "lon": 120.5968087,
+    "description": "A popular outdoor spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "飞燕石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1345652,
+    "lon": 120.6452523,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "飞鹰石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1670098,
+    "lon": 120.6462471,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "食蚁兽",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2273909,
+    "lon": 120.6279455,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "马濠运河遗址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.9626457,
+    "lon": 120.1820239,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "马鞍石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1550932,
+    "lon": 120.6053633,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "骆驼祥子博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0623062,
+    "lon": 120.3267813,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "骷髅石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2113476,
+    "lon": 120.4642469,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "魯邦國際風情街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.3053933,
+    "lon": 120.4029306,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "鱼头石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1390354,
+    "lon": 120.6666185,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "鱼鳞口",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2018866,
+    "lon": 120.6082791,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "鲤鱼石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.140823,
+    "lon": 120.6217727,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "鲨鱼嘴",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2044595,
+    "lon": 120.4677541,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "鲨鱼嘴（仰天吼）",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2188832,
+    "lon": 120.4704469,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "鲸鱼嘴",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2012474,
+    "lon": 120.457487,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "鲸鱼馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.056882,
+    "lon": 120.331158,
+    "description": "A popular museum spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "鳌首金龟",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1361062,
+    "lon": 120.660679,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "鸭子船",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2263097,
+    "lon": 120.6268921,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "鸳鸯戏水",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2269929,
+    "lon": 120.4737367,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "鸳鸯石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.3009355,
+    "lon": 120.5719978,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "鸽子洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2055997,
+    "lon": 120.4655722,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "鹦鹉石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1995041,
+    "lon": 120.4523369,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "鹰嘴石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2378017,
+    "lon": 120.4789804,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "黄庭庵遗址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2701303,
+    "lon": 120.5044335,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "黄石洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2654592,
+    "lon": 120.5008271,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "齐长城烽火台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.9933871,
+    "lon": 120.1728347,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "龙山风景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.3805585,
+    "lon": 120.5513535,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "龙泉",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.22511,
+    "lon": 120.4639866,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "龙脊背",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2186161,
+    "lon": 120.4709421,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  },
+  {
+    "name": "龟头石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2462739,
+    "lon": 120.4821422,
+    "description": "A popular sightseeing spot in Qingdao.",
+    "city": "Qingdao"
+  }
+]

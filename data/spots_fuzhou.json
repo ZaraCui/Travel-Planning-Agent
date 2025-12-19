@@ -1,0 +1,2472 @@
+[
+  {
+    "name": "Chocolate Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0861801,
+    "lon": 119.292011,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "F1观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.6594308,
+    "lon": 119.7700605,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "F2观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.6590721,
+    "lon": 119.7659344,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "F3观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.6554681,
+    "lon": 119.7639933,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "F4观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.6496242,
+    "lon": 119.7616786,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "F5观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.6479377,
+    "lon": 119.7576776,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "F6观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.6443506,
+    "lon": 119.7550589,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "F7观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.6410105,
+    "lon": 119.7522302,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "Fuzhou Art Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0528327,
+    "lon": 119.3020064,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "Fuzhou Forest Trail",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0958298,
+    "lon": 119.2665338,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "Luoshi Silk Shop",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0551025,
+    "lon": 119.3005819,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "QQ蛋居酒店",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.7697294,
+    "lon": 118.993637,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "former Congshan Movie Theatre",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0474736,
+    "lon": 119.3115903,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "former bomb shelter Tunnel",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0795776,
+    "lon": 119.2907201,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "“祥云瑞气”题刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0940807,
+    "lon": 119.3869179,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "一天门/云窝",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0772469,
+    "lon": 119.38166,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "一线天",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9698298,
+    "lon": 119.5307302,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "七彩崖",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.5534668,
+    "lon": 119.8716116,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "七星井",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0946754,
+    "lon": 119.2982727,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "万国公益社",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.097096,
+    "lon": 119.3914274,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "万松湾",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0556829,
+    "lon": 119.3894939,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "三军联合作战演习纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.4129247,
+    "lon": 119.7679898,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "三坊七巷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0855882,
+    "lon": 119.2916004,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "三溪廊桥",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.3816772,
+    "lon": 119.1880614,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "三潭瀑布",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9750654,
+    "lon": 119.1300549,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "上下杭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0559454,
+    "lon": 119.3030957,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "上埔村综合服务场所",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.2096344,
+    "lon": 118.8805163,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "东关寨",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.802619,
+    "lon": 119.1970383,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "东坑寨",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9575639,
+    "lon": 119.078545,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "东海仙境景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.5518205,
+    "lon": 119.8726268,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "严复故居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0883683,
+    "lon": 119.2928019,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "中共仓山区委宿舍旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0476053,
+    "lon": 119.3126489,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "中国云顶",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.7635534,
+    "lon": 118.999469,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "中国温泉之乡",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.2214873,
+    "lon": 119.4082838,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "中国船政文化博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9925845,
+    "lon": 119.4416508,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "中国船政文化城",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9892449,
+    "lon": 119.4441394,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "乌猪石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0187757,
+    "lon": 119.4615581,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "九头马古民居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9553223,
+    "lon": 119.5556567,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "云山圣境",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.7526317,
+    "lon": 118.9691918,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "云顶景区入口",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.752408,
+    "lon": 118.969849,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "五孔铁锤",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0581396,
+    "lon": 119.3848717,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "五虎山古寨门",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9257664,
+    "lon": 119.3138845,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "五虎山狮身人面像",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9330817,
+    "lon": 119.3085059,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "仓山区文化馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.048644,
+    "lon": 119.312953,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "仙人井",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.5475374,
+    "lon": 119.8682851,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "仙人台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.5457436,
+    "lon": 119.8678055,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "仙人洞",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.5518213,
+    "lon": 119.8727167,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "仙人谷",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.5483414,
+    "lon": 119.8694524,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "优一美术学院",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0223068,
+    "lon": 119.3065924,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "佛窟",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0565951,
+    "lon": 119.3856308,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "八仙聚会台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.077901,
+    "lon": 119.3883567,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "冰心故居/林觉民故居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0884736,
+    "lon": 119.2910133,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "冰臼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.8295703,
+    "lon": 119.5299669,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "凡圣庵",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0774985,
+    "lon": 119.3823466,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "凤池",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0568603,
+    "lon": 119.2012496,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "别有洞天瀑布",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9704228,
+    "lon": 119.1255096,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "加德纳故居",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0919474,
+    "lon": 119.3948986,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "勉斋精舍",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0814684,
+    "lon": 119.3018978,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "勾漏洞",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0003467,
+    "lon": 119.1864551,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "化龙桥",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0775396,
+    "lon": 119.3823384,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "十八罗汉",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0807651,
+    "lon": 119.3823666,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "十八罗汉礁",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.5559592,
+    "lon": 119.876681,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "南天门",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.5491933,
+    "lon": 119.8709357,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "南山公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9511705,
+    "lon": 119.5156903,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "南郡会馆",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0558921,
+    "lon": 119.3011871,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "卧潭桥",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.076046,
+    "lon": 119.3763846,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "双髻石(古浴凤凰池)",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0756395,
+    "lon": 119.3918347,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "叠石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0281886,
+    "lon": 119.4571863,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "古堡别墅",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0963557,
+    "lon": 119.3905342,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "含光塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.204777,
+    "lon": 119.552576,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "周氏宗祠",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.491769,
+    "lon": 119.5423582,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "和平古民居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9613589,
+    "lon": 119.5212508,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "和成寨",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9582874,
+    "lon": 119.0433665,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "喝水岩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0575202,
+    "lon": 119.3920336,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "培英榜",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0047449,
+    "lon": 119.4552426,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "塘里桥(木拱廊桥)",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.4559526,
+    "lon": 119.0769791,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "壳丘头遗址博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.6325552,
+    "lon": 119.7597174,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "多亭桥（廊桥）",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.3974947,
+    "lon": 119.256284,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "大清嘉庆年间修路碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.2563181,
+    "lon": 119.2004181,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "大观美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0478875,
+    "lon": 119.3094403,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "大鼓石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0745704,
+    "lon": 119.3920713,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "天使之心",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.2902624,
+    "lon": 119.3071139,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "天使之泪",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.2874217,
+    "lon": 119.3192925,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "天梯瀑布",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9754071,
+    "lon": 119.1304019,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "天池草场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.7644429,
+    "lon": 118.9962745,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "天镜岩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0394971,
+    "lon": 119.3941447,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "天门洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.8168977,
+    "lon": 119.0028468,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "好好恶恶",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.077571,
+    "lon": 119.3809444,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "姬岩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0552369,
+    "lon": 118.871499,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "娘娘髻",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0240867,
+    "lon": 119.4564436,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "官印石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9318516,
+    "lon": 119.3252698,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "寿山古矿洞",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.2868196,
+    "lon": 119.2954396,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "寿山石馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.295003,
+    "lon": 119.2885304,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "小桂林",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0252711,
+    "lon": 119.4456576,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "峡谷景区入口",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.7640424,
+    "lon": 119.0068092,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "崇妙保圣坚牢塔",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0805189,
+    "lon": 119.2955934,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "嵩口民俗博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.8074217,
+    "lon": 118.585369,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "巨石庇护所",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9311111,
+    "lon": 119.3262032,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "帐篷酒店",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.7715862,
+    "lon": 118.9925799,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "平潭国际卡丁车场",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.48034,
+    "lon": 119.6867626,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "平潭国际旅游岛：将军山",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.4134143,
+    "lon": 119.7667192,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "平远诗社",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0814105,
+    "lon": 119.3017154,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "廊桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.2878183,
+    "lon": 119.1710754,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "开启碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0438318,
+    "lon": 119.3078426,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "彭田境石碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0418311,
+    "lon": 119.4408759,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "御驾文儒古董车博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0848808,
+    "lon": 119.2904594,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "怀安接官道码头旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.098323,
+    "lon": 119.221084,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "挹翠台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0778564,
+    "lon": 119.3795845,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "捣珠洒玉瀑布",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9746354,
+    "lon": 119.1295087,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "旗山森林温泉度假村",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9881672,
+    "lon": 119.1750829,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "昙石山遗址博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.1466112,
+    "lon": 119.1511372,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "曹朱港",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0330559,
+    "lon": 119.6118973,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "李铁拐换靴处",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.5479712,
+    "lon": 119.8690367,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "林文忠公祠",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0814743,
+    "lon": 119.2924187,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "柏岭别墅",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0957418,
+    "lon": 119.3913775,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "柔远驿",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0691698,
+    "lon": 119.3121607,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "梅头桥",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.029984,
+    "lon": 119.2794603,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "梅雨潭瀑布",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.970664,
+    "lon": 119.124788,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "梧溪寨",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.3537653,
+    "lon": 118.9139285,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "棋盘石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9979417,
+    "lon": 119.1957261,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "榕城古街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0565856,
+    "lon": 119.3117906,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "欢乐世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.2455941,
+    "lon": 119.3964301,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "欧阳修石刻",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.8136851,
+    "lon": 119.2062707,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "比干文化公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9556257,
+    "lon": 119.4866531,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "毛主席语录石刻",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.039729,
+    "lon": 119.4731958,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "毛泽东塑像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0798199,
+    "lon": 119.3034062,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "民俗园博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.1423443,
+    "lon": 119.1503435,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "水榭戏台",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0864716,
+    "lon": 119.2911867,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "永泰天门山景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.8154172,
+    "lon": 119.0098512,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "永鸿野生动物世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.6854755,
+    "lon": 119.4198276,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "求索碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0439167,
+    "lon": 119.3081757,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "汉堡岩岩廊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.7546054,
+    "lon": 119.0688893,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "油茶博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.8069749,
+    "lon": 118.5857485,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "泰山桥（木拱廊桥）",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.48268,
+    "lon": 119.115398,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "洋中新路碑志",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.2556617,
+    "lon": 119.6151894,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "海坛天神",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.3090231,
+    "lon": 119.686177,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "清凉寺",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9763655,
+    "lon": 119.3960841,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "滨海新城体育公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.8725251,
+    "lon": 119.5949688,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "滴水岩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.8486858,
+    "lon": 119.5141209,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "潜龙瀑布",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9756746,
+    "lon": 119.1312871,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "瀑布",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.1014401,
+    "lon": 119.3176589,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "火焰石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.8501203,
+    "lon": 119.2095509,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "灵石山国家森林公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.6701964,
+    "lon": 119.2185432,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "炉峰山观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.3451835,
+    "lon": 119.5991979,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "烟台山历史博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0460067,
+    "lon": 119.3042591,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "烟山画苑",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.046973,
+    "lon": 119.3118192,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "热气坑",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.8539714,
+    "lon": 119.2460427,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "牛头寨",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.1107132,
+    "lon": 119.3950968,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "狮身人面石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0514142,
+    "lon": 119.4160062,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "玄之美术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0874669,
+    "lon": 119.2935412,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "王母礁",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.8432856,
+    "lon": 119.61828,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "珠帘瀑布",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9745014,
+    "lon": 119.1281642,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "登高台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0577348,
+    "lon": 119.3850568,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "白岩山",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0699173,
+    "lon": 118.866202,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "白石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.076535,
+    "lon": 119.3835609,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "百草园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.8924936,
+    "lon": 119.5407455,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "皇帝洞景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.397685,
+    "lon": 119.257456,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "益砌革命老区村",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.2556692,
+    "lon": 119.6152081,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "省革命历史纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.058718,
+    "lon": 119.3699927,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "知青点",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0529736,
+    "lon": 119.3888837,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "石柱山",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0944126,
+    "lon": 119.4006183,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "石柱山观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0944126,
+    "lon": 119.4006183,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "石风帆",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.8824933,
+    "lon": 119.2226391,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "石鼓岩(小鼓)",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0748333,
+    "lon": 119.3923806,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "神兵谷",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.5540137,
+    "lon": 119.8735481,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "神钟瀑布",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.8375085,
+    "lon": 119.262498,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "福字",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0553677,
+    "lon": 118.8717638,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "福州事变陈列馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0809615,
+    "lon": 119.3015299,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "福州动物园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.1433108,
+    "lon": 119.281723,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "福州市儿童公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.1444768,
+    "lon": 119.2922889,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "福州市博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0671747,
+    "lon": 119.321281,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "福州市规划馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0269462,
+    "lon": 119.3651666,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "福州文庙",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.081513,
+    "lon": 119.2971517,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "福州旗冠顶",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.3688561,
+    "lon": 119.8573857,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "福州浪浪浪水公园（废弃）",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9727682,
+    "lon": 119.4140901,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "福州烟台山商业漫步街区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.047681,
+    "lon": 119.3074117,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "福州科技馆新馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.1007257,
+    "lon": 119.3441442,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "福州辛亥革命纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0807797,
+    "lon": 119.3025654,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "福建平潭海洋科技文化中心",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.4807099,
+    "lon": 119.6937767,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "福建省博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0970427,
+    "lon": 119.2820302,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "福建省科技馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0379876,
+    "lon": 119.3554459,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "福清侨乡博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.7273144,
+    "lon": 119.3466417,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "福清博物馆 豆區园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.7235266,
+    "lon": 119.3772304,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "福清市瑞岩山景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.7134201,
+    "lon": 119.4602916,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "福耀科技大学博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9834736,
+    "lon": 119.2258283,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "童子拜观音",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0235231,
+    "lon": 119.4661053,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "竹田岩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.8479664,
+    "lon": 119.5143462,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "红军洞",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9698538,
+    "lon": 119.1251904,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "老虎卧",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.8541696,
+    "lon": 119.2399383,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "老鸦石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.1023339,
+    "lon": 119.3987702,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "自然馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0976719,
+    "lon": 119.2839665,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "船政文化博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9865271,
+    "lon": 119.4461924,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "草泥马石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0520136,
+    "lon": 119.4269228,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "虎牙石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.8379553,
+    "lon": 119.2063416,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "蟠桃石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9689949,
+    "lon": 119.5297762,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "西河公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0754693,
+    "lon": 119.2560953,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "观日台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0936505,
+    "lon": 119.4004433,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0657729,
+    "lon": 119.3893903,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "观音掌/巨灵伸手",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0752549,
+    "lon": 119.394592,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "达摩洞",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0580215,
+    "lon": 119.3848208,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "远济廊桥",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.2753682,
+    "lon": 119.0202335,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "连江革命烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.199426,
+    "lon": 119.5219843,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "透堡玻璃观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.3422805,
+    "lon": 119.6125945,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "通天门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.655618,
+    "lon": 119.6908227,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "金瓜石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.8442576,
+    "lon": 119.2089522,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "金观音",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.5557753,
+    "lon": 119.8746787,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "金钢腿",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0416956,
+    "lon": 119.508037,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "钻山牛",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0780432,
+    "lon": 119.3801491,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "镇虎石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0560915,
+    "lon": 119.3851721,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "长乐区博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9686114,
+    "lon": 119.5062748,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "长乐比干文化陈列馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9560639,
+    "lon": 119.4865665,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "长安游乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9604864,
+    "lon": 119.4743381,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "闽侯博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.1393827,
+    "lon": 119.1535671,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "闽江河口湿地博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0265196,
+    "lon": 119.6240987,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "闽清县博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.2242185,
+    "lon": 118.8575344,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "闽清县城市展示馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.1958409,
+    "lon": 118.8795126,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "闽清县文化馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.2242077,
+    "lon": 118.8577657,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "闽都民俗园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.1426564,
+    "lon": 119.1502316,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "陈可珠故居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0330563,
+    "lon": 119.4151351,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "陈振龙纪念亭",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9202375,
+    "lon": 119.5225612,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "陈振龙纪念馆",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9218604,
+    "lon": 119.5243676,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "院士墙",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0444966,
+    "lon": 119.3080449,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "隐仙谷",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.5503306,
+    "lon": 119.8720837,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "霖顺科学馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0471064,
+    "lon": 119.3113587,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "霹雷礁",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.5530457,
+    "lon": 119.875195,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "青云山云天石廊峡谷景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.7858222,
+    "lon": 118.959926,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "青云山御温泉酒店",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.798468,
+    "lon": 118.9541873,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "青云山水帘宫",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.7494717,
+    "lon": 118.9638795,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "青云山白马峡谷景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.7715894,
+    "lon": 118.9472001,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "青云山青龙瀑布景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.7757736,
+    "lon": 118.9677353,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "风动石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0792294,
+    "lon": 119.3866292,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "风筝节长廊",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.7646996,
+    "lon": 118.9954246,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "首石凌云",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9852467,
+    "lon": 119.5335839,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "马尾船政纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9876429,
+    "lon": 119.4472759,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "高盖山筷子文化展示馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0158974,
+    "lon": 119.309833,
+    "description": "A popular museum spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "高盖山风景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.8884373,
+    "lon": 118.8261411,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "魁龙坊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.1999564,
+    "lon": 119.533002,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "鸭嘴岩",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.8404355,
+    "lon": 119.2535707,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "鹅峰书院",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.1640421,
+    "lon": 119.3823371,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "鹦哥石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0739837,
+    "lon": 119.4352296,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "鼓山观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0750057,
+    "lon": 119.3995985,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "鼓岭邮局",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.0978989,
+    "lon": 119.3900419,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "龙井",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.3783671,
+    "lon": 119.84563,
+    "description": "A popular outdoor spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "龙山会议纪念馆",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.1597502,
+    "lon": 119.2425413,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "龙旺·闽越水镇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 26.1330179,
+    "lon": 119.1177735,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "龙江石步造路碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9775637,
+    "lon": 119.3742295,
+    "description": "A popular history spot in Fuzhou.",
+    "city": "Fuzhou"
+  },
+  {
+    "name": "龙祥岛",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 25.9726476,
+    "lon": 119.3224016,
+    "description": "A popular sightseeing spot in Fuzhou.",
+    "city": "Fuzhou"
+  }
+]

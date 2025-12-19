@@ -1,0 +1,2522 @@
+[
+  {
+    "name": "Boat Tour",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.317441,
+    "lon": 120.5999338,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Canal view",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3886198,
+    "lon": 120.8961676,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Cemetary",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2162852,
+    "lon": 120.5627468,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Chongben hall",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.160246,
+    "lon": 120.713178,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Dock",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1605883,
+    "lon": 120.7148859,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Entry zoo",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3915715,
+    "lon": 120.9073257,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Galerie Françis Barlier",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3134168,
+    "lon": 120.6288652,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Lili Town Exhibition Center",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.9909625,
+    "lon": 120.708314,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Liu Yazi Memorial Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.9910028,
+    "lon": 120.7071908,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Old Town",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3165428,
+    "lon": 120.6294997,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Opera performance",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1174529,
+    "lon": 120.8455712,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Ou Yuan gardens",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3213818,
+    "lon": 120.6354989,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Pavillon de Paris",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3131651,
+    "lon": 120.6288952,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Pearl tower",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1623252,
+    "lon": 120.7138455,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Pingjiang Road",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3186353,
+    "lon": 120.6289834,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Popular science education base",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1615143,
+    "lon": 120.7131272,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Shen residence",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1150498,
+    "lon": 120.8469453,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Six Arts Museum",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.9928201,
+    "lon": 120.7184801,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Sky Gallery",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3134278,
+    "lon": 120.6286305,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Songshi Wu Garden",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.161383,
+    "lon": 120.7129712,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Suzhou Aquarium",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2191377,
+    "lon": 120.3802307,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Suzhou Art Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3264444,
+    "lon": 120.6125879,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Suzhou fan museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3159823,
+    "lon": 120.6312019,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Taihu water conservancy pavilion",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1609007,
+    "lon": 120.7130048,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Tongqiao Hall",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3264277,
+    "lon": 120.5892104,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Wang Tao Memorial",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2729676,
+    "lon": 120.8696866,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Wansheng Rice Firm",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2695649,
+    "lon": 120.868914,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Xiao's Residence",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2733063,
+    "lon": 120.8692096,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Ye Chucang former residence",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1141133,
+    "lon": 120.8455025,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "Zhang residence",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.116054,
+    "lon": 120.8464517,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "丁祖荫纪念馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6455849,
+    "lon": 120.7319453,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "七里山塘",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3194228,
+    "lon": 120.5979444,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "七里山塘景點",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3186816,
+    "lon": 120.599114,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "万宗烟火",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3380188,
+    "lon": 120.5774108,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "万年桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3002994,
+    "lon": 120.6070586,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "万景山庄",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3360944,
+    "lon": 120.5770352,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "上方山森林动物世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.240276,
+    "lon": 120.578158,
+    "description": "tiger, panther, lion, bear, elephant, ape, zebra, giraffe, kamel, birds, ..., restaurant",
+    "city": "Suzhou"
+  },
+  {
+    "name": "上真观门楼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2638263,
+    "lon": 120.4281498,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "下津桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3146136,
+    "lon": 120.5781213,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "东村徐家祠堂徐伯荣艺术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1575125,
+    "lon": 120.2787599,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "严讷宅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6429556,
+    "lon": 120.7414338,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "中共常熟党史馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6502313,
+    "lon": 120.739327,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "中国刺绣艺术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3359898,
+    "lon": 120.3390125,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "中国南社纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3326356,
+    "lon": 120.5789684,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "中国昆曲博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.315197,
+    "lon": 120.6315127,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "义风园(五人幕)",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3312007,
+    "lon": 120.5807927,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "五卅路纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3058122,
+    "lon": 120.622457,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "仓雪亭",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3075906,
+    "lon": 120.5014989,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "仲雍墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6494018,
+    "lon": 120.734009,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "伦敦桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3734083,
+    "lon": 120.6115677,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "保圣寺",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2720994,
+    "lon": 120.8669579,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "光福古镇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2965574,
+    "lon": 120.3841854,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "冠云峰",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3182903,
+    "lon": 120.5887169,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "冲山木雕工艺品街",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2690152,
+    "lon": 120.3216023,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "剑门",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6656242,
+    "lon": 120.7008457,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "包山禅寺",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.113697,
+    "lon": 120.2858118,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "北太湖1号落日观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.4096909,
+    "lon": 120.4041903,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "北寺塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3245428,
+    "lon": 120.6154018,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "千人石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3372233,
+    "lon": 120.5765115,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "千燈古鎮",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2673737,
+    "lon": 121.0007707,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "千顷云",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3382502,
+    "lon": 120.5769038,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "华旭公寓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.4463762,
+    "lon": 121.1035807,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "华谊兄弟电影世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3774629,
+    "lon": 120.7863836,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "南心村太平桥",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.8968815,
+    "lon": 120.6267666,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "印山园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6255641,
+    "lon": 120.6982115,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "卷石勺水",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3380371,
+    "lon": 120.5750638,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "双塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3089117,
+    "lon": 120.629565,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "双山渡江战役纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9942918,
+    "lon": 120.3910884,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "双桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1163561,
+    "lon": 120.845813,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "古戏台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2715357,
+    "lon": 120.8706333,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "古樟植物园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.125429,
+    "lon": 120.3022108,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "古码头",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.0682522,
+    "lon": 120.2699084,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "可园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2975971,
+    "lon": 120.6206839,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "司前街看守所旧址",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3020984,
+    "lon": 120.6123143,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "吉利桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1599214,
+    "lon": 120.712981,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "同里古镇游览区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1591573,
+    "lon": 120.7142896,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "听雨轩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1603094,
+    "lon": 120.7275861,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "吴中贝氏纪念馆",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3267582,
+    "lon": 120.5886098,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "吴文化博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2558181,
+    "lon": 120.6442089,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "周庄博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.115077,
+    "lon": 120.8440047,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "周庄古镇景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1152718,
+    "lon": 120.8455794,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "周章墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6497278,
+    "lon": 120.7345812,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "唐氏宅园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6427634,
+    "lon": 120.740631,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "嘉荫堂",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1598582,
+    "lon": 120.7136348,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "坝上风光",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.4234376,
+    "lon": 120.4069849,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "城隍庙",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3139759,
+    "lon": 120.6150587,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "堂里湖畔夕阳营地观景点",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1305348,
+    "lon": 120.2322621,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "复游城",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.4108014,
+    "lon": 121.1441057,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "大雄宝殿",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3378012,
+    "lon": 120.5770218,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "天平山景区-山顶观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.291343,
+    "lon": 120.4961159,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "太仓市科技馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.4577747,
+    "lon": 121.1193196,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "太平天国忠王府",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3255349,
+    "lon": 120.624438,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "太平桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1601547,
+    "lon": 120.7125115,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "太平镇狄溪仓旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.4366025,
+    "lon": 120.698586,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "太湖林屋梅海",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1102011,
+    "lon": 120.2988002,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "娄门",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3272893,
+    "lon": 120.6352618,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "孙武苑",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2625172,
+    "lon": 120.421681,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "定渚渔灯",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.4263679,
+    "lon": 120.7833594,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "宝带桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2587641,
+    "lon": 120.649476,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "山塘街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3201022,
+    "lon": 120.59745,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "常熟博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6487553,
+    "lon": 120.7359965,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "常熟文庙",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6424989,
+    "lon": 120.7431129,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "常熟美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6453543,
+    "lon": 120.7332291,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "府学碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.297932,
+    "lon": 120.6191267,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "庞薰琹美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6371449,
+    "lon": 120.7296455,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "康熙石刻题字”煙嵐高曠“",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6653393,
+    "lon": 120.7010627,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "弘济桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8555577,
+    "lon": 120.634686,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "张士诚纪功碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3250664,
+    "lon": 120.6155847,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "御窑金砖博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3635083,
+    "lon": 120.6081775,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "怡园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3096749,
+    "lon": 120.6170465,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "戴逸学术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6464088,
+    "lon": 120.7354559,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "拙政园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3259875,
+    "lon": 120.6246145,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "招牌桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1584614,
+    "lon": 120.7144786,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "文昌殿",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1599194,
+    "lon": 120.7267789,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "文昌阁",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3708061,
+    "lon": 120.5096578,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "斗姥阁",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1602364,
+    "lon": 120.7278341,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "斜塘老街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.304849,
+    "lon": 120.7345845,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "断桥落雁",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.4262083,
+    "lon": 120.7839175,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "新四军太湖游击队纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2738915,
+    "lon": 120.3089546,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "方塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6473984,
+    "lon": 120.7444784,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "昆山市文化馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3815212,
+    "lon": 120.9644718,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "昆山戏曲百戏博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3764602,
+    "lon": 120.8550033,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "昆山科博馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3846468,
+    "lon": 120.976569,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "昆曲博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.392935,
+    "lon": 120.9477784,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "望湖楼",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2615903,
+    "lon": 120.4287343,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "木渎古镇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2530116,
+    "lon": 120.5067399,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "朱慧珍纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3600513,
+    "lon": 120.7790869,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "李强革命历程展示馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6502995,
+    "lon": 120.7395257,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "枕石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3367853,
+    "lon": 120.5760551,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "林屋洞景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.107597,
+    "lon": 120.3008255,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "枫桥夜泊",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3131569,
+    "lon": 120.5625135,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "柳如是墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6624606,
+    "lon": 120.6947415,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "柴园·苏州教育博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3032017,
+    "lon": 120.625117,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "桃花岛",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3130431,
+    "lon": 120.7026851,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "樱花洲",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3387624,
+    "lon": 120.7660358,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "欢乐世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8433939,
+    "lon": 120.5374278,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "永福桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2687752,
+    "lon": 120.868596,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "江苏巡抚衙门旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.299801,
+    "lon": 120.6177386,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "沈周墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.4928895,
+    "lon": 120.715849,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "沈德潜故居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.300009,
+    "lon": 120.6288445,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "沙墩港南日落观赏点",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.4377722,
+    "lon": 120.4089213,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "沙家浜革命历史纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.5543234,
+    "lon": 120.7945584,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "沙家浜风景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.5558199,
+    "lon": 120.8010666,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "沧浪亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2967053,
+    "lon": 120.6212804,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "治平寺遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.254016,
+    "lon": 120.5835877,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "泮池",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2964065,
+    "lon": 120.6188225,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "淮海街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2943733,
+    "lon": 120.5576575,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "清权祠",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6492568,
+    "lon": 120.7360307,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "渡江战役展示馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9941479,
+    "lon": 120.3909543,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "滨水观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1362295,
+    "lon": 120.5800545,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "澄湾夜月",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.4258098,
+    "lon": 120.7842397,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "燕园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6506064,
+    "lon": 120.7387607,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "狮子林",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3234041,
+    "lon": 120.6247017,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "王小慧艺术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3147013,
+    "lon": 120.629482,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "王石谷墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.653124,
+    "lon": 120.7111166,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "王绍鏊纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1606694,
+    "lon": 120.714038,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "王鈇墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6579383,
+    "lon": 120.7016554,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "环秀山庄",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.31312,
+    "lon": 120.6090148,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "瑞光塔",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2913317,
+    "lon": 120.6144331,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "甪直古镇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2716723,
+    "lon": 120.869087,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "甲辰巷砖塔",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3104412,
+    "lon": 120.6346166,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "留园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3176233,
+    "lon": 120.5882673,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "白象湾",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2877454,
+    "lon": 120.4559191,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "白马涧生态园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2993403,
+    "lon": 120.4866743,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "盘门",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2895554,
+    "lon": 120.6119542,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "盘门景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2908523,
+    "lon": 120.613089,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "相云峰",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.298986,
+    "lon": 120.6366878,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "相城规划展示馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.4197379,
+    "lon": 120.6446698,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "相门古城墙",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3157761,
+    "lon": 120.6360074,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "真娘墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.336965,
+    "lon": 120.5763218,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "石公山",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.0647276,
+    "lon": 120.2908183,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "石公山景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.0651704,
+    "lon": 120.2897941,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "碑刻博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6476754,
+    "lon": 120.7442577,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "碑廊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1187518,
+    "lon": 120.2490549,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "禹王庙",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1255389,
+    "lon": 120.2107928,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "稻香公园-双层观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.4134104,
+    "lon": 120.4143419,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "纷纶海",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3414194,
+    "lon": 120.7640151,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "网师园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3003833,
+    "lon": 120.6298435,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "罗星洲",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1599938,
+    "lon": 120.7270248,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "美飞行家萧特义士殉难处",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2400265,
+    "lon": 120.7278487,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "翁同龢墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6761854,
+    "lon": 120.6798071,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "翁同龢纪念馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6429185,
+    "lon": 120.7371368,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "翁心存墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6761028,
+    "lon": 120.6798557,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "耕乐堂",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1601506,
+    "lon": 120.711024,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "耦园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3183674,
+    "lon": 120.6340622,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "肖特纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2402286,
+    "lon": 120.7278336,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "胥门",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2994969,
+    "lon": 120.6083156,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "芦荻烟雨",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.4269272,
+    "lon": 120.7845452,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州东吴博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3500887,
+    "lon": 120.5094336,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州丝绸博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3251207,
+    "lon": 120.6139116,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州乐园森林世界",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3333716,
+    "lon": 120.4682113,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州云岩寺塔",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3379274,
+    "lon": 120.576612,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州公共文化中心",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3259031,
+    "lon": 120.6126979,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3254231,
+    "lon": 120.6234669,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州博物馆西馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2915508,
+    "lon": 120.5436734,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州园林博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3254414,
+    "lon": 120.6257744,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州城墙博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3135966,
+    "lon": 120.6364087,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州太湖园博园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1408164,
+    "lon": 120.4430883,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州工艺美术博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3247856,
+    "lon": 120.620308,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州市吴中区烈士陵园",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2922639,
+    "lon": 120.3661384,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州市规划展示馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2996273,
+    "lon": 120.6058972,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州摩天轮",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3164064,
+    "lon": 120.7086073,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州文庙",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2974807,
+    "lon": 120.619266,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州本色美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2562843,
+    "lon": 120.6675126,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州民俗博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3235824,
+    "lon": 120.6252939,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州民族乐器博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3096128,
+    "lon": 120.6056614,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州海洋馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2190443,
+    "lon": 120.3802659,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州湾体育公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1160102,
+    "lon": 120.593856,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州湾博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1330034,
+    "lon": 120.5823168,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州湾数字艺术博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1328757,
+    "lon": 120.5816834,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州湾科技城规划展示馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1078973,
+    "lon": 120.6244644,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州状元博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3123875,
+    "lon": 120.6264783,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州科技馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2962938,
+    "lon": 120.5407518,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州考古博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.258091,
+    "lon": 120.5885334,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州观前街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3135333,
+    "lon": 120.6222,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州阳澄湖舟船文化馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3997703,
+    "lon": 120.6803096,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州革命博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2994389,
+    "lon": 120.5766048,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏州高新区规划展示馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3286277,
+    "lon": 120.4293981,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "苏式花窗博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3487031,
+    "lon": 120.611663,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "蒙特利亲子乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.4068905,
+    "lon": 120.9801847,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "虎丘山风景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3375463,
+    "lon": 120.5764425,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "西山地𠂆质博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1183961,
+    "lon": 120.2474352,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "西山雕花楼博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1256264,
+    "lon": 120.234949,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "西溪环翠",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3371116,
+    "lon": 120.5743745,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "观前街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3131812,
+    "lon": 120.620364,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "言子墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6496313,
+    "lon": 120.7351972,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "言子旧宅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6474672,
+    "lon": 120.7400789,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "言子祠",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6425484,
+    "lon": 120.7433442,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "评弹博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3148171,
+    "lon": 120.6305874,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "试剑石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3365201,
+    "lon": 120.5759881,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "财神居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1146769,
+    "lon": 120.8537112,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "赵古泥墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6602954,
+    "lon": 120.6995822,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "赵用贤宅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6431578,
+    "lon": 120.7360266,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "过云楼陈列馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3088047,
+    "lon": 120.6176089,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "退思园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1598479,
+    "lon": 120.7163192,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "邑学",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6424532,
+    "lon": 120.7427847,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "邓邦述故居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2993701,
+    "lon": 120.6118396,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "金鸡湖音乐喷泉",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3195801,
+    "lon": 120.6788721,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "钱祠花园",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.4507483,
+    "lon": 121.1004389,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "钱谦益墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6620244,
+    "lon": 120.6953549,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "锦峰",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6657709,
+    "lon": 120.7008216,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "长庆桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1600504,
+    "lon": 120.7131547,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "陈去病墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.336713,
+    "lon": 120.5752958,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "震泽古镇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.9167803,
+    "lon": 120.500127,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "静山小筑夕阳观景处",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1335847,
+    "lon": 120.2362983,
+    "description": "A popular outdoor spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "静思园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.1630836,
+    "lon": 120.6833918,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "顾炎武故居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2652408,
+    "lon": 120.996762,
+    "description": "A popular museum spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "香雪海",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.2900024,
+    "lon": 120.3668394,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "魏浣初墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.686774,
+    "lon": 120.6954735,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "黄公望墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6825158,
+    "lon": 120.6811417,
+    "description": "A popular history spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "黄公望纪念馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6826093,
+    "lon": 120.6806189,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  },
+  {
+    "name": "黎里古镇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 30.9911983,
+    "lon": 120.7074203,
+    "description": "A popular sightseeing spot in Suzhou.",
+    "city": "Suzhou"
+  }
+]

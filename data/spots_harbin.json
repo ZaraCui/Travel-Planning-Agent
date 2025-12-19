@@ -1,0 +1,1062 @@
+[
+  {
+    "name": "3D Screen",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7762814,
+    "lon": 126.6123456,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "5 青云塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7066794,
+    "lon": 126.6414029,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "Anti Japanese Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7643793,
+    "lon": 126.6370157,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "Bar Street",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7380381,
+    "lon": 126.6202404,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "Bus to Airport 3",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7643803,
+    "lon": 126.6146861,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "Chinese Eastern Railway Park",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7774417,
+    "lon": 126.622692,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "Galaxy Wonderland",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7983206,
+    "lon": 126.4907401,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "Harbin Beer Museum",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.5933181,
+    "lon": 126.714216,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "Harbin Ferris Wheel",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7776673,
+    "lon": 126.6632159,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "Harbin Sightseeing Cableway",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7760722,
+    "lon": 126.60464,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "Snowflake Ferris Wheel",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.773783,
+    "lon": 126.5521255,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "Songhua River Railway Bridge",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7824665,
+    "lon": 126.6199318,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "The Monument of the former site of Air Force Department of Harbin Military Industry University",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7715131,
+    "lon": 126.6746028,
+    "description": "A popular history spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "The Monument of the former site of Armored Forces Engineering Department of Harbin Military Industry University",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7737674,
+    "lon": 126.6783429,
+    "description": "A popular history spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "Westred Art Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7025681,
+    "lon": 126.5854339,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "Zhong Yang Street",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.766002,
+    "lon": 126.6144628,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "former gate",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7724036,
+    "lon": 126.661466,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "Белки",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7918943,
+    "lon": 126.5804911,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "Зоопарк",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.6970722,
+    "lon": 126.5770412,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "Лебеди",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7953458,
+    "lon": 126.5840105,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "Муравей",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7003792,
+    "lon": 126.584808,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "Олени",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7902408,
+    "lon": 126.5846554,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "Харбинский полярный океанариум",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7831758,
+    "lon": 126.5813179,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "♡ 英杰温泉小镇",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.6606555,
+    "lon": 127.3441574,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "三五将军文化博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.5481318,
+    "lon": 126.5004121,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "东北虎林园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.8151828,
+    "lon": 126.5965397,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "东北野战军名将纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.5482267,
+    "lon": 126.4997994,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "东山怪坡",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 46.3339209,
+    "lon": 129.590632,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "中央大街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7710429,
+    "lon": 126.6131731,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "五国头城",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7348762,
+    "lon": 126.5569479,
+    "description": "A popular history spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "亚布力熊猫馆",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 44.7920286,
+    "lon": 128.4723571,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "亚布力雪山水世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 44.792343,
+    "lon": 128.4754886,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "伏尔加庄园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.672076,
+    "lon": 126.8964,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "伏爾加莊園",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7041988,
+    "lon": 126.8100444,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "侵华日军第七三一部队旧址",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.6075907,
+    "lon": 126.6300521,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "侵华日军第七三一部队罪证陈列馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.6069933,
+    "lon": 126.6331771,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "俄罗斯小镇油画馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7863774,
+    "lon": 126.5937922,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "俄罗斯油画雕塑收藏馆 Коллекция российской живописи и скульптуры",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7721621,
+    "lon": 126.6205868,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "动物园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.5930591,
+    "lon": 126.6319312,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "北大荒博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7331073,
+    "lon": 126.6873339,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "北方森林动物园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.391815,
+    "lon": 127.0996234,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "哈军工纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7737077,
+    "lon": 126.6781066,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "哈尔滨世界欢乐城",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.8795158,
+    "lon": 126.531355,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "哈尔滨冰雪大世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7755457,
+    "lon": 126.5573769,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "哈尔滨城史文物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7832878,
+    "lon": 126.590635,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "哈尔滨市人民防洪胜利纪念塔",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.778685,
+    "lon": 126.6113243,
+    "description": "A popular history spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "哈尔滨市汇丰照像器材有限公司",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7579493,
+    "lon": 126.6304104,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "哈尔滨市规划展览馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7705913,
+    "lon": 126.595924,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "哈尔滨极地公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7828773,
+    "lon": 126.5808193,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "哈尔滨极地馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7838333,
+    "lon": 126.5800208,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "哈尔滨游乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7778243,
+    "lon": 126.6625821,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "哈尔滨犹太历史文化博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7665044,
+    "lon": 126.6111266,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "哈尔滨美术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7386783,
+    "lon": 126.5525473,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "哈尔滨苏联红军英雄纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7550404,
+    "lon": 126.6357164,
+    "description": "A popular history spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "哈尔滨融创乐园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.8016435,
+    "lon": 126.5024264,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "哈尔滨规划展览馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7706093,
+    "lon": 126.596049,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "哈尔滨风尚人物馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7380095,
+    "lon": 126.678795,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "哈尔滨鸟语林动物园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7778942,
+    "lon": 126.6659346,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "哈药六版画博物馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.762951,
+    "lon": 126.7001201,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "国防文化博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.5482863,
+    "lon": 126.5010594,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "圣尼古拉教堂",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.671183,
+    "lon": 126.8968658,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "圣索菲亚教堂",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7681898,
+    "lon": 126.6212852,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "地下小型动物饲养室",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.6093196,
+    "lon": 126.6294117,
+    "description": "A popular history spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "太阳岛大熊猫馆",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7871316,
+    "lon": 126.5894042,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "太阳岛雪博会",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7833549,
+    "lon": 126.5941815,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "安重根义士纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7593291,
+    "lon": 126.6267443,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "安重根击毙伊藤博文事件发生地",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.757297,
+    "lon": 126.62395,
+    "description": "A popular history spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "局史馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 46.0058585,
+    "lon": 129.2464542,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "工人运动纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.6987167,
+    "lon": 126.667145,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "巧克力星人博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7753006,
+    "lon": 126.6123081,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "師大夜市",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7241939,
+    "lon": 126.6168108,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "星河湾亲子游乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.8253222,
+    "lon": 126.4619612,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "普罗旺斯薰衣草庄园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7341741,
+    "lon": 126.9320675,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "李兆麟",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7766131,
+    "lon": 126.6165723,
+    "description": "A popular history spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "松花江索道",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7798478,
+    "lon": 126.5997829,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "校博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.8676367,
+    "lon": 126.5528146,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "校史馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7733613,
+    "lon": 126.678986,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "梵高星空艺术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7680053,
+    "lon": 126.6196933,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "欧亚之窗",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7001726,
+    "lon": 126.5949183,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "毛泽东",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7495683,
+    "lon": 126.6289151,
+    "description": "A popular history spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "民族英雄李兆麟将军之墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7767362,
+    "lon": 126.6165512,
+    "description": "A popular history spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "水阁云天",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7896999,
+    "lon": 126.5895022,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "波塞冬海洋王国",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.8818362,
+    "lon": 126.6783854,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "海洋文化馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7733341,
+    "lon": 126.6780329,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "游寿纪念馆",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.8648526,
+    "lon": 126.5526488,
+    "description": "A popular history spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "犹太学校",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7699529,
+    "lon": 126.6086278,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "王亮家",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7427105,
+    "lon": 126.7144036,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "神州揽月",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.741542,
+    "lon": 126.6284495,
+    "description": "神舟五号（模型）",
+    "city": "Harbin"
+  },
+  {
+    "name": "禹舜美术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.8728128,
+    "lon": 126.5303963,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "红专街早市",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7697708,
+    "lon": 126.6064499,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "美丽岛温泉水乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.6769549,
+    "lon": 126.9277651,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "萧红故居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.9739942,
+    "lon": 126.6013298,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "融创乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.804978,
+    "lon": 126.4984756,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "谢罪停战碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.6087012,
+    "lon": 126.6292996,
+    "description": "A popular history spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "金都古城",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.6863903,
+    "lon": 126.923165,
+    "description": "A popular outdoor spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "雪谷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 44.3896452,
+    "lon": 128.1225774,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "雪谷雾凇岭景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 44.5293578,
+    "lon": 128.2345847,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "青草塘",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.774069,
+    "lon": 126.6168982,
+    "description": "A popular history spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "革命领袖视察黑龙江纪念馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7576004,
+    "lon": 126.6365181,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "马迭尔宾馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7712456,
+    "lon": 126.6137427,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "黑龙江伍连德纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7733303,
+    "lon": 126.6447017,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "黑龙江水产研究所标本馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7461078,
+    "lon": 126.5749942,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "黑龙江省博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7556364,
+    "lon": 126.6350537,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "黑龙江省博物馆新馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7773548,
+    "lon": 126.5663219,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "黑龙江省科学技术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.7747752,
+    "lon": 126.5702477,
+    "description": "A popular museum spot in Harbin.",
+    "city": "Harbin"
+  },
+  {
+    "name": "龙塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 45.746106,
+    "lon": 126.6742412,
+    "description": "A popular sightseeing spot in Harbin.",
+    "city": "Harbin"
+  }
+]

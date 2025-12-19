@@ -1,0 +1,882 @@
+[
+  {
+    "name": "Art Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8103892,
+    "lon": 112.5295467,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "Cave Number 1",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7348633,
+    "lon": 112.3785449,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "Cave Number 2",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7348633,
+    "lon": 112.3782411,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "Cave Number 3",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7348888,
+    "lon": 112.3781949,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "Cave Number 6",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7349521,
+    "lon": 112.3781018,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "Cave Number 7",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7349804,
+    "lon": 112.3780739,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "Cave Number 8",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7349941,
+    "lon": 112.3780573,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "Cave Number 9",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7358949,
+    "lon": 112.377279,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "White Dragon Cave",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.735994,
+    "lon": 112.3781044,
+    "description": "A popular history spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "不二寺",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 38.0514745,
+    "lon": 112.6603741,
+    "description": "A popular history spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "中共太原支部旧址",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8635061,
+    "lon": 112.5639343,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "中国清徐关帝城",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.6260815,
+    "lon": 112.3536606,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "中国煤炭博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8564574,
+    "lon": 112.5217717,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "九州神韵",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 38.0475728,
+    "lon": 112.6441417,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "傅山纪念馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7078968,
+    "lon": 112.4349514,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "千渡·长江美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.886201,
+    "lon": 112.6082507,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "双塔烈士陵园",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8444787,
+    "lon": 112.592603,
+    "description": "A popular history spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "唐华严经幢",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7517696,
+    "lon": 112.4357559,
+    "description": "A popular history spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "唐景云碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7517679,
+    "lon": 112.435818,
+    "description": "A popular history spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "唱经楼",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8707479,
+    "lon": 112.5589679,
+    "description": "A popular history spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "国民师范旧址",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8860298,
+    "lon": 112.5679698,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "大型雕塑《力量》",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8586306,
+    "lon": 112.5676335,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "大王庙",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 38.0472825,
+    "lon": 112.7996504,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "天龙山公路3层回旋高架桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.721842,
+    "lon": 112.4006927,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "天龙山石窟",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7353851,
+    "lon": 112.3777897,
+    "description": "A popular history spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "太原动物园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.9102222,
+    "lon": 112.5804316,
+    "description": "A popular outdoor spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "太原动物园-南门",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.906451,
+    "lon": 112.5678054,
+    "description": "A popular outdoor spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "太原县牺盟会旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7288409,
+    "lon": 112.4786183,
+    "description": "A popular history spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "太原古县城",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7268758,
+    "lon": 112.4795886,
+    "description": "A popular history spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "太原古城模型",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8618946,
+    "lon": 112.5676302,
+    "description": "A popular history spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "太原市博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8047441,
+    "lon": 112.5274029,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "太原市美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8107955,
+    "lon": 112.5299528,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "太原市规划展示馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7584943,
+    "lon": 112.5017367,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "太原方特东方神画",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 38.0433702,
+    "lon": 112.6465795,
+    "description": "A popular outdoor spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "太原晋商博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.850843,
+    "lon": 112.5564763,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "太原海洋大世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8576122,
+    "lon": 112.5895176,
+    "description": "A popular outdoor spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "太原解放纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8955697,
+    "lon": 112.606589,
+    "description": "A popular history spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "太原革命历史陈列馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8856392,
+    "lon": 112.5679846,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "孟姜女",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 38.0463063,
+    "lon": 112.6454696,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "山西博物院",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8648498,
+    "lon": 112.5248994,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "山西地质博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8667511,
+    "lon": 112.5257137,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "山西大学堂旧址",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8623715,
+    "lon": 112.5713466,
+    "description": "A popular outdoor spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "山西大学堂校门（仿）",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8041637,
+    "lon": 112.5800517,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "山西慧光古灯博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7757324,
+    "lon": 112.4411066,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "山西省科技馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8030076,
+    "lon": 112.5291474,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "山西省立川至医学专科学校旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8774193,
+    "lon": 112.5695088,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "山西省美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8574648,
+    "lon": 112.5360534,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "山西考古博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8649953,
+    "lon": 112.5736007,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "山西财经大学校史馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7906383,
+    "lon": 112.580514,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "巴克创奇梦工厂",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7215641,
+    "lon": 112.5955728,
+    "description": "A popular outdoor spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "师魂石",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.742834,
+    "lon": 112.659317,
+    "description": "山西师范大学",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "帖木儿塔",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 38.2850764,
+    "lon": 112.8901419,
+    "description": "A popular history spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "开化寺",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 38.1892995,
+    "lon": 112.6924024,
+    "description": "A popular history spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "悬泉寺",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.9828989,
+    "lon": 112.370405,
+    "description": "A popular history spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "成语童话",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 38.0473783,
+    "lon": 112.6489278,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "拱极门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8877511,
+    "lon": 112.5661481,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "昆仑探秘",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 38.0473492,
+    "lon": 112.6460266,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "晋商博物院",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8746419,
+    "lon": 112.5564528,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "晋祠",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7081653,
+    "lon": 112.4349977,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "晋阳古城",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7279074,
+    "lon": 112.4806205,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "曹天文昆虫标本馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7455713,
+    "lon": 112.466021,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "梁祝",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 38.0448047,
+    "lon": 112.6428272,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "森林公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.9085136,
+    "lon": 112.527088,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "植物科普馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7448895,
+    "lon": 112.46592,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "毛泽东像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.805044,
+    "lon": 112.5788598,
+    "description": "A popular history spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "水漫金山",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 38.0457395,
+    "lon": 112.6421036,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "汾河二库国家水利风景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.9864182,
+    "lon": 112.3750169,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "清源文庙",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.6113205,
+    "lon": 112.3418807,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "火神庙",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.6114857,
+    "lon": 112.3414314,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "熊出没剧场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 38.0437748,
+    "lon": 112.6401058,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "碑林公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8506149,
+    "lon": 112.5336005,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "神州塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 38.0462146,
+    "lon": 112.6436048,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "神画",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 38.0422899,
+    "lon": 112.6408044,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "纯阳宫",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.861963,
+    "lon": 112.5658898,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "继往开来",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 38.0154231,
+    "lon": 112.4332191,
+    "description": "A popular history spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "罗贯中纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.6241201,
+    "lon": 112.3554493,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7400264,
+    "lon": 112.6582698,
+    "description": "山西师范大学",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "莲花宝洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7523977,
+    "lon": 112.4358898,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "董寿平美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7071806,
+    "lon": 112.4352545,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "观景亭",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.732573,
+    "lon": 112.3769552,
+    "description": "A popular history spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "观景塔",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7443536,
+    "lon": 112.4574836,
+    "description": "A popular outdoor spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "轩辕庙",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 38.0679892,
+    "lon": 112.7633249,
+    "description": "A popular history spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "迎宪村武庙",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.6112817,
+    "lon": 112.3412893,
+    "description": "A popular museum spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "钟楼",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7322421,
+    "lon": 112.3761398,
+    "description": "A popular history spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "飞跃狗熊岭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 38.0440747,
+    "lon": 112.6410124,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "首义门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.8612885,
+    "lon": 112.5676564,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "龙山石窟",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7321511,
+    "lon": 112.4297381,
+    "description": "A popular history spot in Taiyuan.",
+    "city": "Taiyuan"
+  },
+  {
+    "name": "龙泉",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 37.7523579,
+    "lon": 112.4362592,
+    "description": "A popular sightseeing spot in Taiyuan.",
+    "city": "Taiyuan"
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "name": "Changchun Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8086864,
+    "lon": 125.3127075,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "Culture Park Lotus Island",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.7334141,
+    "lon": 125.3250344,
+    "description": "A popular outdoor spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "Gate",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.3448096,
+    "lon": 125.8649409,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "I love 数学",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8202443,
+    "lon": 125.2821883,
+    "description": "A popular history spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "Jetta",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8454351,
+    "lon": 125.2033675,
+    "description": "A popular history spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "Street food night market",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8640914,
+    "lon": 125.3137933,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "一灯小院",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.9742246,
+    "lon": 125.2569561,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "东北民族民俗博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.834919,
+    "lon": 125.3971399,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "东北沦陷史陈列馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.9040414,
+    "lon": 125.3449242,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "东北虎园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.7656547,
+    "lon": 125.4559496,
+    "description": "A popular outdoor spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "东本愿寺新京下院旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8913693,
+    "lon": 125.3157006,
+    "description": "A popular history spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "东正教堂",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 44.5313175,
+    "lon": 125.7134732,
+    "description": "全国重点文物保护单位\n中华人民共和国国务院2019年10月16日公布",
+    "city": "Changchun"
+  },
+  {
+    "name": "中央饭店旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8891615,
+    "lon": 125.3198381,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "中德站水塔",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 44.6175992,
+    "lon": 125.7736748,
+    "description": "水塔位于铁路的东侧，是目前长春地区现存唯一一座中东铁路时期的水塔。水塔采用中东铁路通用标准化砖混结构设计图，通高16.5米，直径约7米，砖石、砖木结构，外部横向分为塔基、塔身和水箱三部分。水塔内部，地下一层，地上三层，各层见以铁轨作为渡梁。",
+    "city": "Changchun"
+  },
+  {
+    "name": "丹城子古城",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 44.6542385,
+    "lon": 125.706756,
+    "description": "A popular history spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "伪满中央警察学校旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8565986,
+    "lon": 125.3346723,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "伪满中央银行旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8870335,
+    "lon": 125.3356516,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "伪满协和会旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8814521,
+    "lon": 125.3194901,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "伪满建国忠灵庙旧址",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8399578,
+    "lon": 125.316468,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "伪满皇宫博物院",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.9035874,
+    "lon": 125.3418348,
+    "description": "A popular history spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "伪满赤十字会社旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8912361,
+    "lon": 125.3112928,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "偽滿皇宮博物院",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.902856,
+    "lon": 125.3422046,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "农业博览会展览馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8089708,
+    "lon": 125.4263875,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "凯旋二手车交易市场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.9726075,
+    "lon": 125.2758892,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "千早病院旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8988941,
+    "lon": 125.2796523,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "南无观世音菩萨像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8862118,
+    "lon": 125.3214287,
+    "description": "A popular history spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "吉林大学校歌",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8217905,
+    "lon": 125.2817245,
+    "description": "A popular history spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "吉林大学考古与艺术博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8211716,
+    "lon": 125.2696677,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "吉林省博物院",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.7659753,
+    "lon": 125.4259284,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "吉林省科学技术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.7650766,
+    "lon": 125.4265664,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "唐敖庆像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8225243,
+    "lon": 125.279966,
+    "description": "A popular history spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "地球村",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8168649,
+    "lon": 125.4367452,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "地质宫",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8800828,
+    "lon": 125.3011141,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "大兴银行旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8927995,
+    "lon": 125.3187434,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "完颜婁室墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8516138,
+    "lon": 125.4710993,
+    "description": "A popular history spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "宝山洋行旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8939822,
+    "lon": 125.322198,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "康德会馆旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8902257,
+    "lon": 125.3171413,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "弘报社旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8988838,
+    "lon": 125.3170736,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "德惠市博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 44.5299911,
+    "lon": 125.7110174,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "我们在长春相遇……",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.7689564,
+    "lon": 125.4955114,
+    "description": "A popular history spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "拓殖会社旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8877579,
+    "lon": 125.318659,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "揽头窝堡遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 44.656672,
+    "lon": 125.696613,
+    "description": "A popular history spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "新京公馆旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8876511,
+    "lon": 125.3023884,
+    "description": "A popular history spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "新京法政大学旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8505843,
+    "lon": 125.31995,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "新京神社旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.9007465,
+    "lon": 125.315917,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "日晷",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8211341,
+    "lon": 125.271369,
+    "description": "A popular history spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "月滩览胜",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.7706326,
+    "lon": 125.4822718,
+    "description": "A popular outdoor spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "杨林故居",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 44.5288109,
+    "lon": 125.7068649,
+    "description": "珍宝岛事件阵亡士兵杨林故居",
+    "city": "Changchun"
+  },
+  {
+    "name": "松山韩蓉非洲艺术收藏博物馆 0.0 / 5.0 经济型",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.823003,
+    "lon": 125.3327497,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "榆树市博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 44.8326921,
+    "lon": 126.5216114,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "榆树市城市展览馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 44.8368306,
+    "lon": 126.525562,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "欧拉公式",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8205048,
+    "lon": 125.2810216,
+    "description": "A popular history spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "毛织会社",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8910055,
+    "lon": 125.3173785,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "民国吉林省长宅邸旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.9016152,
+    "lon": 125.3273384,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "水文化博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8413202,
+    "lon": 125.3367219,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "汽车博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8260606,
+    "lon": 125.1636558,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "海上会馆旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8901906,
+    "lon": 125.3187625,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "王大珩故居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8513856,
+    "lon": 125.3174229,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "瓦萨博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.7672674,
+    "lon": 125.4745151,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "神武殿旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8783387,
+    "lon": 125.314453,
+    "description": "A popular history spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "老少沟站旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 44.7398565,
+    "lon": 125.8843902,
+    "description": "A popular history spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "肃慎历史文化博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8638375,
+    "lon": 125.3407853,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "自然历史博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8269255,
+    "lon": 125.4260614,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "苏联红军烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8844519,
+    "lon": 125.3180991,
+    "description": "A popular history spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "袁宅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8962647,
+    "lon": 125.3342282,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "观光塔",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.7903106,
+    "lon": 125.4549891,
+    "description": "A popular outdoor spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "边宅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8896831,
+    "lon": 125.3348429,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "长影博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8612555,
+    "lon": 125.2859885,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "长春东北虎园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.7653488,
+    "lon": 125.4540291,
+    "description": "A popular outdoor spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "长春中国光学科学技术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.7655566,
+    "lon": 125.4278714,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "长春动植物公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.866452,
+    "lon": 125.3284566,
+    "description": "A popular outdoor spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "长春南大营旧址陈列馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8409542,
+    "lon": 125.3297618,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "长春国际会展中心",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8338597,
+    "lon": 125.3884043,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "长春国际会议中心",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8364833,
+    "lon": 125.3937069,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "长春市博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8087513,
+    "lon": 125.3126577,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "长春市杂技宫（横滨正金银行旧址）",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.9039394,
+    "lon": 125.3236831,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "长春电影制片厂 Changchun Film Studio",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8600719,
+    "lon": 125.2864878,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "长春航空文化展示中心",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8996736,
+    "lon": 125.1962644,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "长春解放纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8596416,
+    "lon": 125.3015937,
+    "description": "A popular history spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "长春道台衙门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8997696,
+    "lon": 125.3329289,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "长春雕塑博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8169292,
+    "lon": 125.3295281,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "长春雕塑艺术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.8191511,
+    "lon": 125.3215964,
+    "description": "A popular museum spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "高野山金刚寺旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.9019688,
+    "lon": 125.3216986,
+    "description": "A popular sightseeing spot in Changchun.",
+    "city": "Changchun"
+  },
+  {
+    "name": "鹿苑",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 43.7883611,
+    "lon": 125.4738687,
+    "description": "A popular outdoor spot in Changchun.",
+    "city": "Changchun"
+  }
+]

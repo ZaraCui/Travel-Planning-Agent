@@ -1,0 +1,492 @@
+[
+  {
+    "name": "Market Street",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0616438,
+    "lon": 103.8590236,
+    "description": "A popular sightseeing spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "三木自行车博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0791135,
+    "lon": 103.8674381,
+    "description": "A popular museum spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "云月寺",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0688695,
+    "lon": 103.8147718,
+    "description": "A popular sightseeing spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "什川梨园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1557259,
+    "lon": 104.0022311,
+    "description": "A popular sightseeing spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "八路军兰州办事处旧址",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0506593,
+    "lon": 103.8240915,
+    "description": "A popular museum spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "兰山森林公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0212235,
+    "lon": 103.835464,
+    "description": "A popular sightseeing spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "兰州地震博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1152606,
+    "lon": 103.7278615,
+    "description": "A popular museum spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "兰州城市规划展览馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0668827,
+    "lon": 103.8429364,
+    "description": "A popular museum spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "兰州大学校史馆博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.9413719,
+    "lon": 104.1510652,
+    "description": "A popular museum spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "兰州市博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0556001,
+    "lon": 103.831712,
+    "description": "A popular museum spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "兰州彩陶博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.066646,
+    "lon": 103.8124586,
+    "description": "A popular museum spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "兰州民俗馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0641068,
+    "lon": 103.8453598,
+    "description": "A popular museum spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "兰州水车",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0637779,
+    "lon": 103.8368095,
+    "description": "A popular sightseeing spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "兰州水车园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0641487,
+    "lon": 103.801859,
+    "description": "A popular sightseeing spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "兰州海洋公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.9401719,
+    "lon": 104.022967,
+    "description": "A popular outdoor spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "兰州牛肉拉面博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.3313367,
+    "lon": 104.1881942,
+    "description": "A popular museum spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "兰州碑林",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0702875,
+    "lon": 103.8070676,
+    "description": "A popular sightseeing spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "兰州野生动物园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.2527751,
+    "lon": 103.7729487,
+    "description": "A popular outdoor spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "华夏人文始祖园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0864261,
+    "lon": 103.7090457,
+    "description": "A popular sightseeing spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "吉卜赛小镇",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.6904247,
+    "lon": 103.2609486,
+    "description": "A popular outdoor spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "吐鲁沟国家森林公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.6882577,
+    "lon": 102.7134603,
+    "description": "A popular sightseeing spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "张一悟烈士纪念亭",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.7826277,
+    "lon": 104.0509799,
+    "description": "A popular history spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "拱星墩长城",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0418412,
+    "lon": 103.8935843,
+    "description": "A popular history spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "敦煌艺术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0623547,
+    "lon": 103.8459734,
+    "description": "A popular museum spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "明兰州城广武门旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0591086,
+    "lon": 103.8372534,
+    "description": "A popular history spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "正宁路小吃夜市",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0537937,
+    "lon": 103.8188232,
+    "description": "A popular sightseeing spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "沈家岭战场遗址",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.9923308,
+    "lon": 103.8018703,
+    "description": "A popular museum spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "沈家岭红色文化广场",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.9995385,
+    "lon": 103.802611,
+    "description": "A popular history spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "溜索",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0685302,
+    "lon": 103.8137895,
+    "description": "A popular sightseeing spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "烈士牺牲纪念地",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0077784,
+    "lon": 103.8015026,
+    "description": "A popular history spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "狮身人面像",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.4555469,
+    "lon": 103.6227434,
+    "description": "A popular sightseeing spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "甘肃地质博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0693289,
+    "lon": 103.8586318,
+    "description": "A popular museum spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "甘肃循环经济展览馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.4731698,
+    "lon": 103.6634958,
+    "description": "A popular museum spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "甘肃省博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0668134,
+    "lon": 103.7720351,
+    "description": "A popular museum spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "甘肃省美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0612615,
+    "lon": 103.8479072,
+    "description": "A popular sightseeing spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "甘肃科技馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0995115,
+    "lon": 103.7025643,
+    "description": "A popular museum spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "甘肃简牍博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.077982,
+    "lon": 103.7291028,
+    "description": "A popular museum spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "白塔",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0679197,
+    "lon": 103.8146327,
+    "description": "A popular history spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "皋兰县博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.337506,
+    "lon": 103.9478261,
+    "description": "A popular museum spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "西部恐龙水乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.4598135,
+    "lon": 103.6272016,
+    "description": "A popular outdoor spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "詹天佑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.1054572,
+    "lon": 103.7253458,
+    "description": "A popular history spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "读者博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0616889,
+    "lon": 103.8471541,
+    "description": "A popular museum spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "金城公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0854786,
+    "lon": 103.6236505,
+    "description": "A popular outdoor spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "长城",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.2446562,
+    "lon": 108.9659793,
+    "description": "A popular history spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "长城影视基地",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.4616517,
+    "lon": 103.6213209,
+    "description": "A popular outdoor spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "阿木尔生态园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 35.9912694,
+    "lon": 103.9952464,
+    "description": "A popular outdoor spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "雅典卫城",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.4555757,
+    "lon": 103.6206477,
+    "description": "A popular sightseeing spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "马踏飞燕",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.0359413,
+    "lon": 103.8491406,
+    "description": "A popular history spot in Lanzhou.",
+    "city": "Lanzhou"
+  },
+  {
+    "name": "鲁土司衙门旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 36.5895211,
+    "lon": 102.8356954,
+    "description": "A popular history spot in Lanzhou.",
+    "city": "Lanzhou"
+  }
+]
