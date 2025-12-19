@@ -745,7 +745,7 @@ def fetch_spots_api():
         if session_id:
             socketio.emit('fetch_progress', {
                 'progress': 10,
-                'stage': f'正在查找 {city} 的地理信息...',
+                'stage': f'Finding geographic information for {city}...',
                 'city': city
             }, room=session_id)
         
@@ -758,7 +758,7 @@ def fetch_spots_api():
         if session_id:
             socketio.emit('fetch_progress', {
                 'progress': 30,
-                'stage': f'正在从 OpenStreetMap 获取 {city} 的景点数据...',
+                'stage': f'Fetching spots from OpenStreetMap for {city}...',
                 'city': city
             }, room=session_id)
         
@@ -768,7 +768,7 @@ def fetch_spots_api():
             if session_id:
                 socketio.emit('fetch_progress', {
                     'progress': 100,
-                    'stage': '未找到景点',
+                    'stage': 'Spot not found',
                     'city': city,
                     'error': True
                 }, room=session_id)
@@ -782,7 +782,7 @@ def fetch_spots_api():
         if session_id:
             socketio.emit('fetch_progress', {
                 'progress': 70,
-                'stage': f'正在保存 {len(spots)} 个景点到文件...',
+                'stage': f'Saving {len(spots)} spots to file...',
                 'city': city,
                 'spots_count': len(spots)
             }, room=session_id)
@@ -797,7 +797,7 @@ def fetch_spots_api():
         if session_id:
             socketio.emit('fetch_progress', {
                 'progress': 100,
-                'stage': '完成！',
+                'stage': 'Done!',
                 'city': city,
                 'spots_count': len(spots),
                 'file_path': filename
@@ -827,7 +827,7 @@ def fetch_spots_api():
         if session_id:
             socketio.emit('fetch_progress', {
                 'progress': 100,
-                'stage': '错误',
+                'stage': 'Error occurred',
                 'error': True,
                 'message': str(e)
             }, room=session_id)
