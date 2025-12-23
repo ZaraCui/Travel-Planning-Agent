@@ -1,0 +1,2202 @@
+[
+  {
+    "name": "山东博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.658157,
+    "lon": 117.095731,
+    "description": "电话: 0531-85058202;0531-85058201 | 地址: 经十路11899号 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "济南"
+  },
+  {
+    "name": "汉峪金谷A区嵩山广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.661303,
+    "lon": 117.14775,
+    "description": "地址: 凤新路汉峪金谷 | 类别: 商务住宅;楼宇;商住两用楼宇",
+    "city": "济南"
+  },
+  {
+    "name": "趵突泉景区",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.660934,
+    "lon": 117.015207,
+    "description": "地址: 明湖路271号 | 类别: 风景名胜;风景名胜;国家级景点",
+    "city": "济南"
+  },
+  {
+    "name": "趵突泉景区",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.661087,
+    "lon": 117.015893,
+    "description": "电话: 0531-86920439 | 地址: 趵突泉南路1号 | 类别: 风景名胜;风景名胜;国家级景点",
+    "city": "济南"
+  },
+  {
+    "name": "儿童友好公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.669255,
+    "lon": 117.114816,
+    "description": "地址: 礼耕路和大辛河路口东北侧,历下区韶光小学对面,燕山新居西北角 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "金璟广场",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.66447,
+    "lon": 117.103785,
+    "description": "地址: 书昌街657号 | 类别: 商务住宅;商务住宅相关;商务住宅相关",
+    "city": "济南"
+  },
+  {
+    "name": "龙洞风景区",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.601566,
+    "lon": 117.099376,
+    "description": "类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "济南融创文旅城",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.659538,
+    "lon": 117.197153,
+    "description": "电话: 4008959888 | 地址: 经十路辅路 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "大明湖景区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.672584,
+    "lon": 117.016718,
+    "description": "电话: 0531-86088925 | 地址: 大明湖路271号 | 类别: 风景名胜;风景名胜;国家级景点",
+    "city": "济南"
+  },
+  {
+    "name": "千佛山风景名胜区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.639288,
+    "lon": 117.036098,
+    "description": "电话: 0531-82662340 | 地址: 经十一路18号 | 类别: 风景名胜;风景名胜;国家级景点",
+    "city": "济南"
+  },
+  {
+    "name": "百花公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.676123,
+    "lon": 117.070365,
+    "description": "电话: 0531-88904980 | 地址: 闵子骞路10号 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "济南融创乐园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.666379,
+    "lon": 117.197049,
+    "description": "地址: 港沟街道经十路与凤鸣路交叉口融创乐园北门西侧接待中心101室内 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "大千佛山景区佛慧山",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.628538,
+    "lon": 117.047873,
+    "description": "电话: 0531-82952821 | 地址: 旅游路中段 | 类别: 风景名胜;风景名胜;国家级景点",
+    "city": "济南"
+  },
+  {
+    "name": "葫芦顶公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.63528,
+    "lon": 117.102255,
+    "description": "类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "济南市环城公园-黑虎泉",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.662414,
+    "lon": 117.033525,
+    "description": "地址: 解放阁脚下护城河南岸 | 类别: 风景名胜;风景名胜;国家级景点",
+    "city": "济南"
+  },
+  {
+    "name": "牧牛山山体公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.641904,
+    "lon": 117.099804,
+    "description": "地址: 洪山路与霞景路交叉口东280米 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "舜华三山森林公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.669254,
+    "lon": 117.123917,
+    "description": "地址: 崇华路103号附近 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "泉城广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.661373,
+    "lon": 117.022086,
+    "description": "地址: 泺源大街99号(趵突泉南路口) | 类别: 风景名胜;公园广场;城市广场",
+    "city": "济南"
+  },
+  {
+    "name": "大明湖景区-超然楼",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.675188,
+    "lon": 117.031996,
+    "description": "电话: 0531-86088901;0531-86088925 | 地址: 大明湖景区内(东侧) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "芙蓉街",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.666999,
+    "lon": 117.023781,
+    "description": "地址: 泉城路 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "济南市环城公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.662579,
+    "lon": 117.026607,
+    "description": "电话: 0531-86925504 | 地址: 南门大街2-1号(近护城河) | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "泉城公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.645126,
+    "lon": 117.019925,
+    "description": "电话: 0531-81750016 | 地址: 经十路18762号 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "五龙潭公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.665992,
+    "lon": 117.014637,
+    "description": "电话: 0531-86924835;0531-86921741 | 地址: 筐市街18号 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "华山风景区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.729314,
+    "lon": 117.073396,
+    "description": "电话: 0531-59615331;0531-59615332 | 地址: 华山街道将军路1455号华山片区中海华山珑城 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "大辛庄遗址博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.710501,
+    "lon": 117.105146,
+    "description": "电话: 0531-68820188 | 地址: 历城区王舍人街道-大辛庄遗址 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "济南"
+  },
+  {
+    "name": "百花洲历史文化街区",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.669214,
+    "lon": 117.024493,
+    "description": "地址: 大明湖街道百花洲湖东侧 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "锦屏东山公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.631852,
+    "lon": 117.126035,
+    "description": "地址: 龙景路23号 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "马山坡景区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.67162,
+    "lon": 117.12336,
+    "description": "地址: 舜华三山森林公园内(北侧) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "玉兰谷山体公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.633724,
+    "lon": 117.145489,
+    "description": "地址: 华峪路与汉峪东路交汇处南100米 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "济南动物园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.701936,
+    "lon": 116.986596,
+    "description": "电话: 0531-85958133;0531-85952362 | 地址: 济泺路87号 | 类别: 风景名胜;公园广场;动物园",
+    "city": "济南"
+  },
+  {
+    "name": "黑虎泉取水点",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.662514,
+    "lon": 117.033627,
+    "description": "地址: 黑虎泉泉池东侧 | 类别: 生活服务;生活服务场所;生活服务场所",
+    "city": "济南"
+  },
+  {
+    "name": "龙洞风景区藏龙涧",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.601525,
+    "lon": 117.106159,
+    "description": "地址: 旅游路南侧 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "珍珠泉",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.66733,
+    "lon": 117.025042,
+    "description": "电话: 0531-85107000 | 地址: 大明湖景区附近 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "湖畔雨荷",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.677484,
+    "lon": 117.026671,
+    "description": "地址: 大明湖路271号大明湖风景名胜区北极阁奇石馆西侧钢琴广场 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "大观园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.660766,
+    "lon": 116.996425,
+    "description": "电话: 0531-80658960 | 地址: 经四路 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "佛峪",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.591381,
+    "lon": 117.120988,
+    "description": "地址: 龙洞佛峪 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "佛慧山北门广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.635804,
+    "lon": 117.048144,
+    "description": "地址: 旅游路与千佛山东路交叉口 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "绸带公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.667247,
+    "lon": 117.102899,
+    "description": "地址: 汉臣街与山左路交叉口西北220米 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "龙鼎体育公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.620589,
+    "lon": 117.118738,
+    "description": "地址: 龙鼎大道与龙飞路交叉口东南角 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "曲水亭风景区",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.669657,
+    "lon": 117.02438,
+    "description": "地址: 百花洲历史文化街区 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "泉城人才公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.662609,
+    "lon": 117.1021,
+    "description": "地址: 茂岭山三号路西侧 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "英雄山风景区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.636092,
+    "lon": 117.004865,
+    "description": "地址: 英雄山路18号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "济南森林公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.667822,
+    "lon": 116.940395,
+    "description": "电话: 0531-66579600 | 地址: 张庄路321号(近兴济河) | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "济南百里黄河风景区",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.73137,
+    "lon": 116.95734,
+    "description": "地址: 泺口环城路166号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "印象济南·泉世界",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.677561,
+    "lon": 116.908811,
+    "description": "电话: 4000902767 | 地址: 一院三馆北邻青岛路2668号 | 类别: 风景名胜;风景名胜;风景名胜|购物服务;特色商业街;特色商业街",
+    "city": "济南"
+  },
+  {
+    "name": "红叶谷景区",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.485029,
+    "lon": 117.169781,
+    "description": "电话: 0531-82818666 | 地址: 锦绣川乡锦绣川水库南3公里54号 | 类别: 风景名胜;风景名胜;国家级景点",
+    "city": "济南"
+  },
+  {
+    "name": "解放阁-解放济南战役革命烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.663116,
+    "lon": 117.033939,
+    "description": "地址: 环城公园-解放阁 | 类别: 风景名胜;风景名胜;纪念馆",
+    "city": "济南"
+  },
+  {
+    "name": "鹊华荟(鹊山生态文化区)",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.778516,
+    "lon": 117.02201,
+    "description": "类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "彩虹湖公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.675219,
+    "lon": 117.297457,
+    "description": "地址: 东区街道春晖路6666号 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "舜奥公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.654963,
+    "lon": 117.140508,
+    "description": "地址: 龙奥北路709号 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "中山公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.661336,
+    "lon": 116.989254,
+    "description": "电话: 0531-87935185 | 地址: 经三路132号 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "龙奥公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.649118,
+    "lon": 117.120047,
+    "description": "地址: 龙鼎大道西 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "正丰路公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.685329,
+    "lon": 117.112313,
+    "description": "地址: 正丰路 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "千佛山风景名胜区-弥勒胜苑",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.640112,
+    "lon": 117.042435,
+    "description": "电话: 0531-82662340 | 地址: 经十一路18号千佛山风景名胜区内(东侧) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "大明湖景区-老舍纪念馆",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.673261,
+    "lon": 117.028919,
+    "description": "电话: 0531-86088900 | 地址: 大明湖路271号大明湖风景名胜区内 | 类别: 风景名胜;风景名胜;纪念馆",
+    "city": "济南"
+  },
+  {
+    "name": "奥体中心北广场",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.659129,
+    "lon": 117.123948,
+    "description": "地址: 经十路济南奥林匹克体育中心 | 类别: 体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+    "city": "济南"
+  },
+  {
+    "name": "国华广场",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.617131,
+    "lon": 117.029521,
+    "description": "电话: 0531-67715800 | 地址: 旅游路29666号 | 类别: 商务住宅;楼宇;商务写字楼|商务住宅;住宅区;住宅小区",
+    "city": "济南"
+  },
+  {
+    "name": "百花洲",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.671721,
+    "lon": 117.024121,
+    "description": "地址: 大明湖路(大明湖风景名胜区南) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "芦南村的农场",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.557371,
+    "lon": 117.188551,
+    "description": "电话: 15165162903;19153187877 | 地址: 港沟街道芦南村工业园1-6号 | 类别: 公司企业;农林牧渔基地;其它农林牧渔基地|风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "浆水泉",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.630893,
+    "lon": 117.075383,
+    "description": "地址: 浆水泉西路79号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "砚泉",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.661258,
+    "lon": 117.078475,
+    "description": "地址: 姚家路与姚家村路交叉口西440米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "历下广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.657145,
+    "lon": 117.102327,
+    "description": "地址: 转山西路2号 | 类别: 风景名胜;公园广场;公园广场",
+    "city": "济南"
+  },
+  {
+    "name": "黄河银杏林",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.732953,
+    "lon": 116.953447,
+    "description": "地址: 泺口环城路166号济南百里黄河风景区内(西侧) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "四窟万象",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.640855,
+    "lon": 117.037254,
+    "description": "电话: 0531-82662340 | 地址: 经十一路18号千佛山风景名胜区内 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "历城革命烈士陵园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.700993,
+    "lon": 117.152972,
+    "description": "电话: 0531-88801442 | 地址: 烈士山路东段 | 类别: 风景名胜;风景名胜;红色景区|生活服务;丧葬设施;陵园",
+    "city": "济南"
+  },
+  {
+    "name": "老舍旧居",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.656675,
+    "lon": 117.015409,
+    "description": "电话: 0531-82959215 | 地址: 南新街58号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "济南市博物馆(经十一路)",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.645208,
+    "lon": 117.026936,
+    "description": "电话: 0531-82959203;0531-82959204;0531-82959206 | 地址: 经十一路30号 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "济南"
+  },
+  {
+    "name": "泉城之眼·高空观景台",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.66736,
+    "lon": 116.99329,
+    "description": "地址: 经一路88号 | 类别: 风景名胜;风景名胜;观景点",
+    "city": "济南"
+  },
+  {
+    "name": "蟠龙山森林公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.628553,
+    "lon": 117.254501,
+    "description": "地址: 彩石街道彩石乡旅游路6777号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "青铜山大峡谷",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.532694,
+    "lon": 117.131497,
+    "description": "电话: 0531-88935888 | 地址: 老庄村38号 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "白泉",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.751959,
+    "lon": 117.169613,
+    "description": "地址: 白泉南街白泉生态保护项目(东门) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "书苑广场",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.59812,
+    "lon": 117.010626,
+    "description": "电话: 0531-82098596 | 地址: 舜耕路517号 | 类别: 商务住宅;商务住宅相关;商务住宅相关",
+    "city": "济南"
+  },
+  {
+    "name": "趵突泉",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.660835,
+    "lon": 117.015259,
+    "description": "地址: 趵突泉南路1号趵突泉景区内 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "千佛山-山顶",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.637064,
+    "lon": 117.035582,
+    "description": "电话: 0531-82662340 | 地址: 千佛山南路(千佛山风景名胜区) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "超然楼广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.675268,
+    "lon": 117.032592,
+    "description": "电话: 0531-86088900 | 地址: 大明湖路271号大明湖风景名胜区 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "济南"
+  },
+  {
+    "name": "中央森林公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.729623,
+    "lon": 117.182106,
+    "description": "地址: 凤鸣路与开源中路交叉口西北侧 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "鹊华中新园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.781018,
+    "lon": 117.027481,
+    "description": "地址: 鹊华荟(鹊山生态文化区)(东北角) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "槐荫广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.654891,
+    "lon": 116.982837,
+    "description": "电话: 0531-87912127 | 地址: 省立医院南门,经七路与经六路、纬七路与纬八路之间 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "济南"
+  },
+  {
+    "name": "科创金融公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.665177,
+    "lon": 117.136782,
+    "description": "地址: 舜华路939号 | 类别: 风景名胜;公园广场;公园广场",
+    "city": "济南"
+  },
+  {
+    "name": "智远利民广场",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.678826,
+    "lon": 117.160268,
+    "description": "地址: 凤山路与长岭山路交叉口东20米 | 类别: 购物服务;综合市场;综合市场",
+    "city": "济南"
+  },
+  {
+    "name": "燕山立交低线公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.651418,
+    "lon": 117.07159,
+    "description": "地址: 经十路燕山立交桥东西主桥沿线桥下 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "还乡店公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.714065,
+    "lon": 117.076566,
+    "description": "地址: 还乡店路25号 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "MELAND CLUB(济南融创体育世界店)",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.670891,
+    "lon": 117.200077,
+    "description": "电话: 0531-55530611 | 地址: 经十路201号济南融创茂LG层体育世界1号 | 类别: 体育休闲服务;休闲场所;游乐场",
+    "city": "济南"
+  },
+  {
+    "name": "蟠龙山滑雪场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.640427,
+    "lon": 117.240014,
+    "description": "电话: 0531-88030666;0531-89055666 | 地址: 旅游路8228号济南国际赛马场内 | 类别: 体育休闲服务;运动场馆;滑雪场",
+    "city": "济南"
+  },
+  {
+    "name": "洪家楼主教座堂天主堂",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.686232,
+    "lon": 117.065923,
+    "description": "地址: 洪家楼1号洪楼广场 | 类别: 风景名胜;风景名胜;教堂",
+    "city": "济南"
+  },
+  {
+    "name": "济南茂岭山公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.669331,
+    "lon": 117.088364,
+    "description": "地址: 姚家街道新泺大街与泺邑路交汇处西南角(山东政法学院北邻) | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "济南市环城公园-解放阁(暂停开放)",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.663178,
+    "lon": 117.033627,
+    "description": "电话: 13256725257 | 地址: 南门大街2-1号(近护城河)济南市环城公园内东侧 | 类别: 风景名胜;风景名胜;红色景区|风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "龙鼎滨水公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.632598,
+    "lon": 117.119414,
+    "description": "地址: 龙鼎大道与龙云路交叉口西60米(孟家庄地铁站C口旁) | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "济南融创海世界",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.671025,
+    "lon": 117.197925,
+    "description": "电话: 4008959888 | 地址: 经十路199号融创茂LG层 | 类别: 体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+    "city": "济南"
+  },
+  {
+    "name": "大辛庄考古遗址公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.711544,
+    "lon": 117.109876,
+    "description": "地址: 小辛庄东区207号楼附近 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "大山坡小广场(装修中)",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.671262,
+    "lon": 117.141205,
+    "description": "地址: 舜泰广场北 | 类别: 风景名胜;公园广场;公园|风景名胜;公园广场;城市广场",
+    "city": "济南"
+  },
+  {
+    "name": "涵玉公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.647336,
+    "lon": 117.137623,
+    "description": "地址: 东荷路与辰嘉路交叉口南220米 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "济南黄金谷山水风景区(暂停开放)",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.621732,
+    "lon": 117.077073,
+    "description": "电话: 0531-88889111 | 地址: 浆水泉水库南岸 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "山东省地质博物馆(暂停开放)",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.651051,
+    "lon": 117.081484,
+    "description": "电话: 0531-51791547;0531-51791548 | 地址: 经十路114号 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "济南"
+  },
+  {
+    "name": "南部山区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.467358,
+    "lon": 117.128102,
+    "description": "地址: 柳埠街道 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "淌豆寺",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.621788,
+    "lon": 117.221272,
+    "description": "地址: 港沟伙路村东南山峪 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "济南"
+  },
+  {
+    "name": "大千佛山景区佛慧山-大佛头",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.627658,
+    "lon": 117.054065,
+    "description": "地址: 二环东路8999号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "唐冶中央公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.706799,
+    "lon": 117.231851,
+    "description": "地址: 济南地铁2号线彭家庄站南侧 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "鲍山公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.714703,
+    "lon": 117.173414,
+    "description": "电话: 0531-88864145 | 地址: 济钢体育馆附近 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "济南古城",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.669365,
+    "lon": 117.024825,
+    "description": "地址: 大明湖路与泮壁街交叉口 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "起凤桥街",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.668369,
+    "lon": 117.023038,
+    "description": "地址: 芙蓉街与茶巷交叉口南60米 | 类别: 购物服务;特色商业街;特色商业街",
+    "city": "济南"
+  },
+  {
+    "name": "幸福柳广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.718855,
+    "lon": 117.10692,
+    "description": "电话: 0531-67800229 | 地址: 工业北路大辛庄中心幸福柳路1-8号(近奥体中路) | 类别: 风景名胜;公园广场;城市广场",
+    "city": "济南"
+  },
+  {
+    "name": "泉城广场-荷花音乐喷泉",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.661863,
+    "lon": 117.024865,
+    "description": "地址: 泺源大街99号(趵突泉南路口)泉城广场内(东侧) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "趵突泉-李清照纪念堂",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.661698,
+    "lon": 117.01657,
+    "description": "电话: 0531-86920439 | 地址: 趵突泉街道趵突泉南路1号趵突泉公园 | 类别: 风景名胜;风景名胜;纪念馆",
+    "city": "济南"
+  },
+  {
+    "name": "将山山地森林公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.700216,
+    "lon": 117.190554,
+    "description": "地址: 凤容路与韩仓河西路交叉口西300米 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "蝎子山",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.605267,
+    "lon": 117.03244,
+    "description": "地址: 国华新经典东侧约83米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "千佛山风景名胜区-兴国禅寺",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.637724,
+    "lon": 117.0352,
+    "description": "电话: 0531-88684526 | 地址: 经十一路18号千佛山风景名胜区内 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "芙蓉街-王府池子",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.667633,
+    "lon": 117.02371,
+    "description": "地址: 泉城路 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "济南方特东方神画(暂停开放)",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.70584,
+    "lon": 116.878715,
+    "description": "电话: 0531-58701555;4001660006 | 地址: 吴家堡街道济齐路277号 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "济南府学文庙",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.670623,
+    "lon": 117.023052,
+    "description": "电话: 0531-86081089 | 地址: 泉城路街道芙蓉街社区 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "济南"
+  },
+  {
+    "name": "华山湖",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.730191,
+    "lon": 117.075613,
+    "description": "电话: 0531-59615331 | 地址: 荷花路华山风景区 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "朱凤山",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.589679,
+    "lon": 117.145814,
+    "description": "地址: 历城区乡义寺附近 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "郎茂山公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.618988,
+    "lon": 116.988503,
+    "description": "地址: 郎茂山路中段 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "济南战役纪念馆",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.640138,
+    "lon": 117.00267,
+    "description": "电话: 0531-82030618 | 地址: 英雄山路18-8号 | 类别: 风景名胜;风景名胜;纪念馆",
+    "city": "济南"
+  },
+  {
+    "name": "唐冶公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.680539,
+    "lon": 117.22879,
+    "description": "地址: 唐冶东路(近唐冶体育馆) | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "崇明寺",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.671013,
+    "lon": 117.032187,
+    "description": "电话: 0531-67888863 | 地址: 县学街11号 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "济南"
+  },
+  {
+    "name": "卧牛山地质公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.742123,
+    "lon": 117.091804,
+    "description": "地址: 华山街道卧牛山路(中海御山首府南邻) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "药山公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.711578,
+    "lon": 116.96661,
+    "description": "地址: 无影山北路60号 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "洪山公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.643089,
+    "lon": 117.088321,
+    "description": "地址: 龙洞街道旅游路22039号 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "九如山休闲旅游度假区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.48684,
+    "lon": 117.300327,
+    "description": "电话: 0531-82826666 | 地址: 西营街道九如山度假风景区 | 类别: 风景名胜;风景名胜;国家级景点",
+    "city": "济南"
+  },
+  {
+    "name": "五龙潭公园-五龙喷泉",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.666426,
+    "lon": 117.015186,
+    "description": "电话: 0531-86924835 | 地址: 筐市街18号五龙潭公园内(东北角) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "融创球球猩超级游乐场(济南融创茂店)",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.670579,
+    "lon": 117.196777,
+    "description": "电话: 18758180467 | 地址: 经十路201号济南融创茂F1层 | 类别: 体育休闲服务;休闲场所;游乐场",
+    "city": "济南"
+  },
+  {
+    "name": "大众广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.630918,
+    "lon": 116.961252,
+    "description": "电话: 13969128170 | 地址: 王官庄街道南辛庄西路222号(王官庄小区) | 类别: 风景名胜;公园广场;城市广场",
+    "city": "济南"
+  },
+  {
+    "name": "高新区绿地公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.666205,
+    "lon": 117.1531,
+    "description": "地址: 经十路与凤凰路交叉口东北角 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "龙洞风景区-凤凰台",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.607537,
+    "lon": 117.11668,
+    "description": "类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "黄台公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.705852,
+    "lon": 117.049201,
+    "description": "地址: 黄台社区293号 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "母亲河公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.722241,
+    "lon": 117.025341,
+    "description": "地址: 历山北路盖家沟 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "洪山广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.651552,
+    "lon": 117.095044,
+    "description": "地址: 洪山路与名士北路交叉口西北50米 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "济南"
+  },
+  {
+    "name": "泉城广场-泉标",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.661493,
+    "lon": 117.021235,
+    "description": "地址: 泺源大街99号(趵突泉南路口)泉城广场内(西侧) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "搬倒井立交观景点",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.617586,
+    "lon": 117.07187,
+    "description": "地址: 二环南高架路 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "大明湖景区-北水门",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.678047,
+    "lon": 117.030626,
+    "description": "电话: 0531-86088900 | 地址: 大明湖路271号大明湖景区(东北角) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "拖缰岭山体公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.635625,
+    "lon": 117.156349,
+    "description": "地址: 凤凰路与博学路交叉口西北100米 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "泉城第一福地",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.669953,
+    "lon": 117.140742,
+    "description": "地址: 舜颂路大山坡公园内 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "千佛山-卧佛",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.641234,
+    "lon": 117.033966,
+    "description": "电话: 0531-82662340 | 地址: 经十一路18号千佛山公园 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "黄河银杏林",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.732953,
+    "lon": 116.953447,
+    "description": "类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "锦屏东山公园(南口)",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.628947,
+    "lon": 117.127598,
+    "description": "地址: 龙景路23号锦屏东山公园 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "四门塔",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.45248,
+    "lon": 117.134916,
+    "description": "电话: 0531-82840444 | 地址: 柳埠镇苏家庄55号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "胶济铁路博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.66814,
+    "lon": 116.99195,
+    "description": "地址: 经一路30-1号 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "济南"
+  },
+  {
+    "name": "金象山滑雪场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.473698,
+    "lon": 117.115593,
+    "description": "电话: 18615585529 | 地址: 锦绣川乡商家金象山风景区内 | 类别: 体育休闲服务;运动场馆;滑雪场",
+    "city": "济南"
+  },
+  {
+    "name": "金象山旅游风景区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.477151,
+    "lon": 117.116302,
+    "description": "电话: 18615585529 | 地址: 仲宫街道西商家村 | 类别: 体育休闲服务;休闲场所;游乐场|风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "历山院",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.638405,
+    "lon": 117.037251,
+    "description": "电话: 0531-82662297 | 地址: 经十一路18号千佛山风景名胜区内 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "围子山郊野公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.682594,
+    "lon": 117.245828,
+    "description": "地址: 幼安街与文苑街交叉口东南80米 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "腊山",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.639071,
+    "lon": 116.904908,
+    "description": "地址: 段店镇腊山西麓 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "历城文博中心",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.688667,
+    "lon": 117.23132,
+    "description": "地址: 唐冶街道唐冶东路777号附近 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "济南"
+  },
+  {
+    "name": "兴隆公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.589062,
+    "lon": 117.045973,
+    "description": "电话: 0531-81279247 | 地址: 兴泰路东侧 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "龙脊河公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.743917,
+    "lon": 117.159782,
+    "description": "地址: 坝王路58号 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "天井峪",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.533256,
+    "lon": 117.095292,
+    "description": "电话: 010-56320606,34328494 | 地址: 大佛路天井峪 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "千佛山风景名胜区-大肚弥勒佛",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.640084,
+    "lon": 117.042399,
+    "description": "电话: 0531-82662340 | 地址: 千佛山风景名胜区-弥勒胜苑 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "卧虎山滑雪场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.44443,
+    "lon": 117.017229,
+    "description": "电话: 0531-82998886 | 地址: 仲宫街道卧虎路北13号 | 类别: 体育休闲服务;运动场馆;滑雪场",
+    "city": "济南"
+  },
+  {
+    "name": "佛慧山景区生态廊桥迎宾广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.625758,
+    "lon": 117.059664,
+    "description": "地址: 二环东路佛慧山景区 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "凤凰山公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.673971,
+    "lon": 117.198703,
+    "description": "地址: 经十路辅路与凤祥路交叉口西220米 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "腊山河公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.681965,
+    "lon": 116.907377,
+    "description": "地址: 腊山河路与青岛路交叉口西北220米 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "趵突泉-泺源门",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.65989,
+    "lon": 117.015821,
+    "description": "电话: 0531-86920439 | 地址: 泺源大街147号附近 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "秘境石崮寨",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.521221,
+    "lon": 116.964764,
+    "description": "电话: 0531-82788876 | 地址: 十六里河镇石崮沟村116号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "济南市警察博物馆(暂停开放)",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.64801,
+    "lon": 117.128514,
+    "description": "电话: 0531-85089436 | 地址: 旅游路17777号 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "济南"
+  },
+  {
+    "name": "大明湖-雨荷厅",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.677209,
+    "lon": 117.030022,
+    "description": "电话: 0531-86088900 | 地址: 大明湖路271号大明湖风景名胜区内 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "华山风景区-华阳宫",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.725878,
+    "lon": 117.070007,
+    "description": "地址: 光华大道华山脚下 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "济南"
+  },
+  {
+    "name": "燕翅山公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.659555,
+    "lon": 117.078612,
+    "description": "地址: 窑头路7-5号 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "督城隍庙",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.669892,
+    "lon": 117.032222,
+    "description": "地址: 明湖路271号天下第一泉 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "济南"
+  },
+  {
+    "name": "欢乐谷",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.675925,
+    "lon": 117.129675,
+    "description": "地址: 舜华路881号济高·世茂芯环中心 | 类别: 体育休闲服务;休闲场所;游乐场",
+    "city": "济南"
+  },
+  {
+    "name": "凤栖公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.655292,
+    "lon": 117.153454,
+    "description": "地址: 德润·天玺小区与奥林逸城小区中间 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "波罗峪",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.541669,
+    "lon": 117.088102,
+    "description": "电话: 0531-82990877 | 地址: 仲宫镇波罗峪大道328号(东泉泸村东二公里) | 类别: 风景名胜;风景名胜;省级景点",
+    "city": "济南"
+  },
+  {
+    "name": "历阳湖",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.618926,
+    "lon": 117.028907,
+    "description": "地址: 旅游路与历阳大街交叉西北太和广场 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "万字会旧址",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.656337,
+    "lon": 117.013229,
+    "description": "地址: 上新街51号 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "趵突泉-濯缨池",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.662201,
+    "lon": 117.016396,
+    "description": "电话: 0531-86920439 | 地址: 趵突泉南路1号趵突泉公园 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "匡山公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.685913,
+    "lon": 116.94831,
+    "description": "地址: 济齐路108号 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "济南市植物园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.645051,
+    "lon": 117.01989,
+    "description": "地址: 经十路与翠桐路交叉口南400米 | 类别: 风景名胜;公园广场;植物园",
+    "city": "济南"
+  },
+  {
+    "name": "林凯赛福(唐冶)文体公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.685059,
+    "lon": 117.224433,
+    "description": "电话: 15305318680 | 地址: 文苑街与灵鹫寺路交叉口东南60米 | 类别: 公司企业;公司企业;公司企业|体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+    "city": "济南"
+  },
+  {
+    "name": "济南市环城公园-青龙桥",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.666068,
+    "lon": 117.034413,
+    "description": "电话: 0531-86925504 | 地址: 解放路街道解放路 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "汉峪金谷A区华山广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.658641,
+    "lon": 117.145546,
+    "description": "地址: 华茂路与舜华南路交叉口东北140米 | 类别: 商务住宅;楼宇;商住两用楼宇",
+    "city": "济南"
+  },
+  {
+    "name": "济南融创体育世界",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.672036,
+    "lon": 117.199561,
+    "description": "电话: 4008959888 | 地址: 经十路199号融创茂内LG层 | 类别: 体育休闲服务;休闲场所;休闲场所",
+    "city": "济南"
+  },
+  {
+    "name": "大象馆",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.700439,
+    "lon": 116.98346,
+    "description": "电话: 0531-85952362 | 地址: 济泺路87号济南动物园草食区内 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "云锦湖公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.701132,
+    "lon": 117.028265,
+    "description": "地址: 水屯路与小清河南路交叉口 | 类别: 风景名胜;公园广场;公园广场",
+    "city": "济南"
+  },
+  {
+    "name": "圭山公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.674098,
+    "lon": 117.095287,
+    "description": "地址: 齐风路与子云街交叉口西140米 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "济南动物园-大熊猫馆",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.703279,
+    "lon": 116.985399,
+    "description": "电话: 0531-85952362 | 地址: 济泺路87号济南动物园猛兽区内 | 类别: 风景名胜;公园广场;动物园",
+    "city": "济南"
+  },
+  {
+    "name": "济南舜泰广场体育公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.664268,
+    "lon": 117.143443,
+    "description": "地址: 舜泰北路933号 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "文昌园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.641222,
+    "lon": 117.094999,
+    "description": "地址: 龙洞街道龙洞街道康桥颐城旅游路 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "绿地中央公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.67395,
+    "lon": 117.106345,
+    "description": "地址: 星天路与天辰路交叉口东南80米 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "沿黄九美银杏林",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.734579,
+    "lon": 116.872982,
+    "description": "电话: 15562432016 | 地址: 美里北路黄河银杏林 | 类别: 公司企业;农林牧渔基地;其它农林牧渔基地",
+    "city": "济南"
+  },
+  {
+    "name": "金龟山",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.638928,
+    "lon": 117.134578,
+    "description": "地址: 菜鸟驿站西侧230米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "大明湖景区-正谊广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.672317,
+    "lon": 117.02648,
+    "description": "电话: 0531-86088900 | 地址: 大明湖路271号大明湖 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "济南革命军事馆",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.632647,
+    "lon": 117.170504,
+    "description": "地址: 济南国防教育基地内 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "月牙泉",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.66472,
+    "lon": 117.015372,
+    "description": "电话: 0531-86921369 | 地址: 筐市街18号五龙潭公园内(东南角) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "济南开埠博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.661796,
+    "lon": 116.988165,
+    "description": "地址: 经三路140-3号 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "济南"
+  },
+  {
+    "name": "淌豆寺千年银杏树",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.621956,
+    "lon": 117.221344,
+    "description": "地址: 蟠龙立交与G2京沪高速交叉口西南420米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "济南市历下区盛福基督教堂",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.692117,
+    "lon": 117.116944,
+    "description": "电话: 0531-88683561 | 地址: 奥体中路与康虹路交叉口向北100米 | 类别: 风景名胜;风景名胜;教堂",
+    "city": "济南"
+  },
+  {
+    "name": "板桥广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.702151,
+    "lon": 117.044413,
+    "description": "地址: 历山北路与清河北路交叉东南角 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "济南"
+  },
+  {
+    "name": "领秀城森林公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.59045,
+    "lon": 117.016706,
+    "description": "地址: 舜耕路东200米 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "山东智邦粮食文化博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.639679,
+    "lon": 117.1873,
+    "description": "地址: 港沟街道办事处港沟村2-346号 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "济南"
+  },
+  {
+    "name": "龙园龙山",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.66915,
+    "lon": 117.143456,
+    "description": "地址: 舜泰北路与舜泰中路交叉口北420米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "开元寺",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.629362,
+    "lon": 117.054334,
+    "description": "地址: 佛慧山 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "济南"
+  },
+  {
+    "name": "马山坡景区-观景台",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.667374,
+    "lon": 117.125949,
+    "description": "地址: 崇华路103号附近马山坡景区 | 类别: 风景名胜;风景名胜;观景点",
+    "city": "济南"
+  },
+  {
+    "name": "鹊山",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.736197,
+    "lon": 117.005814,
+    "description": "地址: 桑梓店街道 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "蓬莱院",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.680337,
+    "lon": 117.042748,
+    "description": "地址: 霞侣市街2号 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "济南"
+  },
+  {
+    "name": "佛峪胜境",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.59184,
+    "lon": 117.120353,
+    "description": "地址: 佛峪西北侧70米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "济南黄河森林公园(不对外开放)",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.728959,
+    "lon": 116.98958,
+    "description": "地址: 黄河泺口浮桥北岸路西 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "七星台风景区(暂停开放)",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.468628,
+    "lon": 117.314563,
+    "description": "电话: 0531-83780988;0531-83784968 | 地址: 垛庄镇四角城村 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "中共山东早期历史纪念馆",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.664388,
+    "lon": 117.014875,
+    "description": "电话: 0531-86102040 | 地址: 共青团路1号五龙潭公园南门(东侧) | 类别: 风景名胜;风景名胜;纪念馆",
+    "city": "济南"
+  },
+  {
+    "name": "万象新天运动的森林",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.725951,
+    "lon": 117.143781,
+    "description": "电话: 0531-88820519 | 地址: 凤凰北路 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "济南融创水世界(暂停营业)",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.670536,
+    "lon": 117.196874,
+    "description": "电话: 4008959888 | 地址: 经十路199号融创茂内L1层 | 类别: 体育休闲服务;休闲场所;水上活动中心",
+    "city": "济南"
+  },
+  {
+    "name": "玉皇山清虚观",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.619161,
+    "lon": 116.891599,
+    "description": "地址: 党杨路玉皇山清虚观(绿地国际花都西南) | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "济南"
+  },
+  {
+    "name": "鹊华公园(建设中)",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.780731,
+    "lon": 117.027547,
+    "description": "地址: 308国道与鹊华东路交叉口西南280米 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "千佛山风景名胜区滑道-上站",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.638149,
+    "lon": 117.036947,
+    "description": "电话: 0531-82662340 | 地址: 经十一路18号千佛山风景名胜区内天一阁南滑道 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "大明湖公园游船",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.672469,
+    "lon": 117.023848,
+    "description": "电话: 0531-86088900 | 地址: 泉城路街道大明湖路271号大明湖景区内(南侧) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "腊山公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.642062,
+    "lon": 116.909227,
+    "description": "地址: 腊山北路64号 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "华不注山",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.728803,
+    "lon": 117.069543,
+    "description": "电话: 0531-68272629 | 地址: 华山街道光华大道 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "望岳康体公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.57618,
+    "lon": 116.982477,
+    "description": "地址: 文康北街与慕康路交叉口东北120米 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "碧霞祠",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.657455,
+    "lon": 117.172034,
+    "description": "地址: 莲花山山顶 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "义净寺",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.454268,
+    "lon": 116.918122,
+    "description": "电话: 0531-83177667;0531-83187667 | 地址: 张夏街道张夏村光明山义净寺正门 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "济南"
+  },
+  {
+    "name": "北极阁",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.677664,
+    "lon": 117.028104,
+    "description": "电话: 0531-86088900 | 地址: 大明湖路271号大明湖风景名胜区内 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "CityLine城际山野公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.726532,
+    "lon": 117.086147,
+    "description": "地址: 荷花路212号 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "宏济堂中医药文化旅游景区",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.667469,
+    "lon": 117.247174,
+    "description": "电话: 0531-88729969 | 地址: 经十东路30766号 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "龙湖星耀广场(龙湖铂金岛店)",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.721432,
+    "lon": 117.141943,
+    "description": "地址: 泰宁路与工业北路辅路交叉口西北120米 | 类别: 生活服务;生活服务场所;生活服务场所",
+    "city": "济南"
+  },
+  {
+    "name": "历下甸柳游园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.666747,
+    "lon": 117.07283,
+    "description": "地址: 解放路与二环东路交叉口西北60米 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "大明湖景区-海底世界(暂停开放)",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.676805,
+    "lon": 117.018755,
+    "description": "电话: 0531-66665977 | 地址: 大明湖路271号大明湖风景名胜区内 | 类别: 风景名胜;公园广场;水族馆",
+    "city": "济南"
+  },
+  {
+    "name": "五柳岛",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.702887,
+    "lon": 117.027668,
+    "description": "地址: 小清河北路与水屯路交叉口西南约60米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "济南"
+  },
+  {
+    "name": "千佛山风景名胜区-文昌阁",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.639903,
+    "lon": 117.039032,
+    "description": "电话: 0531-82662340 | 地址: 千佛山街道经十一路18号千佛山风景名胜区内 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "济南"
+  },
+  {
+    "name": "济南商埠文化博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.659586,
+    "lon": 116.986364,
+    "description": "地址: 经四号370号 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "济南"
+  },
+  {
+    "name": "济南起步区淤背郊野公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.785285,
+    "lon": 117.086289,
+    "description": "地址: 石济黄河公铁两用桥至济南黄河凤凰大桥段黄河北岸淤背区内 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  },
+  {
+    "name": "兴福寺公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 36.6734,
+    "lon": 116.896524,
+    "description": "地址: 齐鲁大道附近 | 类别: 风景名胜;公园广场;公园",
+    "city": "济南"
+  }
+]

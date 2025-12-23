@@ -1,0 +1,2202 @@
+[
+  {
+    "name": "南湖公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.804765,
+    "lon": 108.351374,
+    "description": "电话: 0771-5324932;0771-5333610 | 地址: 双拥路1号 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "李明瑞韦拔群等革命烈士纪念馆",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.803693,
+    "lon": 108.350667,
+    "description": "电话: 0771-5324932 | 地址: 双拥路1号南湖公园(西南角) | 类别: 风景名胜;风景名胜;纪念馆",
+    "city": "南宁"
+  },
+  {
+    "name": "金湖广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.813529,
+    "lon": 108.370341,
+    "description": "电话: 0771-5516583 | 地址: 民族大道98-3号 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山风景区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.78866,
+    "lon": 108.395254,
+    "description": "电话: 0771-5828923 | 地址: 凤岭南路6-6号 | 类别: 风景名胜;风景名胜;国家级景点",
+    "city": "南宁"
+  },
+  {
+    "name": "民歌湖国际音乐小镇",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.809576,
+    "lon": 108.375129,
+    "description": "地址: 金浦路23号民歌广场旁 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "云顶观光",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.8158,
+    "lon": 108.36955,
+    "description": "电话: 0771-5537733 | 地址: 金湖路59号地王大厦59层 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "广西壮族自治区博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.812451,
+    "lon": 108.335166,
+    "description": "电话: 0771-2707027 | 地址: 民族大道34号 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "南宁"
+  },
+  {
+    "name": "石门公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.807147,
+    "lon": 108.386253,
+    "description": "电话: 0771-5511962;0771-5557962 | 地址: 民族大道118号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁市人民公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.828576,
+    "lon": 108.330975,
+    "description": "电话: 0771-5620468;0771-5637639 | 地址: 民生街道民生街道人民东路1号 | 类别: 风景名胜;风景名胜;省级景点",
+    "city": "南宁"
+  },
+  {
+    "name": "民族广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.813817,
+    "lon": 108.33224,
+    "description": "地址: 民族大道49-2号 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "南宁"
+  },
+  {
+    "name": "亭子码头",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.792493,
+    "lon": 108.32324,
+    "description": "电话: 13297711010 | 地址: 白沙大道2号4号商务中心二楼 | 类别: 交通设施服务;交通服务相关;交通服务相关",
+    "city": "南宁"
+  },
+  {
+    "name": "南湖公园名树博览园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.807286,
+    "lon": 108.358634,
+    "description": "电话: 0771-5324932 | 地址: 双拥路1号 | 类别: 风景名胜;公园广场;植物园",
+    "city": "南宁"
+  },
+  {
+    "name": "狮山公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.859303,
+    "lon": 108.342052,
+    "description": "电话: 0771-3317173;0771-3927351 | 地址: 朝阳街道邕武路4号 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "凤岭儿童公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.821646,
+    "lon": 108.398869,
+    "description": "电话: 0771-5775578;0771-5776691 | 地址: 云景路25号 | 类别: 体育休闲服务;休闲场所;游乐场",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山风景区观音禅寺",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.788303,
+    "lon": 108.395648,
+    "description": "电话: 0771-2114576 | 地址: 青秀山管理委员会津头街道凤岭南路6号青秀山风景区内 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "南宁"
+  },
+  {
+    "name": "荫生植物园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.791551,
+    "lon": 108.391168,
+    "description": "地址: 凤翼路青秀山风景区(西北角) | 类别: 风景名胜;公园广场;植物园",
+    "city": "南宁"
+  },
+  {
+    "name": "南湖公园南湖南广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.807498,
+    "lon": 108.35702,
+    "description": "电话: 0771-5324932 | 地址: 双拥路1号 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "南宁"
+  },
+  {
+    "name": "广西壮族自治区药用植物园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.853722,
+    "lon": 108.376894,
+    "description": "电话: 0771-5603072;0771-5611352 | 地址: 长堽路189号 | 类别: 风景名胜;公园广场;植物园",
+    "city": "南宁"
+  },
+  {
+    "name": "广西民族博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.774463,
+    "lon": 108.40184,
+    "description": "电话: 0771-2024599 | 地址: 青环路11号(近荔园山庄) | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.775297,
+    "lon": 108.382361,
+    "description": "电话: 0771-2842637;0771-5445189 | 地址: 龙堤路15号 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "南宁"
+  },
+  {
+    "name": "元气集",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.816756,
+    "lon": 108.369353,
+    "description": "地址: 文信路与金湖北路交叉口西100米 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "民族文物苑",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.811786,
+    "lon": 108.335445,
+    "description": "地址: 古城路21-7号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁方特东盟神画",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.763753,
+    "lon": 108.414681,
+    "description": "电话: 0771-5495888;4001660006 | 地址: 青环路66号 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "李宁体育园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.799897,
+    "lon": 108.412069,
+    "description": "电话: 0771-2385222;0771-6736633;15177904074 | 地址: 凤岭南路13号 | 类别: 体育休闲服务;运动场馆;综合体育馆",
+    "city": "南宁"
+  },
+  {
+    "name": "邕州阁",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.795494,
+    "lon": 108.366881,
+    "description": "电话: 15777188111 | 地址: 凤岭南路1号(青秀山地铁站B口步行390米) | 类别: 风景名胜;风景名胜;风景名胜|住宿服务;旅馆招待所;旅馆招待所",
+    "city": "南宁"
+  },
+  {
+    "name": "广西自然资源博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.798009,
+    "lon": 108.395303,
+    "description": "地址: 中马路2号 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "南宁"
+  },
+  {
+    "name": "民族宫",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.813797,
+    "lon": 108.334869,
+    "description": "地址: 民族大道49-1号 | 类别: 商务住宅;楼宇;商住两用楼宇",
+    "city": "南宁"
+  },
+  {
+    "name": "南湖公园-水幕电影广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.807432,
+    "lon": 108.356934,
+    "description": "电话: 0771-5324932 | 地址: 双拥路南湖公园(东北角) | 类别: 风景名胜;公园广场;城市广场",
+    "city": "南宁"
+  },
+  {
+    "name": "邓颖超纪念馆",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.813455,
+    "lon": 108.320316,
+    "description": "电话: 0771-2865141 | 地址: 三街两巷民族大道37号 | 类别: 风景名胜;风景名胜;纪念馆",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁青秀山兰园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.792492,
+    "lon": 108.393211,
+    "description": "电话: 0771-5828923 | 地址: 青秀山风景区北1门附近 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "柬埔寨园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.806383,
+    "lon": 108.406304,
+    "description": "地址: 朱槿路11号 | 类别: 商务住宅;住宅区;住宅小区",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山风景区东区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.794447,
+    "lon": 108.411508,
+    "description": "电话: 0771-5828923 | 地址: 凤岭南路青秀山风景区内(东北角) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "滨湖广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.815172,
+    "lon": 108.362314,
+    "description": "地址: 民族大道与滨湖路交叉口北150米 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁孔庙",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.777961,
+    "lon": 108.393525,
+    "description": "地址: 青环路9号 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山风景区-龙象塔",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.780431,
+    "lon": 108.389931,
+    "description": "电话: 0771-5828923 | 地址: 青秀山景区内 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "柳沙公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.769035,
+    "lon": 108.338506,
+    "description": "地址: 荔滨大道与泰昌路交叉口东南400米 | 类别: 风景名胜;公园广场;公园|风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "百益上河城",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.786695,
+    "lon": 108.30594,
+    "description": "电话: 0771-4309898 | 地址: A16栋106号妙丝妮内衣店 | 类别: 风景名胜;风景名胜;国家级景点|购物服务;商场;普通商场|购物服务;服装鞋帽皮具店;服装鞋帽皮具店",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀湖公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.795761,
+    "lon": 108.376695,
+    "description": "地址: 青湖路 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "广西壮族自治区烈士陵园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.847389,
+    "lon": 108.379977,
+    "description": "地址: 长岗路256号 | 类别: 生活服务;丧葬设施;陵园|风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "旺庆广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.811087,
+    "lon": 108.367162,
+    "description": "地址: 金洲路与金洲路南二里交叉口东北60米 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁动物园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.834889,
+    "lon": 108.268525,
+    "description": "电话: 0771-3213932 | 地址: 大学东路73号 | 类别: 风景名胜;公园广场;动物园",
+    "city": "南宁"
+  },
+  {
+    "name": "南湖公园欢乐世界",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.802828,
+    "lon": 108.34839,
+    "description": "地址: 津头街道双拥路1号 | 类别: 体育休闲服务;休闲场所;游乐场",
+    "city": "南宁"
+  },
+  {
+    "name": "五象湖公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.739989,
+    "lon": 108.375742,
+    "description": "电话: 0771-2750322 | 地址: 良庆镇玉洞大道与平乐大道交叉口 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "五象岭森林公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.753725,
+    "lon": 108.347958,
+    "description": "电话: 0771-5814402 | 地址: 五象岭路36号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "那考河湿地公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.872246,
+    "lon": 108.378154,
+    "description": "地址: 金川路 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁植物园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.793596,
+    "lon": 108.391492,
+    "description": "电话: 0771-5828923 | 地址: 凤岭南路6-6号青秀山风景区北门 | 类别: 风景名胜;公园广场;植物园",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁市邕江南岸公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.806537,
+    "lon": 108.317052,
+    "description": "电话: 0771-4820030 | 地址: 星光大道1号(南宁剧场地铁站D口步行330米) | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁市花卉公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.859679,
+    "lon": 108.292819,
+    "description": "电话: 0771-3132290 | 地址: 安阳路7号 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "桃花岛",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.789493,
+    "lon": 108.399629,
+    "description": "电话: 0771-5828923 | 地址: 青秀山景区内 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山风景区-叶子花园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.78961,
+    "lon": 108.413901,
+    "description": "电话: 0771-5828923 | 地址: 青秀山风景区东区 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "厢竹立交体育公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.837877,
+    "lon": 108.376548,
+    "description": "电话: 19077197156;4000410480 | 地址: 厢竹大道44号 | 类别: 体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+    "city": "南宁"
+  },
+  {
+    "name": "林景云故居",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.764053,
+    "lon": 108.402218,
+    "description": "地址: 龙堤路与那黄大道交叉口东北20米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "乡村大世界",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.859538,
+    "lon": 108.427033,
+    "description": "电话: 0771-2233666;0771-2233667;13807717272 | 地址: 三塘南路82号 | 类别: 体育休闲服务;度假疗养场所;度假村|风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁市江南公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.785757,
+    "lon": 108.278842,
+    "description": "电话: 0771-5497769 | 地址: 壮锦大道17号 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "邕州古城·三街两巷历史文化街区2期",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.814599,
+    "lon": 108.317309,
+    "description": "地址: 当阳街与新华路交叉口南40米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "环山秀坪",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.783271,
+    "lon": 108.392677,
+    "description": "电话: 0771-5828923 | 地址: 秀坪路青秀山风景区(西侧) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "邕江夜游",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.812054,
+    "lon": 108.312886,
+    "description": "电话: 0771-5587688 | 地址: 民生路131号旅游码头(民生广场内邕字碑旁) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "莫奈花园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.791505,
+    "lon": 108.411228,
+    "description": "电话: 0771-5828923 | 地址: 青秀山风景区内(东侧) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "相思小镇",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.858737,
+    "lon": 108.24452,
+    "description": "电话: 15977753889 | 地址: 相思湖东路31号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "四季花园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.805574,
+    "lon": 108.353763,
+    "description": "地址: 双拥路1号南湖公园内(东侧) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "新秀公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.819764,
+    "lon": 108.288521,
+    "description": "电话: 0771-3834844 | 地址: 新阳路288-58号 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山风景区千年苏铁园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.78439,
+    "lon": 108.388753,
+    "description": "电话: 0771-5828923 | 地址: 青秀山景区内 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "民生广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.812514,
+    "lon": 108.314281,
+    "description": "地址: 华强街道华强街道民生路131号 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "南宁"
+  },
+  {
+    "name": "虎邱广场",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.845682,
+    "lon": 108.329739,
+    "description": "地址: 朝阳街道明秀东路125号 | 类别: 商务住宅;楼宇;商务写字楼",
+    "city": "南宁"
+  },
+  {
+    "name": "丘石公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.776444,
+    "lon": 108.412033,
+    "description": "地址: 青秀山风景区-丘石花园北侧 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁园博园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.723272,
+    "lon": 108.4779,
+    "description": "电话: 0771-6770022;0771-6770900 | 地址: 蒲兴大道20号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "北湖北湿地公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.878334,
+    "lon": 108.317736,
+    "description": "地址: 园艺路与卢仙岭路交叉口北160米 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山雨林大观",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.787264,
+    "lon": 108.395441,
+    "description": "电话: 0771-5828923 | 地址: 风岭南路1号青秀山风景区内 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁市体育休闲公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.800881,
+    "lon": 108.406101,
+    "description": "电话: 0771-2114690 | 地址: 凤岭南路11号 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁市邕江一桥江滨休闲公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.807712,
+    "lon": 108.317421,
+    "description": "地址: 星光大道1号 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "桂花园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.794811,
+    "lon": 108.396508,
+    "description": "电话: 0771-5560662 | 地址: 凤岭南路6-6号青秀山风景区内(北侧) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "邕江北岸公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.778107,
+    "lon": 108.358744,
+    "description": "电话: 0771-5689623 | 地址: 荔滨大道1号 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "粤东会馆",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.814112,
+    "lon": 108.312434,
+    "description": "地址: 壮志路22号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁伊特诺·艺术花园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.873307,
+    "lon": 108.35276,
+    "description": "电话: 18677117897 | 地址: 大鸡村四方岭6队66-6号 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山古今穿越拍摄点",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.789036,
+    "lon": 108.397358,
+    "description": "地址: 雨林路与凤凰路交叉口东北320米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁古城墙",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.810704,
+    "lon": 108.320625,
+    "description": "地址: 中山街道江北大道南宁古城墙 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "大沙田滨江广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.765695,
+    "lon": 108.33123,
+    "description": "地址: 银沙大道 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "南宁"
+  },
+  {
+    "name": "良凤江国家森林公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.722804,
+    "lon": 108.287118,
+    "description": "电话: 0771-2184866;0771-2184836;12301 | 地址: 友谊路78号 | 类别: 风景名胜;风景名胜;国家级景点",
+    "city": "南宁"
+  },
+  {
+    "name": "会展航洋城南广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.813326,
+    "lon": 108.384388,
+    "description": "地址: 民族大道131号 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "南宁"
+  },
+  {
+    "name": "南湖公园九拱桥",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.805335,
+    "lon": 108.349335,
+    "description": "地址: 双拥路1号南湖公园内(西侧) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "埌东公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.814132,
+    "lon": 108.413831,
+    "description": "地址: 民族大道与枫林路交叉口 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山风景区-相思湖",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.788729,
+    "lon": 108.388358,
+    "description": "电话: 0771-5828923 | 地址: 苏铁路与雨林路交叉口西北380米 | 类别: 风景名胜;风景名胜;国家级景点",
+    "city": "南宁"
+  },
+  {
+    "name": "五象新区滨江公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.769792,
+    "lon": 108.355936,
+    "description": "地址: 五象新区五象大道(青龙岗对面) | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁夜花园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.792563,
+    "lon": 108.391945,
+    "description": "地址: 凤岭南路6-6号青秀山风景区(西北角) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "五象新区总部休闲公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.762032,
+    "lon": 108.374997,
+    "description": "地址: 云英路与凯旋路交汇处南100米 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁建制博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.813565,
+    "lon": 108.321678,
+    "description": "电话: 0771-2875175 | 地址: 朝阳路3号(朝阳广场地铁站F口步行250米) | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "南宁"
+  },
+  {
+    "name": "苏缄城隍庙",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.813869,
+    "lon": 108.320372,
+    "description": "电话: 0771-2817122 | 地址: 兴宁路西二里13号 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁青秀山音乐大草坪",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.782357,
+    "lon": 108.409909,
+    "description": "地址: 凤岭南路6-6号青秀山风景区内(东南角) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁极地海洋世界",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.788403,
+    "lon": 108.254138,
+    "description": "电话: 0771-3232110 | 地址: 沙井大道与亭洪路交叉口东200米路北 | 类别: 风景名胜;公园广场;水族馆",
+    "city": "南宁"
+  },
+  {
+    "name": "缸瓦窑文化艺术村",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.763398,
+    "lon": 108.403769,
+    "description": "地址: 良堤路16号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "广西学生军抗日烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.790505,
+    "lon": 108.381955,
+    "description": "电话: 0771-5828923 | 地址: 凤岭南路6-6号青秀山风景区内(西侧) | 类别: 风景名胜;风景名胜;纪念馆",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁市金花茶公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.818716,
+    "lon": 108.355706,
+    "description": "地址: 葛村路 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "民生广场·水漾市集",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.812513,
+    "lon": 108.314312,
+    "description": "地址: 华强街道民生路131号 | 类别: 餐饮服务;餐饮相关场所;餐饮相关",
+    "city": "南宁"
+  },
+  {
+    "name": "邕江南岸江滨公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.768664,
+    "lon": 108.328628,
+    "description": "地址: 银沙大道4号 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "民生广场-畅游阁",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.812654,
+    "lon": 108.318486,
+    "description": "地址: 民族大道与江北大道交叉口西南60米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山风景区-丘石花园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.776398,
+    "lon": 108.412029,
+    "description": "地址: 凤岭南路6-6号青秀山风景区 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "五通庙",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.802927,
+    "lon": 108.297643,
+    "description": "地址: 江堤外侧邻近永和桥处 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁市灵龟山景区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.795116,
+    "lon": 108.477211,
+    "description": "地址: 江湾路 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "仙葫广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.808768,
+    "lon": 108.450661,
+    "description": "地址: 富兴路和德圣路交汇处附近 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "南宁"
+  },
+  {
+    "name": "广西自然博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.827438,
+    "lon": 108.331975,
+    "description": "电话: 0771-2612347;0771-2820904 | 地址: 人民东路1-1号(南宁市人民公园内) | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "南宁"
+  },
+  {
+    "name": "龙门水都风景区",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.896783,
+    "lon": 108.253762,
+    "description": "电话: 0771-5600666 | 地址: 新际路69号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "水月庵",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.782385,
+    "lon": 108.3873,
+    "description": "电话: 0771-2114575 | 地址: 青山路19青秀山风景区(西南角) | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁市江滨休闲公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.782601,
+    "lon": 108.427153,
+    "description": "地址: 青环路 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "红豆滨江公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.830125,
+    "lon": 108.245709,
+    "description": "地址: 江北大道33号 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "八桂田园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.852298,
+    "lon": 108.244248,
+    "description": "电话: 0771-3243647;0771-3279033 | 地址: 相思湖东路19号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "班氏宗祠",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.830517,
+    "lon": 108.354608,
+    "description": "地址: 津头街道东葛路广园路口长堽村南路四巷四十号楼 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁青秀山东盟友谊园大草坪",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.792065,
+    "lon": 108.378768,
+    "description": "地址: 邕江江畔 | 类别: 体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+    "city": "南宁"
+  },
+  {
+    "name": "明月湖公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.847205,
+    "lon": 108.278018,
+    "description": "地址: 心圩江东路 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "蒲津公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.750841,
+    "lon": 108.492243,
+    "description": "电话: 0771-4712219 | 地址: 银峰路101号 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "皂角文化广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.859314,
+    "lon": 108.32537,
+    "description": "地址: 皂角村3号 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "南宁"
+  },
+  {
+    "name": "水生花园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.791786,
+    "lon": 108.411237,
+    "description": "地址: 凤岭南路6-6号青秀山风景区内(东侧) | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁市人民公园相亲角",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.825947,
+    "lon": 108.328621,
+    "description": "地址: 民生街道民生街道人民东路1号南宁市人民公园(西南角) | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "丽紫欢乐水世界(暂停营业)",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.821641,
+    "lon": 108.398886,
+    "description": "电话: 0771-5776861 | 地址: 月湾路1号凤岭儿童公园内 | 类别: 体育休闲服务;休闲场所;水上活动中心",
+    "city": "南宁"
+  },
+  {
+    "name": "金沙湖",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.835565,
+    "lon": 108.172958,
+    "description": "地址: 大学西路尾(广西财经学院附近) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "明昱公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.864326,
+    "lon": 108.334704,
+    "description": "地址: 非公园 | 类别: 商务住宅;住宅区;住宅小区",
+    "city": "南宁"
+  },
+  {
+    "name": "沙江河湿地公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.839001,
+    "lon": 108.360582,
+    "description": "地址: 长堽路161-1号 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "广西高峰森林公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.953958,
+    "lon": 108.359947,
+    "description": "电话: 0771-3158088 | 地址: 邕武路168号 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "黄帝庙",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.799592,
+    "lon": 108.30071,
+    "description": "地址: 福建园街道五一路北二里84号 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "南宁"
+  },
+  {
+    "name": "广西革命纪念馆(暂停开放)",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.849316,
+    "lon": 108.384402,
+    "description": "电话: 0771-5610363 | 地址: 长罡路256号广西壮族自治区烈士陵园 | 类别: 风景名胜;风景名胜;纪念馆",
+    "city": "南宁"
+  },
+  {
+    "name": "李明瑞韦拔群烈士碑园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.803922,
+    "lon": 108.350419,
+    "description": "地址: 双拥路132号南湖公园 | 类别: 生活服务;丧葬设施;陵园|风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "美丽南方",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.811562,
+    "lon": 108.150108,
+    "description": "电话: 0771-8066732 | 地址: 石埠街道办事处忠良村3队57号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "侗族风雨桥",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.811346,
+    "lon": 108.335035,
+    "description": "地址: 古城路21-6号民族文物苑内(西南角) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "邕江北岸公园-柳沙文公庙",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.771059,
+    "lon": 108.348266,
+    "description": "地址: 文公庙(荔滨大道南) | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山风景区-状元泉",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.789574,
+    "lon": 108.384213,
+    "description": "电话: 0771-5828923 | 地址: 凤岭南路6-6号青秀山风景区内(西侧) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山风景区中泰南宁孔敬友谊园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.785636,
+    "lon": 108.394905,
+    "description": "电话: 0771-5828923 | 地址: 凤岭南路6-6号青秀山风景区 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "第三五象岭(建设中)",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.751708,
+    "lon": 108.349578,
+    "description": "电话: 0771-5814402 | 地址: 五象岭路36号五象岭森林公园 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "凤凰谷",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.966205,
+    "lon": 108.479433,
+    "description": "电话: 0771-4089706;0771-5380608 | 地址: 三塘镇 | 类别: 风景名胜;风景名胜;省级景点",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山风景区-樱花园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.794356,
+    "lon": 108.411697,
+    "description": "电话: 0771-5828923 | 地址: 津头街道凤岭南路6-6号青秀山风景区内(东侧) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁民歌湖景区B区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.809378,
+    "lon": 108.375065,
+    "description": "电话: 0771-5582835 | 地址: 民歌湖国际音乐小镇 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁革命烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.830299,
+    "lon": 108.333026,
+    "description": "电话: 0771-5620468 | 地址: 南宁市人民公园(东北角) | 类别: 风景名胜;风景名胜;纪念馆",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁市基督教中山路教堂",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.792532,
+    "lon": 108.328435,
+    "description": "电话: 0771-2807431 | 地址: 江北大道中山派出所斜对面 | 类别: 风景名胜;风景名胜;教堂",
+    "city": "南宁"
+  },
+  {
+    "name": "迅龙体育文化公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.826709,
+    "lon": 108.310417,
+    "description": "电话: 15078857650 | 地址: 白苍岭路791号 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "南铁记忆铁路主题文化公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.830426,
+    "lon": 108.269192,
+    "description": "电话: 0771-3307888;0771-5607888;18007719000 | 地址: 心圩江公园 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "花花大世界",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 23.019428,
+    "lon": 108.271613,
+    "description": "电话: 0771-6264661 | 地址: 双桥镇伊岭工业区c-3号 | 类别: 风景名胜;风景名胜;国家级景点",
+    "city": "南宁"
+  },
+  {
+    "name": "相思湖公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.835822,
+    "lon": 108.24491,
+    "description": "地址: 相思湖西路7号 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山-竹园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.785303,
+    "lon": 108.407777,
+    "description": "电话: 0771-5828923 | 地址: 青秀山风景区东区内 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "钟鼓楼",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.812413,
+    "lon": 108.322593,
+    "description": "地址: 中山路与民族大道辅路交叉口东南60米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "北投体育公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.864403,
+    "lon": 108.277429,
+    "description": "地址: 高科路 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁市人民公园-镇宁炮台",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.827489,
+    "lon": 108.32823,
+    "description": "电话: 0771-5620468 | 地址: 民生街道民生街道人民东路1号南宁市人民公园内(西侧) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "北湖村文化广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.871959,
+    "lon": 108.320209,
+    "description": "地址: 安宁街道城区北湖村北湖小学 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "南宁"
+  },
+  {
+    "name": "广西珍贵树种展示园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.789911,
+    "lon": 108.388213,
+    "description": "电话: 0771-5828923 | 地址: 凤岭南路6-6号青秀山风景区内(西侧) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "孔庙旅游码头",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.776442,
+    "lon": 108.391892,
+    "description": "电话: 0771-5518060;0771-5584366 | 地址: 青环路南宁孔庙西南侧 | 类别: 交通设施服务;港口码头;港口码头",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁市灵龟山公园落羽杉",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.792967,
+    "lon": 108.479045,
+    "description": "地址: 江湾路南宁市灵龟山景区(东南角) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山丛林栈道",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.790333,
+    "lon": 108.403168,
+    "description": "地址: 凤岭南路6-6号青秀山风景区内(东侧) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "邕江运动公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.828378,
+    "lon": 108.234514,
+    "description": "电话: 13471178425 | 地址: 江北大道与新村大道交叉口南100米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "望火楼",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.819047,
+    "lon": 108.322094,
+    "description": "地址: 新华路(朝阳广场地铁站D口对面) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "黄氏宗祠(虎邱一里)",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.845125,
+    "lon": 108.334817,
+    "description": "地址: 望州路267-3号 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "南宁"
+  },
+  {
+    "name": "景秀广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.814979,
+    "lon": 108.388909,
+    "description": "地址: 青秀山管理委员会 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山风景区-友谊长廊",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.791974,
+    "lon": 108.373672,
+    "description": "电话: 0771-5828923 | 地址: 凤岭南路6-6号青秀山风景区内(西侧) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "梅园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.793021,
+    "lon": 108.395362,
+    "description": "地址: 北坡路与凤翼路交叉口北380米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山东区草坪",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.787107,
+    "lon": 108.40646,
+    "description": "电话: 0771-5828923 | 地址: 青秀山风景区东区 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "毛主席接见广西各族人民纪念馆",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.831222,
+    "lon": 108.331453,
+    "description": "电话: 0771-5644955 | 地址: 民生街道民生街道人民东路1号南宁市人民公园内(北侧) | 类别: 风景名胜;风景名胜;纪念馆",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁市灵龟山公园花海",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.797872,
+    "lon": 108.476295,
+    "description": "地址: 江湾路南宁市灵龟山景区内(北侧) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "青山大桥观景台",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.763652,
+    "lon": 108.424029,
+    "description": "地址: 津头街道滨江路与乌竹里交叉口东北300米 | 类别: 风景名胜;风景名胜;观景点",
+    "city": "南宁"
+  },
+  {
+    "name": "大王滩风景区(暂停开放)",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.594894,
+    "lon": 108.315224,
+    "description": "电话: 0771-4778127;0771-4778618;0771-4778009 | 地址: 那马镇大王滩水库 | 类别: 风景名胜;风景名胜;省级景点",
+    "city": "南宁"
+  },
+  {
+    "name": "花坛广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.815057,
+    "lon": 108.39379,
+    "description": "地址: 南国弈园(南宁市凤岭儿童公园西南) | 类别: 风景名胜;公园广场;城市广场",
+    "city": "南宁"
+  },
+  {
+    "name": "印度尼西亚风情区",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.761564,
+    "lon": 108.414687,
+    "description": "地址: 青环路66号方特东盟神画内 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "广西民族村",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.77484,
+    "lon": 108.40236,
+    "description": "电话: 0771-2024599 | 地址: 津头街道青秀山管理委员会青环路11号广西民族博物馆内 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "中央公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.747708,
+    "lon": 108.371997,
+    "description": "地址: 宋厢路南、秋月路北 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "十里花卉长廊",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.924496,
+    "lon": 108.359574,
+    "description": "地址: 邕武路东50米 | 类别: 购物服务;花鸟鱼虫市场;花卉市场",
+    "city": "南宁"
+  },
+  {
+    "name": "天主教",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.844058,
+    "lon": 108.342148,
+    "description": "地址: 望州路南二里 | 类别: 风景名胜;风景名胜;教堂",
+    "city": "南宁"
+  },
+  {
+    "name": "遊天府",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.771499,
+    "lon": 108.332938,
+    "description": "电话: 0771-2611998 | 地址: 柳沙公园(西北角) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "芦仙山景区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.881741,
+    "lon": 108.213182,
+    "description": "地址: 罗文大道 | 类别: 风景名胜;风景名胜;海滩",
+    "city": "南宁"
+  },
+  {
+    "name": "民歌湖-叶脉广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.812028,
+    "lon": 108.374366,
+    "description": "电话: 0771-5582835 | 地址: 竹溪立交西南方向民歌湖国际音乐小镇内(北侧) | 类别: 风景名胜;公园广场;城市广场",
+    "city": "南宁"
+  },
+  {
+    "name": "顶蛳山田园风光区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.714214,
+    "lon": 108.47003,
+    "description": "电话: 18070933033 | 地址: 茶泉大道201号(南宁园博园南门西侧) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁青秀区南宁绿地中央广场B3号楼1208~1209",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.831548,
+    "lon": 108.373249,
+    "description": "地址: 滨湖路与东葛路交叉口东北60米 | 类别: 商务住宅;楼宇;商务写字楼",
+    "city": "南宁"
+  },
+  {
+    "name": "伏波庙",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.800614,
+    "lon": 108.316647,
+    "description": "地址: 福居路11号附近 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "南宁"
+  },
+  {
+    "name": "五圣宫",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.753397,
+    "lon": 108.492127,
+    "description": "地址: 蒲津路63号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "十二生肖园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.790494,
+    "lon": 108.377408,
+    "description": "电话: 0771-5828923 | 地址: 凤岭南路6-6号青秀山风景区内(西侧) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "大民文化商业广场",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.846521,
+    "lon": 108.354388,
+    "description": "地址: 建安路21号(东沟岭地铁站A口步行50米) | 类别: 商务住宅;商务住宅相关;商务住宅相关",
+    "city": "南宁"
+  },
+  {
+    "name": "九曲湾温泉",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.88511,
+    "lon": 108.419006,
+    "description": "电话: 0771-5820999;0771-5822598;4007726666 | 地址: 九曲湾农场温泉路9号 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山风景区-步云门",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.782229,
+    "lon": 108.38965,
+    "description": "电话: 0771-5828923 | 地址: 青秀山风景区内(西南角) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁民歌湖景区D区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.807702,
+    "lon": 108.37547,
+    "description": "电话: 0771-5582835 | 地址: 竹溪大道民歌湖国际音乐小镇内(南侧) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "伴你飞翔",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.765782,
+    "lon": 108.41338,
+    "description": "电话: 0771-5495888 | 地址: 青环路66号方特东盟神画内 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "滨江公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.816309,
+    "lon": 108.276643,
+    "description": "地址: 水漾轩上尧码头店西南侧60米 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "荫生植物园-观景台",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.827997,
+    "lon": 108.331461,
+    "description": "地址: 人民东路1号荫生植物园内 | 类别: 风景名胜;风景名胜;观景点",
+    "city": "南宁"
+  },
+  {
+    "name": "水塘江乐水公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.751326,
+    "lon": 108.311004,
+    "description": "地址: 国凯三支路 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "明秀广场(衡阳东路)",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.836483,
+    "lon": 108.319135,
+    "description": "地址: 明秀东路216-3号 | 类别: 风景名胜;公园广场;公园广场",
+    "city": "南宁"
+  },
+  {
+    "name": "青瓦房古村落",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.809073,
+    "lon": 108.190435,
+    "description": "电话: 0771-3371898;13457055544;18076398018 | 地址: 石埠镇往美丽南方向600米(沿江路) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "广西钱币博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.803219,
+    "lon": 108.329861,
+    "description": "电话: 0771-2846039 | 地址: 中山街道桃源路39号 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "南宁"
+  },
+  {
+    "name": "南湖公园月季园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.807831,
+    "lon": 108.358409,
+    "description": "地址: 双拥路1号南湖公园(东北角) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "民歌湖国际音乐小镇C区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.808228,
+    "lon": 108.374329,
+    "description": "电话: 0771-5582835 | 地址: 民歌湖国际音乐小镇(西南角) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山沿墙三角梅观赏带",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.785612,
+    "lon": 108.372842,
+    "description": "电话: 0771-5828923 | 地址: 青环青山路口公交站附近 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "邕江沿岸公园良庆段运营管理中心",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.780904,
+    "lon": 108.378077,
+    "description": "电话: 18277104029 | 地址: 龙堤路与金龙路交叉口北80米 | 类别: 政府机构及社会团体;政府及社会团体相关;政府及社会团体相关",
+    "city": "南宁"
+  },
+  {
+    "name": "绚兰花田",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.791759,
+    "lon": 108.394722,
+    "description": "地址: 兰园内 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山风铃谷",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.776383,
+    "lon": 108.415375,
+    "description": "电话: 0771-5828923 | 地址: 青秀山风景区东区 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "伊岭岩",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 23.039562,
+    "lon": 108.296673,
+    "description": "电话: 0771-6260420;0771-6264568 | 地址: 双桥镇210国道 | 类别: 风景名胜;风景名胜;国家级景点",
+    "city": "南宁"
+  },
+  {
+    "name": "那贵樱花园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.753558,
+    "lon": 108.59456,
+    "description": "电话: 0771-4241366;18076592277 | 地址: 那贵新坡附近 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "天池",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.782982,
+    "lon": 108.387881,
+    "description": "电话: 0771-5828923 | 地址: 天池环路与壮元路交叉口东北20米 | 类别: 风景名胜;风景名胜;海滩",
+    "city": "南宁"
+  },
+  {
+    "name": "仓西门城楼",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.81439,
+    "lon": 108.317578,
+    "description": "地址: 解放路2号(朝阳广场地铁站E口步行410米) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "三街两巷文化艺术中心",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.813626,
+    "lon": 108.320512,
+    "description": "地址: 民生街道民族大道辅路与兴宁路交叉口西北100米 | 类别: 科教文化服务;科教文化场所;科教文化场所",
+    "city": "南宁"
+  },
+  {
+    "name": "广西壮锦博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.814188,
+    "lon": 108.312419,
+    "description": "地址: 壮志路22号粤东会馆 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "南宁"
+  },
+  {
+    "name": "亚热带精品兰花馆",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.792353,
+    "lon": 108.395401,
+    "description": "电话: 0771-5560611 | 地址: 山兰园 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁孔庙博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.777244,
+    "lon": 108.393122,
+    "description": "电话: 0771-5771906 | 地址: 青环路9号南宁孔庙(西南角) | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "南宁"
+  },
+  {
+    "name": "民生广场-冬泳亭",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.811629,
+    "lon": 108.320071,
+    "description": "地址: 中山街道邕江大桥和民权路的交叉口附近 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "七坡林场山顶",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.673991,
+    "lon": 108.233033,
+    "description": "地址: 东盟(南宁)林业科技示范园区东北侧190米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "朝阳广场/万达广场",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.812739,
+    "lon": 108.323339,
+    "description": "地址: 民族大道辅路与共和路交叉口东40米 | 类别: 购物服务;购物相关场所;购物相关场所",
+    "city": "南宁"
+  },
+  {
+    "name": "邕江北岸公园-西区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.783567,
+    "lon": 108.366927,
+    "description": "地址: 荔滨大道南 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山码头旧址",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.780536,
+    "lon": 108.384436,
+    "description": "地址: 龙堤路与平江路交叉口东北440米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "寿乡第一泉巴马道",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.814217,
+    "lon": 108.391289,
+    "description": "地址: 景秀路与白云路交叉口南60米 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "星河落日园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.786106,
+    "lon": 108.458053,
+    "description": "地址: 江湾路与祥邕路交叉口西北20米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "天昌广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.80275,
+    "lon": 108.390869,
+    "description": "地址: 青秀路16-8号 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "南宁"
+  },
+  {
+    "name": "三界轩辕庙",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.826596,
+    "lon": 108.375355,
+    "description": "地址: 金湖北路与贤宾路交叉口南160米 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "南宁"
+  },
+  {
+    "name": "盘古庙",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.788474,
+    "lon": 108.349217,
+    "description": "地址: 柳沙路与竹溪大道辅路交叉口南300米 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "南宁"
+  },
+  {
+    "name": "下洲广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.79553,
+    "lon": 108.483471,
+    "description": "地址: 邕江湾别墅园西北侧330米 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山风景区-钟楼",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.787992,
+    "lon": 108.395557,
+    "description": "电话: 0771-2114576 | 地址: 青秀山风景区观音禅寺内(南侧) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "青秀山古道",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.779814,
+    "lon": 108.389033,
+    "description": "地址: 青环路5号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "北府庙",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.777998,
+    "lon": 108.356467,
+    "description": "地址: 中山街道荔滨大道 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "南宁"
+  },
+  {
+    "name": "香榭里·南国温泉谷",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.909666,
+    "lon": 108.450258,
+    "description": "电话: 0771-5662088 | 地址: 昆仑大道995号嘉和城内 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "天主堂",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.808006,
+    "lon": 108.32617,
+    "description": "地址: 康乐路2号 | 类别: 风景名胜;风景名胜;教堂",
+    "city": "南宁"
+  },
+  {
+    "name": "荷花池",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.783182,
+    "lon": 108.39181,
+    "description": "电话: 0771-5828923 | 地址: 凤岭南路6-6号青秀山风景区(西南角) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "老木棉匠园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.842195,
+    "lon": 108.191324,
+    "description": "电话: 0771-2800230 | 地址: 大学西路树人路150号 | 类别: 风景名胜;风景名胜;风景名胜|商务住宅;产业园区;产业园区",
+    "city": "南宁"
+  },
+  {
+    "name": "水塘江力波体育休闲公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.747794,
+    "lon": 108.307448,
+    "description": "地址: 国凯大道 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "丹八桂",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.821276,
+    "lon": 108.35576,
+    "description": "地址: 桃村路2号都市绿洲 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "魔幻森林",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.792278,
+    "lon": 108.393331,
+    "description": "地址: 北坡路与凤翼路交叉口北280米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "南宁"
+  },
+  {
+    "name": "樱花谷主题乐园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.807111,
+    "lon": 108.386596,
+    "description": "电话: 0771-5514989;0771-5557962 | 地址: 民族大道118号石门公园内 | 类别: 体育休闲服务;休闲场所;游乐场",
+    "city": "南宁"
+  },
+  {
+    "name": "贤宾湖公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.82949,
+    "lon": 108.370342,
+    "description": "地址: 滨湖路 | 类别: 风景名胜;公园广场;公园",
+    "city": "南宁"
+  },
+  {
+    "name": "南宁民歌湖国际音乐小镇A区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.809692,
+    "lon": 108.374394,
+    "description": "电话: 0771-5582835 | 地址: 金浦路民歌湖国际音乐小镇 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "南宁"
+  },
+  {
+    "name": "邕宁区新兴广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.756613,
+    "lon": 108.4825,
+    "description": "地址: 彩虹南路290号 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "南宁"
+  },
+  {
+    "name": "假日都市景点",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 22.805307,
+    "lon": 108.370204,
+    "description": "地址: 汇春路与越秀立交桥交叉口西南100米 | 类别: 风景名胜;公园广场;城市广场|风景名胜;公园广场;动物园",
+    "city": "南宁"
+  }
+]

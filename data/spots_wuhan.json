@@ -1,0 +1,2202 @@
+[
+  {
+    "name": "解放公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.608418,
+    "lon": 114.298029,
+    "description": "电话: 027-82421760 | 地址: 解放大道1861号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "巴公房子",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.586141,
+    "lon": 114.299831,
+    "description": "地址: 大智街办事处洞庭街73号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "汉口江滩",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.610162,
+    "lon": 114.319404,
+    "description": "地址: 江滩大道1号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "咸安坊",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.582745,
+    "lon": 114.295924,
+    "description": "电话: 027-82200304 | 地址: 鄱阳街21号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "武昌江滩",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.588254,
+    "lon": 114.323074,
+    "description": "电话: 027-88603989 | 地址: 临江大道604号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "江汉关博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.576075,
+    "lon": 114.297308,
+    "description": "电话: 027-82768112;027-82880866 | 地址: 沿江大道129号 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "武汉"
+  },
+  {
+    "name": "古德寺",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.618717,
+    "lon": 114.307288,
+    "description": "电话: 027-82907553 | 地址: 工农兵路24号 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "武汉"
+  },
+  {
+    "name": "吉庆民俗街",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.585602,
+    "lon": 114.294004,
+    "description": "电话: 17698561121 | 地址: 大智街街道中山大道677号(大智路口) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "江汉关大楼",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.576071,
+    "lon": 114.297393,
+    "description": "电话: 027-82880866 | 地址: 民生路与花楼街交叉口东100米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "汉口江滩2期",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.599736,
+    "lon": 114.312401,
+    "description": "地址: 江滩大道1号汉口江滩 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "中山公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.58665,
+    "lon": 114.271559,
+    "description": "电话: 027-85607776;027-85780746;027-85795934 | 地址: 解放大道1265号(中山公园地铁站D口步行80米) | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "黄鹤楼公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.542529,
+    "lon": 114.307795,
+    "description": "电话: 4007009798 | 地址: 蛇山西山坡特1号 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "风帆广场",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.605107,
+    "lon": 114.315284,
+    "description": "地址: 永清街街道蔡锷路和沿江大道交叉口对面汉口江滩内(西南角) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉江滩",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.585612,
+    "lon": 114.304232,
+    "description": "电话: 027-82774567 | 地址: 江滩大道汉口江滩(西南角) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "同兴里",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.588574,
+    "lon": 114.300729,
+    "description": "地址: 胜利街148号 | 类别: 商务住宅;住宅区;住宅小区",
+    "city": "武汉"
+  },
+  {
+    "name": "汉口水塔",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.579094,
+    "lon": 114.290124,
+    "description": "地址: 中山大道997号(江汉路地铁站G口步行80米) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "汉口江滩-观江台",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.581687,
+    "lon": 114.301715,
+    "description": "地址: 一元街街道蔡锷路和沿江大道交叉口对面汉口江滩内(西南角) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "大智无界·空中小镇",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.58984,
+    "lon": 114.295277,
+    "description": "电话: 027-82706661 | 地址: 大智路50号(大智路地铁站A口步行260米) | 类别: 商务住宅;产业园区;产业园区",
+    "city": "武汉"
+  },
+  {
+    "name": "昙华林",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.551939,
+    "lon": 114.308779,
+    "description": "地址: 粮道街道胭脂路仁济医院西侧 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "汉口德国领事馆旧址",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.592672,
+    "lon": 114.304796,
+    "description": "地址: 沿江大道188号 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "江汉关钟楼",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.576294,
+    "lon": 114.297482,
+    "description": "地址: 花楼街道沿江大道129号 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "八·七会议会址",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.586637,
+    "lon": 114.299904,
+    "description": "电话: 027-82835088;027-82848912 | 地址: 鄱阳街139号 | 类别: 风景名胜;风景名胜;红色景区|风景名胜;风景名胜;纪念馆",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉长江大桥",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.547225,
+    "lon": 114.292874,
+    "description": "地址: 临江大道19附近 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "沙湖公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.572224,
+    "lon": 114.351107,
+    "description": "电话: 027-88118798 | 地址: 徐家棚街沙湖大道139号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "沙湖公园C区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.557673,
+    "lon": 114.326697,
+    "description": "电话: 027-88118798 | 地址: 沙湖(沙湖公园) | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "湖北省博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.561506,
+    "lon": 114.365446,
+    "description": "电话: 027-86716789 | 地址: 东湖路160号 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "武汉"
+  },
+  {
+    "name": "宋庆龄汉口旧居纪念馆",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.586486,
+    "lon": 114.302333,
+    "description": "电话: 027-82296617 | 地址: 沿江大道162号 | 类别: 风景名胜;风景名胜;红色景区|风景名胜;风景名胜;纪念馆",
+    "city": "武汉"
+  },
+  {
+    "name": "户部巷",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.547412,
+    "lon": 114.298068,
+    "description": "电话: 15071380365 | 地址: 司门口中华路街道解放路459号 | 类别: 购物服务;特色商业街;特色商业街",
+    "city": "武汉"
+  },
+  {
+    "name": "汉口江滩三阳广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.595627,
+    "lon": 114.308102,
+    "description": "电话: 027-82774567 | 地址: 三阳路30号 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "武汉"
+  },
+  {
+    "name": "龟山风景区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.555045,
+    "lon": 114.275707,
+    "description": "电话: 027-84713530;15002755074 | 地址: 晴川街道龟山北路5号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "八七会议会址纪念馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.586469,
+    "lon": 114.299762,
+    "description": "电话: 027-82835088 | 地址: 一元街街道一元街办事处鄱阳街139号 | 类别: 风景名胜;风景名胜;红色景区",
+    "city": "武汉"
+  },
+  {
+    "name": "汉口江滩-黄浦门",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.607927,
+    "lon": 114.315383,
+    "description": "地址: 江滩大道1号汉口江滩(西南角) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "平和打包厂旧址",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.582585,
+    "lon": 114.297772,
+    "description": "地址: 青岛路10号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "铁机路江滩灯塔",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.607527,
+    "lon": 114.338215,
+    "description": "地址: 临江大道725号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "宝岛公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.597736,
+    "lon": 114.284332,
+    "description": "地址: 台北二路 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "四美塘文化公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.598548,
+    "lon": 114.335097,
+    "description": "地址: 粤汉路8号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "黄鹤楼红墙",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.547771,
+    "lon": 114.302365,
+    "description": "地址: 青龙巷与横街交叉口东50米(司门口黄鹤楼地铁站C口旁) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.611407,
+    "lon": 114.256463,
+    "description": "电话: 027-85601720;027-85625587 | 地址: 青年路375号 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "武汉"
+  },
+  {
+    "name": "黎黄陂路街头博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.586444,
+    "lon": 114.302226,
+    "description": "地址: 沿江大道162号 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "武汉"
+  },
+  {
+    "name": "长春门",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.602925,
+    "lon": 114.31221,
+    "description": "地址: 汉口江滩2期内(北侧) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉革命博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.55369,
+    "lon": 114.300394,
+    "description": "电话: 027-88850322;027-88851096 | 地址: 红巷13号 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "武汉"
+  },
+  {
+    "name": "中共中央机关旧址",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.587918,
+    "lon": 114.298431,
+    "description": "地址: 胜利街165号 | 类别: 风景名胜;风景名胜;红色景区",
+    "city": "武汉"
+  },
+  {
+    "name": "洪山广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.545068,
+    "lon": 114.337088,
+    "description": "电话: 027-87896993 | 地址: 水果湖街街道水果湖街办事处中北路特1号 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "武汉"
+  },
+  {
+    "name": "纵横体育公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.60107,
+    "lon": 114.297853,
+    "description": "电话: 17762451889 | 地址: 澳门路34号(三阳路地铁站F口步行190米) | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "汉口江滩-沙滩游乐场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.613199,
+    "lon": 114.319379,
+    "description": "地址: 沿江大道滨江苑对面汉口江滩内(北侧) | 类别: 体育休闲服务;休闲场所;游乐场",
+    "city": "武汉"
+  },
+  {
+    "name": "长江荣耀号游船",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.580278,
+    "lon": 114.30112,
+    "description": "电话: 13477039238 | 地址: 武汉港23号码头(武汉科技馆2层背后出口) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "归元禅寺",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.545268,
+    "lon": 114.259018,
+    "description": "电话: 027-84844756 | 地址: 归元寺路20号 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "武汉"
+  },
+  {
+    "name": "孙中山铜像",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.572394,
+    "lon": 114.285574,
+    "description": "地址: 三民路路口(六渡桥地铁站B口步行320米) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "长春观",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.54022,
+    "lon": 114.32082,
+    "description": "地址: 武珞路269号(近武昌大东门) | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "武汉"
+  },
+  {
+    "name": "古琴台",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.554339,
+    "lon": 114.26379,
+    "description": "电话: 027-84834187;027-84843543 | 地址: 琴台大道10号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "东湖生态旅游风景区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.549509,
+    "lon": 114.41397,
+    "description": "电话: 027-86773706;027-86701000 | 地址: 沿湖大道16号 | 类别: 风景名胜;风景名胜;国家级景点",
+    "city": "武汉"
+  },
+  {
+    "name": "辛亥革命博物院",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.539175,
+    "lon": 114.305584,
+    "description": "电话: 027-88051911;027-88877172 | 地址: 武珞路1号(近首义广场) | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "武汉"
+  },
+  {
+    "name": "八路军武汉办事处旧址纪念馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.606152,
+    "lon": 114.309403,
+    "description": "电话: 027-82735576 | 地址: 长春街57号(黄浦路地铁站A口步行350米) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "汉口汇丰银行大楼",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.581206,
+    "lon": 114.29948,
+    "description": "地址: 一元街办事处沿江大道143号汉口 | 类别: 商务住宅;楼宇;商务写字楼|风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "汉口江滩3期",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.618756,
+    "lon": 114.323076,
+    "description": "地址: 沿江大道滨江苑一期近60路车站 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "东湖听涛景区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.568065,
+    "lon": 114.375284,
+    "description": "电话: 027-86792866 | 地址: 东湖路特1号东湖生态旅游风景区西北角 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "南岸嘴江滩公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.561142,
+    "lon": 114.287373,
+    "description": "地址: 晴川大道南岸嘴沿江(晴川桥) | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "武昌江滩(大堤口广场)-外滩公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.588254,
+    "lon": 114.323074,
+    "description": "地址: 临江大道604号武昌江滩 | 类别: 风景名胜;公园广场;公园|风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "红桥文化广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.613465,
+    "lon": 114.284982,
+    "description": "电话: 027-82831000;13307171000 | 地址: 育欣路177号 | 类别: 购物服务;商场;普通商场|风景名胜;公园广场;城市广场|商务住宅;楼宇;商务写字楼",
+    "city": "武汉"
+  },
+  {
+    "name": "两江游览游船(汉口粤汉码头)",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.58943,
+    "lon": 114.306754,
+    "description": "电话: 027-82779136;027-82782992 | 地址: 汉口粤汉码头63号 | 类别: 体育休闲服务;休闲场所;水上活动中心",
+    "city": "武汉"
+  },
+  {
+    "name": "解放公园鸽子广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.609706,
+    "lon": 114.299849,
+    "description": "电话: 027-82421760 | 地址: 解放大道1861号附10号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉警察博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.594803,
+    "lon": 114.303932,
+    "description": "地址: 胜利街271号(三阳路地铁站L4口步行450米) | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "武汉"
+  },
+  {
+    "name": "汉阳江滩",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.547316,
+    "lon": 114.280399,
+    "description": "电话: 027-84813235 | 地址: 滨江大道15号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉中共中央机关旧址纪念馆",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.587632,
+    "lon": 114.298386,
+    "description": "电话: 027-88185186 | 地址: 一元街街道一元街办事处胜利街163号 | 类别: 风景名胜;风景名胜;红色景区|风景名胜;风景名胜;纪念馆",
+    "city": "武汉"
+  },
+  {
+    "name": "东湖生态旅游风景区梨园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.573711,
+    "lon": 114.375328,
+    "description": "地址: 东湖听涛景区(梨园地铁站C口步行460米) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉江滩1期(沿江大道)",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.586382,
+    "lon": 114.304195,
+    "description": "地址: 汉口沿江大道 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉观光游船(中华路1号码头)",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.550512,
+    "lon": 114.294918,
+    "description": "电话: 027-82736337;027-85519022 | 地址: 临江大道与中华路交叉口西20米 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "西北湖公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.598128,
+    "lon": 114.26793,
+    "description": "地址: 北湖街街道黄孝西路与西北湖路交叉口东200米 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "紫阳公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.529997,
+    "lon": 114.305273,
+    "description": "电话: 027-88073189 | 地址: 张之洞路222号(首义路地铁站E口步行250米) | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "宝通禅寺",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.532157,
+    "lon": 114.340959,
+    "description": "电话: 027-87884539 | 地址: 中南路街街道武昌武珞路549号 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "武汉"
+  },
+  {
+    "name": "首义公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.541877,
+    "lon": 114.313182,
+    "description": "地址: 武珞路47号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉动物园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.542226,
+    "lon": 114.242347,
+    "description": "电话: 027-84844187 | 地址: 动物园路60号 | 类别: 风景名胜;公园广场;动物园",
+    "city": "武汉"
+  },
+  {
+    "name": "INTIME音乐公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.558001,
+    "lon": 114.27727,
+    "description": "电话: 027-84660777 | 地址: 龟山北路 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "辛亥革命博物院(南区)",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.537061,
+    "lon": 114.305369,
+    "description": "电话: 027-88051911 | 地址: 彭刘杨路258号 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "武汉"
+  },
+  {
+    "name": "古琴号游船",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.577742,
+    "lon": 114.29968,
+    "description": "地址: 沿江大道武汉港20号码头 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "东湖海洋乐园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.574117,
+    "lon": 114.379373,
+    "description": "电话: 027-86772929 | 地址: 东湖风景区街道沿湖大道20号 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "鹦鹉洲汉阳桥梁主题公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.535954,
+    "lon": 114.273903,
+    "description": "地址: 鹦鹉洲长江大桥下 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉欢乐谷",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.594312,
+    "lon": 114.394011,
+    "description": "电话: 027-88518861 | 地址: 欢乐大道196号 | 类别: 体育休闲服务;休闲场所;游乐场",
+    "city": "武汉"
+  },
+  {
+    "name": "汉口东正教堂",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.584019,
+    "lon": 114.298003,
+    "description": "地址: 鄱阳街48号 | 类别: 风景名胜;风景名胜;教堂",
+    "city": "武汉"
+  },
+  {
+    "name": "常青人才公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.619713,
+    "lon": 114.238304,
+    "description": "地址: 常青路149号旁(近常青人才公园中央商业街) | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "后襄河公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.609113,
+    "lon": 114.255796,
+    "description": "地址: 后襄河北路(近武汉博物馆) | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "汉秀剧场",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.551814,
+    "lon": 114.348021,
+    "description": "电话: 17740686572 | 地址: 水果湖街东湖路138号2栋 | 类别: 体育休闲服务;影剧院;剧场",
+    "city": "武汉"
+  },
+  {
+    "name": "硚口公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.570358,
+    "lon": 114.256942,
+    "description": "电话: 027-83785398 | 地址: 中山大道45号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "武昌湾1956公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.535371,
+    "lon": 114.28993,
+    "description": "地址: 张之洞路特1号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "海合安武汉极地海洋度假区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.664028,
+    "lon": 114.276769,
+    "description": "电话: 027-85699999 | 地址: 金银潭大道96号 | 类别: 风景名胜;公园广场;水族馆",
+    "city": "武汉"
+  },
+  {
+    "name": "昙华林历史文化街区",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.552391,
+    "lon": 114.309138,
+    "description": "电话: 027-88856660 | 地址: 粮道街昙华林61号文化街区核心区B4栋03号(昙华林武胜门地铁站A口步行390米) | 类别: 购物服务;特色商业街;特色商业街",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉园博园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.623962,
+    "lon": 114.218047,
+    "description": "电话: 027-65023975 | 地址: 长丰街道园博园南路 | 类别: 风景名胜;风景名胜;国家级景点",
+    "city": "武汉"
+  },
+  {
+    "name": "天主教汉口总教区上海路主教座堂天主堂",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.580235,
+    "lon": 114.29587,
+    "description": "地址: 上海路16号(江汉路地铁站C口步行390米) | 类别: 风景名胜;风景名胜;教堂",
+    "city": "武汉"
+  },
+  {
+    "name": "蛇山",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.542228,
+    "lon": 114.309291,
+    "description": "类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "龙王庙公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.567042,
+    "lon": 114.291261,
+    "description": "地址: 大兴路78号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "横渡长江博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.59077,
+    "lon": 114.307486,
+    "description": "电话: 027-82297001 | 地址: 一元街街道一元街办事处沿江大道粤汉码头江滩内 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "武汉"
+  },
+  {
+    "name": "菱角湖公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.608199,
+    "lon": 114.271178,
+    "description": "电话: 027-83950748 | 地址: 菱角湖路15号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "黄鹤楼",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.544649,
+    "lon": 114.302467,
+    "description": "地址: 蛇山西山坡特1号(地铁司门口黄鹤楼站A出口步行500m) | 类别: 风景名胜;风景名胜;国家级景点",
+    "city": "武汉"
+  },
+  {
+    "name": "知音号(知音号码头店)",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.595853,
+    "lon": 114.312088,
+    "description": "电话: 4006960006;027-59766675 | 地址: 沿江大道江滩公园内 | 类别: 体育休闲服务;影剧院;剧场",
+    "city": "武汉"
+  },
+  {
+    "name": "晴川阁(装修中)",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.555551,
+    "lon": 114.284786,
+    "description": "电话: 027-84710887 | 地址: 洗马长街86号 | 类别: 风景名胜;风景名胜;省级景点",
+    "city": "武汉"
+  },
+  {
+    "name": "船长9号游船",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.580519,
+    "lon": 114.301024,
+    "description": "电话: 027-82765181;18162589944 | 地址: 武汉港23号码头(科技馆2层出口) | 类别: 体育休闲服务;娱乐场所;娱乐场所|风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "四美塘公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.595482,
+    "lon": 114.336606,
+    "description": "地址: 和平大道589号(长江二桥下) | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "东湖绿道",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.574625,
+    "lon": 114.374989,
+    "description": "电话: 4006782259 | 地址: 沿湖大道16号东湖生态旅游风景区附近 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "月湖风景区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.557631,
+    "lon": 114.25555,
+    "description": "地址: 琴台大道200号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉防汛纪念碑",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.591536,
+    "lon": 114.305508,
+    "description": "地址: 沿江大道江滩72号 | 类别: 风景名胜;风景名胜;纪念馆",
+    "city": "武汉"
+  },
+  {
+    "name": "大禹神话园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.555904,
+    "lon": 114.285535,
+    "description": "电话: 027-84813235 | 地址: 滨江大道江滩19号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "兰陵门",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.584414,
+    "lon": 114.301983,
+    "description": "地址: 江滩大道1号汉口江滩(西南角) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "大智门火车站(不对外开放)",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.594098,
+    "lon": 114.297131,
+    "description": "地址: 京汉街与车站路交叉口北20米 | 类别: 风景名胜;风景名胜;纪念馆",
+    "city": "武汉"
+  },
+  {
+    "name": "解放公园-游乐场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.606186,
+    "lon": 114.298367,
+    "description": "电话: 13114371437 | 地址: 解放公园路与绿缘路交叉口西北240米 | 类别: 体育休闲服务;休闲场所;游乐场",
+    "city": "武汉"
+  },
+  {
+    "name": "汉口新四军军部旧址",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.606432,
+    "lon": 114.311191,
+    "description": "电话: 027-82737255 | 地址: 汉口胜利街332-352号 | 类别: 风景名胜;风景名胜;红色景区|风景名胜;风景名胜;纪念馆",
+    "city": "武汉"
+  },
+  {
+    "name": "华中小龟山金融文化公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.550586,
+    "lon": 114.324338,
+    "description": "地址: 小龟山路与民主二路交叉口北140米 | 类别: 商务住宅;产业园区;产业园区",
+    "city": "武汉"
+  },
+  {
+    "name": "长江观景第一台",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.560558,
+    "lon": 114.303567,
+    "description": "电话: 027-88603989 | 地址: 临江大道604号武昌江滩 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "梨园广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.57418,
+    "lon": 114.373691,
+    "description": "地址: 东湖生态旅游风景区梨园(梨园地铁站C口步行300米) | 类别: 风景名胜;公园广场;公园广场",
+    "city": "武汉"
+  },
+  {
+    "name": "凌波门",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.543449,
+    "lon": 114.370732,
+    "description": "地址: 东湖南路与凌波路交叉口北20米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉国民政府旧址",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.575826,
+    "lon": 114.286685,
+    "description": "电话: 027-85663790 | 地址: 中山大道708号3层(六渡桥地铁站B口步行190米) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "沙湖公园A区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.571612,
+    "lon": 114.346241,
+    "description": "电话: 027-88118798 | 地址: 沙湖路与福星西路交叉口东480米 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "灰色博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.577618,
+    "lon": 114.290007,
+    "description": "电话: 13177177623 | 地址: 大洋百货6层6F-A06 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "武汉"
+  },
+  {
+    "name": "东湖飞鸟世界",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.574038,
+    "lon": 114.377163,
+    "description": "电话: 027-86772929 | 地址: 沿湖大道20号 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "起义门",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.525627,
+    "lon": 114.307285,
+    "description": "电话: 027-88075010 | 地址: 首义南路最南端 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉东湖海洋世界",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.573968,
+    "lon": 114.380918,
+    "description": "电话: 027-86776578 | 地址: 东湖风景区街道沿湖大道20号武汉东湖海洋乐园内(东侧) | 类别: 风景名胜;公园广场;水族馆",
+    "city": "武汉"
+  },
+  {
+    "name": "两江游览游船(武昌汉阳门码头)",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.548804,
+    "lon": 114.293905,
+    "description": "电话: 027-88109920 | 地址: 临江大道江滩30号 | 类别: 交通设施服务;港口码头;港口码头",
+    "city": "武汉"
+  },
+  {
+    "name": "汉阳门武昌里",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.547757,
+    "lon": 114.293418,
+    "description": "地址: 临江大道28号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "中央公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.565724,
+    "lon": 114.241055,
+    "description": "电话: 027-84809889 | 地址: 琴台大道388号(张之洞公园) | 类别: 商务住宅;住宅区;住宅小区",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉市基督教荣光堂",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.586677,
+    "lon": 114.291771,
+    "description": "电话: 027-82835484 | 地址: 黄石路26号 | 类别: 风景名胜;风景名胜;教堂",
+    "city": "武汉"
+  },
+  {
+    "name": "汉口江滩2期-汉口江滩芦苇荡",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.605871,
+    "lon": 114.316668,
+    "description": "地址: 汉口江滩2期(东北角) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "楚望台遗址公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.525438,
+    "lon": 114.30867,
+    "description": "地址: 起义门公园内 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "湖光序曲",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.577681,
+    "lon": 114.377667,
+    "description": "地址: 沿湖路22号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "东湖磨山景区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.548737,
+    "lon": 114.413148,
+    "description": "电话: 027-87771302 | 地址: 鲁磨路 | 类别: 风景名胜;风景名胜;国家级景点",
+    "city": "武汉"
+  },
+  {
+    "name": "堤角公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.66159,
+    "lon": 114.338385,
+    "description": "电话: 027-82320910;027-82306102 | 地址: 解放大道2060号(近轻轨1号线堤角站) | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "桃花岛",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.608242,
+    "lon": 114.3197,
+    "description": "地址: 汉口江滩内(南侧) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "世界城光谷步行街",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.505311,
+    "lon": 114.402329,
+    "description": "电话: 027-59619688 | 地址: 东湖高新技术开发区珞喻路726号(珞雄路地铁站A口旁) | 类别: 购物服务;特色商业街;步行街",
+    "city": "武汉"
+  },
+  {
+    "name": "湖北省电力博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.585176,
+    "lon": 114.298808,
+    "description": "地址: 合作路22号 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉长江大桥东南登桥点",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.546594,
+    "lon": 114.293473,
+    "description": "地址: 临江大道与黄鹤楼道交叉口东北60米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "毛泽东同志旧居",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.551012,
+    "lon": 114.299294,
+    "description": "电话: 027-88850322 | 地址: 武昌都府堤路41号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉长江大桥建成纪念碑",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.546364,
+    "lon": 114.293929,
+    "description": "地址: 黄鹄路与黄鹤楼道交叉口北80米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "凌波门东湖观景点",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.543459,
+    "lon": 114.370934,
+    "description": "地址: 东湖南路 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉二七纪念馆",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.634847,
+    "lon": 114.324134,
+    "description": "电话: 027-82934390 | 地址: 解放大道2499号(徐州新村地铁站B口步行450米) | 类别: 风景名胜;风景名胜;纪念馆",
+    "city": "武汉"
+  },
+  {
+    "name": "龟山电视塔",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.555545,
+    "lon": 114.280582,
+    "description": "电话: 027-84713691 | 地址: 晴川街道龟山北路5号龟山风景区内(东侧) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "光谷广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.506074,
+    "lon": 114.399112,
+    "description": "地址: 东湖新技术开发区珞喻路与民族大道交叉口 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "武汉"
+  },
+  {
+    "name": "詹天佑故居(暂停开放)",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.585126,
+    "lon": 114.299357,
+    "description": "电话: 027-82844493 | 类别: 风景名胜;风景名胜;纪念馆|科教文化服务;博物馆;博物馆",
+    "city": "武汉"
+  },
+  {
+    "name": "红巷博物馆群",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.554006,
+    "lon": 114.299603,
+    "description": "电话: 027-88716588;13907128048 | 地址: 中华路街街道红巷红巷艺术城 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "沙湖公园E区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.568097,
+    "lon": 114.326169,
+    "description": "电话: 027-88118798 | 地址: 楚汉路与友谊大道交叉口东南140米 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "王家墩公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.60254,
+    "lon": 114.248206,
+    "description": "地址: 万松街办事处清江路(武汉商务区地铁站N口步行260米) | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "江滩月亮湾景观区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.587649,
+    "lon": 114.322923,
+    "description": "地址: 临江大道江滩219号 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "武昌江滩-月亮湾广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.579935,
+    "lon": 114.317464,
+    "description": "电话: 027-88603989 | 地址: 临江大道230号 | 类别: 风景名胜;公园广场;公园广场",
+    "city": "武汉"
+  },
+  {
+    "name": "小南湖公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.591744,
+    "lon": 114.277839,
+    "description": "地址: 台北一路68号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "汉口江滩2期-一元广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.592816,
+    "lon": 114.3066,
+    "description": "地址: 蔡锷路和沿江大道交叉口对面汉口江滩内(西南角) | 类别: 风景名胜;公园广场;城市广场",
+    "city": "武汉"
+  },
+  {
+    "name": "东湖落雁景区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.559575,
+    "lon": 114.436255,
+    "description": "电话: 027-86430007;027-86430172;027-86430462 | 地址: 青王公路旁 | 类别: 风景名胜;风景名胜;国家级景点",
+    "city": "武汉"
+  },
+  {
+    "name": "首义广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.537479,
+    "lon": 114.30547,
+    "description": "电话: 027-88870063 | 地址: 武珞路特1号 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "武汉"
+  },
+  {
+    "name": "汉口俄租界巡捕房旧址",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.587006,
+    "lon": 114.300967,
+    "description": "地址: 一元街街道黎黄陂路8号 | 类别: 风景名胜;风景名胜;纪念馆",
+    "city": "武汉"
+  },
+  {
+    "name": "咸安坊-汉口景明大楼",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.582792,
+    "lon": 114.296562,
+    "description": "地址: 鄱阳街21号咸安坊内(东侧) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "铁机江滩天使广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.611739,
+    "lon": 114.3431,
+    "description": "地址: 铁机路401号 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "武汉"
+  },
+  {
+    "name": "中国科学院武汉植物园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.544563,
+    "lon": 114.423278,
+    "description": "电话: 027-87510783 | 地址: 鲁磨路北端特1号 | 类别: 风景名胜;风景名胜;国家级景点",
+    "city": "武汉"
+  },
+  {
+    "name": "楚风园码头",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.577017,
+    "lon": 114.378109,
+    "description": "电话: 027-88913338 | 地址: 湖光序曲(东南角) | 类别: 交通设施服务;港口码头;港口码头",
+    "city": "武汉"
+  },
+  {
+    "name": "青山公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.638651,
+    "lon": 114.408033,
+    "description": "电话: 027-86863048 | 地址: 和平大道1546号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "张之洞体育公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.563642,
+    "lon": 114.2405,
+    "description": "电话: 18942939421 | 地址: 晴川街道琴台大道388号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "两江游览月亮湾码头",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.587408,
+    "lon": 114.322241,
+    "description": "地址: 杨园街街道武汉轮渡月亮湾码头 | 类别: 交通设施服务;交通服务相关;交通服务相关",
+    "city": "武汉"
+  },
+  {
+    "name": "湖北地质博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.57925,
+    "lon": 114.267554,
+    "description": "电话: 027-85833247 | 地址: 利济北路250附4号(利济北路地铁站D口步行460米) | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "武汉"
+  },
+  {
+    "name": "辛亥革命博物院北区",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.542265,
+    "lon": 114.30634,
+    "description": "地址: 武珞路1号 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "武汉"
+  },
+  {
+    "name": "汉口中华全国总工会旧址纪念馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.590841,
+    "lon": 114.295496,
+    "description": "地址: 友益街16号(大智路地铁站A口步行220米) | 类别: 风景名胜;风景名胜;红色景区|风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "莲花湖公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.550965,
+    "lon": 114.277783,
+    "description": "地址: 汉阳大道10号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "武昌城市公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.524934,
+    "lon": 114.320135,
+    "description": "地址: 花园城静安路晒湖对面 | 类别: 商务住宅;住宅区;住宅小区",
+    "city": "武汉"
+  },
+  {
+    "name": "中共五大会址纪念馆",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.550933,
+    "lon": 114.298459,
+    "description": "电话: 027-88850322;027-88851096 | 地址: 中华路街街道红巷13号武汉革命博物馆 | 类别: 风景名胜;风景名胜;纪念馆",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉园博园-汉口里",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.619782,
+    "lon": 114.224815,
+    "description": "地址: 张公堤公园西段中国(武汉)国际园林博览会南区景区东门 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "梧桐·雨",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.667868,
+    "lon": 114.261138,
+    "description": "电话: 027-85588958 | 地址: 将军路街道银潭路36号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "东湖吹笛景区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.519501,
+    "lon": 114.447613,
+    "description": "电话: 027-87804351 | 地址: 珞瑜东路619号吹笛景区内 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "青岛路历史风貌区",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.581617,
+    "lon": 114.29818,
+    "description": "地址: 青岛路周边(近洞庭街) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "洪山公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.534081,
+    "lon": 114.344089,
+    "description": "电话: 027-87892480 | 地址: 武珞路509号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉自然博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.623665,
+    "lon": 114.221693,
+    "description": "电话: 027-83310536;027-83696278 | 地址: 三环线武汉园博园内长江文明馆北侧 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "武汉"
+  },
+  {
+    "name": "红色礼屋",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.587991,
+    "lon": 114.298676,
+    "description": "地址: 黎黄陂路中共中央机关旧址内(东侧) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "墨水湖公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.538775,
+    "lon": 114.22133,
+    "description": "地址: 芳草路11号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "欢乐丛林樱花主题乐园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.547374,
+    "lon": 114.406202,
+    "description": "电话: 13163236088;15172477556 | 地址: 东湖风景区街道鲁磨路665号 | 类别: 体育休闲服务;休闲场所;休闲场所",
+    "city": "武汉"
+  },
+  {
+    "name": "张公堤城市森林公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.659079,
+    "lon": 114.279892,
+    "description": "地址: 三环线与宏图路交叉路口往西北约100米 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉旅游观光巴士",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.576609,
+    "lon": 114.297494,
+    "description": "电话: 13554161817 | 地址: 沿江大道江汉关博物馆前(浦发银行门口) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "五福门",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.599248,
+    "lon": 114.309841,
+    "description": "地址: 四唯街办事处沿江大道 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "同学广场",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.489162,
+    "lon": 114.397101,
+    "description": "地址: 民族大道219号 | 类别: 购物服务;商场;商场",
+    "city": "武汉"
+  },
+  {
+    "name": "罗马凯撒广场",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.501682,
+    "lon": 114.40816,
+    "description": "地址: 光谷街与梳子桥路交叉口西160米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "汉阳江滩-莲花门",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.552524,
+    "lon": 114.282259,
+    "description": "电话: 027-84813235 | 地址: 晴川大道与莲花湖路交叉口南20米 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "东湖之眼",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.548473,
+    "lon": 114.405886,
+    "description": "电话: 13163236088 | 地址: 东湖磨山景区欢乐丛林 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "西北湖广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.595699,
+    "lon": 114.268524,
+    "description": "电话: 027-85748936 | 地址: 建设大道703号北湖站 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉青山江滩",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.64096,
+    "lon": 114.383636,
+    "description": "电话: 027-65021250 | 地址: 建设八路2号附1号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉百兽乐园",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.626326,
+    "lon": 114.226024,
+    "description": "电话: 17786366440 | 地址: 金南一路1号附91号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "汉江江滩公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.563295,
+    "lon": 114.253248,
+    "description": "地址: 知音大道与兴月路交叉口东340米 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "东西湖极地海洋公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.659737,
+    "lon": 114.267008,
+    "description": "地址: 将军路街道金银潭大道与将军五路交叉口东420米 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉市和平公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.633054,
+    "lon": 114.385242,
+    "description": "电话: 027-86352275 | 地址: 新沟桥街道建设四路3号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "府河郊野公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.671589,
+    "lon": 114.301587,
+    "description": "地址: 后湖街道张公堤路 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉大学-樱花城堡",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.539602,
+    "lon": 114.364055,
+    "description": "地址: 八一路299号武汉大学内 | 类别: 科教文化服务;学校;高等院校",
+    "city": "武汉"
+  },
+  {
+    "name": "解放公园-嘉卉广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.607469,
+    "lon": 114.2995,
+    "description": "电话: 027-82421760 | 地址: 解放大道1861号解放公园(东南角) | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "武昌廉政文化公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.550618,
+    "lon": 114.299909,
+    "description": "电话: 027-88872090 | 地址: 解放路467号中华路小学旁 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "盘龙城国家考古遗址公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.696758,
+    "lon": 114.262989,
+    "description": "电话: 027-61915773;027-61915876 | 地址: 盘龙城经济开发区盘龙城经济开发区盘龙大道特一号 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "汉阳树",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.547917,
+    "lon": 114.27084,
+    "description": "地址: 凤凰巷12号(近第五医院) | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "青山江滩公园1期",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.627164,
+    "lon": 114.361515,
+    "description": "地址: 临江大道与三弓路交叉口西100米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "WS梦乐园(武商梦时代店)",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.529143,
+    "lon": 114.340319,
+    "description": "电话: 027-87490661 | 地址: 武珞路598号武商梦时代L3层C区 | 类别: 体育休闲服务;休闲场所;游乐场",
+    "city": "武汉"
+  },
+  {
+    "name": "龙王庙",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.56704,
+    "lon": 114.291262,
+    "description": "地址: 汉口大兴路78号 | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "武汉"
+  },
+  {
+    "name": "意大利风情街",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.502164,
+    "lon": 114.407198,
+    "description": "地址: 光谷步行街 | 类别: 购物服务;特色商业街;步行街",
+    "city": "武汉"
+  },
+  {
+    "name": "汉阳门花园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.547028,
+    "lon": 114.294181,
+    "description": "地址: 临江大道中段汉阳门 | 类别: 风景名胜;公园广场;公园|风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "汉江江滩",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.580017,
+    "lon": 114.210241,
+    "description": "地址: 沿河大道246号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "汉阳树公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.548098,
+    "lon": 114.270419,
+    "description": "地址: 显正街 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉大学万林艺术博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.536666,
+    "lon": 114.363056,
+    "description": "地址: 珞珈山街街道八一路299号武汉大学 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "武汉"
+  },
+  {
+    "name": "汉口美国领事馆旧址",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.588729,
+    "lon": 114.30331,
+    "description": "地址: 一元街街道车站路1号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "汉阳公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.550883,
+    "lon": 114.269161,
+    "description": "电话: 027-84841568 | 地址: 汉阳大道74号(钟家村地铁站E2口步行350米) | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "洪山江滩",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.492052,
+    "lon": 114.263189,
+    "description": "电话: 027-88603702 | 地址: 武金堤大道与白沙二路交叉口西200米 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "汉口江滩-江滩观星台",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.587154,
+    "lon": 114.305477,
+    "description": "地址: 沿江大道汉口江滩(西南角) | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "法国领事馆旧址",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.588021,
+    "lon": 114.300629,
+    "description": "地址: 一元街办事处洞庭街81号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "销品茂·海洋馆",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.588237,
+    "lon": 114.343134,
+    "description": "地址: 徐东大街18号中商世界里智慧生活MALLF5层 | 类别: 体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+    "city": "武汉"
+  },
+  {
+    "name": "汉口电话局旧址",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.586757,
+    "lon": 114.295865,
+    "description": "地址: 合作路51号 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "长江博物馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.59147,
+    "lon": 114.326215,
+    "description": "地址: 临江大道与秦园路交叉口西南60米 | 类别: 科教文化服务;博物馆;博物馆",
+    "city": "武汉"
+  },
+  {
+    "name": "广东银行汉口分行",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.581322,
+    "lon": 114.292789,
+    "description": "地址: 扬子街7号(江汉路地铁站D口步行270米) | 类别: 风景名胜;风景名胜;纪念馆",
+    "city": "武汉"
+  },
+  {
+    "name": "平和坊广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.583519,
+    "lon": 114.297662,
+    "description": "地址: 鄱阳街与北京路交叉口东40米 | 类别: 风景名胜;公园广场;城市广场",
+    "city": "武汉"
+  },
+  {
+    "name": "金银潭公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.663933,
+    "lon": 114.286129,
+    "description": "地址: 张公堤城市森林公园 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "琴台公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.554326,
+    "lon": 114.264186,
+    "description": "地址: 琴台大道 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "好燃时刻智慧体育公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.59851,
+    "lon": 114.380458,
+    "description": "电话: 18607163236 | 地址: 团结大道1060号(园林路地铁站E出口旁) | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "武昌农民运动讲习所旧址纪念馆",
+    "category": "museum",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.553429,
+    "lon": 114.300242,
+    "description": "电话: 027-88840695 | 地址: 中华路街街道红巷13号武汉革命博物馆 | 类别: 风景名胜;风景名胜;红色景区",
+    "city": "武汉"
+  },
+  {
+    "name": "汉口中华文艺界抗敌协会旧址",
+    "category": "sightseeing",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.577807,
+    "lon": 114.289106,
+    "description": "地址: 中山大道489号(江汉路地铁站G口步行140米) | 类别: 风景名胜;风景名胜;红色景区",
+    "city": "武汉"
+  },
+  {
+    "name": "青少年宫水上世界(暂停营业)",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.592145,
+    "lon": 114.281976,
+    "description": "电话: 4006180966 | 地址: 解放大道1435号武汉市青少年宫台北路出口青少年宫 | 类别: 体育休闲服务;休闲场所;水上活动中心",
+    "city": "武汉"
+  },
+  {
+    "name": "沙湖公园B区(暂停开放)",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.562794,
+    "lon": 114.338793,
+    "description": "电话: 027-88118798 | 地址: 烟霞路万达御湖世家正大门 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "武昌桥头堡",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.54693,
+    "lon": 114.292925,
+    "description": "地址: 临江大道与黄鹤楼道交叉口北80米 | 类别: 风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "藏龙岛",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.433998,
+    "lon": 114.405341,
+    "description": "地址: 藏龙大道 | 类别: 风景名胜;公园广场;植物园|风景名胜;风景名胜;风景名胜",
+    "city": "武汉"
+  },
+  {
+    "name": "金银湖国家城市湿地公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.641473,
+    "lon": 114.187354,
+    "description": "地址: 金山大道 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "杨泗港大桥江滩公园",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.498022,
+    "lon": 114.241495,
+    "description": "地址: 晴川大道与四新南路交叉口南240米 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉空港音乐广场",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.729562,
+    "lon": 114.213535,
+    "description": "地址: 盘龙城经济开发区景云路特1号 | 类别: 风景名胜;公园广场;公园广场",
+    "city": "武汉"
+  },
+  {
+    "name": "龙华寺",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.541469,
+    "lon": 114.315306,
+    "description": "电话: 027-88913068 | 地址: 武珞路81号(近湖北省图书馆) | 类别: 风景名胜;风景名胜;寺庙道观",
+    "city": "武汉"
+  },
+  {
+    "name": "沙湖公园D区",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.564711,
+    "lon": 114.320254,
+    "description": "电话: 027-88118798 | 地址: 友谊大道辅路与中山路辅路交叉口东260米 | 类别: 风景名胜;公园广场;公园",
+    "city": "武汉"
+  },
+  {
+    "name": "武汉两江游览(武汉关2号码头)",
+    "category": "outdoor",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.575569,
+    "lon": 114.297783,
+    "description": "电话: 027-85519022 | 地址: 沿江大道与临江巷交叉口东20米 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  },
+  {
+    "name": "应县木塔",
+    "category": "history",
+    "duration_minutes": 120,
+    "rating": 4.0,
+    "lat": 30.608487,
+    "lon": 114.296328,
+    "description": "电话: 027-82421760 | 地址: 解放大道1153号解放公园内 | 类别: 风景名胜;风景名胜相关;旅游景点",
+    "city": "武汉"
+  }
+]
