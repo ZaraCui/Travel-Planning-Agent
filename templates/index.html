@@ -515,8 +515,11 @@
     </script>
 
     <script>
-        // Use API_BASE from config.js if provided, otherwise default to same origin.
-        const _API_BASE = (typeof API_BASE !== 'undefined' && API_BASE) ? API_BASE.replace(/\/$/, '') : '';
+        // Smartly determine the API base URL.
+        // For production (Vercel), it uses the window's origin.
+        // For local development, it uses an empty string to make relative requests.
+        const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+        const _API_BASE = isLocal ? '' : window.location.origin;
 
         // Google Maps API key from config.js (set by window.GOOGLE_MAPS_API_KEY)
         let GOOGLE_MAPS_API_KEY = window.GOOGLE_MAPS_API_KEY || '';
