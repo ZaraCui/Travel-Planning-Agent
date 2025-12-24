@@ -7,6 +7,7 @@ from agent.constraints import ScoreConfig
 from agent.models import Spot
 from agent.explainer import weather_advice
 from agent.cache import cache, cache_key_for_spots, cache_key_for_cities, cache_key_for_plan
+from agent.rate_limiter import rate_limit
 from datetime import date
 import json
 import os
@@ -295,6 +296,7 @@ def serve_static(filename):
     return send_from_directory('static', filename)
 
 @app.route('/api/cities', methods=['GET'])
+@rate_limit(limit=60, window=60)  # 60 requests per minute
 def get_cities():
     """
     API endpoint to get a list of available cities based on data files.
@@ -342,6 +344,7 @@ def get_cities():
         return error_response(str(e), 500, "Failed to list cities")
 
 @app.route('/api/spots/<city>', methods=['GET'])
+@rate_limit(limit=30, window=60)  # 30 requests per minute
 def get_spots(city):
     """
     API endpoint to get all available spots for a city.
@@ -382,6 +385,7 @@ def get_spots(city):
         return error_response(str(e), 500, "Failed to load spots")
 
 @app.route('/plan_itinerary', methods=['POST'])
+@rate_limit(limit=5, window=60)  # 5 requests per minute (expensive operation)
 def plan_itinerary():
     try:
         # 获取用户提交的数据
@@ -614,6 +618,7 @@ def plan_itinerary():
 # ===== Error handlers =====
 # ===== Cache management endpoints =====
 @app.route('/api/cache/stats', methods=['GET'])
+@rate_limit(limit=20, window=60)  # 20 requests per minute
 def cache_stats():
     """Get cache statistics and health status"""
     try:
@@ -624,6 +629,7 @@ def cache_stats():
 
 
 @app.route('/api/cache/clear', methods=['POST'])
+@rate_limit(limit=5, window=300)  # 5 requests per 5 minutes
 def clear_cache():
     """
     Clear cache entries based on pattern or clear all.
@@ -664,6 +670,7 @@ def clear_cache():
 
 
 @app.route('/api/cache/invalidate/<cache_type>', methods=['POST'])
+@rate_limit(limit=10, window=60)  # 10 requests per minute
 def invalidate_cache_type(cache_type):
     """
     Invalidate specific cache types
@@ -759,6 +766,7 @@ def _decode_polyline(polyline_str):
 
 
 @app.route('/api/directions', methods=['POST'])
+@rate_limit(limit=20, window=60)  # 20 requests per minute
 def directions_proxy():
     try:
         data = request.json
@@ -835,6 +843,7 @@ def directions_proxy():
 
 # ===== OSM Spot Fetching API =====
 @app.route('/api/fetch_spots', methods=['POST'])
+@rate_limit(limit=3, window=300)  # 3 requests per 5 minutes (very expensive)
 def fetch_spots_api():
     """
     API endpoint to fetch spots from OpenStreetMap for a given city.
