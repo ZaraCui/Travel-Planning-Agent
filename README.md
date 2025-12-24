@@ -5,7 +5,7 @@ A planning-based AI agent that automatically generates and optimizes multi-day t
 This project focuses on **agent-style decision making** rather than simple route generation:
 the agent explores multiple candidate itineraries, evaluates them under different policies, and selects the best plan with interpretable reasons.
 
-**📖 Quick Links**: [Quick Reference](QUICK_REFERENCE.md) | [Project Structure](PROJECT_STRUCTURE.md) | [Deployment Guide](docs/deployment/VERCEL_SETUP.md)
+**📖 Quick Links**: [Quick Reference](QUICK_REFERENCE.md) | [Project Structure](PROJECT_STRUCTURE.md) | [Deployment Guide](docs/deployment/VERCEL_SETUP.md) | [Feature Improvements](FEATURE_IMPROVEMENTS.md)
 
 ---
 
