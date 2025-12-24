@@ -21,6 +21,11 @@ the agent explores multiple candidate itineraries, evaluates them under differen
   - All spots include both Chinese and English names
   - Perfect for both local and international travelers
   - Automatic bilingual display in UI
+- **Redis Cache Support (缓存支持)**
+  - Optional Redis caching for improved API performance
+  - Automatic cache management and invalidation
+  - Easy configuration via environment variables
+  - 📖 [Redis Cache Setup Guide](REDIS_CACHE_GUIDE.md)
 - **World Modeling**
   - Structured representation of cities, spots, daily plans, and itineraries
 - **Planning & Search**
@@ -201,6 +206,12 @@ Set up environment variables:
 ```bash
 cp .env.example .env
 # Edit .env and add your OpenAI API key
+
+# Optional: Enable Redis cache for better performance
+# See REDIS_CACHE_GUIDE.md for detailed setup instructions
+REDIS_ENABLED=True
+REDIS_HOST=localhost
+REDIS_PORT=6379
 ```
 
 Run the web application:

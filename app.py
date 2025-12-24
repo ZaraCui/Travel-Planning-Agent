@@ -6,9 +6,11 @@ from agent.geometry import travel_cost_minutes, distance as geo_distance
 from agent.constraints import ScoreConfig
 from agent.models import Spot
 from agent.explainer import weather_advice
+from agent.cache import cache, cache_key_for_spots, cache_key_for_cities, cache_key_for_plan
 from datetime import date
 import json
 import os
+import requests
 import traceback
 from typing import Dict, List, Tuple
 from dotenv import load_dotenv
@@ -296,8 +298,17 @@ def serve_static(filename):
 def get_cities():
     """
     API endpoint to get a list of available cities based on data files.
+    Uses Redis cache to improve performance.
     """
     try:
+        # Try to get from cache first
+        cache_key = cache_key_for_cities()
+        cached_cities = cache.get(cache_key)
+        
+        if cached_cities is not None:
+            app.logger.debug(f"Cities loaded from cache")
+            return success_response(cached_cities, f"Found {len(cached_cities)} cities (cached)")
+        
         # 使用绝对路径以兼容 Vercel 部署
         base_dir = os.path.dirname(os.path.abspath(__file__))
         data_dir = os.path.join(base_dir, 'data')
@@ -321,6 +332,9 @@ def get_cities():
         # Sort cities alphabetically
         cities.sort(key=lambda x: x['label'])
         
+        # Cache the result for 24 hours (cities list doesn't change often)
+        cache.set(cache_key, cities, ttl=86400)
+        
         return success_response(cities, f"Found {len(cities)} cities")
     except Exception as e:
         import traceback
@@ -332,8 +346,17 @@ def get_spots(city):
     """
     API endpoint to get all available spots for a city.
     Used for populating the spot selection UI.
+    Uses Redis cache to improve performance.
     """
     try:
+        # Try to get from cache first
+        cache_key = cache_key_for_spots(city)
+        cached_spots = cache.get(cache_key)
+        
+        if cached_spots is not None:
+            app.logger.debug(f"Spots for {city} loaded from cache")
+            return success_response(cached_spots, f"Loaded {cached_spots['total']} spots for {city} (cached)")
+        
         # 使用绝对路径以兼容 Vercel 部署
         base_dir = os.path.dirname(os.path.abspath(__file__))
         path = os.path.join(base_dir, f"data/spots_{city}.json")
@@ -344,11 +367,16 @@ def get_spots(city):
         with open(path, encoding="utf-8") as f:
             spots_data = json.load(f)
         
-        return success_response({
+        result = {
             "city": city,
             "spots": spots_data,
             "total": len(spots_data)
-        }, f"Loaded {len(spots_data)} spots for {city}")
+        }
+        
+        # Cache the result for 12 hours
+        cache.set(cache_key, result, ttl=43200)
+        
+        return success_response(result, f"Loaded {len(spots_data)} spots for {city}")
     
     except Exception as e:
         return error_response(str(e), 500, "Failed to load spots")
@@ -581,6 +609,96 @@ def plan_itinerary():
             500,
             "Internal server error"
         )
+
+
+# ===== Error handlers =====
+# ===== Cache management endpoints =====
+@app.route('/api/cache/stats', methods=['GET'])
+def cache_stats():
+    """Get cache statistics and health status"""
+    try:
+        stats = cache.get_stats()
+        return success_response(stats, "Cache statistics retrieved")
+    except Exception as e:
+        return error_response(str(e), 500, "Failed to get cache stats")
+
+
+@app.route('/api/cache/clear', methods=['POST'])
+def clear_cache():
+    """
+    Clear cache entries based on pattern or clear all.
+    Request body:
+    {
+        "pattern": "spots:*",  // Optional: pattern to match keys
+        "clear_all": false     // Optional: clear all cache (use with caution)
+    }
+    """
+    try:
+        data = request.json or {}
+        pattern = data.get('pattern')
+        clear_all = data.get('clear_all', False)
+        
+        if clear_all:
+            success = cache.clear_all()
+            if success:
+                return success_response({'cleared': 'all'}, "All cache cleared")
+            else:
+                return error_response("Failed to clear cache", 500, "Cache error")
+        
+        elif pattern:
+            count = cache.clear_pattern(pattern)
+            return success_response({
+                'pattern': pattern,
+                'cleared_count': count
+            }, f"Cleared {count} cache entries")
+        
+        else:
+            return error_response(
+                "Must specify either 'pattern' or 'clear_all'",
+                400,
+                "Invalid request"
+            )
+    
+    except Exception as e:
+        return error_response(str(e), 500, "Failed to clear cache")
+
+
+@app.route('/api/cache/invalidate/<cache_type>', methods=['POST'])
+def invalidate_cache_type(cache_type):
+    """
+    Invalidate specific cache types
+    cache_type can be: 'cities', 'spots', 'plans', 'all'
+    """
+    try:
+        patterns_map = {
+            'cities': 'cities:*',
+            'spots': 'spots:*',
+            'plans': 'plan:*',
+            'all': '*'
+        }
+        
+        pattern = patterns_map.get(cache_type)
+        if not pattern:
+            return error_response(
+                f"Invalid cache_type: {cache_type}. Must be one of: {list(patterns_map.keys())}",
+                400,
+                "Invalid cache type"
+            )
+        
+        if cache_type == 'all':
+            success = cache.clear_all()
+            count = 'all' if success else 0
+        else:
+            count = cache.clear_pattern(pattern)
+        
+        return success_response({
+            'cache_type': cache_type,
+            'pattern': pattern,
+            'cleared': count
+        }, f"Invalidated {cache_type} cache")
+    
+    except Exception as e:
+        return error_response(str(e), 500, "Failed to invalidate cache")
 
 
 # ===== Error handlers =====
