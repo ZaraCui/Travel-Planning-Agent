@@ -9,6 +9,7 @@ from agent.explainer import weather_advice
 from agent.cache import cache, cache_key_for_spots, cache_key_for_cities, cache_key_for_plan
 from agent.rate_limiter import rate_limit
 from agent.logging_config import setup_logging, log_request, log_error, log_performance
+from agent.itinerary_storage import ItineraryStorage
 from datetime import date
 import json
 import os
@@ -27,6 +28,9 @@ logger = setup_logging(
     log_level=os.environ.get('LOG_LEVEL', 'INFO'),
     log_file=os.environ.get('LOG_FILE', 'logs/app.log') if os.environ.get('LOG_FILE') != 'None' else None
 )
+
+# Initialize itinerary storage
+storage = ItineraryStorage(cache_client=cache)
 
 app = Flask(__name__)
 app.logger = logger  # Replace Flask's default logger
@@ -1057,6 +1061,117 @@ def fetch_spots_api():
             500,
             "Fetch error"
         )
+
+
+# ===== Itinerary Storage API =====
+@app.route('/api/itinerary/save', methods=['POST'])
+@rate_limit(limit=10, window=60)  # 10 saves per minute
+def save_itinerary_route():
+    """
+    Save an itinerary for sharing
+    
+    Request body:
+    {
+        "itinerary": {...},  # Full itinerary data from comparison
+        "ttl_days": 30,      # Optional, default 30 days
+        "persistent": false  # Optional, save permanently (not implemented yet)
+    }
+    """
+    try:
+        data = request.json
+        if not data or 'itinerary' not in data:
+            return error_response("Missing required parameter: 'itinerary'", 400, "Validation error")
+        
+        itinerary_data = data['itinerary']
+        ttl_days = data.get('ttl_days', 30)
+        persistent = data.get('persistent', False)
+        
+        # Validate TTL
+        if ttl_days < 1 or ttl_days > 365:
+            return error_response("ttl_days must be between 1 and 365", 400, "Validation error")
+        
+        logger.info(f"Saving itinerary with TTL={ttl_days} days")
+        
+        result = storage.save_itinerary(
+            itinerary_data,
+            ttl_days=ttl_days,
+            persistent=persistent
+        )
+        
+        logger.info(f"Itinerary saved with share_id: {result['share_id']}")
+        return success_response(result, "Itinerary saved successfully")
+    
+    except Exception as e:
+        logger.error(f"Failed to save itinerary: {str(e)}", exc_info=True)
+        return error_response(str(e), 500, "Failed to save itinerary")
+
+
+@app.route('/api/itinerary/<share_id>', methods=['GET'])
+@rate_limit(limit=30, window=60)  # 30 loads per minute
+def load_itinerary_route(share_id):
+    """
+    Load a saved itinerary by share ID
+    """
+    try:
+        logger.info(f"Loading itinerary: {share_id}")
+        
+        itinerary = storage.load_itinerary(share_id)
+        
+        if not itinerary:
+            logger.warning(f"Itinerary not found: {share_id}")
+            return error_response(
+                f"Itinerary not found or expired: {share_id}",
+                404,
+                "Not found"
+            )
+        
+        logger.info(f"Itinerary loaded successfully: {share_id}")
+        return success_response(itinerary, "Itinerary loaded successfully")
+    
+    except Exception as e:
+        logger.error(f"Failed to load itinerary {share_id}: {str(e)}", exc_info=True)
+        return error_response(str(e), 500, "Failed to load itinerary")
+
+
+@app.route('/api/itinerary/<share_id>', methods=['DELETE'])
+@rate_limit(limit=10, window=60)  # 10 deletes per minute
+def delete_itinerary_route(share_id):
+    """
+    Delete a saved itinerary
+    """
+    try:
+        logger.info(f"Deleting itinerary: {share_id}")
+        
+        deleted = storage.delete_itinerary(share_id)
+        
+        if deleted:
+            logger.info(f"Itinerary deleted: {share_id}")
+            return success_response(
+                {"share_id": share_id},
+                "Itinerary deleted successfully"
+            )
+        else:
+            logger.warning(f"Itinerary not found for deletion: {share_id}")
+            return error_response(
+                f"Itinerary not found: {share_id}",
+                404,
+                "Not found"
+            )
+    
+    except Exception as e:
+        logger.error(f"Failed to delete itinerary {share_id}: {str(e)}", exc_info=True)
+        return error_response(str(e), 500, "Failed to delete itinerary")
+
+
+@app.route('/share/<share_id>')
+def share_itinerary_page(share_id):
+    """
+    Render shared itinerary page
+    """
+    logger.info(f"Accessing share page: {share_id}")
+    # For now, redirect to main page with share_id parameter
+    # In future, create a dedicated share.html template
+    return render_template('index.html', share_id=share_id)
 
 
 # ===== WebSocket event handlers =====
