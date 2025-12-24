@@ -59,128 +59,139 @@ class RedisCache:
             logger.error(f"Unexpected error initializing Redis: {e}")
             self.redis_client = None
             self.enabled = False
-    
-    def _generate_key(self, prefix: str, *args, **kwargs) -> str:
-        """Generate a unique cache key based on function arguments"""
-        # Create a stable string representation of arguments
-        key_data = {
-            'args': args,
-            'kwargs': sorted(kwargs.items())  # Sort for consistency
-        }
-        key_string = json.dumps(key_data, sort_keys=True)
-        key_hash = hashlib.md5(key_string.encode()).hexdigest()
-        return f"{prefix}:{key_hash}"
-    
-    def get(self, key: str) -> Optional[Any]:
-        """Get value from cache"""
-        if not self.enabled or not self.redis_client:
-            return None
-        
-        try:
-            value = self.redis_client.get(key)
-            if value:
-                logger.debug(f"Cache hit: {key}")
-                return json.loads(value)
-            else:
-                logger.debug(f"Cache miss: {key}")
-                return None
-        except Exception as e:
-            logger.error(f"Error reading from cache: {e}")
-            return None
-    
-    def set(self, key: str, value: Any, ttl: int = 3600) -> bool:
-        """
-        Set value in cache with TTL (time to live) in seconds
-        Default TTL: 3600 seconds (1 hour)
-        """
-        if not self.enabled or not self.redis_client:
-            return False
-        
-        try:
-            serialized = json.dumps(value, ensure_ascii=False)
-            self.redis_client.setex(key, ttl, serialized)
-            logger.debug(f"Cache set: {key} (TTL: {ttl}s)")
-            return True
-        except Exception as e:
-            logger.error(f"Error writing to cache: {e}")
-            return False
-    
-    def delete(self, key: str) -> bool:
-        """Delete a specific key from cache"""
-        if not self.enabled or not self.redis_client:
-            return False
-        
-        try:
-            result = self.redis_client.delete(key)
-            logger.debug(f"Cache delete: {key}")
-            return result > 0
-        except Exception as e:
-            logger.error(f"Error deleting from cache: {e}")
-            return False
-    
-    def clear_pattern(self, pattern: str) -> int:
-        """Clear all keys matching a pattern (e.g., 'spots:*')"""
-        if not self.enabled or not self.redis_client:
-            return 0
-        
-        try:
-            keys = self.redis_client.keys(pattern)
-            if keys:
-                deleted = self.redis_client.delete(*keys)
-                logger.info(f"Cleared {deleted} keys matching pattern: {pattern}")
-                return deleted
-            return 0
-        except Exception as e:
-            logger.error(f"Error clearing cache pattern: {e}")
-            return 0
-    
-    def clear_all(self) -> bool:
-        """Clear all cache entries (use with caution!)"""
-        if not self.enabled or not self.redis_client:
-            return False
-        
-        try:
-            self.redis_client.flushdb()
-            logger.info("All cache cleared")
-            return True
-        except Exception as e:
-            logger.error(f"Error clearing all cache: {e}")
-            return False
-    
-    def get_stats(self) -> dict:
-        """Get cache statistics"""
-        if not self.enabled or not self.redis_client:
-            return {
-                'enabled': False,
-                'message': 'Redis cache is disabled'
-            }
-        
-        try:
-            info = self.redis_client.info()
-            keys_count = self.redis_client.dbsize()
-            
-            return {
-                'enabled': True,
-                'connected': True,
-                'keys_count': keys_count,
-                'used_memory': info.get('used_memory_human', 'N/A'),
-                'connected_clients': info.get('connected_clients', 0),
-                'total_commands_processed': info.get('total_commands_processed', 0),
-                'keyspace_hits': info.get('keyspace_hits', 0),
-                'keyspace_misses': info.get('keyspace_misses', 0),
-                'uptime_in_seconds': info.get('uptime_in_seconds', 0),
-            }
-        except Exception as e:
-            logger.error(f"Error getting cache stats: {e}")
-            return {
-                'enabled': True,
-                'connected': False,
-                'error': str(e)
-            }
 
+# Singleton instance of the cache
+_cache_instance = None
 
-# Global cache instance
+def get_cache_client():
+    """
+    Returns a singleton instance of the RedisCache client.
+    """
+    global _cache_instance
+    if _cache_instance is None:
+        _cache_instance = RedisCache()
+    return _cache_instance.redis_client if _cache_instance.enabled else None
+
+# Main cache object to be used in the application
 cache = RedisCache()
+
+def _generate_key(prefix: str, *args, **kwargs) -> str:
+    """Generate a unique cache key based on function arguments"""
+    # Create a stable string representation of arguments
+    key_data = {
+        'args': args,
+        'kwargs': sorted(kwargs.items())  # Sort for consistency
+    }
+    key_string = json.dumps(key_data, sort_keys=True)
+    key_hash = hashlib.md5(key_string.encode()).hexdigest()
+    return f"{prefix}:{key_hash}"
+    
+def get(key: str) -> Optional[Any]:
+    """Get value from cache"""
+    if not cache.enabled or not cache.redis_client:
+        return None
+    
+    try:
+        value = cache.redis_client.get(key)
+        if value:
+            logger.debug(f"Cache hit: {key}")
+            return json.loads(value)
+        else:
+            logger.debug(f"Cache miss: {key}")
+            return None
+    except Exception as e:
+        logger.error(f"Error reading from cache: {e}")
+        return None
+    
+def set(key: str, value: Any, ttl: int = 3600) -> bool:
+    """
+    Set value in cache with TTL (time to live) in seconds
+    Default TTL: 3600 seconds (1 hour)
+    """
+    if not cache.enabled or not cache.redis_client:
+        return False
+    
+    try:
+        serialized = json.dumps(value, ensure_ascii=False)
+        cache.redis_client.setex(key, ttl, serialized)
+        logger.debug(f"Cache set: {key} (TTL: {ttl}s)")
+        return True
+    except Exception as e:
+        logger.error(f"Error writing to cache: {e}")
+        return False
+    
+def delete(key: str) -> bool:
+    """Delete a specific key from cache"""
+    if not cache.enabled or not cache.redis_client:
+        return False
+    
+    try:
+        result = cache.redis_client.delete(key)
+        logger.debug(f"Cache delete: {key}")
+        return result > 0
+    except Exception as e:
+        logger.error(f"Error deleting from cache: {e}")
+        return False
+    
+def clear_pattern(pattern: str) -> int:
+    """Clear all keys matching a pattern (e.g., 'spots:*')"""
+    if not cache.enabled or not cache.redis_client:
+        return 0
+    
+    try:
+        keys = cache.redis_client.keys(pattern)
+        if keys:
+            deleted = cache.redis_client.delete(*keys)
+            logger.info(f"Cleared {deleted} keys matching pattern: {pattern}")
+            return deleted
+        return 0
+    except Exception as e:
+        logger.error(f"Error clearing cache pattern: {e}")
+        return 0
+    
+def clear_all() -> bool:
+    """Clear all cache entries (use with caution!)"""
+    if not cache.enabled or not cache.redis_client:
+        return False
+    
+    try:
+        cache.redis_client.flushdb()
+        logger.info("All cache cleared")
+        return True
+    except Exception as e:
+        logger.error(f"Error clearing all cache: {e}")
+        return False
+    
+def get_stats() -> dict:
+    """Get cache statistics"""
+    if not cache.enabled or not cache.redis_client:
+        return {
+            'enabled': False,
+            'message': 'Redis cache is disabled'
+        }
+    
+    try:
+        info = cache.redis_client.info()
+        keys_count = cache.redis_client.dbsize()
+        
+        return {
+            'enabled': True,
+            'connected': True,
+            'keys_count': keys_count,
+            'used_memory': info.get('used_memory_human', 'N/A'),
+            'connected_clients': info.get('connected_clients', 0),
+            'total_commands_processed': info.get('total_commands_processed', 0),
+            'keyspace_hits': info.get('keyspace_hits', 0),
+            'keyspace_misses': info.get('keyspace_misses', 0),
+            'uptime_in_seconds': info.get('uptime_in_seconds', 0),
+        }
+    except Exception as e:
+        logger.error(f"Error getting cache stats: {e}")
+        return {
+            'enabled': True,
+            'connected': False,
+            'error': str(e)
+        }
 
 
 def cached(prefix: str, ttl: int = 3600):
@@ -205,7 +216,7 @@ def cached(prefix: str, ttl: int = 3600):
                 return func(*args, **kwargs)
             
             # Generate cache key
-            cache_key = cache._generate_key(prefix, *args, **kwargs)
+            cache_key = _generate_key(prefix, *args, **kwargs)
             
             # Try to get from cache
             cached_result = cache.get(cache_key)
@@ -245,10 +256,7 @@ def cache_key_for_cities() -> str:
     return "cities:list"
 
 
-def cache_key_for_plan(city: str, days: int, selected_spots: list, mode: str) -> str:
-    """Generate cache key for itinerary plan"""
-    # Create a stable hash of selected spots
-    spots_hash = hashlib.md5(
-        json.dumps(sorted(selected_spots), sort_keys=True).encode()
-    ).hexdigest()[:8]
-    return f"plan:{city}:d{days}:s{spots_hash}:m{mode}"
+def cache_key_for_plan(city: str, days: int, spots: list) -> str:
+    """Generate a specific cache key for an itinerary plan."""
+    spots_hash = hashlib.md5(json.dumps(sorted(spots)).encode()).hexdigest()[:8]
+    return f"plan:{city}:{days}:{spots_hash}"
