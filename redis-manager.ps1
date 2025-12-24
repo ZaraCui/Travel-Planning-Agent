@@ -66,9 +66,9 @@ function Get-CacheStats {
 
 function Clear-AllCache {
     Write-Host "`n清除所有缓存..." -ForegroundColor Yellow
-    Write-Host "确定要清除所有缓存吗？(y/n): " -NoNewline
+    Write-Host "确定要清除所有缓存吗? (y/n): " -NoNewline
     $confirm = Read-Host
-    if ($confirm -eq 'y' -or $confirm -eq 'Y') {
+    if (($confirm -eq 'y') -or ($confirm -eq 'Y')) {
         try {
             $response = Invoke-RestMethod -Uri "http://localhost:5000/api/cache/invalidate/all" -Method Post
             Write-Host "OK 缓存已清除" -ForegroundColor Green

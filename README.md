@@ -25,7 +25,7 @@ the agent explores multiple candidate itineraries, evaluates them under differen
   - Optional Redis caching for improved API performance
   - Automatic cache management and invalidation
   - Easy configuration via environment variables
-  - 📖 [Redis Cache Setup Guide](REDIS_CACHE_GUIDE.md)
+  - 📖 [Local Redis Setup](REDIS_CACHE_GUIDE.md) | [Vercel Deployment](VERCEL_REDIS_GUIDE.md)
 - **World Modeling**
   - Structured representation of cities, spots, daily plans, and itineraries
 - **Planning & Search**
