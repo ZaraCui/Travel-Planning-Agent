@@ -1,89 +1,92 @@
-# ✅ Vercel 部署前检查清单
+# ✅ Vercel Deployment Checklist
 
-## 🔧 必须完成的配置
+## 🔧 Required Configuration
 
-### 1. 在 Vercel 设置环境变量
+### 1. Set Environment Variables in Vercel
 
-**重要**: Vercel 会在构建时自动生成 `static/config.js`，不需要手动编辑。
+**Important**: Vercel will automatically generate `static/config.js` during build, no manual editing needed.
 
-在 Vercel 项目设置中添加环境变量：
+Add environment variables in your Vercel project settings:
 
-1. 访问你的 Vercel 项目仪表板
-2. 进入 **Settings** > **Environment Variables**
-3. 添加以下变量：
+1. Visit your Vercel project dashboard
+2. Go to **Settings** > **Environment Variables**
+3. Add the following variables:
 
-| 变量名 | 值 | 说明 |
+| Variable Name | Value | Description |
 |--------|-----|------|
-| `API_BASE` | `https://travel-planning-agent.onrender.com` | 后端 API 地址 |
-| `GOOGLE_MAPS_API_KEY` | `AIza...` | 你的 Google Maps API 密钥 |
+| `API_BASE` | `https://travel-planning-agent.onrender.com` | Backend API address |
+| `GOOGLE_MAPS_API_KEY` | `AIza...` | Your Google Maps API key |
 
-**获取 Google Maps API Key**:
-1. 访问: https://console.cloud.google.com/google/maps-apis
-2. 创建/选择项目
-3. 启用 "Maps JavaScript API"
-4. 创建凭据 > API 密钥
+**Get Google Maps API Key**:
+1. Visit: https://console.cloud.google.com/google/maps-apis
+2. Create/select project
+3. Enable "Maps JavaScript API"
+4. Go to Credentials > Create Credentials > API Key
 
-### 2. 限制 API Key（推荐）
+### 2. Restrict API Key (Recommended)
 
-在 Google Cloud Console 中：
-- 应用限制 > HTTP referrer
-- 添加网站限制:
+In Google Cloud Console:
+- Application restrictions > HTTP referrer
+- Add website restrictions:
   - `https://your-project.vercel.app/*`
-  - `https://*.vercel.app/*` (如果使用预览部署)
-  - `http://localhost:*` (本地测试)
+  - `https://*.vercel.app/*` (for preview deployments)
+  - `http://localhost:*` (local testing)
 
-### 3. 检查文件
+### 3. Check Files
 
-确认这些文件存在且配置正确:
+Confirm these files exist and are configured correctly:
 
-- ✅ `static/index.html` - 已包含 Google Maps 代码
-- ✅ `build-config.js` - 构建时生成 config.js
-- ✅ `vercel.json` - 部署配置
+- ✅ `static/index.html` - Includes Google Maps code
+- ✅ `build-config.js` - Generates config.js during build
+- ✅ `vercel.json` - Deployment configuration
 
-## 🚀 部署步骤
+## 🚀 Deployment Steps
 
 ```bash
-# 1. 提交代码到 GitHub
+# 1. Commit code to GitHub
 git add .
 git commit -m "Add Google Maps integration"
 git push origin main
 
-# 2. 在 Vercel 项目中设置环境变量（见上方）
+# 2. Set environment variables in Vercel project (see above)
 
-# 3. Vercel 会自动重新部署
-# 或者手动触发: Deployments > Redeploy
+# 3. Vercel will automatically redeploy
+# Or manually trigger: Deployments > Redeploy
 ```
 
-**不需要**手动创建或编辑 `static/config.js`，构建脚本会自动生成！
+**No need** to manually create or edit `static/config.js`, the build script will generate it automatically!
 
-## ⚠️ 重要提示
+## ⚠️ Important Notes
 
-1. **不要提交真实的 API key 到 GitHub**
-   - `static/config.js` 已在 `.gitignore` 中
-   - 只提交 `config.example.js` 作为模板
-使用 Vercel 环境变量**
-   - 不要在代码中硬编码 API key
-   - 使用 Vercel 的环境变量功能
-   - 构建脚本会自动读取并生成配置文件
+1. **Do not commit real API keys to GitHub**
+   - `static/config.js` is already in `.gitignore`
+   - Only commit `config.example.js` as a template
 
-2. **在 Vercel 上配置**
+2. **Use Vercel Environment Variables**
+   - Don't hardcode API keys in code
+   - Use Vercel's environment variables feature
+   - Build script will automatically read and generate configuration file
+
+3. **Configure on Vercel**
    - Settings > Environment Variables
-   - 添加 `GOOGLE_MAPS_API_KEY` 和 `API_BASE`
-   - 保存后重新部署
-   - 检查浏览器控制台无错误
-   - 验证标记和路线正确显示
+   - Add `GOOGLE_MAPS_API_KEY` and `API_BASE`
+   - Save and redeploy
 
-## 📱 故障排查
+4. **Verify Deployment**
+   - Check browser console for no errors
+   - Verify markers and routes display correctly
 
-| 问题 | 检查项 |
+## 📱 Troubleshooting
+
+| Issue | Check |
 |------|--------|
-| 地图不显示 | 1. 查看浏览器控制台错误<br>2. 确认 API key 正确<br>3. 检查 API 是否启用 |
-| "InvalidKeyMapError" | API key 不正确 |
-| "RefererNotAllowedMapError" | 需要添加域名到 API key 限制列表 |
-| "ApiNotActivatedMapError" | 需要在 Google Cloud 启用 Maps JavaScript API |
+| Map not displaying | 1. Check browser console errors<br>2. Confirm API key is correct<br>3. Check if API is enabled |
+| "InvalidKeyMapError" | API key is incorrect |
+| "RefererNotAllowedMapError" | Need to add domain to API key restrictions list |
+| "ApiNotActivatedMapError" | Need to enable Maps JavaScript API in Google Cloud |
 
-## 📚 参考文档
+## 📚 Reference Documentation
 
-- [完整部署指南](DEPLOY_VERCEL.md)
-- [Google Maps API 文档](https://developers.google.com/maps/documentation/javascript)
-- [Vercel 部署文档](https://vercel.com/docs)
+- [Complete Deployment Guide](DEPLOY_VERCEL.md)
+- [Google Maps API Documentation](https://developers.google.com/maps/documentation/javascript)
+- [Vercel Deployment Documentation](https://vercel.com/docs)

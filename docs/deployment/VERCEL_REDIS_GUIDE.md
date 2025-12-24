@@ -1,51 +1,51 @@
-# Vercel + Redis 部署指南
+# Vercel + Redis Deployment Guide
 
-## 概述
+## Overview
 
-本指南说明如何在Vercel上部署Travel Planning Agent并启用Redis缓存功能。
+This guide explains how to deploy Travel Planning Agent on Vercel and enable Redis caching functionality.
 
-## 为什么Vercel需要外部Redis？
+## Why Does Vercel Need External Redis?
 
-Vercel是serverless平台，特点：
-- ❌ 无法运行Docker容器
-- ❌ 无持久化本地存储
-- ✅ 需要使用云端Redis服务
-- ✅ 支持环境变量配置
+Vercel is a serverless platform with these characteristics:
+- ❌ Cannot run Docker containers
+- ❌ No persistent local storage
+- ✅ Requires cloud Redis service
+- ✅ Supports environment variable configuration
 
-## 方案1：使用Upstash (推荐)
+## Option 1: Using Upstash (Recommended)
 
-### 为什么选择Upstash？
-- ✅ **专为serverless设计**：无连接数限制
-- ✅ **按请求计费**：只为实际使用付费
-- ✅ **免费额度充足**：10,000次请求/天
-- ✅ **全球CDN**：低延迟
-- ✅ **与Vercel完美集成**
+### Why Choose Upstash?
+- ✅ **Designed for serverless**: No connection limit
+- ✅ **Pay per request**: Only pay for actual usage
+- ✅ **Generous free tier**: 10,000 requests/day
+- ✅ **Global CDN**: Low latency
+- ✅ **Perfect Vercel integration**
 
-### 步骤1：创建Upstash账户和数据库
+### Step 1: Create Upstash Account and Database
 
-1. 访问 [Upstash](https://upstash.com/) 并注册
-2. 创建新的Redis数据库：
-   - 点击 "Create Database"
-   - 选择区域（推荐选择离你用户最近的）
-   - 选择 "Global" 类型（免费）
-   - 点击创建
+1. Visit [Upstash](https://upstash.com/) and register
+2. Create new Redis database:
+   - Click "Create Database"
+   - Select region (recommended: closest to your users)
+   - Select "Global" type (free)
+   - Click create
 
-3. 获取连接信息：
+3. Get connection info:
    ```
    Endpoint: us1-merry-fox-12345.upstash.io
    Port: 6379
    Password: AaBbCcDdEeFfGgHhIiJj
    ```
 
-### 步骤2：在Vercel配置环境变量
+### Step 2: Configure Environment Variables in Vercel
 
-在Vercel项目设置中添加以下环境变量：
+Add the following environment variables in your Vercel project settings:
 
 ```env
-# 启用Redis缓存
+# Enable Redis cache
 REDIS_ENABLED=True
 
-# Upstash连接信息
+# Upstash connection info
 REDIS_HOST=us1-merry-fox-12345.upstash.io
 REDIS_PORT=6379
 REDIS_PASSWORD=your-upstash-password
@@ -53,7 +53,7 @@ REDIS_DB=0
 REDIS_SOCKET_TIMEOUT=5
 ```
 
-### 步骤3：部署
+### Step 3: Deploy
 
 ```bash
 git add .
@@ -61,16 +61,16 @@ git commit -m "Enable Redis cache with Upstash"
 git push origin main
 ```
 
-Vercel会自动重新部署并应用新的环境变量。
+Vercel will automatically redeploy and apply the new environment variables.
 
-### 步骤4：验证
+### Step 4: Verify
 
-部署完成后，访问：
+After deployment, visit:
 ```
 https://your-app.vercel.app/api/cache/stats
 ```
 
-应该看到：
+You should see:
 ```json
 {
   "status": "success",
@@ -83,20 +83,20 @@ https://your-app.vercel.app/api/cache/stats
 }
 ```
 
-## 方案2：使用Redis Cloud
+## Option 2: Using Redis Cloud
 
-### 步骤1：创建Redis Cloud账户
+### Step 1: Create Redis Cloud Account
 
-1. 访问 [Redis Cloud](https://redis.com/try-free/)
-2. 注册并创建免费数据库（30MB）
-3. 获取连接信息：
+1. Visit [Redis Cloud](https://redis.com/try-free/)
+2. Register and create free database (30MB)
+3. Get connection info:
    ```
    Host: redis-12345.c123.us-east-1-1.ec2.cloud.redislabs.com
    Port: 12345
    Password: your-password
    ```
 
-### 步骤2：在Vercel配置
+### Step 2: Configure in Vercel
 
 ```env
 REDIS_ENABLED=True
@@ -106,235 +106,235 @@ REDIS_PASSWORD=your-password
 REDIS_DB=0
 ```
 
-## 方案3：使用Railway Redis
+## Option 3: Using Railway Redis
 
-如果你的后端部署在Railway：
+If your backend is deployed on Railway:
 
-1. 在Railway项目中添加Redis服务
-2. Railway会自动提供环境变量
-3. 在Vercel前端配置指向Railway Redis
+1. Add Redis service in Railway project
+2. Railway will automatically provide environment variables
+3. Configure Vercel frontend to point to Railway Redis
 
-## Vercel特定优化
+## Vercel-Specific Optimizations
 
-### 1. 调整缓存TTL
+### 1. Adjust Cache TTL
 
-由于serverless特性，建议使用较长的TTL：
+Due to serverless nature, recommend longer TTLs:
 
-在 `agent/cache.py` 中：
+In `agent/cache.py`:
 ```python
-# 城市列表 - 48小时（变化很少）
+# City list - 48 hours (rarely changes)
 cache.set(cache_key, cities, ttl=172800)
 
-# 景点数据 - 24小时
+# Spot data - 24 hours
 cache.set(cache_key, result, ttl=86400)
 ```
 
-### 2. 使用Redis连接池
+### 2. Use Redis Connection Pool
 
-已经在 `agent/cache.py` 中实现：
+Already implemented in `agent/cache.py`:
 ```python
 self.redis_client = redis.Redis(
     ...
-    health_check_interval=30,  # 保持连接健康
-    retry_on_timeout=True      # 自动重试
+    health_check_interval=30,  # Keep connection healthy
+    retry_on_timeout=True      # Automatic retry
 )
 ```
 
-### 3. 监控缓存性能
+### 3. Monitor Cache Performance
 
-使用Vercel Analytics和Upstash Dashboard：
-- Vercel: 查看函数执行时间
-- Upstash: 查看请求次数和延迟
+Use Vercel Analytics and Upstash Dashboard:
+- Vercel: View function execution time
+- Upstash: View request count and latency
 
-## 成本估算
+## Cost Estimation
 
-### Upstash免费计划
-- 10,000次请求/天
-- 对于中小型应用完全够用
-- 示例：1000个用户/天，每人10个请求 = 足够
+### Upstash Free Plan
+- 10,000 requests/day
+- Sufficient for small to medium applications
+- Example: 1000 users/day, 10 requests each = sufficient
 
-### Redis Cloud免费计划
-- 30MB存储
-- 30个并发连接
-- 适合小型应用
+### Redis Cloud Free Plan
+- 30MB storage
+- 30 concurrent connections
+- Suitable for small applications
 
-### 预期使用量
-以每天1000次API调用为例：
-- 城市列表: ~10次（缓存48小时）
-- 景点数据: ~100次（缓存24小时）
-- Redis操作: ~110次/天
-- **远低于免费额度**
+### Expected Usage
+For 1000 API calls per day:
+- City list: ~10 times (cached 48 hours)
+- Spot data: ~100 times (cached 24 hours)
+- Redis operations: ~110 times/day
+- **Well below free tier**
 
-## 部署检查清单
+## Deployment Checklist
 
-### 部署前
-- [ ] 创建Upstash/Redis Cloud账户
-- [ ] 获取Redis连接信息
-- [ ] 在Vercel设置环境变量
-- [ ] 测试本地连接（可选）
+### Before Deployment
+- [ ] Create Upstash/Redis Cloud account
+- [ ] Get Redis connection info
+- [ ] Set environment variables in Vercel
+- [ ] Test local connection (optional)
 
-### 部署后
-- [ ] 访问 `/api/cache/stats` 确认连接
-- [ ] 测试API响应速度
-- [ ] 查看Upstash Dashboard确认请求
-- [ ] 监控Vercel函数执行时间
+### After Deployment
+- [ ] Visit `/api/cache/stats` to confirm connection
+- [ ] Test API response speed
+- [ ] Check Upstash Dashboard for requests
+- [ ] Monitor Vercel function execution time
 
-## 常见问题
+## Common Questions
 
-### Q: 不配置Redis，Vercel部署会失败吗？
+### Q: Will Vercel deployment fail without Redis configured?
 
-A: **不会**！Redis是可选功能。如果 `REDIS_ENABLED=False` 或未设置，应用会正常运行但不使用缓存。
+A: **No!** Redis is an optional feature. If `REDIS_ENABLED=False` or not set, the application will run normally but without caching.
 
-### Q: 如何在Vercel上清除缓存？
+### Q: How to clear cache on Vercel?
 
-A: 访问API端点：
+A: Visit API endpoint:
 ```bash
 curl -X POST https://your-app.vercel.app/api/cache/invalidate/all
 ```
 
-或在Upstash Dashboard直接操作。
+Or operate directly in Upstash Dashboard.
 
-### Q: Redis连接失败会影响应用吗？
+### Q: Will Redis connection failure affect the application?
 
-A: **不会**！代码有完善的错误处理，Redis失败时会自动降级：
+A: **No!** The code has proper error handling, and will automatically fallback when Redis fails:
 ```python
 except redis.ConnectionError as e:
     logger.warning("Redis cache disabled due to connection failure")
     self.enabled = False
 ```
 
-### Q: 如何切换Redis服务提供商？
+### Q: How to switch Redis providers?
 
-A: 只需更新Vercel环境变量，无需修改代码：
+A: Just update Vercel environment variables, no code changes needed:
 ```env
-# 从Redis Cloud切换到Upstash
+# Switch from Redis Cloud to Upstash
 REDIS_HOST=new-host.upstash.io
 REDIS_PORT=6379
 REDIS_PASSWORD=new-password
 ```
 
-### Q: 本地开发和Vercel部署可以用不同的Redis吗？
+### Q: Can local development and Vercel deployment use different Redis?
 
-A: **可以**！使用不同的 `.env` 文件：
-- 本地: `.env` (使用localhost或Docker)
-- Vercel: 环境变量（使用Upstash）
+A: **Yes!** Use different `.env` files:
+- Local: `.env` (use localhost or Docker)
+- Vercel: Environment variables (use Upstash)
 
-## 性能对比
+## Performance Comparison
 
-### 无缓存（Vercel Serverless）
+### Without Cache (Vercel Serverless)
 ```
-/api/cities: ~150-300ms (冷启动)
-/api/spots: ~200-500ms (读取文件)
-```
-
-### 有缓存（Upstash Redis）
-```
-/api/cities: ~50-100ms (缓存命中)
-/api/spots: ~80-150ms (缓存命中)
-性能提升: 60-70%
+/api/cities: ~150-300ms (cold start)
+/api/spots: ~200-500ms (file read)
 ```
 
-## 监控和维护
+### With Cache (Upstash Redis)
+```
+/api/cities: ~50-100ms (cache hit)
+/api/spots: ~80-150ms (cache hit)
+Performance improvement: 60-70%
+```
+
+## Monitoring and Maintenance
 
 ### 1. Upstash Dashboard
-- 查看请求数量
-- 监控延迟
-- 查看存储使用
+- View request count
+- Monitor latency
+- Check storage usage
 
 ### 2. Vercel Analytics
-- 函数执行时间
-- 冷启动频率
-- 错误率
+- Function execution time
+- Cold start frequency
+- Error rate
 
-### 3. 自定义监控
-在代码中添加日志：
+### 3. Custom Monitoring
+Add logs in code:
 ```python
 import logging
 logger.info(f"Cache hit rate: {hits}/{total}")
 ```
 
-## 高级配置
+## Advanced Configuration
 
-### 使用Redis TLS（生产环境推荐）
+### Using Redis TLS (Recommended for Production)
 
-Upstash默认支持TLS，无需额外配置。
+Upstash supports TLS by default, no additional configuration needed.
 
-对于Redis Cloud，如果需要TLS：
+For Redis Cloud, if TLS is required:
 ```python
-# 在 agent/cache.py 中添加
+# Add in agent/cache.py
 self.redis_client = redis.Redis(
     ...
     ssl=True,
-    ssl_cert_reqs=None  # 或使用证书验证
+    ssl_cert_reqs=None  # or use certificate verification
 )
 ```
 
-### 多区域部署
+### Multi-Region Deployment
 
-如果使用Vercel Edge Functions：
-1. 在Upstash选择 "Global" 数据库
-2. 自动路由到最近的节点
-3. 更低的延迟
+If using Vercel Edge Functions:
+1. Select "Global" database in Upstash
+2. Automatically routes to nearest node
+3. Lower latency
 
-## 故障排除
+## Troubleshooting
 
-### Redis连接超时
+### Redis Connection Timeout
 
-检查：
-1. Vercel环境变量是否正确
-2. Redis服务是否在线
-3. 防火墙设置（通常云服务自动配置）
+Check:
+1. Are Vercel environment variables correct?
+2. Is Redis service online?
+3. Firewall settings (usually auto-configured for cloud services)
 
-查看Vercel日志：
+View Vercel logs:
 ```bash
 vercel logs
 ```
 
-### 缓存未生效
+### Cache Not Working
 
-1. 确认 `REDIS_ENABLED=True`
-2. 检查 `/api/cache/stats`
-3. 查看Upstash Dashboard
+1. Confirm `REDIS_ENABLED=True`
+2. Check `/api/cache/stats`
+3. View Upstash Dashboard
 
-## 成本优化建议
+## Cost Optimization Tips
 
-### 1. 合理设置TTL
+### 1. Set Reasonable TTL
 ```python
-# 静态数据使用更长TTL
-cities_ttl = 172800  # 48小时
+# Static data uses longer TTL
+cities_ttl = 172800  # 48 hours
 
-# 用户特定数据使用短TTL
-plan_ttl = 3600  # 1小时
+# User-specific data uses short TTL
+plan_ttl = 3600  # 1 hour
 ```
 
-### 2. 使用缓存键命名空间
+### 2. Use Cache Key Namespaces
 ```python
-# 便于批量清除
-cache_key = f"v1:spots:{city}"  # 版本控制
+# Easy batch cleanup
+cache_key = f"v1:spots:{city}"  # Version control
 ```
 
-### 3. 监控免费额度
-- 设置Upstash告警
-- 每周检查使用量
-- 优化缓存策略
+### 3. Monitor Free Tier
+- Set Upstash alerts
+- Check usage weekly
+- Optimize cache strategy
 
-## 总结
+## Summary
 
-✅ **推荐配置**：Vercel + Upstash
-- 零配置复杂度
-- 最佳性能
-- 免费额度充足
+✅ **Recommended Setup**: Vercel + Upstash
+- Zero configuration complexity
+- Best performance
+- Generous free tier
 
-🚀 **快速开始**：
-1. 注册Upstash (5分钟)
-2. 在Vercel添加环境变量 (2分钟)
-3. 重新部署 (1分钟)
-4. 验证 `/api/cache/stats` (1分钟)
+🚀 **Quick Start**:
+1. Register Upstash (5 minutes)
+2. Add environment variables in Vercel (2 minutes)
+3. Redeploy (1 minute)
+4. Verify `/api/cache/stats` (1 minute)
 
-**总计：10分钟即可在生产环境启用Redis缓存！**
+**Total: Enable Redis cache in production in 10 minutes!**
 
-## 相关资源
+## Related Resources
 
-- 📖 [Upstash文档](https://docs.upstash.com/)
-- 🚀 [Vercel环境变量](https://vercel.com/docs/concepts/projects/environment-variables)
-- 🔧 [本地Redis配置](REDIS_CACHE_GUIDE.md)
+- 📖 [Upstash Documentation](https://docs.upstash.com/)
+- 🚀 [Vercel Environment Variables](https://vercel.com/docs/concepts/projects/environment-variables)
+- 🔧 [Local Redis Configuration](REDIS_CACHE_GUIDE.md)

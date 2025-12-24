@@ -1,103 +1,103 @@
-# 部署到 Vercel 的配置指南
+# Vercel Deployment Configuration Guide
 
-## 问题说明
+## Problem Description
 
-本地运行时使用 `templates/index.html`（包含 Google Maps），而 Vercel 部署使用 `static/index.html`。已经将 Google Maps 集成代码添加到静态版本。
+Local development uses `templates/index.html` (includes Google Maps), while Vercel deployment uses `static/index.html`. Google Maps integration code has been added to the static version.
 
-## 配置步骤
+## Configuration Steps
 
-### 1. 获取 Google Maps API Key
+### 1. Obtain Google Maps API Key
 
 1. 访问 [Google Cloud Console](https://console.cloud.google.com/google/maps-apis)
 2. 创建新项目或选择现有项目
 3. 启用 **Maps JavaScript API**
 4. 创建 API 密钥（建议：限制密钥使用范围到你的域名）
 
-### 2. 在 Vercel 中配置环境变量
+### 2. Configure Environment Variables in Vercel
 
-⚠️ **重要**: 不要在代码中硬编码 API key，使用 Vercel 的环境变量功能。
+⚠️ **Important**: Do not hardcode API keys in your code, use Vercel's environment variables feature.
 
-1. 登录 Vercel 并进入你的项目
-2. 进入 **Settings** > **Environment Variables**
-3. 添加以下环境变量：
+1. Log in to Vercel and navigate to your project
+2. Go to **Settings** > **Environment Variables**
+3. Add the following environment variables:
 
 ```
-变量名: API_BASE
-值: https://travel-planning-agent.onrender.com
-环境: Production, Preview, Development
+Variable Name: API_BASE
+Value: https://travel-planning-agent.onrender.com
+Environment: Production, Preview, Development
 
-变量名: GOOGLE_MAPS_API_KEY  
-值: AIza...你的真实密钥
-环境: Production, Preview, Development
+Variable Name: GOOGLE_MAPS_API_KEY  
+Value: AIza...your-actual-key
+Environment: Production, Preview, Development
 ```
 
-### 3. 部署到 Vercel
+### 3. Deploy to Vercel
 
 ```bash
-# 提交代码
+# Commit code
 git add .
 git commit -m "Add Google Maps integration"
 git push origin main
 
-# Vercel 会自动部署（如果已连接 GitHub）
-# 构建过程会读取环境变量并生成 static/config.js
+# Vercel will automatically deploy (if connected to GitHub)
+# Build process will read environment variables and generate static/config.js
 ```
 
-构建脚本 (`build-config.js`) 会在部署时自动：
-- 读取环境变量 `API_BASE` 和 `GOOGLE_MAPS_API_KEY`
-- 生成 `static/config.js` 文件
-- 注入到静态网站中
+The build script (`build-config.js`) will automatically:
+- Read environment variables `API_BASE` and `GOOGLE_MAPS_API_KEY`
+- Generate `static/config.js` file
+- Inject into the static website
 
-### 4. 验证部署
+### 4. Verify Deployment
 
-访问你的 Vercel 网站，检查：
-- 表单可以提交
-- 行程规划结果显示
-- **Google Maps 地图正常显示**（在行程下方）
+Visit your Vercel website and check:
+- Form can be submitted
+- Itinerary planning results are displayed
+- **Google Maps displays correctly** (below the itinerary)
 
-## 常见问题
+## Common Issues
 
-### Q: 地图不显示？
+### Q: Map not displaying?
 
-检查浏览器控制台是否有错误：
+Check browser console for errors:
 
-1. **API Key 错误**
-   - 错误: "Google Maps API error: InvalidKeyMapError"
-   - 解决: 检查 `static/config.js` 中的 API key 是否正确
+1. **API Key Error**
+   - Error: "Google Maps API error: InvalidKeyMapError"
+   - Solution: Check if API key in `static/config.js` is correct
 
-2. **API 未启用**
-   - 错误: "Google Maps JavaScript API has not been authorized"
-   - 解决: 在 Google Cloud Console 中启用 Maps JavaScript API
+2. **API Not Enabled**
+   - Error: "Google Maps JavaScript API has not been authorized"
+   - Solution: Enable Maps JavaScript API in Google Cloud Console
 
-3. **域名限制**
-   - 错误: "RefererNotAllowedMapError"
-   - 解决: 在 Google Cloud Console 中添加你的 Vercel 域名到 API key 的允许列表
+3. **Domain Restrictions**
+   - Error: "RefererNotAllowedMapError"
+   - Solution: Add your Vercel domain to API key's allowed list in Google Cloud Console
 
-### Q: 为什么本地能显示但 Vercel 不能？
+### Q: Why does it work locally but not on Vercel?
 
-- **本地**: Flask 使用 `templates/index.html`
-- **Vercel**: 使用 `static/index.html`（现已包含地图代码）
-- **解决**: 在 Vercel 项目设置中配置环境变量 `GOOGLE_MAPS_API_KEY`
+- **Local**: Flask uses `templates/index.html`
+- **Vercel**: Uses `static/index.html` (now includes map code)
+- **Solution**: Configure `GOOGLE_MAPS_API_KEY` environment variable in Vercel project settings
 
-### Q: 构建脚本如何工作？
+### Q: How does the build script work?
 
-`build-config.js` 在构建时：
-1. 读取环境变量 `API_BASE` 和 `GOOGLE_MAPS_API_KEY`
-2. 生成 `static/config.js`：
+`build-config.js` during build:
+1. Reads environment variables `API_BASE` and `GOOGLE_MAPS_API_KEY`
+2. Generates `static/config.js`:
    ```javascript
    const API_BASE = 'https://...';
    window.GOOGLE_MAPS_API_KEY = 'AIza...';
    ```
-3. 静态网站加载此配置文件
+3. Static website loads this configuration file
 
-### Q: 如何保护我的 API Key？
+### Q: How to protect my API Key?
 
-Google Maps API key 在前端使用时无法完全隐藏，建议：
+Google Maps API key cannot be completely hidden when used on the frontend, recommendations:
 
-1. **使用 Vercel 环境变量**
-   - 不要在代码中硬编码 API key
-   - 使用 Vercel 的环境变量功能
-   - 不会暴露在 GitHub 仓库中
+1. **Use Vercel Environment Variables**
+   - Don't hardcode API key in code
+   - Use Vercel's environment variables feature
+   - Won't be exposed in GitHub repository
 
 2. **限制密钥使用**
    - 在 Google Cloud Console 中限制密钥只能从你的域名使用
