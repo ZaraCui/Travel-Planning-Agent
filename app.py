@@ -587,10 +587,7 @@ def get_spots(city):
             return error_response(f"No spot data found for city: {city}", 404, "City not found")
         
         # Calculate popularity score and sort
-        for spot in spots:
-            spot.popularity_score = _calculate_popularity_score(spot) # Add popularity as attribute
-        
-        spots.sort(key=lambda s: s.popularity_score, reverse=True)
+        spots.sort(key=_calculate_popularity_score, reverse=True)
         
         result = {
             "city": city,
