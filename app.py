@@ -397,6 +397,25 @@ PLACE_TYPE_TO_CATEGORY = {
     "aquarium": "indoor", "library": "indoor",
 }
 
+def _calculate_popularity_score(spot: Spot) -> float:
+    """Calculates a popularity score for a spot based on its rating and category weights."""
+    base_rating = float(spot.rating) if spot.rating is not None else 3.0
+    
+    # Category weights: some categories are naturally more popular
+    category_weights = {
+        'sightseeing': 1.2,  # 观光
+        'museum': 1.15,      # 博物馆
+        'temple': 1.1,       # 寺庙/文化景点
+        'outdoor': 1.05,     # 户外景点
+        'shopping': 1.0,     # 购物
+        'food': 0.95,        # 美食（单独景点权重略低）
+        'indoor': 0.9        # 室内娱乐
+    }
+    category_weight = category_weights.get(spot.category, 1.0)
+    
+    return round(base_rating * category_weight, 2)
+
+
 def _convert_place_to_spot(place_details: Dict[str, Any], city: str) -> Optional[Spot]:
     """Converts Google Place details into a Spot object."""
     if not place_details or not place_details.get('name'):
@@ -450,6 +469,51 @@ def _convert_place_to_spot(place_details: Dict[str, Any], city: str) -> Optional
         # Add other fields as needed
     )
 
+def _load_spots_for_city(city: str) -> List[Spot]:
+    """ 
+    Loads spots for a given city, prioritizing Google Places API and falling back to static JSON files.
+    """
+    spots: List[Spot] = []
+    # First, try to fetch from Places API (live data)
+    try:
+        spots = _fetch_spots_from_places_api(city)
+        if spots:
+            logger.info(f"Loaded {len(spots)} spots for {city} from Google Places API.")
+            return spots
+    except Exception as e:
+        logger.warning(f"Failed to load spots from Google Places API for {city}: {e}")
+
+    # Fallback to static JSON if Places API fails or returns no spots
+    logger.warning(f"Places API did not return spots for {city}. Attempting fallback to static JSON.")
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    path = os.path.join(base_dir, f"data/spots_{city.lower().replace(' ', '')}.json")
+    
+    if os.path.exists(path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                raw_static_spots = json.load(f)
+            logger.warning(f"Loaded {len(raw_static_spots)} spots from static JSON for {city}")
+
+            # Re-apply defaults as in the original load_spots
+            default_durations = {
+                'outdoor': 60, 'indoor': 90, 'temple': 45,
+                'shopping': 60, 'museum': 90, 'food': 60, 'sightseeing': 90
+            }
+            for s_data in raw_static_spots:
+                spot_data = {k: v for k, v in s_data.items() if k in Spot.__annotations__}
+                spot = Spot(**spot_data)
+                if getattr(spot, 'duration_minutes', None) is None:
+                    spot.duration_minutes = default_durations.get(spot.category, 60)
+                spots.append(spot)
+        except Exception as e:
+            logger.error(f"Error loading static spots from {path}: {e}")
+            spots = [] # ensure spots is empty on error
+    else:
+        logger.warning(f"No static JSON file found for {city} at {path}")
+    
+    return spots
+
+
 def _fetch_spots_from_places_api(city: str, query: str = "points of interest") -> List[Spot]:
     """Fetches spots for a city from Google Places API and converts them to Spot objects."""
     logger.info(f"Fetching spots for {city} from Google Places API...")
@@ -476,7 +540,6 @@ def _fetch_spots_from_places_api(city: str, query: str = "points of interest") -
     params = {
         "query": f"{query} in {city}",
         "location": f"{city_lat},{city_lon}",
-        "radius": 50000, # Search within 50km radius
         "type": "tourist_attraction|museum|park|restaurant|shopping_mall" # Broad types
     }
     text_search_response = places_api_service._make_request("textsearch", params)
@@ -517,26 +580,15 @@ def get_spots(city):
             rehydrated_spots = [Spot(**s) for s in cached_spots['spots']]
             return success_response({"city": city, "spots": [s.to_dict() for s in rehydrated_spots], "total": len(rehydrated_spots)}, f"Loaded {len(rehydrated_spots)} spots for {city} (cached)")
         
-        # Fetch from Google Places API
-        spots = _fetch_spots_from_places_api(city)
+        # Load spots for the city using the consolidated function
+        spots = _load_spots_for_city(city)
 
         if not spots:
-            return error_response(f"No live spot data found for city: {city}", 404, "City not found")
+            return error_response(f"No spot data found for city: {city}", 404, "City not found")
         
-        # Calculate popularity score and sort (similar to old logic for consistent frontend display)
-        def calculate_popularity_score(spot: Spot):
-            base_rating = float(spot.rating) if spot.rating is not None else 3.0
-            # Weights might need adjustment based on Places API data if categories are different
-            # Keeping existing weights for now
-            category_weights = {
-                'sightseeing': 1.2, 'museum': 1.15, 'temple': 1.1,
-                'outdoor': 1.05, 'shopping': 1.0, 'food': 0.95, 'indoor': 0.9
-            }
-            category_weight = category_weights.get(spot.category, 1.0)
-            return round(base_rating * category_weight, 2)
-        
+        # Calculate popularity score and sort
         for spot in spots:
-            spot.popularity_score = calculate_popularity_score(spot) # Add popularity as attribute
+            spot.popularity_score = _calculate_popularity_score(spot) # Add popularity as attribute
         
         spots.sort(key=lambda s: s.popularity_score, reverse=True)
         
@@ -559,234 +611,646 @@ def get_spots(city):
 @rate_limit(limit=5, window=60)  # 5 requests per minute (expensive operation)
 def plan_itinerary():
     """This function plans an itinerary"""
+    # Get request data
+    data = request.json
+    if not data:
+        return error_response("Request body must be JSON", 400, "Invalid request")
+
+    city = data.get('city')
+    start_date = data.get('start_date')
+    session_id = data.get('session_id')  # Get session ID from request
+    
+    logger.info(f"Planning itinerary for {city}, start_date={start_date}, days={data.get('days', 3)}")
+
+    # Test required parameters; return errors if missing
+    if not city:
+        return error_response("Missing required parameter: 'city'", 400, "Validation error")
+    if not start_date:
+        return error_response("Missing required parameter: 'start_date'", 400, "Validation error")
+
+    # Load spots for the city using the consolidated function
+    spots = _load_spots_for_city(city)
+
+    if not spots:
+        return error_response(f"No spot data found for city: {city}", 404, "City not found")
+    
+    # Store total available spots before filtering
+    total_available_spots = len(spots)
+
+    # Filter spots if user selected specific ones
+    selected_spots = data.get('selected_spots')
+
+    # Check for 'all selected' or 'subset selected'
+    is_subset_selected = (selected_spots and \
+                          isinstance(selected_spots, list) and \
+                          len(selected_spots) > 0 and \
+                          len(selected_spots) < total_available_spots)
+
+    if is_subset_selected:
+        # Case: A subset of spots is selected. Filter the spots list.
+        selected_names = set(selected_spots)
+        spots = [s for s in spots if s.name in selected_names]
+        
+        if not spots:
+            return error_response(
+                "None of the selected spots were found in the city data", 
+                400, 
+                "Validation error"
+            )
+    
+    # If is_subset_selected is False, it means either:
+    # 1. selected_spots is falsy (None/empty list) -> "No spots selected"
+    # 2. len(selected_spots) == total_available_spots -> "All spots selected"
+    # In both these cases, we apply intelligent filtering if the dataset is large (total_available_spots > 20).
+    is_all_or_none_selected = not is_subset_selected
+
+    if is_all_or_none_selected and total_available_spots > 20:
+        # No spots or all spots selected - intelligent filtering for large datasets
+        # If there are too many spots, the itinerary planner might timeout or struggle.
+        # We select top 20 most popular spots based on rating and category weights
+        spots.sort(key=_calculate_popularity_score, reverse=True)
+        spots = spots[:20]
+        logger.info(f"Auto-selected top 20 most popular spots from {total_available_spots} available for {city}")
+    
+    # 配置评分标准
+    cfg = ScoreConfig(
+        max_daily_minutes={
+            TransportMode.WALK: 240,
+            TransportMode.TRANSIT: 300,
+            TransportMode.TAXI: 360,
+        },
+        exceed_minute_penalty=1.5,
+        one_spot_day_penalty=15.0,
+        min_spots_per_day=2,
+    )
+
+    # 计算所有模式的比较数据；支持用户选择天数
+    days_param = data.get('days', 3)
     try:
-        # Get request data
+        days_int = int(days_param)
+        if days_int < 1 or days_int > 14:
+            raise ValueError('days must be between 1 and 14')
+    except Exception as e:
+        return error_response(str(e), 400, 'Invalid days value')
+
+    # Send initial progress
+    if session_id:
+        socketio.emit('planning_progress', {
+            'progress': 5,
+            'stage': 'Start Planning Itinerary...', 
+            'message': f'正在为 {city} 加载景点数据'
+        }, room=session_id)
+
+    # read optional utility weights
+    weights = data.get('weights', None)
+    try:
+        comparison_data = compare_transport_modes(
+            city, spots, cfg, 
+            days=days_int, 
+            weights=weights,
+            session_id=session_id
+        )
+    except Exception as e:
+        return error_response(
+            f"Failed to compare transport modes: {str(e)}",
+            500,
+            "Planning error"
+        )
+    
+    # Send progress for weather calculation
+    if session_id:
+        socketio.emit('planning_progress', {
+            'progress': 90,
+            'stage': '获取天气信息...', 
+            'message': '正在为您准备最终建议'
+        }, room=session_id)
+
+    # 计算推荐模式的天气建议
+    weather_msg = None
+    if comparison_data['recommended_mode'] and comparison_data['recommended_data']:
+        # We wrap the date parsing and itinerary reconstruction, plus the weather advice call, in a try-except block
+        try:
+            # start_date 可能是字符串，需转为 date
+            if isinstance(start_date, str):
+                start_date_obj = date.fromisoformat(start_date)
+            else:
+                start_date_obj = start_date
+
+            # Reconstruct itinerary from recommended data for weather advice
+            from agent.models import Itinerary, DayPlan
+            recommended_itinerary = Itinerary(
+                city=city,
+                days=[
+                    DayPlan(
+                        day=day_data['day'],
+                        spots=[
+                            Spot(**spot)
+                            for spot in comparison_data['recommended_data']['itinerary']
+                        ]
+                    ) for day_data in comparison_data['recommended_data']['itinerary']
+                ]
+            )
+            weather_msg = weather_advice(recommended_itinerary, start_date_obj)
+        except ValueError as e:
+            # If date format is invalid, return an error here and exit
+            return error_response(
+                f"Invalid date format: {str(e)}. Expected YYYY-MM-DD",
+                400,
+                "Date parsing error"
+            )
+        except Exception as e:
+            # If weather advice generation fails, log it but continue processing
+            weather_msg = None
+            app.logger.warning(f"Weather advice generation failed: {str(e)}")
+
+    # Send completion progress (this is outside the inner try-except, but within the main try-block)
+    if session_id:
+        socketio.emit('planning_progress', {
+            'progress': 100,
+            'stage': '完成！', 
+            'message': '行程规划已生成'
+        }, room=session_id)
+
+    # 返回比较结果 (this is outside the inner try-except, but within the main try-block)
+    response_data = {
+        'comparison': comparison_data,
+        'weather_advice': weather_msg,
+    }
+
+    return success_response(response_data, "Transport modes compared successfully")
+# ===== Error handlers =====
+@app.errorhandler(400)
+def bad_request(e):
+    return error_response(str(e.description) if hasattr(e, 'description') else "Bad request", 400, "Bad request")
+
+
+@app.errorhandler(404)
+def not_found(e):
+    return error_response("Endpoint not found", 404, "Not found")
+
+
+@app.errorhandler(405)
+def method_not_allowed(e):
+    return error_response("Method not allowed for this endpoint", 405, "Method not allowed")
+
+
+@app.errorhandler(500)
+def internal_error(e):
+    logger.error(f"Internal server error: {str(e)}", exc_info=True, extra={
+        'path': request.path if request else 'unknown',
+        'method': request.method if request else 'unknown'
+    })
+    return error_response("Internal server error occurred", 500, "Internal server error")
+
+
+# ===== Directions proxy (server-side) =====
+def _decode_polyline(polyline_str):
+    # Decodes a Google encoded polyline into list of (lat, lng)
+    index, lat, lng = 0, 0, 0
+    coordinates = []
+    length = len(polyline_str)
+
+    while index < length:
+        result, shift = 0, 0
+        while True:
+            b = ord(polyline_str[index]) - 63
+            index += 1
+            result |= (b & 0x1f) << shift
+            shift += 5
+            if b < 0x20:
+                break
+        dlat = ~(result >> 1) if (result & 1) else (result >> 1)
+        lat += dlat
+
+        result, shift = 0, 0
+        while True:
+            b = ord(polyline_str[index]) - 63
+            index += 1
+            result |= (b & 0x1f) << shift
+            shift += 5
+            if b < 0x20:
+                break
+        dlng = ~(result >> 1) if (result & 1) else (result >> 1)
+        lng += dlng
+
+        coordinates.append([lat / 1e5, lng / 1e5])
+
+    return coordinates
+
+
+@app.route('/api/directions', methods=['POST'])
+@rate_limit(limit=20, window=60)  # 20 requests per minute
+def directions_proxy():
+    try:
+        data = request.json
+        if not data:
+            return error_response('Request body must be JSON', 400, 'Invalid request')
+
+        google_key = os.environ.get('GOOGLE_MAPS_API_KEY')
+        if not google_key:
+            return error_response('Server missing GOOGLE_MAPS_API_KEY', 500, 'Configuration error')
+
+        itinerary = data.get('itinerary', [])
+        mode = data.get('mode', 'driving')
+        allowed = {'driving', 'walking', 'bicycling', 'transit'}
+        if mode not in allowed:
+            mode = 'driving'
+
+        results = []
+        for day in itinerary:
+            day_idx = day.get('day')
+            spots = day.get('spots', [])
+            # normalize spot lat/lng keys
+            coords = []
+            for s in spots:
+                lat = s.get('lat') if isinstance(s, dict) else getattr(s, 'lat', None)
+                lon = s.get('lon') if isinstance(s, dict) else getattr(s, 'lon', None)
+                if lat is None:
+                    lat = s.get('latitude') if isinstance(s, dict) else None
+                if lon is None:
+                    lon = s.get('lng') if isinstance(s, dict) else None
+                if lat is not None and lon is not None:
+                    coords.append((float(lat), float(lon)))
+
+            if len(coords) < 2:
+                results.append({'day': day_idx, 'coords': []})
+                continue
+
+            origin = f"{coords[0][0]},{coords[0][1]}"
+            destination = f"{coords[-1][0]},{coords[-1][1]}"
+            waypoints = []
+            if len(coords) > 2:
+                # build intermediate waypoints (avoid too many waypoints)
+                mid = coords[1:-1]
+                waypoints = [f"{p[0]},{p[1]}" for p in mid[:23]]
+
+            params = {
+                'origin': origin,
+                'destination': destination,
+                'key': google_key,
+                'mode': mode,
+                'units': 'metric',
+            }
+            if waypoints:
+                params['waypoints'] = '|'.join(waypoints)
+
+            resp = requests.get('https://maps.googleapis.com/maps/api/directions/json', params=params, timeout=10)
+            payload = resp.json()
+            if payload.get('status') != 'OK' or not payload.get('routes'):
+                results.append({'day': day_idx, 'coords': []})
+                continue
+
+            over = payload['routes'][0].get('overview_polyline', {}).get('points')
+            if not over:
+                results.append({'day': day_idx, 'coords': []})
+                continue
+
+            decoded = _decode_polyline(over)
+            results.append({'day': day_idx, 'coords': decoded})
+
+        return success_response({'routes': results}, 'Directions fetched')
+
+    except Exception as e:
+        app.logger.error(f"Directions proxy failed: {traceback.format_exc()}")
+        return error_response(f"Directions proxy failed: {str(e)}", 500, 'Directions error')
+
+# ===== OSM Spot Fetching API =====
+@app.route('/api/fetch_spots', methods=['POST'])
+@rate_limit(limit=3, window=300)  # 3 requests per 5 minutes (very expensive)
+def fetch_spots_api():
+    """
+    API endpoint to fetch spots from OpenStreetMap for a given city.
+    This replaces the need to run scripts/fetch_osm_spots.py from terminal.
+    
+    Request body:
+    {
+        "city": "Beijing",
+        "session_id": "optional-session-id-for-progress-updates"
+    }
+    
+    Returns:
+    {
+        "status": "success",
+        "data": {
+            "city": "Beijing",
+            "spots_count": 150,
+            "file_path": "data/spots_beijing.json",
+            "top_spots": [...] // First 10 spots as preview
+        }
+    }
+    """
+    try:
         data = request.json
         if not data:
             return error_response("Request body must be JSON", 400, "Invalid request")
-
-        city = data.get('city')
-        start_date = data.get('start_date')
-        session_id = data.get('session_id')  # Get session ID from request
         
-        logger.info(f"Planning itinerary for {city}, start_date={start_date}, days={data.get('days', 3)}")
-
-        # Test required parameters; return errors if missing
+        city = data.get('city')
         if not city:
             return error_response("Missing required parameter: 'city'", 400, "Validation error")
-        if not start_date:
-            return error_response("Missing required parameter: 'start_date'", 400, "Validation error")
-
-        # Load spots for the city, now from Places API
-        def load_spots(city: str) -> List[Spot]:
-            # This internal load_spots will now call the Places API helper
-            return _fetch_spots_from_places_api(city)
-
-        try:
-            spots = load_spots(city)
-
-            if not spots:
-                raise FileNotFoundError(f"No spot data found for city: {city}")
-
-        except FileNotFoundError as e:
-            # Optionally, fallback to static JSON if Places API fails for some spots 
-            # For now, just raise the error.
-            app.logger.warning(f"Places API did not return spots for {city}. Attempting fallback to static JSON.")
-            base_dir = os.path.dirname(os.path.abspath(__file__))
-            path = os.path.join(base_dir, f"data/spots_{city.lower().replace(' ', '')}.json")
-            if os.path.exists(path):
-                with open(path, encoding="utf-8") as f:
-                    raw_static_spots = json.load(f)
-                logging.warning(f"Loaded {len(raw_static_spots)} spots from static JSON for {city}")
-
-                spots = []
-                # Re-apply defaults as in the original load_spots
-                default_durations = {
-                    'outdoor': 60, 'indoor': 90, 'temple': 45,
-                    'shopping': 60, 'museum': 90, 'food': 60, 'sightseeing': 90
-                }
-                for s_data in raw_static_spots:
-                    # Ensure the raw_static_spots dictionary can be safely expanded into Spot
-                    spot_data = {k: v for k, v in s_data.items() if k in Spot.__annotations__}
-                    spot = Spot(**spot_data)
-                    if getattr(spot, 'duration_minutes', None) is None:
-                        spot.duration_minutes = default_durations.get(spot.category, 60)
-                    spots.append(spot)
-
-            if not spots:
-                raise FileNotFoundError(f"No spot data found for city: {city} (from Places API and static files)") from e
-
-        except Exception as e:
-            return error_response(f"Corrupted city data or Places API error: {str(e)}", 500, "Data loading error")
         
-        # Store total available spots before filtering
-        total_available_spots = len(spots)
-
-        # Filter spots if user selected specific ones
-        selected_spots = data.get('selected_spots')
-
-        # Check for 'all selected' or 'subset selected'
-        is_subset_selected = selected_spots and isinstance(selected_spots, list) and 
-                             len(selected_spots) > 0 and len(selected_spots) < total_available_spots
-
-        if is_subset_selected:
-            # Case: A subset of spots is selected. Filter the spots list.
-            selected_names = set(selected_spots)
-            spots = [s for s in spots if s.name in selected_names]
-            
-            if not spots:
-                return error_response(
-                    "None of the selected spots were found in the city data", 
-                    400, 
-                    "Validation error"
-                )
+        session_id = data.get('session_id')
         
-        # If is_subset_selected is False, it means either:
-        # 1. selected_spots is falsy (None/empty list) -> "No spots selected"
-        # 2. len(selected_spots) == total_available_spots -> "All spots selected"
-        # In both these cases, we apply intelligent filtering if the dataset is large (total_available_spots > 20).
-        is_all_or_none_selected = not is_subset_selected
-
-        if is_all_or_none_selected and total_available_spots > 20:
-            # No spots or all spots selected - intelligent filtering for large datasets
-            # If there are too many spots, the itinerary planner might timeout or struggle.
-            # We select top 20 most popular spots based on rating and category weights
-            
-            def calculate_popularity_score(spot):
-                """计算景点受欢迎程度分数：评分 + 类别权重"""
-                base_rating = float(spot.rating) if spot.rating is not None else 3.0
-                
-                # Category weights: some categories are naturally more popular
-                category_weights = {
-                    'sightseeing': 1.2,  # 观光
-                    'museum': 1.15,      # 博物馆
-                    'temple': 1.1,       # 寺庙/文化景点
-                    'outdoor': 1.05,     # 户外景点
-                    'shopping': 1.0,     # 购物
-                    'food': 0.95,        # 美食（单独景点权重略低）
-                    'indoor': 0.9        # 室内娱乐
-                }
-                category_weight = category_weights.get(spot.category, 1.0)
-                
-                return base_rating * category_weight
-            
-            # 按受欢迎程度排序
-            spots.sort(key=calculate_popularity_score, reverse=True)
-            spots = spots[:20]
-            logger.info(f"Auto-selected top 20 most popular spots from {total_available_spots} available for {city}")
+        logger.info(f"Fetching spots from OSM for city: {city}")
         
-        # 配置评分标准
-        cfg = ScoreConfig(
-            max_daily_minutes={
-                TransportMode.WALK: 240,
-                TransportMode.TRANSIT: 300,
-                TransportMode.TAXI: 360,
-            },
-            exceed_minute_penalty=1.5,
-            one_spot_day_penalty=15.0,
-            min_spots_per_day=2,
-        )
-
-        # 计算所有模式的比较数据；支持用户选择天数
-        days_param = data.get('days', 3)
-        try:
-            days_int = int(days_param)
-            if days_int < 1 or days_int > 14:
-                raise ValueError('days must be between 1 and 14')
-        except Exception as e:
-            return error_response(str(e), 400, 'Invalid days value')
-
+        # Import fetch logic from scripts
+        import sys
+        import importlib.util
+        
         # Send initial progress
         if session_id:
-            socketio.emit('planning_progress', {
-                'progress': 5,
-                'stage': '开始规划行程...',
-                'message': f'正在为 {city} 加载景点数据'
+            socketio.emit('fetch_progress', {
+                'progress': 10,
+                'stage': f'Finding geographic information for {city}...',
+                'city': city
             }, room=session_id)
-
-        # read optional utility weights
-        weights = data.get('weights', None)
-        try:
-            comparison_data = compare_transport_modes(
-                city, spots, cfg, 
-                days=days_int, 
-                weights=weights,
-                session_id=session_id
-            )
-        except Exception as e:
+        
+        # Load the fetch_osm_spots module
+        spec = importlib.util.spec_from_file_location("fetch_osm_spots", "scripts/fetch_osm_spots.py")
+        fetch_module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(fetch_module)
+        
+        # Get city area ID
+        if session_id:
+            socketio.emit('fetch_progress', {
+                'progress': 30,
+                'stage': f'Fetching spots from OpenStreetMap for {city}...',
+                'city': city
+            }, room=session_id)
+        
+        spots = fetch_module.fetch_spots(city)
+        
+        if not spots:
+            if session_id:
+                socketio.emit('fetch_progress', {
+                    'progress': 100,
+                    'stage': 'Spot not found',
+                    'city': city,
+                    'error': True
+                }, room=session_id)
             return error_response(
-                f"Failed to compare transport modes: {str(e)}",
-                500,
-                "Planning error"
+                f"No spots found for city: {city}. Please check the city name.",
+                404,
+                "No data found"
             )
         
-        # Send progress for weather calculation
+        # Send processing progress
         if session_id:
-            socketio.emit('planning_progress', {
-                'progress': 90,
-                'stage': '获取天气信息...',
-                'message': '正在为您准备最终建议'
+            socketio.emit('fetch_progress', {
+                'progress': 70,
+                'stage': f'Saving {len(spots)} spots to file...',
+                'city': city,
+                'spots_count': len(spots)
             }, room=session_id)
-
-        # 计算推荐模式的天气建议
-        weather_msg = None
-        if comparison_data['recommended_mode'] and comparison_data['recommended_data']:
-            try:
-                # start_date 可能是字符串，需转为 date
-                if isinstance(start_date, str):
-                    start_date_obj = date.fromisoformat(start_date)
-                else:
-                    start_date_obj = start_date
-
-                # Reconstruct itinerary from recommended data for weather advice
-                from agent.models import Itinerary, DayPlan
-                recommended_itinerary = Itinerary(
-                    city=city,
-                    days=[
-                        DayPlan(
-                            day=day_data['day'],
-                            spots=[
-                                Spot(**spot)
-                                for spot in comparison_data['recommended_data']['itinerary']
-                            ]
-                        ) for day_data in comparison_data['recommended_data']['itinerary']
-                    ]
-                )
-                weather_msg = weather_advice(recommended_itinerary, start_date_obj)
-            except ValueError as e:
-                return error_response(
-                    f"Invalid date format: {str(e)}. Expected YYYY-MM-DD",
-                    400,
-                    "Date parsing error"
-                )
-            except Exception as e:
-                # 天气建议失败不应该导致整个请求失败，但要记录原因
-                weather_msg = None
-                app.logger.warning(f"Weather advice generation failed: {str(e)}")
-
-        # Send completion progress
+        
+        # Save to file
+        os.makedirs('data', exist_ok=True)
+        filename = f"data/spots_{city.lower().replace(' ', '')}.json"
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(spots, f, indent=2, ensure_ascii=False)
+        
+        # Send completion
         if session_id:
-            socketio.emit('planning_progress', {
+            socketio.emit('fetch_progress', {
                 'progress': 100,
-                'stage': '完成！',
-                'message': '行程规划已生成'
+                'stage': 'Done!',
+                'city': city,
+                'spots_count': len(spots),
+                'file_path': filename
             }, room=session_id)
-
-        # 返回比较结果
+        
+        # Return summary with preview
         response_data = {
-            'comparison': comparison_data,
-            'weather_advice': weather_msg,
+            'city': city,
+            'spots_count': len(spots),
+            'file_path': filename,
+            'top_spots': spots[:10],  # Preview first 10 spots
+            'categories': {}
         }
-
-        return success_response(response_data, "Transport modes compared successfully")
-
+        
+        # Calculate category distribution
+        for spot in spots:
+            cat = spot.get('category', 'unknown')
+            response_data['categories'][cat] = response_data['categories'].get(cat, 0) + 1
+        
+        return success_response(
+            response_data,
+            f"Successfully fetched and saved {len(spots)} spots for {city}"
+        )
+    
     except Exception as e:
-        # Catch-all for unexpected errors
-        app.logger.error(f"Unexpected error in plan_itinerary: {traceback.format_exc()}")
+        app.logger.error(f"Fetch spots API error: {traceback.format_exc()}")
+        if session_id:
+            socketio.emit('fetch_progress', {
+                'progress': 100,
+                'stage': 'Error occurred',
+                'error': True,
+                'message': str(e)
+            }, room=session_id)
         return error_response(
-            f"Unexpected server error: {str(e)}",
+            f"Failed to fetch spots: {str(e)}",
             500,
-            "Internal server error"
+            "Fetch error"
         )
 
-# ===== Error handlers =====
+
+# ===== Itinerary Storage API =====
+@app.route('/api/itinerary/share', methods=['POST'])
+@rate_limit(limit=20, window=60)
+def share_itinerary_route():
+    """Shares an itinerary by saving it to a temporary cache and returning a share ID."""
+    try:
+        data = request.json
+        if not data or 'itinerary' not in data:
+            return error_response("Missing 'itinerary' in request body", 400)
+
+        itinerary_data = data['itinerary']
+        share_id = storage.share_itinerary_to_cache(itinerary_data)
+        
+        logger.info(f"Itinerary shared temporarily with share_id: {share_id}")
+        return success_response({"share_id": share_id}, "Itinerary shared successfully for 24 hours.")
+    except Exception as e:
+        logger.error(f"Failed to share itinerary: {str(e)}", exc_info=True)
+        return error_response(str(e), 500, "Failed to share itinerary")
+
+@app.route('/api/itinerary/save', methods=['POST'])
+@rate_limit(limit=10, window=60)
+def save_itinerary_route():
+    """Saves an itinerary to the persistent database."""
+    try:
+        data = request.json
+        if not data or 'itinerary' not in data or 'name' not in data:
+            return error_response("Missing 'itinerary' or 'name' in request body", 400)
+
+        itinerary_data = data['itinerary']
+        name = data['name']
+        user_id = data.get('user_id') # Optional for now
+
+        itinerary_id = storage.save_itinerary_to_db(itinerary_data, name, user_id)
+        
+        logger.info(f"Itinerary saved to DB with id: {itinerary_id}")
+        return success_response({"itinerary_id": itinerary_id}, "Itinerary saved permanently.")
+    except Exception as e:
+        logger.error(f"Failed to save itinerary to DB: {str(e)}", exc_info=True)
+        return error_response(str(e), 500, "Failed to save itinerary to DB")
+
+@app.route('/api/itinerary/shared/<share_id>', methods=['GET'])
+@rate_limit(limit=30, window=60)
+def load_shared_itinerary_route(share_id):
+    """Loads a shared itinerary from the cache."""
+    try:
+        itinerary = storage.load_itinerary_from_cache(share_id)
+        if not itinerary:
+            return error_response("Shared itinerary not found or expired", 404)
+        
+        logger.info(f"Loaded shared itinerary from cache: {share_id}")
+        return success_response(itinerary, "Shared itinerary loaded successfully.")
+    except Exception as e:
+        logger.error(f"Failed to load shared itinerary {share_id}: {str(e)}", exc_info=True)
+        return error_response(str(e), 500, "Failed to load shared itinerary")
+
+@app.route('/api/itinerary/<itinerary_id>', methods=['GET'])
+@rate_limit(limit=30, window=60)
+def load_db_itinerary_route(itinerary_id):
+    """Loads a persistently saved itinerary from the database."""
+    try:
+        # Basic validation for UUID format
+        import uuid
+        try:
+            uuid.UUID(itinerary_id)
+        except ValueError:
+            return error_response("Invalid itinerary ID format.", 400)
+
+        itinerary = storage.load_itinerary_from_db(itinerary_id)
+        if not itinerary:
+            return error_response("Itinerary not found", 404)
+            
+        logger.info(f"Loaded itinerary from DB: {itinerary_id}")
+        return success_response(itinerary, "Itinerary loaded successfully.")
+    except Exception as e:
+        logger.error(f"Failed to load itinerary {itinerary_id} from DB: {str(e)}", exc_info=True)
+        return error_response(str(e), 500, "Failed to load itinerary from DB")
+
+
+@app.route('/api/itineraries', methods=['GET'])
+@rate_limit(limit=30, window=60)
+def get_user_itineraries():
+    """Get list of itineraries for the authenticated user."""
+    try:
+        # Get user_id from query parameter or from auth token
+        user_id = request.args.get('user_id')
+        if not user_id:
+            return error_response("User ID is required", 400)
+            
+        # Query user's itineraries from database
+        try:
+            response = storage.db.from_('itineraries').select('id, name, created_at').eq('user_id', user_id).order('created_at', desc=True).execute()
+            
+            itineraries = []
+            if response.data:
+                for item in response.data:
+                    itineraries.append({
+                        'id': item['id'],
+                        'name': item['name'],
+                        'created_at': item['created_at']
+                    })
+            
+            return success_response(itineraries, f"Found {len(itineraries)} saved itineraries")
+            
+        except Exception as db_error:
+            logger.error(f"Database error getting user itineraries: {str(db_error)}")
+            return error_response("Failed to retrieve itineraries", 500)
+            
+    except Exception as e:
+        logger.error(f"Failed to get user itineraries: {str(e)}", exc_info=True)
+        return error_response(str(e), 500, "Failed to get itineraries")
+
+
+# ===== User Authentication =====
+
+@app.route('/api/auth/signup', methods=['POST'])
+def signup():
+    """User sign-up endpoint."""
+    data = request.json
+    email = data.get('email')
+    password = data.get('password')
+
+    if not email or not password:
+        return error_response("Email and password are required.", 400)
+
+    result = auth_service.sign_up(email, password)
+
+    if result["status"] == "error":
+        return error_response(result["reason"], 400)
+    
+    # Supabase handles email confirmation, so we just return success here
+    return success_response(
+        {"user_id": result["data"].user.id if result["data"].user else None, "email": email},
+        "Sign-up successful. Please check your email to confirm your account."
+    )
+
+@app.route('/api/auth/signin', methods=['POST'])
+def signin():
+    """User sign-in endpoint."""
+    data = request.json
+    email = data.get('email')
+    password = data.get('password')
+
+    if not email or not password:
+        return error_response("Email and password are required.", 400)
+
+    result = auth_service.sign_in(email, password)
+
+    if result["status"] == "error":
+        return error_response(result["reason"], 401, "Authentication Failed")
+
+    return success_response({
+        "access_token": result["data"].session.access_token,
+        "user": {
+            "id": result["data"].user.id,
+            "email": result["data"].user.email
+        }
+    }, "Sign-in successful.")
+
+
+@app.route('/share/<share_id>')
+def share_itinerary_page(share_id):
+    """
+    Render shared itinerary page. This page will fetch the data using the /api/itinerary/shared/<share_id> endpoint.
+    """
+    logger.info(f"Accessing share page for shared ID: {share_id}")
+    # The template will use the share_id to make an API call
+    return render_template('index.html', share_id=share_id, is_shared=True)
+
+
+# ===== WebSocket event handlers =====
+@socketio.on('connect')
+def handle_connect():
+    """Handle client connection"""
+    logger.info(f'Client connected: {request.sid}')
+
+@socketio.on('disconnect')
+def handle_disconnect():
+    """Handle client disconnection"""
+    logger.info(f'Client disconnected: {request.sid}')
+
+@socketio.on('join_session')
+def handle_join_session(data):
+    """Allow client to join a specific session room"""
+    session_id = data.get('session_id')
+    if session_id:
+        from flask_socketio import join_room
+        join_room(session_id)
+        emit('session_joined', {'session_id': session_id})
+        logger.info(f'Client {request.sid} joined session {session_id}')
+
+# ===== Application entry point =====
+if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 5000))
+    # Use socketio.run instead of app.run
+    socketio.run(
+        app, 
+        host='0.0.0.0', 
+        port=port, 
+        debug=os.environ.get('FLASK_DEBUG', 'False') == 'True',
+        allow_unsafe_werkzeug=True
+    )
