@@ -919,10 +919,16 @@
 
                 if (result.status === 'success' && result.data.length > 0) {
                     list.innerHTML = result.data.map(itinerary => `
-                        <div class="bg-white border border-slate-200 rounded-lg p-4 hover:border-indigo-300 transition-colors cursor-pointer" 
-                             onclick="loadItinerary('${itinerary.id}')">
-                            <h3 class="font-semibold text-slate-800">${escapeHtml(itinerary.name)}</h3>
-                            <p class="text-sm text-slate-500 mt-1">Saved on ${formatDate(itinerary.created_at)}</p>
+                        <div class="bg-white border border-slate-200 rounded-lg p-4 hover:border-indigo-300 transition-colors relative group">
+                            <div onclick="loadItinerary('${itinerary.id}')" class="cursor-pointer pr-12">
+                                <h3 class="font-semibold text-slate-800">${escapeHtml(itinerary.name)}</h3>
+                                <p class="text-sm text-slate-500 mt-1">Saved on ${formatDate(itinerary.created_at)}</p>
+                            </div>
+                            <button onclick="event.stopPropagation(); deleteItinerary('${itinerary.id}', '${escapeHtml(itinerary.name).replace(/'/g, "\\'")}')" 
+                                    class="absolute right-3 top-3 bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded text-sm opacity-0 group-hover:opacity-100 transition-opacity"
+                                    title="Delete trip">
+                                🗑️ Delete
+                            </button>
                         </div>
                     `).join('');
                     noItineraries.style.display = 'none';
@@ -945,16 +951,43 @@
                 const result = await response.json();
 
                 if (result.status === 'success') {
+                    // The loaded data should be in the same format as our planning result
                     currentItineraryData = result.data;
-                    renderItinerary(result.data);
+                    displayItineraryResults(result.data);
                     hideItinerariesModal();
                     showSuccessMessage('Trip loaded successfully!');
+                    // Scroll to results
+                    document.getElementById('results-container').scrollIntoView({ behavior: 'smooth' });
                 } else {
                     alert(`Failed to load trip: ${result.reason}`);
                 }
             } catch (error) {
                 console.error('Failed to load itinerary:', error);
                 alert('Failed to load trip. Please try again.');
+            }
+        }
+
+        async function deleteItinerary(itineraryId, name) {
+            if (!confirm(`Are you sure you want to delete "${name}"?`)) {
+                return;
+            }
+
+            try {
+                const response = await fetch(`${_API_BASE}/api/itinerary/${itineraryId}`, {
+                    method: 'DELETE'
+                });
+                const result = await response.json();
+
+                if (result.status === 'success') {
+                    showSuccessMessage('Trip deleted successfully!');
+                    // Reload the itineraries list
+                    loadUserItineraries();
+                } else {
+                    alert(`Failed to delete trip: ${result.reason}`);
+                }
+            } catch (error) {
+                console.error('Failed to delete itinerary:', error);
+                alert('Failed to delete trip. Please try again.');
             }
         }
 
