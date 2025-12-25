@@ -1000,15 +1000,23 @@
 
         async function loadCities() {
             const citySelect = document.getElementById('city');
+            console.log('Loading cities...');
             try {
-                const response = await fetch((_API_BASE ? _API_BASE : '') + '/api/cities');
+                const url = (_API_BASE ? _API_BASE : '') + '/api/cities';
+                console.log('Fetching from URL:', url);
+                const response = await fetch(url);
+                console.log('Response status:', response.status);
                 const data = await response.json();
+                console.log('Response data:', data);
 
                 if (data.status === 'success' && data.data.length > 0) {
+                    console.log('Found', data.data.length, 'cities');
                     citySelect.innerHTML = data.data.map(city =>
                         `<option value="${city.value}">${city.label}</option>`
                     ).join('');
+                    console.log('Cities loaded successfully');
                 } else {
+                    console.log('No cities available or failed response');
                     citySelect.innerHTML = '<option value="" disabled>No cities available</option>';
                 }
             } catch (error) {
@@ -1150,12 +1158,6 @@
         function generateSessionId() {
             return 'session_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
         }
-
-        // Utility functions (same as template)
-        const formatDate = (dateString) => {
-            const options = { weekday: 'long', month: 'long', day: 'numeric' };
-            return new Date(dateString + 'T00:00:00Z').toLocaleDateString('en-US', options);
-        };
 
         const createErrorAlert = (message, reason) => {
             return `
