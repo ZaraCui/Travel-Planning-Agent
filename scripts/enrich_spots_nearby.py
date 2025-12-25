@@ -105,6 +105,7 @@ def convert_poi_to_shop_dict(poi: Dict) -> Dict:
         'distance': distance,
         'phone': poi.get('tel', ''),
         'address': poi.get('address', ''),
+        'rating': poi.get('rating'),  # 添加评分信息
     }
 
 def fetch_nearby_foods(lat: float, lon: float, limit: int = 10) -> List[Dict]:
@@ -139,8 +140,8 @@ def fetch_nearby_foods(lat: float, lon: float, limit: int = 10) -> List[Dict]:
         
         time.sleep(0.2)  # 避免限流
     
-    # 按距离排序
-    all_foods.sort(key=lambda x: x['distance'])
+    # 按评分排序（评分高的优先），如果没有评分则按距离排序
+    all_foods.sort(key=lambda x: (x.get('rating') is None, -float(x.get('rating', 0)), x['distance']))
     return all_foods[:limit]
 
 def fetch_nearby_shops(lat: float, lon: float, limit: int = 10) -> List[Dict]:
@@ -175,8 +176,8 @@ def fetch_nearby_shops(lat: float, lon: float, limit: int = 10) -> List[Dict]:
         
         time.sleep(0.2)
     
-    # 按距离排序
-    all_shops.sort(key=lambda x: x['distance'])
+    # 按评分排序（评分高的优先），如果没有评分则按距离排序
+    all_shops.sort(key=lambda x: (x.get('rating') is None, -float(x.get('rating', 0)), x['distance']))
     return all_shops[:limit]
 
 def enrich_spots_with_nearby_data(city: str, output_file: Optional[str] = None):
