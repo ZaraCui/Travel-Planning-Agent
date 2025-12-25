@@ -741,8 +741,8 @@ def plan_itinerary():
                     DayPlan(
                         day=day_data['day'],
                         spots=[
-                            Spot(**spot)
-                            for spot in comparison_data['recommended_data']['itinerary']
+                            Spot(**spot_data)
+                            for spot_data in day_data['spots']
                         ]
                     ) for day_data in comparison_data['recommended_data']['itinerary']
                 ]

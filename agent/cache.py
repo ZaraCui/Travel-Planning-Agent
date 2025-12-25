@@ -59,6 +59,69 @@ class RedisCache:
             logger.error(f"Unexpected error initializing Redis: {e}")
             self.redis_client = None
             self.enabled = False
+    
+    def get(self, key: str) -> Optional[Any]:
+        """Get value from cache"""
+        if not self.enabled or not self.redis_client:
+            return None
+        
+        try:
+            value = self.redis_client.get(key)
+            if value:
+                logger.debug(f"Cache hit: {key}")
+                return json.loads(value)
+            else:
+                logger.debug(f"Cache miss: {key}")
+                return None
+        except Exception as e:
+            logger.error(f"Error reading from cache: {e}")
+            return None
+    
+    def set(self, key: str, value: Any, ttl: int = 3600) -> bool:
+        """
+        Set value in cache with TTL (time to live) in seconds
+        Default TTL: 3600 seconds (1 hour)
+        """
+        if not self.enabled or not self.redis_client:
+            return False
+        
+        try:
+            serialized = json.dumps(value, ensure_ascii=False)
+            self.redis_client.setex(key, ttl, serialized)
+            logger.debug(f"Cache set: {key} (TTL: {ttl}s)")
+            return True
+        except Exception as e:
+            logger.error(f"Error writing to cache: {e}")
+            return False
+    
+    def delete(self, key: str) -> bool:
+        """Delete a specific key from cache"""
+        if not self.enabled or not self.redis_client:
+            return False
+        
+        try:
+            result = self.redis_client.delete(key)
+            logger.debug(f"Cache delete: {key}")
+            return result > 0
+        except Exception as e:
+            logger.error(f"Error deleting from cache: {e}")
+            return False
+    
+    def clear_pattern(self, pattern: str) -> int:
+        """Clear all keys matching a pattern (e.g., 'spots:*')"""
+        if not self.enabled or not self.redis_client:
+            return 0
+        
+        try:
+            keys = self.redis_client.keys(pattern)
+            if keys:
+                deleted = self.redis_client.delete(*keys)
+                logger.info(f"Cleared {deleted} keys matching pattern: {pattern}")
+                return deleted
+            return 0
+        except Exception as e:
+            logger.error(f"Error clearing cache pattern: {e}")
+            return 0
 
 # Singleton instance of the cache
 _cache_instance = None
