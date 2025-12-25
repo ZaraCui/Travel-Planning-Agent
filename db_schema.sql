@@ -44,3 +44,18 @@ CREATE INDEX idx_shared_itineraries_share_id ON shared_itineraries(share_id);
 
 -- Create an index on expires_at for cleanup
 CREATE INDEX idx_shared_itineraries_expires_at ON shared_itineraries(expires_at);
+
+-- Create the user_preferences table
+CREATE TABLE user_preferences (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    user_id UUID UNIQUE REFERENCES users(id) ON DELETE CASCADE,
+    preferences JSONB DEFAULT '{}'::jsonb,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Add a trigger to update 'updated_at' for user_preferences
+CREATE TRIGGER set_user_preferences_timestamp
+BEFORE UPDATE ON user_preferences
+FOR EACH ROW
+EXECUTE PROCEDURE trigger_set_timestamp();

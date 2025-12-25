@@ -11,6 +11,9 @@ from agent.rate_limiter import rate_limit
 from agent.logging_config import setup_logging, log_request, log_error, log_performance
 from agent.itinerary_storage import ItineraryStorage
 from agent.auth import AuthService
+from agent.user_profile import UserProfileService
+import jwt
+from functools import wraps
 from datetime import date
 import json
 import os
@@ -33,6 +36,7 @@ logger = setup_logging(
 # Initialize itinerary storage
 storage = ItineraryStorage()
 auth_service = AuthService()
+user_profile_service = UserProfileService()
 
 app = Flask(__name__)
 app.logger = logger  # Replace Flask's default logger
@@ -448,7 +452,7 @@ def get_spots(city):
 @rate_limit(limit=5, window=60)  # 5 requests per minute (expensive operation)
 def plan_itinerary():
     try:
-        # 获取用户提交的数据
+        # G
         data = request.json
         if not data:
             return error_response("Request body must be JSON", 400, "Invalid request")
@@ -1194,7 +1198,32 @@ def get_user_itineraries():
         return error_response(str(e), 500, "Failed to get itineraries")
 
 
-# ===== User Authentication =====
+# JWT authentication decorator
+def jwt_required(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        auth_header = request.headers.get('Authorization')
+        if not auth_header:
+            return error_response("Authorization header is missing", 401, "Authentication Required")
+
+        try:
+            token = auth_header.split(" ")[1]
+        except IndexError:
+            return error_response("Bearer token not found in Authorization header", 401, "Authentication Required")
+
+        user_data = auth_service.get_user_from_token(token)
+        
+        # Supabase's get_user returns a user object on success, or an error dict on failure
+        if user_data and not user_data.get('error'):
+            request.user_id = user_data.id  # Attach user ID to request object
+            request.user_email = user_data.email
+            return f(*args, **kwargs)
+        else:
+            return error_response(user_data.get('error', 'Invalid or expired token'), 401, "Authentication Failed")
+    return decorated
+
+
+# ===== User Authentication Endpoints =====
 
 @app.route('/api/auth/signup', methods=['POST'])
 def signup():
@@ -1241,6 +1270,37 @@ def signin():
     }, "Sign-in successful.")
 
 
+@app.route('/api/user/preferences', methods=['GET'])
+@jwt_required
+def get_user_preferences():
+    """Get user preferences."""
+    user_id = request.user_id
+    result = user_profile_service.get_user_preferences(user_id)
+
+    if result["status"] == "error":
+        return error_response(result["reason"], 404)
+    
+    return success_response(result["preferences"], "User preferences retrieved successfully.")
+
+@app.route('/api/user/preferences', methods=['POST'])
+@jwt_required
+def update_user_preferences():
+    """Update user preferences."""
+    user_id = request.user_id
+    data = request.json
+
+    if not data:
+        return error_response("Request body must be JSON", 400)
+    
+    result = user_profile_service.update_user_preferences(user_id, data)
+
+    if result["status"] == "error":
+        return error_response(result["reason"], 400)
+
+    return success_response(None, result["message"])
+
+
+
 @app.route('/share/<share_id>')
 def share_itinerary_page(share_id):
     """
@@ -1283,5 +1343,3 @@ if __name__ == '__main__':
         debug=os.environ.get('FLASK_DEBUG', 'False') == 'True',
         allow_unsafe_werkzeug=True
     )
-
-
