@@ -641,10 +641,10 @@ def plan_itinerary():
     selected_spots = data.get('selected_spots')
 
     # Check for 'all selected' or 'subset selected'
-    is_subset_selected = (selected_spots and \
-                          isinstance(selected_spots, list) and \
-                          len(selected_spots) > 0 and \
-                          len(selected_spots) < total_available_spots)
+    is_subset_selected = False
+    if selected_spots and isinstance(selected_spots, list):
+        if len(selected_spots) > 0 and len(selected_spots) < total_available_spots:
+            is_subset_selected = True
 
     if is_subset_selected:
         # Case: A subset of spots is selected. Filter the spots list.
